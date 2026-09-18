@@ -1,0 +1,94 @@
+# Amorpho
+
+Amorpho is a game whose cast is real: the species of the plant genus *Amorphophallus*.
+
+The player lives as a human in a persistent world modelled on Earth — exploring, discovering, acquiring, cultivating, propagating and trading individual plants, each with its own origin and history. Through a single magical artifact, a player can temporarily awaken a suitable plant as an **Amorpho**: a fighter controlled in real-time, skill-based combat. The plant they raised is the fighter they learn to master.
+
+> Reality provides the cast. The game provides the fantasy.
+
+## What makes it distinctive
+
+Amorpho aims to create a distinct genre from a combination of ideas that are familiar individually:
+
+- **The cast is real.** Species are the real species of the genus, from very small to enormous. No species are invented.
+- **Every plant is an individual.** Plants are persistent, with identity, provenance and lineage — not interchangeable items.
+- **The world has its own continuity.** Natural populations exist and develop whether or not players intervene. Plants never spawn on demand.
+- **Environment, not borders.** Where a plant can grow depends on climate and conditions, not on which country it is native to.
+- **Risk is where the decisions are.** Protected cultivation is safer; outdoor planting can be better but exposes plants to weather, pests, theft and accidental pollination. A flowering plant's scent makes it easier for others to find.
+- **The plant you raised is the fighter you play.** The same individual spans long-term cultivation and intense, skill-based fighting.
+
+**Fun comes first.** Botanical realism grounds the world but never suffocates the game. A player with no interest in plants should be able to love Amorpho purely as a game.
+
+## Two layers
+
+| | Human / World layer | Amorpho / Combat layer |
+|---|---|---|
+| **You are** | a human character in a persistent world | the controller of an awakened plant |
+| **You do** | travel, explore, discover, acquire, trade, cultivate, propagate, maintain homes, gardens and greenhouses | fight in real time: movement, positioning, timing, blocking, attacks, counters, learnable moves, combinations, rounds |
+| **Timescale** | long-term, persistent | short, intense |
+| **Mastery** | knowledge, planning, risk management | practised skill with a specific Amorpho |
+
+The bridge between them is **transformation**: the artifact temporarily brings a suitable individual plant to life as an Amorpho. Fighting uses fighting-game rounds, not turn selection.
+
+## Real species, real limits
+
+The known real species of *Amorphophallus* define the base cast. A species gives a character its identity and visual foundation; its combat design is authored for balance and fun, not derived from botany. Diversity grows from within-species variation, individual history, lineages and hybrids — and hybrids are possible only between species pairs approved as compatible on the basis of real-world research.
+
+## The Reality Gate
+
+Amorpho is completely independent, and it does not research botany. Detailed research about *Amorphophallus* happens outside this repository. Amorpho receives only a minimal **approved export** — initially a CSV list of species — through the **Reality Gate**: a simple, strictly one-way boundary where the file is validated and accepted.
+
+```
+external master data ──▶ approved export file ──▶ REALITY GATE ──▶ Amorpho data ──▶ game systems
+```
+
+Each species has a permanent, opaque ID such as `AMO-SP-000001`; its scientific name is metadata that may change. Once a file is accepted, the game never needs the external source again. See [docs/05_REALITY_GATE.md](docs/05_REALITY_GATE.md).
+
+## Current maturity
+
+**Foundation.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, and the input contract for the Reality Gate.
+
+It does **not** yet contain game code, an engine, art, or any species data. The species input file contains only its header until the first approved export is supplied. No engine or programming language has been chosen; that decision will be made from evidence.
+
+## How the project develops
+
+Amorpho is incubating as a low-pressure, long-running project:
+
+- **Always moving, never rushed.** It may grow slowly, but it never stops growing.
+- **Build irreversible knowledge now; defer expensive production** until capacity — tools, AI agents, generative media, people — catches up.
+- **Small durable steps** over speculative infrastructure.
+
+Progress is measured in maturity phases, not dates: see [docs/07_INCUBATION_ROADMAP.md](docs/07_INCUBATION_ROADMAP.md).
+
+## Repository map
+
+```
+README.md                      this file
+CLAUDE.md                      operational guidance for AI development agents
+docs/
+  00_PRODUCT_VISION.md         what Amorpho is, pillars, glossary
+  01_DESIGN_PRINCIPLES.md      the design laws
+  02_WORLD_MODEL.md            persistent world, environment, cultivation, discoverability
+  03_PLANTS_INDIVIDUALS_LINEAGES.md  species, individuals, genetics, lineages, hybrids
+  04_TRANSFORMATION_AND_COMBAT.md    the artifact, transformation, combat pillars
+  05_REALITY_GATE.md           the one-way boundary for approved real-world input
+  06_OPEN_QUESTIONS.md         what is not decided yet
+  07_INCUBATION_ROADMAP.md     maturity phases and near-term steps
+  08_CONCEPTUAL_ARCHITECTURE.md  data layers, boundaries, engine decision criteria
+  DECISIONS.md                 the decision ledger (AMO-D###)
+data/
+  input/                       approved real-world input (species CSV, header only)
+  canon/                       internal representation derived from input (not defined yet)
+```
+
+## Where to read next
+
+1. [docs/00_PRODUCT_VISION.md](docs/00_PRODUCT_VISION.md) — the vision.
+2. [docs/01_DESIGN_PRINCIPLES.md](docs/01_DESIGN_PRINCIPLES.md) — the laws.
+3. [docs/DECISIONS.md](docs/DECISIONS.md) — what is decided.
+4. [docs/06_OPEN_QUESTIONS.md](docs/06_OPEN_QUESTIONS.md) — what is not.
+5. The remaining documents in [docs/](docs/) for detail, and [CLAUDE.md](CLAUDE.md) if you are contributing.
+
+## About
+
+Amorpho is a game project within the Trederus Maximus group.
