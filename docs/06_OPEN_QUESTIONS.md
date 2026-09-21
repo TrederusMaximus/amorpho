@@ -124,6 +124,7 @@ Where are natural populations at world start, how large are they, and which cult
 ### AMO-Q020 — Pests, pathogens and weather events
 **Status:** OPEN · **Constraints:** AMO-D014
 Which problems exist, how they spread, and whether they reflect real organisms or are abstracted.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* this question now also carries **acute events** generally — a storm, a frost night, wind damage, an animal. The v0 environment vector models sustained conditions only and has nowhere to put a discrete occurrence. Exposure / protection gestures at vulnerability to exactly these, which is why that dimension could not be validated by sustained-condition scenarios (AMO-Q069). Answering this is therefore a precondition for judging whether exposure / protection earns its place.
 
 ## Transformation and combat
 
@@ -260,6 +261,7 @@ Before rooting, how much does the player learn about how the individual will far
 How does an individual recover from a critical state? Can some damage become permanent? How does plant death actually work, and is it ever instantaneous?
 *Notes:* Must be coherent with whatever combat does to a plant (AMO-Q026). Permanent damage is powerful and risky: it raises stakes but can make players refuse to play.
 *Refined 2026-09-21:* Fit's growth/recovery output makes recovery a first-class outcome rather than an exception (AMO-D049), so the open part is the **recovery model** — how fast, from how far down, and whether any damage is irreversible. Relates to AMO-Q072 and AMO-Q073.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* Scenario C walked recovery through two phases — restoring condition, then supporting development once baseline is reached — and the condition feedback loop means recovery firms up as it proceeds, then levels off. Irreversible damage remains entirely unmodelled: nothing in v0 prevents full recovery from any survivable state, which may or may not be the intent.
 
 ### AMO-Q046 — Physical rescue: the human, and other players
 **Status:** OPEN · **Constraints:** AMO-D029, AMO-D031
@@ -289,6 +291,7 @@ How do homes, greenhouses and other controlled spaces modify local conditions, a
 Is substrate modelled at all, and if so how — soil type, drainage, quality, volume? Is it a World property, a property of a pot, or both?
 *Notes:* Pot size already constrains development (AMO-D014). Substrate could extend that meaningfully or add depth nobody plays with. Real soil requirements per species are not Amorpho's to research (AMO-D024).
 *Refined 2026-09-21:* the entry point is fixed — a container and its root zone extend the Local Environment State at the lowest level of the hierarchy, not as a separate system (AMO-D046). v0 adds no root-zone dimensions. Open: whether root volume, water state, drainage, substrate and root-zone temperature become dimensions of their own or modifiers of existing ones.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* now the **strongest candidate for the first extension**. In Scenario B, "healthy but developing slowly" could be caused by dim light or by an undersized pot, and the contract cannot tell them apart — yet pot size is an established constraint on development (AMO-D014). Root-zone temperature also became visible in Scenario A, where dry substrate under strong light would run hotter than the ambient value. Neither justifies a sixth environment dimension; both point at the root-zone layer.
 
 ### AMO-Q051 — Traversal, rooting and long-term suitability
 **Status:** OPEN · **Constraints:** AMO-D032, AMO-D033, AMO-D037
@@ -326,26 +329,31 @@ These follow from [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MO
 **Status:** OPEN · **Constraints:** AMO-D047, AMO-D048, AMO-D049
 How are environmental values, response zones and fit results represented? Standard physical units per dimension, normalised abstract scales, or a mix? Is the internal model continuous, tiered, or continuous with categories exposed outward? Should exposure / protection decompose into more specific dimensions?
 *Notes:* v0 deliberately chose nothing here. The seven labels in §10 of the model are documentation and UI vocabulary, not mandatory internal states, and nothing may lock an implementation to seven enumerated values. Physical units are a likely eventual representation for temperature and humidity; less obviously so for exposure. Exposure / protection is flagged as provisional precisely because a vague universal score can absorb every future variable and become meaningless.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the worked scenarios used a synthetic 0.0–1.0 scale purely as a paper tool; it is **not** a candidate representation and nothing was decided from it. On **exposure / protection** the evidence is real: across a deteriorating, a stable and a flourishing case it never once decided an outcome. Diagnosis — it is a different kind of dimension from the other four, describing *vulnerability to events* rather than a continuously experienced condition, so sustained-condition scenarios cannot exercise it. Assessment: retain, scope clarified in the spec, **unproven rather than validated**, and genuinely testable only once acute events exist (AMO-Q020). Decomposition remains the likely eventual outcome.
 
 ### AMO-Q070 — Fit aggregation and limiting factors
 **Status:** OPEN · **Constraints:** AMO-D049
 How do per-dimension fits combine into a biological direction? What rule gives limiting factors their required weight without making every mildly poor dimension catastrophic?
 *Notes:* The requirement is fixed: catastrophic failure in one dimension may not disappear behind excellent values elsewhere (AMO-D049). Candidate shapes include a minimum, a weighted minimum, a product, or a soft floor. None is chosen. The rule also has to leave room for the positive end of the range (L38) rather than only capping.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the requirement is now **demonstrated rather than asserted** — Scenario A has four favourable dimensions and one past its critical boundary, and a naive mean reads ≈0.69, i.e. "favourable", for an individual dying of thirst. Two further constraints emerged: the rule must also gate **growth/recovery opportunity** (output D), since favourable warmth and light cannot be spent without water; and it must distinguish *concentrated* pressure (one dimension failed) from *diffuse* pressure (several mild shortfalls), which behave very differently. Still not resolved: which rule.
 
 ### AMO-Q071 — Interactions between environmental factors
 **Status:** OPEN · **Constraints:** AMO-D049
 Do dimensions interact, and if so how? High temperature may worsen water stress; protection may reduce effective exposure; low light may change water use.
 *Notes:* v0 treats dimensions independently and records this as an extension point. The architecture may not assume independence is permanent. Whether interaction belongs in the World (producing an adjusted local state) or in Fit (evaluating combinations) is itself part of the question, and the answer affects AMO-D035's boundary.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* **untested.** None of the three scenarios required two dimensions to combine, so the exercise provides no evidence either way. Scenario A came close — a dry root zone under strong light — but water had already decided the outcome, so no interaction was needed to explain it. This question needs a scenario built specifically to provoke it.
 
 ### AMO-Q072 — Exposure history and accumulation
 **Status:** OPEN · **Constraints:** AMO-D048, AMO-D049
 How is accumulated recent experience of conditions modelled, given that `brief cold ≠ prolonged cold` and `one dry interval ≠ sustained drought`? Does exposure history live in the individual's condition, in a separate accumulation layer, or in Fit's inputs?
 *Notes:* v0 names the distinction between instantaneous environment and exposure history and defines no mathematics for it. This is likely a precondition for a credible recovery model (AMO-Q045) and for stress that feels biological rather than instantaneous.
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the scenarios show accumulation is already carried by **condition**, provided condition includes something like a stress load — so a separate exposure-history store may not be needed at this depth. The related clarification now in the spec is that stress pressure (output C) is a *rate*, with the accumulated total living in condition. Open: whether condition alone suffices, or whether recovery and irreversible damage need a richer history than a single accumulated value (AMO-Q045, AMO-Q073).
 
 ### AMO-Q073 — Current-condition variables
 **Status:** OPEN · **Constraints:** AMO-D048, AMO-D050
 Which condition variables does an individual actually need — health, stress load, development or growth state, stored resources, something else? Which of them feed inhabitability?
 *Notes:* Should be settled by what the Fit boundary genuinely requires, not by physiological ambition (AMO-D048). Fewer, broader variables are the conservative default. Relates to plant simulation depth (AMO-Q012) and the inhabitability threshold (AMO-Q042).
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* three variables did real, distinguishable work across the scenarios — **health**, **stress load** and **stored resources**. Each was needed: resources to explain depletion under a critical constraint, stress load to carry accumulation, health to gate inhabitability. A **development or growth state** was also implied by Scenario C phase 2, where opportunity continues to be spent after recovery completes. Suggestive, not conclusive — one fictional value set is not a model. The exercise also confirmed condition sits on **both** sides of Fit, feeding the effective response profile and being modified by it.
 
 ### AMO-Q074 — Simulation time step and update frequency
 **Status:** OPEN · **Constraints:** AMO-D046, AMO-D049
@@ -361,6 +369,7 @@ Should the deterministic-evaluator position hold as the model matures? Which ups
 **Status:** OPEN · **Constraints:** AMO-D024, AMO-D025, AMO-D026, AMO-D053
 Once the environmental model is settled enough to need them, what is the minimal approved input that expresses a species response profile? Which dimensions, which zones, and in what form?
 *Notes:* Nothing may be imported before the consuming model exists (AMO-D053), and only what the game demonstrably needs may cross (AMO-D025). The research behind any such values stays outside Amorpho (AMO-D024). Note the shape problem: a per-species × per-dimension × per-zone table is considerably richer than the current two-column CSV, so this may be where CSV stops being sufficient (AMO-D026).
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the worked profiles make the shape concrete — five dimensions × three zones expressed as range boundaries, roughly twenty numbers per species before individual variation is considered. Whether approved input carries all of it, or only a baseline from which zones are derived, is part of this question. Nothing in the scenarios is importable: every value there is fictional and labelled as such.
 
 ## Establishment and long-term rooted life
 

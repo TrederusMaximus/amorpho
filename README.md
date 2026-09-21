@@ -83,6 +83,7 @@ docs/
   10_WORLD_AMORPHO_EVOLUTIONATOR.md     the three simulation domains and Environmental Fit
   11_STANDARD_AND_VR_GAMEPLAY.md        two first-class interfaces to one game
   12_ENVIRONMENT_AND_FIT_MODEL_V0.md    the first environmental model: vector, profile, fit contract
+  13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md  three worked cases that stress-test the v0 contract
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

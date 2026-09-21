@@ -36,7 +36,7 @@ Typical work:
 - combat design pillars and a roster strategy (AMO-Q027);
 - an Evolutionator model, version 0: inheritance, variation, generation timing (AMO-Q013, AMO-Q052).
 
-Done in this phase so far: the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044), Earth as the World's geographic foundation ([02](02_WORLD_MODEL.md); AMO-D045), and the Environment and Environmental Fit model v0 ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md); AMO-D046–AMO-D053).
+Done in this phase so far: the environment model validated against three worked cases ([13](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)), the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044), Earth as the World's geographic foundation ([02](02_WORLD_MODEL.md); AMO-D045), and the Environment and Environmental Fit model v0 ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md); AMO-D046–AMO-D053).
 
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
@@ -46,7 +46,7 @@ Short, throwaway experiments that answer technical questions with evidence.
 
 Candidate spikes:
 - automated validation of approved input, if manual checking becomes a burden (AMO-Q038);
-- **the Environment/Fit v0 validating spike** — one abstract location, one environment state, one abstract profile, one condition, time progression, and three cases: deterioration, equilibrium, and improvement/recovery. No real species, no graphics, no map, no engine. If those three cases cannot be produced from the v0 contract, v0 is wrong and is revised through the ledger ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) §22);
+- **the Environment/Fit v0 validating spike** (its three cases are already walked on paper in [13](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md); a spike must reproduce them) — one abstract location, one environment state, one abstract profile, one condition, time progression, and three cases: deterioration, equilibrium, and improvement/recovery. No real species, no graphics, no map, no engine. If those three cases cannot be produced from the v0 contract, v0 is wrong and is revised through the ledger ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) §22);
 - persistence of individuals and provenance over long simulated time;
 - fighting-game feel and latency requirements;
 - evaluating engine candidates against the criteria in [08_CONCEPTUAL_ARCHITECTURE.md](08_CONCEPTUAL_ARCHITECTURE.md#engine-and-technology-decision-criteria).
@@ -96,7 +96,7 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Walk three worked scenarios through the v0 contract on paper** — one deteriorating, one stable, one recovering — writing down the five World values, the response zones and each of the five Fit outputs by hand. It is the cheapest way to find out whether the contract in [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) actually holds together before any code exists, and it surfaces AMO-Q069 and AMO-Q070 with evidence rather than argument. Use clearly fictional placeholder values; never real species tolerances.
+1. **Build one worked scenario that forces two dimensions to interact** (AMO-Q071) — the only part of the v0 contract the first three scenarios left completely untested. Everything else in the model has now met an example; this has not. Use clearly fictional placeholder values; never real species tolerances.
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).

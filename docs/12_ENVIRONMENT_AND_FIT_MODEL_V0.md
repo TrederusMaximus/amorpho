@@ -46,7 +46,11 @@ No World value is ever labelled *good*, *bad*, *suitable*, *unsuitable*, *tropic
 
 **Air moisture is separate from water availability** because they are biologically different. A humid place with dry substrate and a dry place with saturated substrate are not the same situation, and a model that merges them cannot express either.
 
-**Exposure / protection is provisional.** It is a coarse placeholder for wind exposure, shelter, weather exposure and controlled enclosure. It carries a real risk: a vague universal score can quietly absorb every future variable and become meaningless. It is expected to decompose into more specific dimensions once gameplay demonstrates the need, and this document records that expectation rather than pretending the abstraction is final (AMO-Q069).
+**Exposure / protection is provisional, and is a different *kind* of thing from the other four.** The other dimensions describe conditions an individual continuously experiences; this one describes **vulnerability to environmental forces and events** — wind, storms, weather extremes, and whatever an events system eventually adds. It is not a fifth comfort axis.
+
+It carries a real risk: a vague universal score can quietly absorb every future variable and become meaningless, and a dimension without a clear job attracts one. The worked scenarios confirmed the concern rather than dispelling it — across a failing, a stable and a flourishing case it never once decided an outcome, because all three are sustained-condition cases and it has nothing to modify in them ([13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md) §6).
+
+It is therefore retained but **unproven rather than validated**. Its real test comes only when acute events exist (AMO-Q020), and it may decompose then (AMO-Q069).
 
 No units, scales or normalisation are chosen. Standard physical units are a likely eventual representation for some dimensions; that is a note, not a decision (AMO-Q069).
 
@@ -160,6 +164,12 @@ No numeric ranges, scales or formulas are defined. Nothing further is added unle
 
 **Why per-dimension information is preserved.** Collapsing everything into one score immediately would make it impossible for any later system — gameplay, UI, a player's own reasoning — to say *why* a plant is struggling. Output A keeps that available; output B keeps the aggregate that downstream systems actually act on. Both are required.
 
+**How the outputs are meant to be read** (clarified 2026-09-21 from the worked scenarios in [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):
+
+- **B is the *condition* trajectory, and must be read together with D.** B alone cannot distinguish an individual that is thriving at its healthy baseline from one merely persisting in a mediocre place — both report *stable*. The pair does distinguish them: stable with modest opportunity is persistence; stable with high opportunity is flourishing. A consumer that reads B in isolation will flatten exactly the distinction L38 protects.
+- **C is a pressure, not an accumulated total.** Stress pressure describes how hard conditions are pushing *now*; what has built up over time lives in the individual's condition (§13). Conflating them would make a brief severe episode indistinguishable from a long mild one (AMO-Q072).
+- **D is gated by limiting factors, not only by the aggregate.** Favourable warmth and light produce no growth opportunity in an individual with no usable water: the resources cannot be spent. Output E therefore constrains D as well as B (AMO-Q070).
+
 ## 10. The Fit continuum
 
 The internal model is preferred **continuous**. Qualitative tiers remain useful for documentation, UI, debugging and player feedback:
@@ -217,6 +227,8 @@ This is a shape, not an equation. No equation, tick rate or simulation frequency
 What it supports is the full range: slow recovery, gradual stress, rapid collapse and long-term healthy growth.
 
 Fit changes **biological condition**. It never changes identity or genetics (AMO-D012, AMO-D039). Which condition variables actually exist — health, stress load, development state, stored resources, or a different set — is open, and should be settled by what the Fit boundary genuinely requires rather than by physiological ambition (AMO-Q073).
+
+**Condition sits on both sides of Fit, deliberately.** It is one of the three layers forming the effective response profile (§8) *and* it is what Fit modifies over time. That feedback is intended, not an inconsistency: a weakened individual tolerates less, so the same environment presses harder on it, so it weakens faster — and the same loop run forward is why recovery firms up as it proceeds. It is also why two individuals of identical species and traits can meet the same conditions and have entirely different outcomes, and therefore why no fixed rescue timer could ever be correct (AMO-D034).
 
 ## 14. Rooting, rescue windows and inhabitability
 
@@ -348,6 +360,8 @@ Each of these can be added later **without moving the boundary**:
 ## 22. The smallest spike that would validate v0
 
 **Not to be built now.** Recorded so the eventual Phase 2/3 experiment stays small (see [07_INCUBATION_ROADMAP.md](07_INCUBATION_ROADMAP.md)).
+
+The three cases have already been walked through on paper in [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md), which is what a spike would have to reproduce.
 
 It needs only: one abstract location · one Local Environment State · one abstract Amorpho profile · one current condition · time progression · Fit evaluation — and it should demonstrate three cases:
 
