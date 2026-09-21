@@ -210,3 +210,11 @@ How many connections a player can sustain is a property of the human character. 
 The playable roster changes because individuals move through life-cycle phases. Nothing rotates, unlocks or expires on a timer. *(AMO-D073, AMO-D070)*
 **Smell:** a seasonal roster event, an availability countdown, or any system that decides what is playable without asking the plants.
 
+### L46 — If the individual lives, recovery remains possible.
+Biological harm differs in depth, cost and how many cycles it takes to undo — never in whether it can be undone. Death is the only permanently terminal outcome. *(AMO-D075, AMO-D074)*
+**Smell:** a permanent injury, an unrecoverable stat, or a setback a living individual can never fully come back from.
+
+### L47 — Bloom is reached through biological maturity, not unlocked by player points.
+The player creates the conditions; the living individual reaches the state. Eligibility comes from species-specific developmental maturity, can be lost by regression, and can be rebuilt. *(AMO-D078, AMO-D077)*
+**Smell:** an *Unlock Bloom* action, a flowering cost paid in currency or experience, or a maturity value that grows by doing activities rather than by living well.
+

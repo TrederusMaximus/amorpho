@@ -8,7 +8,7 @@ It companions [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_
 
 ## 1. Where condition sits
 
-An individual carries several kinds of state that persist for different reasons and must not be merged:
+An individual carries several kinds of state that persist for different reasons and must not be merged (a fifth, **developmental maturity**, was added later — see [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):
 
 ```
 INDIVIDUAL
@@ -71,7 +71,7 @@ Three variables. Each earns its place by doing work no other one does.
 
 **Does not represent.** Growth progress · stress history · reserves · developmental stage · genetic quality · size · value. Vitality is not a general score and must not become one.
 
-> **Honest caveat.** Vitality is the variable most likely to prove derivable. If lasting harm never exists, it could in principle be recomputed from stress and reserves rather than stored. It is stored here because the moment irreversible damage is introduced, a derived summary cannot carry it — and because death needs somewhere to hang that is not a buffer. The test that would settle it is whether any harm is permanent (AMO-Q045).
+> **Settled 2026-09-21.** This section previously flagged vitality as possibly derivable, on the reasoning that only irreversible damage would require storing it. That reasoning is withdrawn — no harm is permanent while the individual lives (AMO-D075) — and the conclusion stands for a stronger reason. Two individuals with identical stress and identical reserves may still differ in remaining core compromise, recovery need and proximity to losing inhabitability, and **no function of the other two can distinguish them** once both have recovered. Vitality is stored state (AMO-D076, [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)).
 
 ### 4.2 Stress Load — accumulated burden
 
@@ -207,4 +207,4 @@ All eight cases in the consistency audit are explicable with three condition var
 
 ## 12. Open questions
 
-Dynamics, thresholds and whether vitality is derivable (AMO-Q073) · inhabitability rule and threshold (AMO-Q042) · reversible stress versus lasting damage, and death (AMO-Q045) · exposure history beyond a single accumulated value (AMO-Q072) · the developmental state machine and acclimation (AMO-Q012) · what a rooted individual does over time (AMO-Q077) · animated-form effects on condition (AMO-Q083) · combat consequences (AMO-Q026) · condition's influence on reproduction (AMO-Q079) · simulation time step (AMO-Q074).
+Dynamics and thresholds (AMO-Q073) · vitality recovery dynamics (AMO-Q102) · inhabitability rule and threshold (AMO-Q042) · the death condition (AMO-Q104) · developmental maturity (AMO-Q106) · exposure history beyond a single accumulated value (AMO-Q072) · the developmental state machine and acclimation (AMO-Q012) · what a rooted individual does over time (AMO-Q077) · animated-form effects on condition (AMO-Q083) · combat consequences (AMO-Q026) · condition's influence on reproduction (AMO-Q079) · simulation time step (AMO-Q074).

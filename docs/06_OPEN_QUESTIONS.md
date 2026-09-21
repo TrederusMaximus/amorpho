@@ -163,7 +163,8 @@ Do size, health, age, lineage or care affect an Amorpho in combat? If so, how mu
 **Status:** OPEN · **Constraints:** AMO-D007, AMO-D011, AMO-D030
 Can combat harm or kill the plant? What is lost on defeat, and how does a plant recover?
 *Notes:* Players may refuse to fight with plants they have raised for years if the stakes are too high.
-*Refined 2026-09-20:* combat is now only one of two routes to loss; environmental decline after rooting is the other (AMO-D033). Recovery, permanent damage and death as biological outcomes are tracked as AMO-Q045, and must be answered consistently with whatever combat does.
+*Refined 2026-09-20:* combat is now only one of two routes to loss; environmental decline after rooting is the other (AMO-D033). Recovery, core damage and death as biological outcomes are tracked as AMO-Q045, and must be answered consistently with whatever combat does.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the harm horizons are now fixed, so what combat must decide is **which horizon it touches** — manifestation integrity, vitality, reserves, stress, developmental maturity, or none. Whatever it touches recovers while the individual lives (AMO-D075), so combat cannot produce permanent injury without a new decision.
 
 ### AMO-Q027 — Roster scale versus combat content
 **Status:** OPEN · **Constraints:** AMO-D004, AMO-D005, AMO-D006
@@ -265,14 +266,15 @@ Before rooting, how much does the player learn about how the individual will far
 *Notes:* Certainty here decides whether rooting is a judgement call or a lookup. Too much information makes emergency rooting trivial; too little makes it arbitrary.
 *Refined 2026-09-21:* the separation of **simulation truth** from **player knowledge** is now explicit (AMO-D051): the simulation may hold a trajectory without exposing certainty about it, and nothing assumes a visible countdown to non-inhabitability. The question is the information model — forecasts, sensors, cultivation knowledge, equipment, warnings, and how accurately a player can predict Fit before committing to a location or a rooting event.
 
-### AMO-Q045 — Critical condition, recovery, permanent damage and death
-**Status:** OPEN · **Constraints:** AMO-D031, AMO-D033, AMO-D034
+### AMO-Q045 — Critical condition, recovery, core damage and death
+**Status:** RESOLVED → AMO-D074, AMO-D075, AMO-D076 · **Constraints:** AMO-D031, AMO-D033, AMO-D034, AMO-D074
 How does an individual recover from a critical state? Can some damage become permanent? How does plant death actually work, and is it ever instantaneous?
 *Notes:* Must be coherent with whatever combat does to a plant (AMO-Q026). Permanent damage is powerful and risky: it raises stakes but can make players refuse to play.
 *Refined 2026-09-21:* Fit's growth/recovery output makes recovery a first-class outcome rather than an exception (AMO-D049), so the open part is the **recovery model** — how fast, from how far down, and whether any damage is irreversible. Relates to AMO-Q072 and AMO-Q073.
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* Scenario C walked recovery through two phases — restoring condition, then supporting development once baseline is reached — and the condition feedback loop means recovery firms up as it proceeds, then levels off. Irreversible damage remains entirely unmodelled: nothing in v0 prevents full recovery from any survivable state, which may or may not be the intent.
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* this question now carries extra weight, because **it decides whether vitality needs to exist as stored state** (AMO-Q073, AMO-D056). If harm is always fully reversible, vitality could be derived from stress and reserves; if any harm is lasting, it cannot. The condition model also fixes the terms: stress load is *history*, not damage, so lasting damage — if it exists — would be a loss of vitality that does not return. Death's path `viable → deteriorating → critical → non-viable` is preserved, but whether death is a vitality threshold, a terminal developmental state or both remains open (AMO-D057).
 *Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* the life-cycle architecture now **precedes** this question deliberately, and narrows it. Damage to a temporary manifestation ends with that manifestation; only damage to the **persistent core** is a candidate for permanence (AMO-D058, AMO-Q086). A further case now exists: if catastrophic core damage leaves a regenerating fragment, whether the result is the same individual is AMO-Q094.
+*Resolved 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* **no harm is permanent while the individual lives.** Harm is classified by horizon — temporary manifestation damage, persistent core damage recorded in vitality, and reversible burden — and the classes differ in depth, cost and recovery duration, never in recoverability (AMO-D074, AMO-D075). **Death is the only permanently terminal outcome.** Vitality stays stored state, for a reason that no longer depends on permanence (AMO-D076). The earlier framing in this register — *whether any damage is irreversible* — is withdrawn. Recovery **dynamics** were not settled and moved to AMO-Q102; the death condition to AMO-Q104; treatment to AMO-Q105; in-phase repair to AMO-Q103.
 
 ### AMO-Q046 — Physical rescue: the human, and other players
 **Status:** OPEN · **Constraints:** AMO-D029, AMO-D031
@@ -361,7 +363,7 @@ How do per-dimension fits combine into a biological direction? What rule gives l
 **Status:** OPEN · **Constraints:** AMO-D048, AMO-D049
 How is accumulated recent experience of conditions modelled, given that `brief cold ≠ prolonged cold` and `one dry interval ≠ sustained drought`? Does exposure history live in the individual's condition, in a separate accumulation layer, or in Fit's inputs?
 *Notes:* v0 names the distinction between instantaneous environment and exposure history and defines no mathematics for it. This is likely a precondition for a credible recovery model (AMO-Q045) and for stress that feels biological rather than instantaneous.
-*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the scenarios show accumulation is already carried by **condition**, provided condition includes something like a stress load — so a separate exposure-history store may not be needed at this depth. The related clarification now in the spec is that stress pressure (output C) is a *rate*, with the accumulated total living in condition. Open: whether condition alone suffices, or whether recovery and irreversible damage need a richer history than a single accumulated value (AMO-Q045, AMO-Q073).
+*Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the scenarios show accumulation is already carried by **condition**, provided condition includes something like a stress load — so a separate exposure-history store may not be needed at this depth. The related clarification now in the spec is that stress pressure (output C) is a *rate*, with the accumulated total living in condition. Open: whether condition alone suffices, or whether recovery needs a richer history than a single accumulated value (AMO-Q073, AMO-Q102).
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* **partially discharged.** Stress load now exists explicitly and carries the accumulation (AMO-D056), so no separate exposure store is needed at this depth. What remains is whether a single accumulated value is rich enough — in particular whether relief must be asymmetric with accumulation so that prolonged exposure is not erased by one favourable interval.
 
 ### AMO-Q073 — Condition dynamics and thresholds
@@ -371,7 +373,8 @@ How is accumulated recent experience of conditions modelled, given that `brief c
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* three variables did real, distinguishable work across the scenarios — **health**, **stress load** and **stored resources**. Each was needed: resources to explain depletion under a critical constraint, stress load to carry accumulation, health to gate inhabitability. A **development or growth state** was also implied by Scenario C phase 2, where opportunity continues to be spent after recovery completes. Suggestive, not conclusive — one fictional value set is not a model. The exercise also confirmed condition sits on **both** sides of Fit, feeding the effective response profile and being modified by it.
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* the **variable set is now resolved** — vitality, stress load and reserves, with developmental state as a separate axis (AMO-D056, AMO-D057). Tested against the four existing scenarios rather than new ones: a single `health` scalar fails Scenario C, since it saturates at healthy and leaves favourable Fit nothing to act on. No case required a fourth condition variable and none was left unexplained.
 *Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* a second integrity concept may sit beside these — **phase-specific integrity** bounded by the current manifestation, distinct from persistent core vitality (AMO-D058, AMO-Q086). Whether it lives in condition, in developmental state, or beside both is open.
-*What remains open:* the dynamics above, all thresholds, and one substantive question the specification flags rather than hides — **whether vitality must be stored at all.** If no harm is ever permanent it could in principle be derived from stress and reserves; it is stored because irreversible damage could not be carried by a derived summary. That makes AMO-Q045 the test which settles it.
+*What remains open:* the dynamics above and all thresholds.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the stored-state question is **settled** — vitality stays stored (AMO-D076), but not because of permanence. Two individuals with identical stress and reserves may still differ in remaining core compromise, and no function of the other two can distinguish them once both have recovered. The earlier framing, that AMO-Q045 would decide it, is withdrawn.
 
 ### AMO-Q074 — Simulation time step and update frequency
 **Status:** OPEN · **Constraints:** AMO-D046, AMO-D049
@@ -423,6 +426,40 @@ Does human progression have dimensions beyond capacity — astral perception, tr
 What is this called player-facing — *Warden Progression*, *Astral Development*, *Astral Capacity*, something else? How is an increase presented so it reads as deep magical development rather than `+1 slot`?
 *Notes:* Terminology is working-only and nothing is committed. Presentation matters more than usual here, because AMO-D068's whole intent is that an increase should feel significant; a curve alone will not carry that. No ceremony, ritual or interface is designed.
 
+## Harm, recovery and maturity
+
+These follow from [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md) (AMO-D074–AMO-D078), which resolved the policy half of AMO-Q045.
+
+### AMO-Q102 — Vitality recovery dynamics
+**Status:** OPEN · **Constraints:** AMO-D075, AMO-D076
+How fast does vitality recover, from how far down, and what conditions are required? How many life cycles should severe core compromise take to undo? Does **deep dormancy itself** ever assist recovery, hinder it, or neither?
+*Notes:* The policy is settled — full recovery is always eventually possible while alive (AMO-D075) — and this is the dynamics. Getting it wrong is costly in either direction: too fast and core damage stops mattering, too slow and one bad season effectively removes an individual from play for a very long time. Preserve the deliberate asymmetry: stress and reserves recover substantially faster than severe vitality compromise. Relates to AMO-Q073 and AMO-Q074.
+
+### AMO-Q103 — Repair within a manifestation
+**Status:** OPEN · **Constraints:** AMO-D074
+How much can a damaged current leaf or bloom structure recover *during* its own phase? None, some, or is repair possible under favourable conditions?
+*Notes:* Fixed: biological recovery of the individual is not repair of the structure, and a new manifestation never inherits the old one's damage (AMO-D074). Open is whether impairment simply lasts until the structure is abandoned. Too much in-phase repair makes manifestation damage inconsequential; none at all may let one bad event dominate a whole season.
+
+### AMO-Q104 — The death condition
+**Status:** OPEN · **Constraints:** AMO-D075, AMO-D076
+What exactly constitutes loss of biological viability? Is death a vitality threshold, a terminal developmental outcome, or something at the intersection? Can it ever be instantaneous?
+*Notes:* Death is the **only** permanently terminal outcome (AMO-D075), which makes its boundary unusually consequential — everything short of it must be recoverable. Must be coherent with fragment survival, which is explicitly *not* death while living continuity remains (AMO-Q094). Relates to AMO-Q026.
+
+### AMO-Q105 — Treatment and care
+**Status:** OPEN · **Constraints:** AMO-D075, AMO-D054
+Beyond providing favourable conditions, can a human actively treat a compromised individual — and if so how? Is recovery purely environmental, or is there a care layer with actions, resources and skill?
+*Notes:* Currently recovery is entirely a matter of Environmental Fit over time (AMO-D049). A treatment layer would give the human layer another essential role (L23) and make rescue an activity rather than a relocation — but it risks becoming a consumable-item minigame that short-circuits the environmental model. Relates to physical rescue (AMO-Q046).
+
+### AMO-Q106 — Developmental Maturity: representation, growth and regression
+**Status:** OPEN · **Constraints:** AMO-D077
+How is maturity represented — a scalar, a stage, biological mass, something else? What makes it grow, and by how much? What makes it regress, and how far can one setback push it back?
+*Notes:* Fixed: it is biological development, **not** experience points, emerging from successful life cycles, favourable growth and condition rather than from activity (AMO-D077, L47). Open: everything quantitative, plus the name itself. The regression rule is the delicate part — it gives premature retreat its price, and it is what can cost a player years of cultivation without costing them the individual.
+
+### AMO-Q107 — Bloom eligibility inputs and repeated-Bloom timing
+**Status:** OPEN · **Constraints:** AMO-D078, AMO-D059
+Beyond passing the flowering-maturity threshold, what determines whether a given cycle produces a Bloom — condition, reserves, life-cycle routing, environment, species biology, chance? How often can Bloom recur, and does it cost enough to make recurrence self-limiting?
+*Notes:* Fixed: maturity **enables** but does not guarantee, and Bloom is repeatable rather than a one-time unlock (AMO-D078). Roughly annual recurrence is possible where future species data supports it but is **not** assumed universal, and no interval exists. This decides whether Bloom stays rare in practice — a gate easy to pass every cycle would make it ordinary, which AMO-D059 forbids. Relates to AMO-Q101 and AMO-Q079.
+
 ## Life cycle, anchors and availability
 
 These follow from [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md) (AMO-D058–AMO-D065).
@@ -447,7 +484,8 @@ Where exactly does the astral door close and reopen? Is there a transitional win
 ### AMO-Q086 — Phase-specific abilities and damage
 **Status:** OPEN · **Constraints:** AMO-D056, AMO-D058
 What does each playable phase actually do, and what integrity does it carry? Is there a leaf integrity, a bloom integrity, something else? How does damage to a temporary structure relate to persistent core vitality, and what does core compromise mean?
-*Notes:* The architecture is reserved, not designed (AMO-D058): phase-specific integrity ends with its phase, core vitality persists. Must be answered coherently with combat consequences (AMO-Q026) and lasting damage (AMO-Q045). No formulas, magnitudes or variable names exist.
+*Notes:* The architecture is reserved, not designed (AMO-D058): phase-specific integrity ends with its phase, core vitality persists. Must be answered coherently with combat consequences (AMO-Q026) and core damage (AMO-Q045). No formulas, magnitudes or variable names exist.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the horizons are settled (AMO-D074) — a new manifestation never inherits the old one's structural damage, and no universal body-integrity meter exists. Still open: whether each phase needs a named integrity variable at all, and how much **in-phase repair** is possible (AMO-Q103).
 *Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* each state now has its own manifestation, so a per-state integrity has somewhere to attach (AMO-D070). Two further points: phase-specific damage **outlasts embodiment** — exiting and re-entering repairs nothing, because the damage belongs to the manifestation rather than the animation (AMO-D072) — and if transitional **tuber-form gameplay** ever exists it belongs to Early Dormancy or Pre-Emergence, never to deep dormancy (AMO-D060).
 
 ### AMO-Q087 — Premature dormancy: triggers and costs
@@ -460,6 +498,7 @@ What causes an individual to abandon its active phase early, and what does that 
 How long does Bloom last, what can a flowering individual do that others cannot, and what does it cost — reserve investment, discoverability, reproductive consequence, risk?
 *Notes:* Decided: Bloom is rare, short and exceptional, a temporary superstate rather than a strictly better form (AMO-D059). Not decided: any of the content. It must not become "Leaf Form with better numbers", and it must not be universally optimal. Ties to flowering discoverability (AMO-Q015) and reproduction (AMO-Q079).
 *Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* Bloom's **structural placement** is resolved — a sibling active state with its own manifestation, reached by parameterised routing (AMO-D071) — which is what lets it have a distinct kit and a distinct integrity without being a mandatory stage. Its content, cost, duration and post-Bloom routing all remain open.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* eligibility is now gated on **species-specific flowering maturity** (AMO-D078), and later Blooms may be larger and more developed as maturity grows. This question therefore also covers **manifestation scale** — how Bloom size relates to maturity, and whether Bloom-specific gameplay strength scales with it. Linear scaling is not assumed, and any scaling must not make Bloom strictly better (AMO-D059).
 
 ### AMO-Q089 — Astral Anchor: name, form, attachment and pairing
 **Status:** OPEN · **Constraints:** AMO-D007, AMO-D061
@@ -492,7 +531,8 @@ What does ownership mean in game terms? Must every cultivated plant be owned? Do
 ### AMO-Q094 — Identity after severe core loss
 **Status:** OPEN · **Constraints:** AMO-D011, AMO-D022, AMO-D058
 If catastrophic core damage leaves a viable surviving fragment and it regenerates, is the result the **same persistent individual** or a **new clonal descendant** linked by provenance?
-*Notes:* Both a gameplay and an identity-model question, and it now matters more than it first appears: identifiers are never reused (AMO-D011, AMO-D022), so the answer decides whether a lineage record can survive its own near-destruction — and whether a rare individual can ever truly be recovered. No botanical rule is encoded either way. Must be answered together with lasting damage and death (AMO-Q045).
+*Notes:* Both a gameplay and an identity-model question, and it now matters more than it first appears: identifiers are never reused (AMO-D011, AMO-D022), so the answer decides whether a lineage record can survive its own near-destruction — and whether a rare individual can ever truly be recovered. No botanical rule is encoded either way.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the surrounding model now sharpens this. Because living biological continuity never ended, fragment survival is **not** equivalent to death (AMO-D075), and regeneration is representable as an enormous developmental collapse that is nonetheless recoverable (AMO-D077). What stays open is identity itself — same individual, or new clonal descendant with provenance — which also determines **whether the original Astral Anchor remains valid** after fragmentation (AMO-D061, AMO-Q091).
 
 ## Establishment and long-term rooted life
 

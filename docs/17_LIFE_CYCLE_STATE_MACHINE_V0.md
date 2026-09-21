@@ -9,7 +9,7 @@ It sits under [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_A
 
 ## 1. Scope and non-claims
 
-The state machine belongs to **one persistent individual** and describes only its developmental phase. It does not decide combat kits, pollination, permanent damage, timings or species biology.
+The state machine belongs to **one persistent individual** and describes only its developmental phase. It does not decide combat kits, pollination, core-damage mechanics, timings or species biology.
 
 It makes **no claim** that every species spends equal time in a phase, follows identical timing, flowers between the same states, has the same dormancy depth, or exposes the same access windows. What follows is a **topology**, deliberately parameterisable, so that approved data and game rules can later shape it per species without changing its structure (AMO-D024, AMO-Q084).
 
@@ -144,6 +144,8 @@ The primary sustained above-ground state, and the strongest candidate for defaul
 **Leaf integrity is phase-specific.** Damage to the current leaf is not damage to the individual (AMO-D058). It may persist for the rest of the phase and does not regrow because conditions improved. A later cycle's leaf begins structurally fresh — but the *season's* consequences persist indirectly, through depleted reserves, accumulated stress, reduced development, possible core compromise, or an early retreat. **Nothing is erased; only the structure is replaced.** No integrity variable is formally defined (AMO-Q086).
 
 ### Bloom
+Eligibility is gated: an individual must have reached its **species-specific flowering maturity** before Bloom is biologically possible at all, and reaching that threshold enables rather than guarantees it (AMO-D078, [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)). Once eligible, Bloom is repeatable in later cycles, and later manifestations may be larger and more developed as maturity grows.
+
 An exceptional, temporary, reproductive active state, and **astrally playable** — Deep Dormancy's closure does not reach it (AMO-D059, AMO-D071). It is extraordinary without being universally better: unique capabilities, real costs, a short window, elevated discoverability and reproductive significance. Nothing about its kit, cost or duration is designed (AMO-Q088).
 
 Bloom is biologically consequential — plausibly drawing on reserves, developmental state and condition — and the state machine exposes `individual is in reproductive Bloom` so that future discoverability, pollination and reproduction systems can react without any of them being designed now (AMO-Q079, AMO-Q015).
@@ -273,7 +275,7 @@ Each can be added without changing the topology:
 | phase-specific integrity variables | per-state manifestation (§7) |
 | transition trigger model | §9's input categories (AMO-Q101) |
 | pollination and reproduction | the exposed Bloom state (AMO-Q079) |
-| permanent core damage and death | condition, not the graph (AMO-Q045) |
+| core damage, recovery and death | condition, not the graph (AMO-D074–AMO-D076) |
 
 ## 15. The model against the required cases
 
@@ -293,4 +295,4 @@ Each can be added without changing the topology:
 
 ## 16. Open questions
 
-The state machine's remaining detail (AMO-Q084) · access opening and closing points, and transition legibility (AMO-Q085) · phase-specific abilities and integrity, including transitional tuber forms (AMO-Q086) · premature retreat cost (AMO-Q087) · Bloom's content (AMO-Q088) · transition triggers (AMO-Q101). Related: controlled environments (AMO-Q049), reproduction (AMO-Q079), discoverability (AMO-Q015), lasting damage (AMO-Q045), the Astral Radar (AMO-Q092).
+The state machine's remaining detail (AMO-Q084) · access opening and closing points, and transition legibility (AMO-Q085) · phase-specific abilities and integrity, including transitional tuber forms (AMO-Q086) · premature retreat cost (AMO-Q087) · Bloom's content (AMO-Q088) · transition triggers (AMO-Q101). Related: controlled environments (AMO-Q049), reproduction (AMO-Q079), discoverability (AMO-Q015), core damage and recovery ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)), the Astral Radar (AMO-Q092).

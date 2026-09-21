@@ -384,7 +384,7 @@ Claimed only where a scenario actually demonstrated it.
 
 None of these are defects; each was deliberately deferred.
 
-Value representation and units (AMO-Q069) · the aggregation formula (AMO-Q070) · interactions between dimensions — untested here, since no scenario needed two dimensions to combine (AMO-Q071) · exposure-history mathematics (AMO-Q072) · the actual set of condition variables, though the exercise showed **stress load**, **stored resources** and **health** all doing real work (AMO-Q073) · time step and rates (AMO-Q074) · where randomness lives — deliberately absent from all three scenarios (AMO-Q075) · acute events (AMO-Q020) · container and root zone (AMO-Q050) · acclimation (AMO-Q012) · irreversible damage (AMO-Q045) · any real species data (AMO-D053, AMO-Q076).
+Value representation and units (AMO-Q069) · the aggregation formula (AMO-Q070) · interactions between dimensions — untested here, since no scenario needed two dimensions to combine (AMO-Q071) · exposure-history mathematics (AMO-Q072) · the actual set of condition variables, though the exercise showed **stress load**, **stored resources** and **health** all doing real work (AMO-Q073) · time step and rates (AMO-Q074) · where randomness lives — deliberately absent from all three scenarios (AMO-Q075) · acute events (AMO-Q020) · container and root zone (AMO-Q050) · acclimation (AMO-Q012) · core damage and recovery (AMO-Q045, resolved) · any real species data (AMO-D053, AMO-Q076).
 
 ## 11. Verdict
 

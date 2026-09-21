@@ -90,6 +90,7 @@ docs/
   15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md  life-cycle phases, Astral Anchors, playable availability
   16_HUMAN_WARDEN_PROGRESSION_V0.md     the human's own slow magical progression
   17_LIFE_CYCLE_STATE_MACHINE_V0.md     the life-cycle topology and astral access windows
+  18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md  harm horizons, recovery, Bloom maturity
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

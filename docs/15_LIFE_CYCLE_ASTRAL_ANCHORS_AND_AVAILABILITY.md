@@ -93,7 +93,7 @@ Real senescence often shows as visible change, and that is the design inspiratio
 
 The Tuber Phase is not "Leaf Form without graphics". It represents the persistent biological core and storage structure of the individual.
 
-Serious compromise of the core is therefore more consequential than ordinary seasonal leaf damage, and belongs to the long-horizon vitality model rather than to phase-specific structure (AMO-D056, §12). Tuber damage mechanics are not designed (AMO-Q086).
+Serious compromise of the core is therefore more consequential than ordinary seasonal leaf damage, and belongs to the long-horizon vitality model rather than to phase-specific structure (AMO-D056, §12). It is **persistent, not permanent**: core damage may span dormancy and a new emergence and still recover fully while the individual lives (AMO-D075, [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)). Tuber damage mechanics are not designed (AMO-Q086).
 
 ### Fragment survival is an identity question, not only a damage question
 
@@ -347,4 +347,4 @@ That is the point. The human layer must stay essential even when Amorpho embodim
 
 ## 17. Open questions
 
-Life cycle: the state machine (AMO-Q084) · astral access windows (AMO-Q085) · phase-specific abilities and damage (AMO-Q086) · premature dormancy (AMO-Q087) · Bloom (AMO-Q088). Anchors: form, attachment and pairing (AMO-Q089) · economy (AMO-Q090) · transfer, theft and rebinding (AMO-Q091) · the Astral Radar (AMO-Q092). Ownership and wild state (AMO-Q093). Identity after severe core loss (AMO-Q094). Related: the artifact (AMO-Q021), discoverability (AMO-Q015), inhabitability (AMO-Q042), lasting damage and death (AMO-Q045), condition dynamics (AMO-Q073), combat consequences (AMO-Q026).
+Life cycle: the state machine (AMO-Q084) · astral access windows (AMO-Q085) · phase-specific abilities and damage (AMO-Q086) · premature dormancy (AMO-Q087) · Bloom (AMO-Q088). Anchors: form, attachment and pairing (AMO-Q089) · economy (AMO-Q090) · transfer, theft and rebinding (AMO-Q091) · the Astral Radar (AMO-Q092). Ownership and wild state (AMO-Q093). Identity after severe core loss (AMO-Q094). Related: the artifact (AMO-Q021), discoverability (AMO-Q015), inhabitability (AMO-Q042), harm horizons and recovery ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)), condition dynamics (AMO-Q073), combat consequences (AMO-Q026).

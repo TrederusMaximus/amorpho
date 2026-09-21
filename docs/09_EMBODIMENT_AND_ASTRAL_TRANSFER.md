@@ -93,7 +93,7 @@ State names, granularity and thresholds are open, including whether inhabitabili
 
 Inhabitability is always derived from the individual's **biological condition**, never set by the World or by geography (AMO-D050). A place is not inherently un-inhabitable; a plant's condition is. This is what lets the same location affect different species, different individuals, and the same individual at different times, differently.
 
-That condition is now specified — **vitality**, **stress load** and **reserves** (AMO-D056, [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)) — and inhabitability reads principally **vitality**, plausibly also stress load. It remains derived rather than stored, and is not a condition variable of its own. The threshold, its granularity and the entry rule stay open (AMO-Q042).
+That condition is now specified — **vitality**, **stress load** and **reserves** (AMO-D056, [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)) — and inhabitability reads principally **vitality**, plausibly also stress load. Severe vitality loss can therefore close access while the individual is still alive, and access may return as vitality recovers — **playable recovery precedes full restoration**, so an individual need not regain its former size or maturity before becoming usable again (AMO-D075, AMO-D076, [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)). It remains derived rather than stored, and is not a condition variable of its own. The threshold, its granularity and the entry rule stay open (AMO-Q042).
 
 ### Three gates, not one
 
