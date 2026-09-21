@@ -113,15 +113,52 @@ A rooted Amorpho in an excellent environment may stay healthy and inhabitable in
 
 How that relationship is evaluated is specified in [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
 
-Rooting therefore has at least two strategically different meanings:
+### Rooting may be the destination, not the end of the journey
 
-| | **Emergency rooting** | **Strategic rooting** |
-|---|---|---|
-| Why | the player must leave the Amorpho somewhere suboptimal | the player deliberately establishes the individual somewhere favourable |
-| Hope | that the plant stays recoverable | that the plant benefits from the location |
-| Follow-up | rescue, retrieval, or astral re-entry while it is still possible | cultivation, development, possibly reproduction |
+The most important thing to get right about rooting is that it is **not primarily an emergency mechanic** (AMO-D054).
 
-Both are the same act. Only the environment differs.
+> Rooting is not merely how an Amorpho stops travelling. Rooting may be the reason for travelling there.
+
+A player may deliberately inhabit an Amorpho and move it across the world precisely in order to establish that individual somewhere chosen. The journey and the rooting site then form one strategic operation, and the rooting is its goal.
+
+At least three player intentions sit behind the same underlying act. They describe purposes, not necessarily runtime states:
+
+| | **Emergency rooting** | **Operational rooting** | **Strategic establishment** |
+|---|---|---|---|
+| Why | the player must leave the Amorpho somewhere less than ideal | the player stations the individual somewhere it may be useful later | the player deliberately establishes it somewhere biologically suitable for long-term life |
+| Horizon | as short as possible | limited, often seasonal | indefinite |
+| Concern | survival and rescue | access, staging, readiness, waiting for favourable conditions | healthy growth, development, flowering, reproduction, propagation, lineage |
+| Follow-up | rescue, retrieval, or re-entry while still possible | later re-entry and use | cultivation, and whatever the biological systems eventually allow |
+
+All three are the same act. Only the intention and the environment differ.
+
+### Long-term rooted life
+
+In an appropriate environment a rooted individual may simply live there. Depending on the biological systems that eventually exist, it may remain healthy, remain astrally inhabitable, grow, increase in size, develop, enter seasonal cycles, flower, reproduce, produce offspring and participate in a local population.
+
+Excellent Environmental Fit therefore has to support more than recovery. Recovery is not the top of the model — **thriving and living there** is (L38, AMO-D054). See [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
+
+### Rooted does not mean inactive
+
+An individual can be outside the player's control and still be biologically active. While rooted, future systems may continue to process growth, seasonal development, flowering, pollination, reproduction, health, environmental stress, recovery, interaction with local populations and selection pressure.
+
+The player's consciousness does not need to be present for biological life to continue. This follows directly from the world persisting independently of players (AMO-D009), and it is what makes a collection spatially and temporally strategic rather than a set of parked objects.
+
+What a rooted individual actually does over time, and whether it stays reachable and re-enterable, are open (AMO-Q077, AMO-Q082).
+
+### Geography becomes strategic
+
+Because Fit ranges into the positive, some places are genuinely better for some individuals. That can eventually motivate locating good habitat, transporting individuals to it, establishing distant populations, acquiring suitable property, using a friend's land or greenhouse, staging seasonally, and protecting valuable growing locations.
+
+A location may also be suitable only for part of the year, which makes deliberate **seasonal routing** possible: travel and operate during a favourable window, use the location as a temporary base, and move the individual on before conditions turn dangerous. That is planning, not an emergency (AMO-Q078).
+
+None of these systems is designed here. The implication recorded is only that Environmental Fit makes geography strategically meaningful.
+
+### Sequential, never simultaneous
+
+Because only one body can be inhabited at a time (AMO-D028), operations involving several Amorphos remain **sequential**. A player might inhabit A, establish it at one place, return to the human body, later inhabit B, establish it elsewhere, and use the resulting spatial arrangement for something later.
+
+Persistent rooting is what makes that arrangement meaningful, and the one-body law is what makes it cost something. Transfer range, and how the player regains access to each body, are not decided here (AMO-Q040, AMO-Q081, AMO-Q082).
 
 ## 10. No universal rescue timer
 

@@ -35,9 +35,10 @@ The goal is not to be a better version of an existing game, but to make this par
 5. **Mastery.** Combat rewards practice. A player can become significantly better with the same Amorpho over time.
 6. **The bond between layers.** The same individual plant spans the calm, long-term world of cultivation and the intense, short-term world of fighting.
 7. **One consciousness, one body.** The player has one human body and inhabits at most one plant at a time. Owning many Amorphos creates logistics and hard choices, never simultaneous control (AMO-D028).
-8. **Environment is an interaction, not a verdict.** The world says what conditions exist; a plant knows what it needs; what happens between them can harm, stabilise or genuinely improve the plant (AMO-D035–AMO-D037).
-9. **Change across generations.** Inheritance, variation and selection — environmental and player-driven — can make distinctive lineages emerge within real species over long spans of play (AMO-D038, AMO-D040).
-10. **Two ways in, one world.** Standard and VR gameplay are both first-class entrances to the same persistent game. VR is optional, never secondary (AMO-D041, AMO-D042).
+8. **Rooting can be the destination.** A player may travel specifically to establish an individual somewhere favourable, where it may then live, grow and develop indefinitely while the player is elsewhere. Rooting is not primarily an emergency mechanic (AMO-D054).
+9. **Environment is an interaction, not a verdict.** The world says what conditions exist; a plant knows what it needs; what happens between them can harm, stabilise or genuinely improve the plant (AMO-D035–AMO-D037).
+10. **Change across generations.** Inheritance, variation and selection — environmental and player-driven — can make distinctive lineages emerge within real species over long spans of play (AMO-D038, AMO-D040).
+11. **Two ways in, one world.** Standard and VR gameplay are both first-class entrances to the same persistent game. VR is optional, never secondary (AMO-D041, AMO-D042).
 
 ## Who it is for
 
@@ -78,8 +79,9 @@ Undecided (AMO-Q034). The subject invites humour — the plants' appearance, the
 | **inhabited** | Of an individual: currently animated by the player's consciousness. At most one individual is inhabited at a time (AMO-D028). |
 | **inhabitable** | Of an individual: biologically stable enough for astral entry. Not the same as alive (AMO-D031). |
 | **rooting** | The act by which an inhabited Amorpho returns to rooted plant state, ending astral embodiment. |
-| **emergency rooting** | Rooting somewhere suboptimal because the player has to, hoping the individual stays recoverable. |
-| **strategic rooting** | Rooting somewhere favourable on purpose, because the location benefits the individual. |
+| **emergency rooting** | Rooting somewhere less than ideal because the player has to; the concern is survival and rescue. |
+| **operational rooting** | Stationing an individual somewhere it may be useful later — seasonal access, staging, waiting for favourable conditions. |
+| **strategic establishment** | Settling an individual somewhere biologically suitable for long-term life, growth and eventually reproduction. Rooting may be the reason for a journey, not its end (AMO-D054). |
 | **species** | A real *Amorphophallus* species, as listed in approved input. |
 | **species ID** | A species' permanent, opaque Amorpho identity, e.g. `AMO-SP-000001`. The scientific name is mutable metadata attached to it. |
 | **individual** | One persistent plant in the world, with its own identity and history. |

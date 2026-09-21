@@ -55,6 +55,7 @@ One shared world, several shards, private worlds, or a mix? Can the game be play
 **Status:** OPEN · **Constraints:** AMO-D010, AMO-D011
 What can a player own (plants, pots, homes, land, greenhouses), how is ownership established and transferred, and what happens to property of inactive players?
 *Notes:* Inactive players' plants are part of a persistent world with finite populations; their fate affects everyone.
+*Refined 2026-09-21:* strategic establishment makes outdoor growing sites worth holding, sharing and protecting, so ownership now has to cover land and cultivation areas rather than mainly plants and buildings (AMO-D054, AMO-Q080).
 
 ### AMO-Q008 — Theft rules and anti-griefing
 **Status:** OPEN · **Constraints:** AMO-D014, AMO-D015
@@ -90,8 +91,9 @@ How are genotype and inheritance represented? Discrete genes, continuous trait v
 *Refined 2026-09-20:* this is the Evolutionator's core model (AMO-D038). It also covers recombination, mutation and variation mechanisms, inheritance probabilities, and where developmental plasticity sits relative to inherited traits — the latter being the boundary AMO-D039 protects.
 
 ### AMO-Q014 — Pollinator abstraction
-**Status:** OPEN · **Constraints:** AMO-D015, AMO-D027
+**Status:** OPEN · **Constraints:** AMO-D015, AMO-D027, AMO-D054
 Are pollinators simulated, abstracted as a probability field, or represented otherwise? How far does pollen travel?
+*Refined 2026-09-21:* strategic establishment gives this a purpose beyond accidents outdoors — deliberately established individuals may be intended to reproduce (AMO-D054). Flowering timing and synchronisation are tracked as AMO-Q079.
 
 ### AMO-Q015 — Scent and discovery mechanics
 **Status:** OPEN · **Constraints:** AMO-D015
@@ -243,6 +245,7 @@ Where is the line between inhabitable and merely alive? Is inhabitability binary
 **Status:** OPEN · **Constraints:** AMO-D032, AMO-D033
 What counts as a place where an inhabited Amorpho can root and return to plant state? Its own pot, another pot, suitable substrate, a greenhouse bed, suitable outdoor soil, other cultivation infrastructure — and is bare unsuitable ground always possible, at a cost?
 *Notes:* If rooting were possible only in prepared sites, emergency rooting would largely disappear; if possible anywhere, rooting infrastructure loses meaning. Relates to substrate (AMO-Q050).
+*Refined 2026-09-21:* a valid rooting site is not only somewhere an individual *can* be left — for strategic establishment it is somewhere a player deliberately *chooses* (AMO-D054). The answer therefore has to serve emergency, operational and long-term establishment cases, which may have different requirements.
 
 ## Rescue and logistics
 
@@ -358,6 +361,40 @@ Should the deterministic-evaluator position hold as the model matures? Which ups
 **Status:** OPEN · **Constraints:** AMO-D024, AMO-D025, AMO-D026, AMO-D053
 Once the environmental model is settled enough to need them, what is the minimal approved input that expresses a species response profile? Which dimensions, which zones, and in what form?
 *Notes:* Nothing may be imported before the consuming model exists (AMO-D053), and only what the game demonstrably needs may cross (AMO-D025). The research behind any such values stays outside Amorpho (AMO-D024). Note the shape problem: a per-species × per-dimension × per-zone table is considerably richer than the current two-column CSV, so this may be where CSV stops being sufficient (AMO-D026).
+
+## Establishment and long-term rooted life
+
+These follow from AMO-D054: rooting may be strategic and long-term, and a rooted individual stays biologically active while the player is elsewhere.
+
+### AMO-Q077 — What a rooted individual does over time
+**Status:** OPEN · **Constraints:** AMO-D009, AMO-D054, AMO-D049
+While rooted and unattended, what actually progresses — growth, size, structure, seasonal cycles, dormancy, flowering readiness, resource accumulation? How much of it is simulated when nobody is watching, and how much is derived on demand?
+*Notes:* "Rooted does not mean inactive" is decided (AMO-D054); the content is not. Directly coupled to plant simulation depth (AMO-Q012), condition variables (AMO-Q073) and the simulation time step (AMO-Q074), and constrained by the cost of a persistent world full of developing individuals (AMO-Q068).
+
+### AMO-Q078 — Seasonal routing and temporary bases
+**Status:** OPEN · **Constraints:** AMO-D054, AMO-D046
+How does a player plan around a location that is suitable only part of the year — travel there in a favourable window, use it as a base, and leave before conditions turn? What calendar, forecast and travel affordances does that require, and how is it kept from becoming a chore?
+*Notes:* This is *operational rooting* made playable, and it is deliberate planning rather than an emergency. Depends on the time and season model (AMO-Q004), travel (AMO-Q002) and what the player can predict (AMO-Q044).
+
+### AMO-Q079 — Flowering timing, pollination and reproductive opportunity
+**Status:** OPEN · **Constraints:** AMO-D010, AMO-D015, AMO-D027, AMO-D054
+What conditions make a rooted individual flower, and how do two individuals ever come to reproduce — flowering synchronisation, proximity, pollen movement, pollinators, scent dispersal? How much is natural and how much is player-directed?
+*Notes:* Strategic establishment is what creates reproductive *opportunity*; this question is the mechanism that would use it. No pollination engine is designed (AMO-Q014 covers the pollinator abstraction and pollen distance). Hybridization policy is untouched and not negotiable here: approved pairs only, symmetric, and absence of approval never asserts biological impossibility (AMO-D027).
+
+### AMO-Q080 — Player-created cultivation and population areas
+**Status:** OPEN · **Constraints:** AMO-D010, AMO-D054, AMO-D045
+If several players establish individuals in the same favourable region, what does that place become? How are access, use and protection of outdoor growing sites handled — owned land, shared infrastructure, a friend's greenhouse, or open habitat?
+*Notes:* The emergent possibility is preserved; no ownership, land-rights or population mechanics follow (AMO-D054). Overlaps ownership (AMO-Q007), properties inside Earth geography (AMO-Q064), theft and anti-griefing (AMO-Q008) and spatial population representation (AMO-Q068). The provisional label *"Amorpho Farming"* is not a product term and no named subsystem exists.
+
+### AMO-Q081 — Mission structure from biological geography
+**Status:** OPEN · **Constraints:** AMO-D028, AMO-D054
+Can objectives arise naturally from the combination of differing individual capabilities, differing environments, seasonal windows and one-body embodiment — for example needing a suitable individual routed into a region during a favourable season, or several positioned sequentially for use at different stages?
+*Notes:* Recorded as a design possibility, explicitly **not** an accepted mission mechanic, and nothing may be hard-coded from the examples. Operations involving several individuals stay sequential, never simultaneous (AMO-D028). The attraction is that a small number of coherent rules would generate structure rather than scripting it (L37).
+
+### AMO-Q082 — Availability of a rooted individual for later astral entry
+**Status:** OPEN · **Constraints:** AMO-D028, AMO-D031, AMO-D050, AMO-D054
+Under what conditions does an individual established far away remain available for future astral entry? Does distance, time, ownership, access or anything else besides biological condition affect it?
+*Notes:* Biological condition already gates inhabitability (AMO-D031, AMO-D050). What is open is whether anything *else* does — transfer distance and eligibility (AMO-Q040) is the same question seen from the other end. If nothing else gates it, a distant established individual is permanently a body the player can step into, which is a large strategic fact worth deciding deliberately rather than by default.
 
 ## Earth representation
 

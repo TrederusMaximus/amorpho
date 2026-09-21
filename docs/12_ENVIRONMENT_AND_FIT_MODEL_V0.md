@@ -184,6 +184,13 @@ The model must distinguish **not dying** from **stable survival** from **healthy
 
 Excellent Fit may produce recovery, stronger growth, better development, resource accumulation, improved health and improved reproductive readiness. A perfect environment must be genuinely valuable — not merely the absence of punishment. A model in which the best possible outcome is "nothing bad happened" has failed this requirement, and would quietly turn the whole environmental system back into a penalty mechanic (AMO-D033).
 
+**Recovery is not the top of the model.** The positive side of Fit has at least two distinct uses (AMO-D054):
+
+1. **restoring** condition — returning a stressed individual toward its healthy baseline;
+2. **supporting continued life and development** once recovery is complete — growth, size, structure, seasonal cycles, and eventual readiness for flowering and reproduction through systems that do not exist yet.
+
+These must not be conflated. An individual that has finished recovering has not exhausted what a good environment can do for it; output D does not fall to zero when condition returns to baseline, it changes what it is spent on. This is what makes **strategic establishment** worth doing rather than merely safe (AMO-D054, [09_EMBODIMENT_AND_ASTRAL_TRANSFER.md](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md)).
+
 ## 12. Limiting factors and interactions
 
 **Limiting factors are a requirement, not an optimisation.** Naive averaging must not let catastrophic failure in one dimension disappear behind excellent values elsewhere:
@@ -213,7 +220,7 @@ Fit changes **biological condition**. It never changes identity or genetics (AMO
 
 ## 14. Rooting, rescue windows and inhabitability
 
-### Rooting is environmentally neutral as an action
+### Rooting is environmentally neutral as an action, and often deliberate
 
 Rooting adds no automatic penalty, stress rate or countdown (AMO-D033). Once rooted:
 
@@ -226,6 +233,8 @@ LOCAL WORLD ENVIRONMENT + AMORPHO RESPONSE PROFILE
 ```
 
 > **Rooting does not start a countdown. It starts an environmental relationship.**
+
+That relationship may well be the point of the journey. Rooting is not primarily an emergency mechanic: a player may travel specifically in order to establish an individual somewhere favourable, and in a good environment it may then live, grow and develop there indefinitely while the player is elsewhere (AMO-D054).
 
 ### The rescue window is an emergent consequence
 

@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief* or *Environment v0 brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief* or *Strategic rooting brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -68,6 +68,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D051 | Environment describes conditions, not permissions | ACCEPTED |
 | AMO-D052 | Fit is deterministic for identical state; randomness is upstream | ACCEPTED |
 | AMO-D053 | The design model precedes importing real environmental data | ACCEPTED |
+| AMO-D054 | Rooting may be strategic and long-term | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -76,6 +77,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 **World foundation (2026-09-21):** AMO-D045 fixed the World as a coherent representation of the real Earth, shared by the Human and Amorpho layers, with progressive fidelity and no technology commitment. Nothing was superseded; AMO-D009 carries a *Revised* note pointing at it.
 
 **Environment and Fit v0 (2026-09-21):** AMO-D046–AMO-D053 gave the accepted architecture its first usable environmental model — a five-dimension World vector, a zoned Amorpho response profile, and a Fit output contract that preserves per-dimension information alongside an aggregate trajectory. It is a boundary contract, not a biological simulation: no values, units, formulas or tick rates are fixed. Nothing was superseded; AMO-D013, AMO-D031 and AMO-D037 carry *Revised* notes pointing at it. The specification is [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
+
+**Strategic rooting (2026-09-21):** AMO-D054 established that rooting is not primarily an emergency mechanic — a suitable rooted environment can support indefinite healthy life, growth and eventual reproduction, and rooting may be the reason for a journey rather than its end. Nothing was superseded; AMO-D033 carries a *Revised* note pointing at it.
 
 ---
 
@@ -326,6 +329,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Rooting does not cause deterioration. Rooting **exposes** the individual to Environmental Fit, and the resulting trajectory may be strongly negative, mildly negative, neutral, positive or strongly positive. A rooted Amorpho in an excellent environment may remain healthy and inhabitable indefinitely, and may recover, grow, develop, improve in condition, accumulate resources or become reproductively successful.
 - **Rationale:** If rooting always harmed the plant, the whole environmental system would collapse into a penalty timer and location would stop mattering.
 - **Consequences:** Rooting has at least two strategic meanings — **emergency rooting** (leaving the Amorpho somewhere suboptimal and hoping it stays recoverable) and **strategic rooting** (deliberately establishing it somewhere favourable). Environmental Fit must never be treated as a synonym for stress. Nothing may model rooting as automatic decline.
+- **Revised:** 2026-09-21, strategic rooting — a third intention is recognised (**operational rooting**), and the emphasis is corrected: rooting is not primarily an emergency mechanic and may be the destination of a journey rather than its end (AMO-D054). Substance unchanged.
 
 ## AMO-D034 — Rescue windows are environmentally derived, never fixed
 
@@ -476,3 +480,18 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** The game-side environmental model is designed first; approved real-world environmental facts are imported only afterwards, and only in the minimal form the finished model demonstrably needs. No environmental field enters approved input before the system that consumes it exists.
 - **Rationale:** Importing first would let the shape of someone else's data decide the shape of the game's model, which is the coupling the Reality Gate exists to prevent.
 - **Consequences:** `data/input/amorphophallus_species.csv` remains `species_id,scientific_name` with no environmental columns. This is AMO-D025 applied to the environment model, and it makes v0 the precondition for ever extending the input contract. What minimal approved input a species response profile would need is an open question, not a design (AMO-Q076, AMO-D024).
+
+## AMO-D054 — Rooting may be strategic and long-term
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Strategic rooting brief
+- **Decision:** Rooting is **not primarily an emergency or recovery mechanic**. A suitable rooted environment can support indefinite healthy life, growth, development and eventual reproduction. Rooting may be the *reason* for a journey rather than the end of one: a player may deliberately inhabit an individual and move it across the world in order to establish it somewhere chosen. At least three player intentions sit behind the same act — **emergency rooting** (leaving it somewhere less than ideal, concerned with survival and rescue), **operational rooting** (stationing it somewhere it may be useful later, often seasonally), and **strategic establishment** (settling it somewhere biologically suitable for long-term life). These describe purposes, not required runtime states.
+- **Rationale:** A model in which rooting is mainly something that goes wrong would waste the entire positive half of Environmental Fit and would make a collection a set of parked objects rather than a spatial strategy. If excellent conditions can only restore a plant to "unharmed", there is no reason to seek them out.
+- **Consequences:**
+  - The positive side of Fit must support at least two distinct uses: **restoring** condition, and **supporting continued development** once recovery is complete (L38, AMO-D049). Recovery is not the top of the model.
+  - **Rooted does not mean inactive.** Growth, seasonal development, flowering, pollination, reproduction, health, stress, recovery, interaction with local populations and selection pressure may all continue while the player is elsewhere — which follows from the world persisting independently of players (AMO-D009).
+  - Geography becomes strategically meaningful: habitat is worth finding, reaching, acquiring and protecting, and a location suitable only part of the year makes deliberate **seasonal routing** possible (AMO-Q078).
+  - Operations involving several individuals stay **sequential**, never simultaneous; the one-body law is what gives spatial arrangement its cost (AMO-D028, AMO-Q081).
+  - Long-term rooted populations are the bridge to the Evolutionator: they supply the conditions under which selection can operate, without the Environment creating traits or the Evolutionator reading place names (AMO-D038, AMO-D040).
+  - No mission mechanic, farming subsystem, pollination engine, land-rights system or population model is authorised by this decision. The provisional term *"Amorpho Farming"* is **not** a product term and no named subsystem is created (AMO-Q080).
+  - Hybridization policy is untouched: only approved compatible species pairs, symmetric, with absence of approval never asserting biological impossibility (AMO-D027).
+

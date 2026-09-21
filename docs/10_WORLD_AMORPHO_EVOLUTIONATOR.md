@@ -168,6 +168,37 @@ Consider a population that repeatedly experiences conditions near the lower end 
 
 The World never says *"become more cold tolerant"*. The World simply remains the World. Selection emerges from differential performance. That is the intended architecture.
 
+## 10a. Establishment is what gives selection something to act on
+
+Selection needs individuals that live, reproduce and differ somewhere, over time. Long-term rooted populations are where that happens (AMO-D054):
+
+```
+AMORPHOS ESTABLISHED IN A LOCATION
+  + reproduction + inherited variation + World conditions + time
+                      ▼
+            differential success
+                      ▼
+            generational change
+                      ▼
+          emergent local lineage
+```
+
+Nothing in this changes the ownership boundary. The Environment does not decide to create a trait, and the Evolutionator never reads the location's name. Establishment simply supplies the conditions under which selection can operate.
+
+Several players may independently establish individuals in the same favourable region, and such a place may over time become a meaningful population or cultivation area — with same-species reproduction, approved-pair hybridization, pollen movement, player-selected breeding, competition and locally emerging lineages. No ownership, land-rights, population or pollination mechanics follow from this (AMO-Q079, AMO-Q080).
+
+### Individual development is not population evolution
+
+Both can happen in the same place, and they are different processes (AMO-D039):
+
+| | **Individual development** | **Population evolution** |
+|---|---|---|
+| What | a well-rooted individual recovers, grows, develops, may reproduce | inherited trait distributions shift |
+| Over | one lifetime | many generations |
+| Owner | Amorpho condition, evaluated through Fit | Evolutionator |
+
+A plant thriving magnificently in an excellent location has not evolved. Its descendants, repeatedly succeeding there over generations, may represent a population that has.
+
 ## 11. Player-driven selection
 
 Players may create selection pressure deliberately, eventually choosing which individuals reproduce on the basis of traits they value — appearance, size, environmental tolerance, growth behaviour, reproductive traits or other inheritable characteristics. This may produce cultivated lines.
