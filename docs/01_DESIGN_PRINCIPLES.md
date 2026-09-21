@@ -206,3 +206,7 @@ Existence, ownership, custody, anchoring and astral availability are five separa
 How many connections a player can sustain is a property of the human character. Whether a given individual can be entered is a property of that individual and its phase. Neither side may answer the other's question. *(AMO-D067, AMO-D069)*
 **Smell:** human advancement that opens a dormant plant, or a plant's condition that changes how many others a player can hold open.
 
+### L45 — Availability follows biological state, never a schedule.
+The playable roster changes because individuals move through life-cycle phases. Nothing rotates, unlocks or expires on a timer. *(AMO-D073, AMO-D070)*
+**Smell:** a seasonal roster event, an availability countdown, or any system that decides what is playable without asking the plants.
+

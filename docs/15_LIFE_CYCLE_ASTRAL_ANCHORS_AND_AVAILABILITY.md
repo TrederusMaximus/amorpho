@@ -47,7 +47,7 @@ Five broad phases are recognised. This is **not** a finished state machine, and 
 | **Bloom / Flowering** | a short, exceptional reproductive phase |
 | **Senescence / Dormancy entry** | transition from active form back toward dormancy |
 
-Sequencing, overlap, duration, how far species differ, and whether leaf and bloom can coexist are all open (AMO-Q084).
+The topology built from these is specified in [17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md): seven states in three families, with **Bloom a sibling active state** rather than a linear stage, and premature retreat needing no separate state (AMO-D070, AMO-D071). Sequencing, duration, species variation and whether leaf and bloom can coexist remain open (AMO-Q084).
 
 ## 4. Leaf Phase
 
@@ -159,6 +159,8 @@ If those windows exist they may eventually create distinctive tuber and transiti
 > A deeply dormant, unexposed tuber is normally extremely difficult or impossible for others to discover unless its physical location is already known (AMO-D060).
 
 No leaf, no flower, no scent signature, no movement, and below ground or buried in substrate. This is **concealment, not magical invisibility**: a player who knows the exact outdoor site, the pot or the greenhouse bed can still physically find it. What must not exist is a generic world signal that reveals dormant tubers.
+
+**Deep Dormancy is not tuber gameplay.** It exists as a biologically closed state, not a tuber fighter mode with the graphics off. If tuber-form gameplay ever exists it belongs to the transitional windows — shortly after dormancy entry, or during pre-emergence — never to deep dormancy itself (AMO-D070, AMO-Q086).
 
 ### Dormancy is safety bought with unavailability
 

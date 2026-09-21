@@ -89,6 +89,7 @@ docs/
   14_CURRENT_BIOLOGICAL_CONDITION_V0.md the biological state a persistent individual carries
   15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md  life-cycle phases, Astral Anchors, playable availability
   16_HUMAN_WARDEN_PROGRESSION_V0.md     the human's own slow magical progression
+  17_LIFE_CYCLE_STATE_MACHINE_V0.md     the life-cycle topology and astral access windows
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

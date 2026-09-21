@@ -115,6 +115,8 @@ Leaving an inhabited Amorpho returns the individual to its biological plant stat
 
 The ideal case is a safe cultivation environment — its own pot, another suitable pot, suitable substrate, a greenhouse bed, suitable outdoor soil, or other controlled cultivation infrastructure. What actually counts as a valid rooting site is open (AMO-Q043).
 
+Astral exit is **not** dormancy, and does not cause any phase transition. An inhabited leaf-phase individual that roots is still in its leaf phase; a blooming individual left rooted is still blooming. Rooting means plant state rather than animated state, and it is compatible with every life-cycle phase (AMO-D072, [17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)).
+
 > Astral exit returns fantasy to biological reality.
 
 The moment the player leaves, the individual is once again governed by its real relationship with its surroundings — evaluated as Environmental Fit ([10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md)).

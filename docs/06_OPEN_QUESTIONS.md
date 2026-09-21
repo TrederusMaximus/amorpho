@@ -296,6 +296,7 @@ What happens to worn animated-state equipment when an Amorpho roots? Does it fal
 How do homes, greenhouses and other controlled spaces modify local conditions, and how deeply is an indoor environment simulated? How much control can a player exert, at what cost?
 *Notes:* The architecture is decided: a building produces a modified local environment, evaluated by the ordinary mechanism — never a special rule such as `greenhouse makes tropical plant valid` (AMO-D035). What is open is fidelity and cost. Relates to AMO-Q032.
 *Refined 2026-09-21:* a controlled environment modifies the five v0 dimensions and nothing else, so Fit never learns about buildings (AMO-D046, AMO-D047). Open: which dimensions a given structure can modify, how far, at what cost, and how reliably.
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* controlled environments may also influence **life-cycle timing** where biology permits — but only by changing conditions, to which biology responds. There is no `force_bloom` or `prevent_dormancy` flag, and none may be added (AMO-D070, AMO-D073).
 
 ### AMO-Q050 — Substrate and rooting medium
 **Status:** OPEN · **Constraints:** AMO-D035, AMO-D036
@@ -426,20 +427,28 @@ What is this called player-facing — *Warden Progression*, *Astral Development*
 
 These follow from [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md) (AMO-D058–AMO-D065).
 
-### AMO-Q084 — The life-cycle state machine
-**Status:** OPEN · **Constraints:** AMO-D024, AMO-D059
-What are the actual phases, in what order, with what overlap and what durations? Can leaf and bloom coexist? How much do species differ, and is one shared machine even right?
+### AMO-Q084 — Life-cycle parameterisation and species variation
+**Status:** OPEN · **Topology resolved 2026-09-21 → AMO-D070, AMO-D071** · **Constraints:** AMO-D024, AMO-D059, AMO-D070
+How is the topology **parameterised** per species? Do some species never enter deep dormancy, or never bloom? Can leaf and bloom ever be occupied at once? What routing governs entry into and exit from the Active family, and what durations does any of it have?
 *Notes:* v0 recognises five broad phases (AMO-D059) and deliberately stops there. Real life-cycle facts are not Amorpho's to research and arrive only as approved input if a system needs them (AMO-D024, AMO-D025). Overlaps plant simulation depth (AMO-Q012) and what a rooted individual does over time (AMO-Q077).
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* the **topology is resolved** — seven states in three families, with Bloom a sibling active state rather than a linear stage or an overlay, and premature retreat needing no separate state (AMO-D070, AMO-D071). What remains is everything species-shaped: routing, durations, whether dormancy is universal, whether concurrency is ever needed. The structure was chosen so each can be added without restructuring. No species' real cycle may be assumed, and no input format is designed (AMO-D024, AMO-Q076).
+
+### AMO-Q101 — Life-cycle transition triggers
+**Status:** OPEN · **Constraints:** AMO-D035, AMO-D037, AMO-D070
+What actually causes a transition between life-cycle states? How do developmental progress, Environmental Fit, reserves, current condition, internal cycle timing and species biology combine, and with what weight?
+*Notes:* v0 names the **input categories only** and defines no formula (AMO-D070). The ownership boundary is the constraint that matters: Environmental Fit may push toward continued activity, recovery, developmental progression or premature retreat, but **Fit does not become the life-cycle system** (AMO-D035–AMO-D037). Premature retreat is the same Senescence transition arriving early, so this question also governs how early is too early (AMO-Q087).
 
 ### AMO-Q085 — Astral access windows across the life cycle
 **Status:** OPEN · **Constraints:** AMO-D060, AMO-D063
 Where exactly does the astral door close and reopen? Is there a transitional window after dormancy entry during which entry remains possible, and does accessibility return before emergence? What marks the boundary of deep dormancy, and what warning does the player get?
 *Notes:* Only the extreme is decided: **deep dormancy is closed** (AMO-D060). The windows are a current design direction, not a rule, and if they exist they may create distinctive tuber and transition gameplay. Dormancy entry should normally give visible biological warning rather than a bare *unavailable* (AMO-D059) — what that looks like is part of this question.
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* the **shape** is now fixed — access is Open, Transitional or Closed, derived from state *and progress through it*, narrowing through Senescence and Early Dormancy to a closed floor at Deep Dormancy, then widening again through Pre-Emergence and Emergence (AMO-D070). What stays open is where within each transitional state the door actually closes and reopens. Also part of this question: transitions must be **legible enough to support decisions** — reallocating an Anchor, relocating an individual, timing a mission — rather than arriving as arbitrary lockouts (AMO-D073).
 
 ### AMO-Q086 — Phase-specific abilities and damage
 **Status:** OPEN · **Constraints:** AMO-D056, AMO-D058
 What does each playable phase actually do, and what integrity does it carry? Is there a leaf integrity, a bloom integrity, something else? How does damage to a temporary structure relate to persistent core vitality, and what does core compromise mean?
 *Notes:* The architecture is reserved, not designed (AMO-D058): phase-specific integrity ends with its phase, core vitality persists. Must be answered coherently with combat consequences (AMO-Q026) and lasting damage (AMO-Q045). No formulas, magnitudes or variable names exist.
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* each state now has its own manifestation, so a per-state integrity has somewhere to attach (AMO-D070). Two further points: phase-specific damage **outlasts embodiment** — exiting and re-entering repairs nothing, because the damage belongs to the manifestation rather than the animation (AMO-D072) — and if transitional **tuber-form gameplay** ever exists it belongs to Early Dormancy or Pre-Emergence, never to deep dormancy (AMO-D060).
 
 ### AMO-Q087 — Premature dormancy: triggers and costs
 **Status:** OPEN · **Constraints:** AMO-D059, AMO-D056
@@ -450,6 +459,7 @@ What causes an individual to abandon its active phase early, and what does that 
 **Status:** OPEN · **Constraints:** AMO-D015, AMO-D059
 How long does Bloom last, what can a flowering individual do that others cannot, and what does it cost — reserve investment, discoverability, reproductive consequence, risk?
 *Notes:* Decided: Bloom is rare, short and exceptional, a temporary superstate rather than a strictly better form (AMO-D059). Not decided: any of the content. It must not become "Leaf Form with better numbers", and it must not be universally optimal. Ties to flowering discoverability (AMO-Q015) and reproduction (AMO-Q079).
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* Bloom's **structural placement** is resolved — a sibling active state with its own manifestation, reached by parameterised routing (AMO-D071) — which is what lets it have a distinct kit and a distinct integrity without being a mandatory stage. Its content, cost, duration and post-Bloom routing all remain open.
 
 ### AMO-Q089 — Astral Anchor: name, form, attachment and pairing
 **Status:** OPEN · **Constraints:** AMO-D007, AMO-D061
@@ -472,6 +482,7 @@ How does an Anchor change hands legitimately, and what happens when one is stole
 What does the player's astral interface actually expose — which individuals, what availability, what condition, what location precision? Does distance matter? Does deep dormancy weaken the signal or silence it entirely?
 *Notes:* Fixed: it is a view of the player's own anchored connections, **not** a global botanical scanner, and not automatically a positioning system (AMO-D061). An anchored dormant individual may remain listed while unreachable, and its information may be deliberately minimal (AMO-D060). Interacts with the privacy constraint on locations (AMO-Q003).
 *Refined 2026-09-21 ([16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)):* greater **Astral Capacity** may mean more simultaneous connections shown, simply because more exist. It is explicitly **not** assumed to improve range, precision, positional information or biological sensing — those would be separate progression dimensions if they exist at all (AMO-D067, AMO-Q099).
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* the Radar may also need to express **life-cycle access status** — Open, Transitional or Closed — since an anchored individual can be connected but unreachable, and a narrowing window is exactly the kind of thing a player must see in time to act (AMO-D070, AMO-D073, AMO-Q085).
 
 ### AMO-Q093 — Game ownership, release and custody
 **Status:** OPEN · **Constraints:** AMO-D064, AMO-D065

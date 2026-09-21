@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief*, *Condition v0 brief*, *Life cycle and anchors brief* or *Warden progression brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief*, *Condition v0 brief*, *Life cycle and anchors brief*, *Warden progression brief* or *State machine brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -84,6 +84,10 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D067 | Astral Capacity is human capability, distinct from Anchor supply | ACCEPTED |
 | AMO-D068 | Additional Astral Capacity becomes progressively harder | ACCEPTED |
 | AMO-D069 | Human progression expands capability without overriding rules | ACCEPTED |
+| AMO-D070 | Life-cycle state machine v0: three families, seven states | ACCEPTED |
+| AMO-D071 | Bloom is a sibling active state, not a stage or an overlay | ACCEPTED |
+| AMO-D072 | Rooting, astral exit and dormancy are three separate things | ACCEPTED |
+| AMO-D073 | Availability follows biological state; no roster timer | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -102,6 +106,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 **Life cycle and anchors (2026-09-21):** AMO-D058–AMO-D065 added the biological life cycle as a gameplay axis, the physical Astral Anchor, and the separation of existence, ownership, custody, anchoring and availability. Nothing was superseded; AMO-D015, AMO-D031 and AMO-D057 carry *Revised* notes pointing at them. The specification is [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
 
 **Warden progression (2026-09-21):** AMO-D066–AMO-D069 established the human's own progression domain and its first dimension, Astral Capacity. No curve, value, requirement or timing rule was chosen. Nothing was superseded; AMO-D061 and AMO-D063 carry *Revised* notes pointing at them. The specification is [16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md).
+
+**Life-cycle state machine (2026-09-21):** AMO-D070–AMO-D073 gave the life cycle its topology, resolved Bloom's structural placement, separated rooting from astral exit from dormancy, and fixed availability to biological state. Nothing was superseded; AMO-D032, AMO-D059 and AMO-D063 carry *Revised* notes pointing at them. The specification is [17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md).
 
 ---
 
@@ -347,6 +353,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Leaving an inhabited Amorpho returns the individual to its biological plant state, which requires rooting or another biologically appropriate transition the game may later define. From that moment the individual is again governed by its actual relationship with its environment.
 - **Rationale:** *Astral exit returns fantasy to biological reality.* The fantasy layer is temporary; the biological layer is the persistent one.
 - **Consequences:** Where a player can safely stop being an Amorpho becomes a real strategic question, distinct from where they can travel (AMO-D033, AMO-Q051). What counts as a valid rooting site is open (AMO-Q043). Equipment that protects the animated body does not automatically protect the rooted plant (AMO-Q048).
+- **Revised:** 2026-09-21, state machine — rooting is separated explicitly from **dormancy** and from phase transition: a rooted individual may be in any phase, and astral exit does not change the life-cycle state (AMO-D072). Substance unchanged.
 
 ## AMO-D033 — Rooting is not inherently harmful; Environmental Fit decides
 
@@ -578,6 +585,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Five broad life-cycle phases are recognised: **Tuber / Dormant**, **Emergence / Sprouting**, **Leaf**, **Bloom / Flowering**, and **Senescence / Dormancy entry**. Developmental State determines which is currently expressed. **Bloom is a rare, short, exceptional phase** — a temporary superstate offering capabilities unavailable in other forms, not Leaf Form with better numbers, and not automatically superior.
 - **Rationale:** These are the phases gameplay already needs to distinguish: different playable bodies, different availability, different risk. Recognising them is what makes seasonal roster availability and Bloom's strategic value expressible at all.
 - **Consequences:** This is **not a finished state machine**: sequencing, overlap, duration, species variation, and whether leaf and bloom can coexist are all open, and no species' real life cycle is assumed or imported (AMO-D024, AMO-Q084). Bloom's abilities, duration and trade-offs are undesigned (AMO-Q088), as are premature dormancy triggers and costs (AMO-Q087). **Dormancy entry should normally give visible biological warning** before availability closes — a player should not simply be told *unavailable* (AMO-Q085). Gives AMO-D057's developmental axis its first content.
+- **Revised:** 2026-09-21, state machine — the five phases become seven states in three families, with Bloom a **sibling active state** rather than a linear stage (AMO-D070, AMO-D071). Substance unchanged.
 
 ## AMO-D060 — Deep Dormancy closes the astral door and hides the individual
 
@@ -608,6 +616,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Rationale:** They fail for different reasons and are restored by different actions — an Anchor by human travel, a phase by time and season, condition by care and environment. Merging any two would hide which one is actually stopping the player.
 - **Consequences:** An active healthy unanchored plant has no path; an anchored dormant one has a path but a closed phase; an anchored active critically stressed one is blocked by condition alone (AMO-D031, AMO-D050). The playable roster is therefore an **emergent subset** of the collection, and owning many individuals does not produce many playable characters — the one-body law then allows only one to be inhabited at a time anyway (AMO-D028).
 - **Revised:** 2026-09-21, Warden progression — **Astral Capacity** sits upstream of these gates, bounding how many active Anchor relationships can exist at once (AMO-D067). It is not a fourth gate; it constrains the supply feeding the first. Substance unchanged.
+- **Revised:** 2026-09-21, state machine — the life-cycle gate is supplied by the state machine's access status, which is Open, Transitional or Closed and varies across transitional phases (AMO-D070, AMO-D073). Substance unchanged.
 
 ## AMO-D064 — Biological life is independent of anchoring; new individuals begin unbound
 
@@ -650,4 +659,32 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Human progression expands what the human **can do**; it never overrides biological or physical access rules. A highly developed Warden still cannot enter a deeply dormant individual, one too biologically compromised for entry, or a dead one; cannot move an Anchor without physically travelling to it; cannot locate plants, convert ownership into access, resolve custody or remove geographic strategy. Human development is also **not** assumed to make any Amorpho stronger, faster or more damaging.
 - **Rationale:** Progression that dissolved world constraints would quietly delete the human layer's reason to exist — the very layer it is supposed to develop. *The soul may travel; the Anchor must move by human hands* holds at every level of advancement (L42, AMO-D062).
 - **Consequences:** Deep Dormancy, biological inhabitability and the missing-Anchor case all remain absolute regardless of capacity (AMO-D060, AMO-D031, AMO-D050). Whether human development touches combat at all is open and constrained by skill remaining central to outcomes (L15, AMO-Q025). **Astral Capacity is the only confirmed dimension of human progression.** Astral perception, transfer stability, richer Anchor information, ritual capability and sensitivity to life-cycle transitions are recorded as possibilities only — none is accepted, and no skill tree exists (AMO-Q099).
+
+## AMO-D070 — Life-cycle state machine v0: three families, seven states
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** State machine brief
+- **Decision:** The life cycle of a persistent individual is modelled as **seven states in three families**: a **Dormant** family (Early Dormancy · Deep Dormancy · Pre-Emergence), an **Active** family (Active Leaf · Bloom), and the transitions between them (**Emergence** in, **Senescence** out). Astral accessibility is **Open**, **Transitional** or **Closed**, and is derived from the state *and progress through it* rather than stamped on each state — steady states hold one value, transitional states change value across their own span. Access narrows on the way down, widens on the way up, and has a genuinely closed floor at Deep Dormancy (AMO-D060).
+- **Rationale:** This is the smallest topology that carries everything the accepted architecture already needs — closed dormancy, reopening access, an exceptional bloom, a survivable early retreat, and roster availability that changes on its own. Families group states that behave alike for access and manifestation without adding a layer of mechanics.
+- **Consequences:** **Premature retreat needs no separate state**: Senescence is entered either on the ordinary course of a cycle or early under pressure, and the difference is carried by condition, reserves and development rather than by the graph (AMO-D056, AMO-Q087). A "successful season" flag would duplicate what condition already records. **Phase-specific damage outlasts embodiment** — leaving and re-entering does not repair a damaged leaf, because the damage belongs to the manifestation, not the animation (AMO-D058). Identity is never keyed to the current manifestation. The machine is deliberately **parameterisable**: durations, routing, triggers and species variation are all open, and no species' real cycle is assumed (AMO-D024, AMO-Q084, AMO-Q085, AMO-Q101).
+
+## AMO-D071 — Bloom is a sibling active state, not a stage or an overlay
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** State machine brief, evaluated
+- **Decision:** **Bloom and Active Leaf are peer states inside the Active family.** Entry into that family, movement between its states, and exit from it are **parameterised** rather than fixed. Bloom is astrally playable, subject to the ordinary gates.
+- **Rationale:** Two alternatives were considered and rejected. As a **linear stage** (`Leaf → Bloom → Senescence`) it would force every individual through Bloom every cycle, contradicting its rarity (AMO-D059), and would hard-code a leaf-then-bloom ordering that cannot be assumed for all species. As an **overlay on Leaf** it could not express an individual that blooms without an active leaf, since the overlay would have nothing to attach to, and it would muddle manifestation — a bloom structure is its own temporary body, not a modifier on another. Sibling states avoid both.
+- **Consequences:** An individual may bloom or never bloom; may enter the active family *as* Bloom without a leaf first; and post-Bloom routing stays open — back to another active state, or on to Senescence (AMO-Q084). A species that never blooms simply never enters the state, needing no special case. Bloom keeps its own manifestation, so a bloom-specific integrity and kit can attach later (AMO-Q086, AMO-Q088). v0 does **not** assume Leaf and Bloom can be occupied simultaneously, but because they are siblings a future model needing concurrency can express it without restructuring. The machine exposes `individual is in reproductive Bloom` so discoverability, pollination and reproduction can react without any of them being designed (AMO-Q015, AMO-Q079).
+
+## AMO-D072 — Rooting, astral exit and dormancy are three separate things
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** State machine brief
+- **Decision:** **Rooted** means the individual exists in plant state rather than animated, and is compatible with **every** life-cycle phase — a rooted Active Leaf and a rooted Bloom are ordinary. **Astral exit** ends animation and does **not** cause a phase transition: an inhabited leaf that roots is still in Active Leaf. **Dormancy** is a life-cycle phase. Conversely, inhabitation animates the current manifestation **without changing the underlying state**.
+- **Rationale:** All three were at risk of collapsing into "the plant stopped doing something", which would make the model incoherent — most damagingly by implying that leaving an Amorpho puts it to sleep, or that a blooming plant cannot be left rooted.
+- **Consequences:** A blooming individual can be rooted and left blooming; a leaf-phase individual can be entered and exited repeatedly within one phase. Phase-specific damage persists across those exits and re-entries (AMO-D070). Whether animation itself costs the individual anything biologically remains open (AMO-Q083). Extends AMO-D032.
+
+## AMO-D073 — Availability follows biological state; no roster timer
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** State machine brief
+- **Decision:** The playable roster changes because individuals **move through life-cycle phases**, never because availability is scheduled. There is no seasonal roster timer, rotation, or availability event anywhere in Amorpho. Life-cycle state supplies the **middle of the three gates** and is not a fourth one (AMO-D063).
+- **Rationale:** A schedule would be a second, competing source of truth about availability, and it would sever the connection between what a player did with their plants and what they can play — which is the connection the whole cultivation layer exists to create.
+- **Consequences:** Hemisphere and geographic strategy stay **emergent**: nothing encodes *northern = dormant*, and a distributed collection can have different individuals available at the same global moment (AMO-D045, AMO-D046). Human Astral Capacity cannot force a phase open (AMO-D069, L44), and an Anchor persists through every phase change until a human removes it (AMO-D061, AMO-D062). Because availability is what players plan around, transitions should normally be **legible enough to support decisions** rather than arriving as arbitrary lockouts (AMO-Q085). Recorded as L45.
 
