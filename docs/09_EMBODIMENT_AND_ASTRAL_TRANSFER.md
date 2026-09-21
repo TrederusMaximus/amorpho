@@ -74,6 +74,8 @@ That location therefore matters, whatever the fiction turns out to be.
 
 The world continues around the human body while it is unattended. This is a deliberate source of future gameplay pressure: events may occur that create a reason to return.
 
+The body is in a **deep trance with suspended metabolism**. Ordinary hunger, thirst and degeneration do not create a hidden embodiment timer, because embodiment has no intrinsic duration limit at all — *human biological maintenance must never become a disguised astral countdown* (AMO-D085, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)). A reason to return must be something that happened, not a bar quietly emptying.
+
 Nothing beyond that is decided. Whether other players can reach or harm an unattended human, whether homes can be entered, what protections exist, what anti-griefing rules apply, and what happens if a transfer is interrupted are all open (AMO-Q041). The durable principle is only:
 
 > Astral embodiment does not remove the human body from persistent world reality.
@@ -120,6 +122,8 @@ Astral exit is **not** dormancy, and does not cause any phase transition. An inh
 > Astral exit returns fantasy to biological reality.
 
 The moment the player leaves, the individual is once again governed by its real relationship with its surroundings — evaluated as Environmental Fit ([10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md)).
+
+That resumption is also how the magical layer recovers: **rooted biological life restores Astral Readiness**, and leaving-and-re-entering does not (L50, AMO-D086). While inhabited, the individual runs on magical state and its biology is suspended — *magic suspends biology; it does not consume it* (L49, AMO-D084). See [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md).
 
 ## 9. Rooting is not inherently harmful
 

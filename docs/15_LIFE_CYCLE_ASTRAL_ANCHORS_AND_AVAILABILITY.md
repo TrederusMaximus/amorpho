@@ -266,6 +266,8 @@ The player's astral interface shows the individuals connected through their own 
 
 > The Astral Radar is a view of the player's astral connections, not a global botanical scanner.
 
+It is a **resonance interface**, and what it can show depends on the **Astral Signal** — which fades through senescence, goes silent entirely in Deep Dormancy, and returns in pre-emergence. *The Anchor is a bridge, not a tracker*: attachment alone guarantees neither signal nor location (AMO-D088, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)).
+
 It may eventually show anchored individuals, their availability, biological accessibility and perhaps broad condition or resonance. An anchored deep dormant tuber may remain listed as connected while being unreachable, and the information available during deep dormancy may be deliberately minimal. No interface is designed, and it is not automatically a positioning system (AMO-Q092).
 
 ## 15. Existence, ownership, custody, anchoring and availability

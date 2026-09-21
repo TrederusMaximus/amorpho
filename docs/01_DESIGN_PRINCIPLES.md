@@ -222,3 +222,11 @@ The player creates the conditions; the living individual reaches the state. Elig
 Vitality and Developmental Maturity are different things and recover by different means. A fully healed individual may still be a fraction of what it was, and only successful biological life rebuilds that. *(AMO-D083, AMO-D080)*
 **Smell:** recovery that restores size along with health, a single "damage" number covering both, or lost development returning because a timer expired.
 
+### L49 — Magic suspends biology; it does not consume it.
+An inhabited Amorpho runs on magical state while its biological simulation pauses. Fighting, travelling and time embodied do not draw down Tuber mass or biological reserves. *(AMO-D084, AMO-D074)*
+**Smell:** combat that costs biological resources, an embodiment that makes the plant grow, or a magical cost paid out of vitality, reserves or maturity.
+
+### L50 — Leaving does not heal; living does.
+Astral Readiness persists across exit and re-entry. It is restored by returning the individual to rooted biological life, not by stepping out and back in. *(AMO-D086)*
+**Smell:** an exit-and-re-enter loop that restores anything, or any magical state that resets simply because embodiment ended.
+

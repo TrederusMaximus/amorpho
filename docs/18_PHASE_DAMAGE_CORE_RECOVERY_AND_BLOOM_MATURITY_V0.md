@@ -19,6 +19,8 @@ The architecture already distinguishes the persistent individual, its developmen
 
 Different harm operates over different horizons, and the horizon is what matters (AMO-D074).
 
+A further distinction cuts across all of it: **not every reduction in persistent Tuber resources is harm.** **Programmed Tuber Draw** is normal biological spending for a legitimate process — Bloom being the primary example — while **Pathological Tuber Impact** is harmful persistent loss. Both recover while the individual lives; they differ in whether development was *spent* or *lost* (AMO-D087, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)). **Tuber** is now the canonical term for the persistent core structure.
+
 ## 2. Three harm horizons
 
 | | **A. Temporary manifestation damage** | **B. Persistent core damage** | **C. Reversible burden** |

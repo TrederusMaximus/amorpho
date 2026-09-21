@@ -243,6 +243,7 @@ Which individuals may a player inhabit? Only plants they own? Can a plant owned 
 **Status:** OPEN · **Constraints:** AMO-D029
 What can happen to the human body while the player inhabits an Amorpho? Can other players reach it or harm it? Can homes be entered? What protections exist, what happens if the transfer is interrupted, and how is harassment prevented?
 *Notes:* Must be answered together with theft and anti-griefing (AMO-Q008) and with the safety constraint on player homes (AMO-Q003). The principle to preserve is that the body remains part of world reality (AMO-D029) — not that it must be vulnerable.
+*Refined 2026-09-21 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)):* the metabolic side is now settled and **excluded from this question**: the trance is metabolically stable, and hunger, thirst or degeneration must never become a disguised astral countdown (AMO-D085). What remains open is genuine external threat — a reason to return only when something actually happens.
 
 ### AMO-Q042 — Inhabitability: threshold, granularity and re-entry
 **Status:** OPEN · **Constraints:** AMO-D031, AMO-D034
@@ -426,6 +427,30 @@ Does human progression have dimensions beyond capacity — astral perception, tr
 What is this called player-facing — *Warden Progression*, *Astral Development*, *Astral Capacity*, something else? How is an increase presented so it reads as deep magical development rather than `+1 slot`?
 *Notes:* Terminology is working-only and nothing is committed. Presentation matters more than usual here, because AMO-D068's whole intent is that an increase should feel significant; a curve alone will not carry that. No ceremony, ritual or interface is designed.
 
+## The magical layer
+
+These follow from [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md) (AMO-D084–AMO-D089).
+
+### AMO-Q112 — Astral Readiness: representation, depletion and recovery
+**Status:** OPEN · **Constraints:** AMO-D086, AMO-D084
+How is readiness represented? What depletes it, and how fast? How quickly does rooted biological life restore it, and how much does Environmental Fit change that? Does it regenerate at all *while* embodied, or only once rooted? Can it be damaged independently of ordinary combat exhaustion?
+*Notes:* Fixed: it persists across astral exit, it is not a view of any biological variable, rooted life is the fundamental recovery path, and recovery may be time-compressed (AMO-D086, L50). The "regenerates while embodied" question matters more than it looks — any regeneration at all makes indefinite embodiment self-sustaining, while none makes a long expedition a strictly worsening proposition. Relates to KO (AMO-Q113) and magical healing (AMO-Q114).
+
+### AMO-Q113 — KO, collapse and forced exit
+**Status:** OPEN · **Constraints:** AMO-D086, AMO-D072
+What happens when an inhabited Amorpho is defeated or exhausted? Does it force astral exit, force rooting, simply deplete readiness, or something else? Where does the individual physically end up afterwards, and who decides?
+*Notes:* Deliberately deferred until the biology–magic boundary existed, because the answer has to respect it: collapse is a **magical-layer** event and must not silently become biological harm (AMO-D084, L49). Note the interaction with rooting — an involuntary rooting in a hostile place is a very different consequence from a forced return to the human body (AMO-D033, AMO-Q043). Relates to combat loss generally (AMO-Q026).
+
+### AMO-Q114 — Magical healing
+**Status:** OPEN · **Constraints:** AMO-D086, AMO-D083
+Does magical healing exist, and what does it reach — combat durability, status effects, short-term capability, and how far into Astral Readiness? Items, abilities, in-field regeneration, or none of these?
+*Notes:* Fixed: *magic heals the fighter; biology heals the plant* — it must never directly restore leaf structure, Tuber vitality, developmental maturity or biological reserves (L48, AMO-D086). The open risk is readiness: healing that fully restores it would recreate the exit-and-re-enter exploit by another route (L50).
+
+### AMO-Q115 — Astral Signal strength and location fidelity
+**Status:** OPEN · **Constraints:** AMO-D088, AMO-D061
+How strong is the signal in each phase, and what location fidelity does each strength provide? Exactly when does it fade through Senescence, how much residual signal remains in Early Dormancy, and at what point in Pre-Emergence does it return?
+*Notes:* Fixed: the signal fades through senescence, is **absent in Deep Dormancy**, and returns in pre-emergence potentially before inhabitability does (AMO-D088). What is open is resolution and timing. The design tension is real: too precise and the Anchor becomes GPS, which AMO-D061 forbids; too vague and the senescence warning fails to give a player anything actionable. Interacts with the privacy constraint on locations (AMO-Q003) and with the Radar (AMO-Q092).
+
 ## Harm, recovery and maturity
 
 These follow from [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md) (AMO-D074–AMO-D078), which resolved the policy half of AMO-Q045.
@@ -434,7 +459,8 @@ These follow from [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PH
 **Status:** OPEN · **Constraints:** AMO-D074, AMO-D079
 What determines when manifestation damage starts to affect persistent state? How does structural impairment translate into biological productivity in the first place — does a half-damaged leaf feed the individual half as well, or not proportionally at all? Does the threshold depend on current condition, so that the same damage crosses it for a depleted individual and not for a robust one? And can **prolonged moderate** impairment accumulate into core impact without any single catastrophic event?
 *Notes:* The boundary is fixed and deliberately not numeric (AMO-D079).
-*Refined 2026-09-21 ([19_DEVELOPMENTAL_MATURITY_V0.md](19_DEVELOPMENTAL_MATURITY_V0.md)):* the **Q106/Q108 split is now explicit**. AMO-Q106 owns what maturity is and what gain or loss *means* once persistent growth or loss has occurred; this question owns *when* harm crosses deeply enough to cause that loss. The maturity specification uses "Core Impact occurred" as an abstract trigger and deliberately does not solve for it, so nothing there should be read as defining this threshold. Two traps to avoid: making visible damage alone decide the crossing, which would turn a proportion of lost structure into a biological verdict; and making the threshold so high that manifestation damage never matters, or so low that every injury costs development. The accumulation question is the subtle one — if only single events can cross, a slow grinding season is free, which seems wrong. Relates to exposure history (AMO-Q072) and premature retreat (AMO-Q087).
+*Refined 2026-09-21 ([19_DEVELOPMENTAL_MATURITY_V0.md](19_DEVELOPMENTAL_MATURITY_V0.md)):* the **Q106/Q108 split is now explicit**.
+*Refined 2026-09-21 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)):* terminology is prepared, not answered. What crosses into the persistent Tuber is **Pathological Tuber Impact**, distinct from **Programmed Tuber Draw** — normal biological spending such as Bloom, which is not harm (AMO-D087). One further input is recorded: the **same leaf damage early and late in an active phase may have very different Tuber consequences**, because what matters is functional capacity, remaining productive opportunity, environment, time and condition. No rule such as *"up to 20% leaf damage has no persistent consequence"* may be introduced. **This question remains open.** AMO-Q106 owns what maturity is and what gain or loss *means* once persistent growth or loss has occurred; this question owns *when* harm crosses deeply enough to cause that loss. The maturity specification uses "Core Impact occurred" as an abstract trigger and deliberately does not solve for it, so nothing there should be read as defining this threshold. Two traps to avoid: making visible damage alone decide the crossing, which would turn a proportion of lost structure into a biological verdict; and making the threshold so high that manifestation damage never matters, or so low that every injury costs development. The accumulation question is the subtle one — if only single events can cross, a slow grinding season is free, which seems wrong. Relates to exposure history (AMO-Q072) and premature retreat (AMO-Q087).
 
 ### AMO-Q109 — How phase integrity alters a playable Amorpho
 **Status:** OPEN · **Constraints:** AMO-D079, AMO-D008
@@ -503,7 +529,8 @@ What actually causes a transition between life-cycle states? How do developmenta
 **Status:** OPEN · **Constraints:** AMO-D060, AMO-D063
 Where exactly does the astral door close and reopen? Is there a transitional window after dormancy entry during which entry remains possible, and does accessibility return before emergence? What marks the boundary of deep dormancy, and what warning does the player get?
 *Notes:* Only the extreme is decided: **deep dormancy is closed** (AMO-D060). The windows are a current design direction, not a rule, and if they exist they may create distinctive tuber and transition gameplay. Dormancy entry should normally give visible biological warning rather than a bare *unavailable* (AMO-D059) — what that looks like is part of this question.
-*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* the **shape** is now fixed — access is Open, Transitional or Closed, derived from state *and progress through it*, narrowing through Senescence and Early Dormancy to a closed floor at Deep Dormancy, then widening again through Pre-Emergence and Emergence (AMO-D070). What stays open is where within each transitional state the door actually closes and reopens. Also part of this question: transitions must be **legible enough to support decisions** — reallocating an Anchor, relocating an individual, timing a mission — rather than arriving as arbitrary lockouts (AMO-D073).
+*Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* the **shape** is now fixed — access is Open, Transitional or Closed, derived from state *and progress through it*, narrowing through Senescence and Early Dormancy to a closed floor at Deep Dormancy, then widening again through Pre-Emergence and Emergence (AMO-D070).
+*Refined 2026-09-21 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)):* a second, independent curve now runs alongside access: the **Astral Signal**, which fades through senescence, goes silent in deep dormancy and returns in pre-emergence (AMO-D088). The two need not move together — an individual may be detectable but not enterable — so this question owns access and AMO-Q115 owns signal. What stays open is where within each transitional state the door actually closes and reopens. Also part of this question: transitions must be **legible enough to support decisions** — reallocating an Anchor, relocating an individual, timing a mission — rather than arriving as arbitrary lockouts (AMO-D073).
 
 ### AMO-Q086 — Phase-specific abilities and damage
 **Status:** OPEN · **Constraints:** AMO-D056, AMO-D058
@@ -541,6 +568,7 @@ How many Anchors can a player have? How are they acquired — found, bought, cra
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D062, AMO-D065
 How does an Anchor change hands legitimately, and what happens when one is stolen along with its plant? Can a stolen Anchor be rebound to a new player, and under what conditions? Can an Anchor be stolen on its own?
 *Notes:* Physical possession is **not** assumed to grant astral access (AMO-D065). This sits between theft rules (AMO-Q008) and ownership (AMO-Q093), and it must not become a way to bypass the human-hands rule (AMO-D062).
+*Refined 2026-09-21 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)):* **explicitly still unresolved, and now more consequential.** Deep Dormancy silences the astral signal, so a dormant outdoor individual may be found, dug up, moved and its Anchor possessed with no live tracking to betray it (AMO-D088). Candidate models remain open: a Warden-specific Anchor a finder cannot use, a rebindable one, or conditional or difficult rebinding. Nothing is chosen.
 
 ### AMO-Q092 — The Astral Radar
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D060
@@ -548,6 +576,7 @@ What does the player's astral interface actually expose — which individuals, w
 *Notes:* Fixed: it is a view of the player's own anchored connections, **not** a global botanical scanner, and not automatically a positioning system (AMO-D061). An anchored dormant individual may remain listed while unreachable, and its information may be deliberately minimal (AMO-D060). Interacts with the privacy constraint on locations (AMO-Q003).
 *Refined 2026-09-21 ([16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)):* greater **Astral Capacity** may mean more simultaneous connections shown, simply because more exist. It is explicitly **not** assumed to improve range, precision, positional information or biological sensing — those would be separate progression dimensions if they exist at all (AMO-D067, AMO-Q099).
 *Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* the Radar may also need to express **life-cycle access status** — Open, Transitional or Closed — since an anchored individual can be connected but unreachable, and a narrowing window is exactly the kind of thing a player must see in time to act (AMO-D070, AMO-D073, AMO-Q085).
+*Refined 2026-09-21 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)):* the Radar is a **resonance interface**, showing living astral connections whose information depends on **signal strength** — and during Deep Dormancy there is no signal at all, so an anchored individual simply disappears from it (AMO-D088). Strength, fidelity and timing are AMO-Q115.
 
 ### AMO-Q093 — Game ownership, release and custody
 **Status:** OPEN · **Constraints:** AMO-D064, AMO-D065

@@ -120,6 +120,8 @@ Steady states hold one value. **Transitional states change value across their ow
 
 Exact opening and closing points are **not** fixed (AMO-Q085). What is fixed is the shape: access narrows on the way down and widens on the way up, with a genuinely closed floor.
 
+A **second, independent curve** runs alongside it: the **Astral Signal**, which fades through Senescence, is absent in Deep Dormancy (*Astral Silence*) and returns in Pre-Emergence — potentially before inhabitability does. Detectable and enterable are different questions and need not move together (AMO-D088, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)).
+
 ### Deep Dormancy is not tuber gameplay
 
 Deep Dormancy exists precisely as a **biologically closed** state. It is not a "tuber fighter mode" with the graphics turned off. If tuber-form gameplay ever exists it belongs to the transitional windows — shortly after dormancy entry, or during pre-emergence — or to some other explicitly defined active tuber state, never to deep dormancy itself (AMO-D060, AMO-Q086).
@@ -144,6 +146,8 @@ The primary sustained above-ground state, and the strongest candidate for defaul
 **Leaf integrity is phase-specific.** Damage to the current leaf is not damage to the individual (AMO-D058). It may persist for the rest of the phase and does not regrow because conditions improved. A later cycle's leaf begins structurally fresh — but the *season's* consequences persist indirectly, through depleted reserves, accumulated stress, reduced development, possible core compromise, or an early retreat. **Nothing is erased; only the structure is replaced.** Nor does structural damage automatically reach the persistent individual: it does so only past the **Core-Impact Threshold**, so an impaired leaf can still carry a successful season (AMO-D079). No integrity variable is formally defined (AMO-Q086).
 
 ### Bloom
+Bloom draws on persistent Tuber resources — **Programmed Tuber Draw**, normal biological spending rather than harm — and that draw is paused while the Bloom is astrally inhabited (AMO-D087, AMO-D084). *Leaf rebuilds; Bloom spends.*
+
 Eligibility is gated: an individual must have reached its **species-specific flowering maturity** before Bloom is biologically possible at all, and reaching that threshold enables rather than guarantees it (AMO-D078, [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)). Once eligible, Bloom is repeatable in later cycles, and later manifestations may be larger and more developed as maturity grows.
 
 An exceptional, temporary, reproductive active state, and **astrally playable** — Deep Dormancy's closure does not reach it (AMO-D059, AMO-D071). It is extraordinary without being universally better: unique capabilities, real costs, a short window, elevated discoverability and reproductive significance. Nothing about its kit, cost or duration is designed (AMO-Q088).

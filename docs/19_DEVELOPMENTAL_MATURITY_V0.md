@@ -224,6 +224,8 @@ Astral Anchors have **no effect whatsoever** on maturity. Attaching one, removin
 
 A rooted, uninhabited, even unbound individual may grow, regress, cross its flowering threshold, Bloom and reproduce. Development belongs to persistent biological simulation, not to attention (AMO-D009, AMO-D054).
 
+The converse also holds: **an inhabited individual does not develop.** While astrally embodied its biological simulation is suspended, so no maturity accrues through growth (AMO-D084, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)). Long embodiment therefore costs development the individual would otherwise have made — one of the opportunity costs that replaces a duration timer (AMO-D085).
+
 ### Not inherited
 
 Maturity belongs to **one individual**; the Evolutionator works across generations on inherited traits (AMO-D038, AMO-D039). A mature parent does not produce developmentally mature offspring.
