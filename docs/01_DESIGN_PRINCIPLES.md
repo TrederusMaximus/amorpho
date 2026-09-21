@@ -184,3 +184,7 @@ Absence of stress is not the best possible outcome. The model must distinguish n
 The World states what conditions exist; it never forbids a player from going somewhere or rooting there. Consequences emerge through Environmental Fit. *(AMO-D051)*
 **Smell:** a travel, planting or rooting action blocked because a location is "unsuitable" — the agency form of L9's smell.
 
+### L40 — Condition is how it is doing; development is what phase it is in.
+They are separate axes of an individual's biological state. A seedling is not in worse condition than a mature plant, and a large plant is not in better condition for being large. *(AMO-D056, AMO-D057)*
+**Smell:** a single score that rises with growth, or a model in which "more developed" reads as "healthier" — the same collapse L38 guards from the other side.
+

@@ -201,7 +201,7 @@ Excellent Fit may produce recovery, stronger growth, better development, resourc
 **Recovery is not the top of the model.** The positive side of Fit has at least two distinct uses (AMO-D054):
 
 1. **restoring** condition — returning a stressed individual toward its healthy baseline;
-2. **supporting continued life and development** once recovery is complete — growth, size, structure, seasonal cycles, and eventual readiness for flowering and reproduction through systems that do not exist yet.
+2. **supporting continued life and development** once recovery is complete — growth, size, structure, seasonal cycles, and eventual readiness for flowering and reproduction through systems that do not exist yet. Concretely, it has two sinks that do not saturate at "healthy": **reserves** and **developmental state** (AMO-D056, AMO-D057).
 
 These must not be conflated. An individual that has finished recovering has not exhausted what a good environment can do for it; output D does not fall to zero when condition returns to baseline, it changes what it is spent on. This is what makes **strategic establishment** worth doing rather than merely safe (AMO-D054, [09_EMBODIMENT_AND_ASTRAL_TRANSFER.md](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md)).
 
@@ -245,7 +245,19 @@ What it supports is the full range: slow recovery, gradual stress, rapid collaps
 
 Fit changes **biological condition**. It never changes identity or genetics (AMO-D012, AMO-D039). Which condition variables actually exist — health, stress load, development state, stored resources, or a different set — is open, and should be settled by what the Fit boundary genuinely requires rather than by physiological ambition (AMO-Q073).
 
-**Condition sits on both sides of Fit, deliberately.** It is one of the three layers forming the effective response profile (§8) *and* it is what Fit modifies over time. That feedback is intended, not an inconsistency: a weakened individual tolerates less, so the same environment presses harder on it, so it weakens faster — and the same loop run forward is why recovery firms up as it proceeds. It is also why two individuals of identical species and traits can meet the same conditions and have entirely different outcomes, and therefore why no fixed rescue timer could ever be correct (AMO-D034).
+The condition variables are specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md): **vitality**, **stress load** and **reserves**, with **developmental state** as a separate axis beside them (AMO-D056, AMO-D057).
+
+Written with time made explicit, the loop is:
+
+```
+CONDITION(t) + DEVELOPMENTAL STATE(t) + traits + species baseline
+        →  effective response profile
+        +  LOCAL ENVIRONMENT(t)
+        →  FIT over Δt
+        →  CONDITION(t + Δt)
+```
+
+**Condition sits on both sides of Fit, deliberately.** It is one of the three layers forming the effective response profile (§8) *and* it is what Fit modifies over time. That feedback is intended, not an inconsistency: a weakened individual tolerates less, so the same environment presses harder on it, so it weakens faster — and the same loop run forward is why recovery firms up as it proceeds. It is also why two individuals of identical species and traits can meet the same conditions and have entirely different outcomes, and therefore why no fixed rescue timer could ever be correct (AMO-D034). Read across time — condition at `t`, effects over `Δt`, condition at `t + Δt` — it is a feedback loop, not a circular definition.
 
 ## 14. Rooting, rescue windows and inhabitability
 

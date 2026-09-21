@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief* or *Interaction boundary brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief* or *Condition v0 brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -70,6 +70,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D053 | The design model precedes importing real environmental data | ACCEPTED |
 | AMO-D054 | Rooting may be strategic and long-term | ACCEPTED |
 | AMO-D055 | World owns environmental interactions; Fit owns biological ones | ACCEPTED |
+| AMO-D056 | Current Biological Condition v0: vitality, stress load, reserves | ACCEPTED |
+| AMO-D057 | Developmental State is a separate axis from condition | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -82,6 +84,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 **Strategic rooting (2026-09-21):** AMO-D054 established that rooting is not primarily an emergency mechanic — a suitable rooted environment can support indefinite healthy life, growth and eventual reproduction, and rooting may be the reason for a journey rather than its end. Nothing was superseded; AMO-D033 carries a *Revised* note pointing at it.
 
 **Interaction boundary (2026-09-21):** AMO-D055 settled where cross-dimensional interactions live, tested against a worked scenario in which two individually tolerable dimensions jointly change the outcome. Nothing was superseded; AMO-D035 and AMO-D049 carry *Revised* notes pointing at it.
+
+**Current condition v0 (2026-09-21):** AMO-D056 and AMO-D057 gave the persistent individual its biological memory — three condition variables and a separate developmental axis — tested against the four existing worked scenarios rather than new ones. Nothing was superseded; AMO-D048 carries a *Revised* note pointing at them. The specification is [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md).
 
 ---
 
@@ -449,6 +453,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** For each environmental dimension, the Amorpho side eventually provides a biological response profile expressed as zones rather than a single ideal value: a **preferred range** (can thrive), a **tolerable range** (outside preferred, still manageable) and a **critical boundary** (beyond which severe stress or damage may develop). The effective profile an individual responds with is layered from **species baseline** + **individual traits** + **current condition**.
 - **Rationale:** Zones are the smallest structure that distinguishes thriving from surviving from failing, which is the distinction the whole model exists to make (L38). Layering means individual variation and condition have somewhere to live from the start instead of being retrofitted onto a species-only model.
 - **Consequences:** No numeric values exist, and none may be guessed (L4). Not every dimension necessarily needs exactly three hard ranges forever; a later implementation may use continuous response curves (AMO-Q069). Genetics remain the Evolutionator's (AMO-D038) and acclimation remains open (AMO-Q012). Which current-condition variables exist is open (AMO-Q073). Species profile data enters only through the Reality Gate, and only after the model needing it exists (AMO-D053).
+- **Revised:** 2026-09-21, condition v0 — the layering gains a fourth contributor: **developmental state**, beside current condition (AMO-D057), and the condition layer is specified as vitality, stress load and reserves (AMO-D056). Condition degrades the profile; development changes which sensitivities apply. Substance unchanged.
 
 ## AMO-D049 — Environmental Fit v0 output contract
 
@@ -514,4 +519,30 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
   - **Output A is independent dimension fit** and cannot express combinations; it is read together with E. **Output E names constraints, which may be a dimension or an interaction**, so a critical constraint can arise from an interaction while no single dimension is critical (AMO-D049).
   - No new environment dimension and no new Fit output follow. An interaction is a relationship *between* existing dimensions, not a new fact about the world.
   - Representation is **not** decided: interaction terms, response surfaces, conditional curves, modifiers and nonlinear aggregation all remain candidates, as do how many interactions are worth modelling, how they are sourced and how they are explained to players (AMO-Q071).
+
+## AMO-D056 — Current Biological Condition v0: vitality, stress load, reserves
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Condition v0 brief, tested
+- **Decision:** Every persistent individual carries a **Current Biological Condition** of three variables, as live world state belonging to the individual:
+  - **Vitality** — present biological soundness and viability. Carries compromise in a form a recoverable buffer cannot, and is what survival and inhabitability hang on.
+  - **Stress Load** — accumulated burden from adverse conditions. **History, not damage.** It gives the individual memory of exposure *duration*, and it carries the accumulation half of exposure history so no separate store is needed at this depth (AMO-Q072).
+  - **Reserves** — abstract internal capacity that buffers adverse periods, funds recovery, and receives positive Fit once recovery is complete.
+
+  Condition is read at `t` and written at `t + Δt`: **a feedback loop across time, not a circular definition.** It is one of the layers forming the effective response profile *and* the thing Fit modifies, and both roles are intended.
+- **Rationale:** Tested rather than assumed, against the four worked scenarios in [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md). A single `health` scalar **fails Scenario C**: once it saturates at healthy, favourable Fit has nothing left to act on and output D must fall to zero, which the spec forbids (L38). Each retained variable does work no other does — remove stress load and Scenario A loses its delayed onset and therefore its rescue window; remove reserves and Scenario C phase 2 and differential resilience at equal health both collapse. Stress load and reserves are not mirror images: reserves are also spent on growth, so under excellent Fit reserves may fall while stress is zero.
+- **Consequences:**
+  - **Inhabitability is derived from condition, never stored** (AMO-D050) — principally from vitality, plausibly also stress load; the rule and threshold stay open (AMO-Q042). This is what makes `alive ≠ inhabitable` work.
+  - The path `viable → deteriorating → critical → non-viable` is preserved without death being designed (AMO-Q045).
+  - Deliberately excluded: hydration, carbohydrate state, membrane or organ damage, metabolic pools, hormone state, nutrient status, separate injury tracking. Reserves in particular must not become a general-purpose meter for unmodelled systems.
+  - Condition is **never inherited**: a stressed parent does not produce genetically stressed offspring (AMO-D038, AMO-D039, L32). It is world state, never approved input, and no condition field is added to the species CSV (AMO-D021, AMO-D053).
+  - Condition **persists across rooted ↔ animated**, since it is one individual (AMO-D030); whether animation costs reserves or adds stress is open (AMO-Q083). Whether combat touches condition is left possible and undecided (AMO-Q026).
+  - **Vitality is the variable most likely to prove derivable.** If no harm is ever permanent it could in principle be recomputed from stress and reserves. It is stored because irreversible damage, if introduced, cannot be carried by a derived summary — and the test that settles it is AMO-Q045.
+  - Dynamics, rates, thresholds and the profile-modifying function are not defined (AMO-Q073, AMO-Q074).
+
+## AMO-D057 — Developmental State is a separate axis from condition
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Condition v0 brief, tested
+- **Decision:** **Developmental State** — what biological phase an individual is in — sits *beside* Current Biological Condition, not inside it. An individual therefore carries persistent identity, inherited traits, current condition and developmental state as four distinct kinds of state, all of which feed the effective response profile.
+- **Rationale:** Three arguments, of which the third is decisive. They are **orthogonal** — healthy and dormant, healthy and growing, stressed and growing are all coherent. Condition is **evaluative** and development is not: a seedling is not in worse condition than a mature plant, so folding development into condition would make "more developed" read as "better" and let a large unhealthy plant score well — the confusion L38 exists to prevent. And they **shape the response profile differently**: condition degrades it uniformly, while development changes *which* sensitivities apply at all, since a dormant individual differs from an actively growing one in kind rather than degree. Categorical and degradational influences do not belong in one variable.
+- **Consequences:** The developmental **state machine is deferred** — dormant, active growth, flowering, reproductive and any other phases are not designed, and no species' life-cycle facts are assumed or imported (AMO-D024, AMO-Q012). Positive Fit has two sinks after recovery completes: reserves and development (AMO-D054). Whether death is a vitality threshold, a terminal developmental state, or both, is open (AMO-Q045). Recorded as L40.
 

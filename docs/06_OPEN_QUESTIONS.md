@@ -82,6 +82,7 @@ How is Amorpho funded and sold?
 **Status:** OPEN · **Constraints:** AMO-D003, AMO-D011, AMO-D012
 Which life-cycle stages, growth processes and care actions are simulated, and in how much detail?
 *Notes:* Real life-cycle facts per species are not Amorpho's to research and must not be assumed; if a system needs them, they arrive as approved input (AMO-D025).
+*Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* life-cycle phases now have an architectural home — **developmental state**, a separate axis from condition (AMO-D057) — but the **state machine is deferred to this question**. Dormant, active growth, flowering, reproductive and any other phases are undesigned, and no species' life-cycle facts are assumed or imported. Acclimation also sits in the condition layer of the response profile and remains part of this question.
 *Refined 2026-09-21:* also covers **acclimation** — whether and how an individual's response profile shifts with sustained exposure, which sits in the current-condition layer of the response profile (AMO-D048) and must stay distinct from genetic change (AMO-D039). Condition variables themselves are AMO-Q073.
 
 ### AMO-Q013 — Genetic abstraction
@@ -241,6 +242,7 @@ What can happen to the human body while the player inhabits an Amorpho? Can othe
 Where is the line between inhabitable and merely alive? Is inhabitability binary or continuous? Does a moderately stressed plant become harder, riskier or costlier to inhabit rather than simply unavailable? What rules govern re-entry after emergency rooting?
 *Notes:* No thresholds or state names may be fixed prematurely. The transition from astral rescue to physical rescue depends entirely on this answer.
 *Refined 2026-09-21:* the evaluation path is now fixed — inhabitability derives from biological condition, never from the World or geography (AMO-D050). What stays open is the threshold itself, its granularity, and which condition variables feed it (AMO-Q073).
+*Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* the candidate inputs are now named — principally **vitality**, plausibly also **stress load** (AMO-D056). Inhabitability remains **derived, never stored**, and is not a fourth condition variable. The rule, the threshold and whether it is binary or continuous all remain open.
 
 ### AMO-Q043 — Valid rooting sites
 **Status:** OPEN · **Constraints:** AMO-D032, AMO-D033
@@ -262,6 +264,7 @@ How does an individual recover from a critical state? Can some damage become per
 *Notes:* Must be coherent with whatever combat does to a plant (AMO-Q026). Permanent damage is powerful and risky: it raises stakes but can make players refuse to play.
 *Refined 2026-09-21:* Fit's growth/recovery output makes recovery a first-class outcome rather than an exception (AMO-D049), so the open part is the **recovery model** — how fast, from how far down, and whether any damage is irreversible. Relates to AMO-Q072 and AMO-Q073.
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* Scenario C walked recovery through two phases — restoring condition, then supporting development once baseline is reached — and the condition feedback loop means recovery firms up as it proceeds, then levels off. Irreversible damage remains entirely unmodelled: nothing in v0 prevents full recovery from any survivable state, which may or may not be the intent.
+*Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* this question now carries extra weight, because **it decides whether vitality needs to exist as stored state** (AMO-Q073, AMO-D056). If harm is always fully reversible, vitality could be derived from stress and reserves; if any harm is lasting, it cannot. The condition model also fixes the terms: stress load is *history*, not damage, so lasting damage — if it exists — would be a loss of vitality that does not return. Death's path `viable → deteriorating → critical → non-viable` is preserved, but whether death is a vitality threshold, a terminal developmental state or both remains open (AMO-D057).
 
 ### AMO-Q046 — Physical rescue: the human, and other players
 **Status:** OPEN · **Constraints:** AMO-D029, AMO-D031
@@ -350,12 +353,15 @@ How do per-dimension fits combine into a biological direction? What rule gives l
 How is accumulated recent experience of conditions modelled, given that `brief cold ≠ prolonged cold` and `one dry interval ≠ sustained drought`? Does exposure history live in the individual's condition, in a separate accumulation layer, or in Fit's inputs?
 *Notes:* v0 names the distinction between instantaneous environment and exposure history and defines no mathematics for it. This is likely a precondition for a credible recovery model (AMO-Q045) and for stress that feels biological rather than instantaneous.
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the scenarios show accumulation is already carried by **condition**, provided condition includes something like a stress load — so a separate exposure-history store may not be needed at this depth. The related clarification now in the spec is that stress pressure (output C) is a *rate*, with the accumulated total living in condition. Open: whether condition alone suffices, or whether recovery and irreversible damage need a richer history than a single accumulated value (AMO-Q045, AMO-Q073).
+*Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* **partially discharged.** Stress load now exists explicitly and carries the accumulation (AMO-D056), so no separate exposure store is needed at this depth. What remains is whether a single accumulated value is rich enough — in particular whether relief must be asymmetric with accumulation so that prolonged exposure is not erased by one favourable interval.
 
-### AMO-Q073 — Current-condition variables
-**Status:** OPEN · **Constraints:** AMO-D048, AMO-D050
-Which condition variables does an individual actually need — health, stress load, development or growth state, stored resources, something else? Which of them feed inhabitability?
+### AMO-Q073 — Condition dynamics and thresholds
+**Status:** OPEN · **Variable set resolved 2026-09-21 → AMO-D056, AMO-D057** · **Constraints:** AMO-D048, AMO-D050, AMO-D056, AMO-D057
+**How do the three condition variables move?** How does stress accumulate and relieve, and is relief symmetric with accumulation? When do reserves buffer versus fail? At what point does exceeded burden begin to cost vitality? How does condition narrow the effective response profile — the feedback function itself? And is vitality genuinely needed as stored state, or derivable?
 *Notes:* Should be settled by what the Fit boundary genuinely requires, not by physiological ambition (AMO-D048). Fewer, broader variables are the conservative default. Relates to plant simulation depth (AMO-Q012) and the inhabitability threshold (AMO-Q042).
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* three variables did real, distinguishable work across the scenarios — **health**, **stress load** and **stored resources**. Each was needed: resources to explain depletion under a critical constraint, stress load to carry accumulation, health to gate inhabitability. A **development or growth state** was also implied by Scenario C phase 2, where opportunity continues to be spent after recovery completes. Suggestive, not conclusive — one fictional value set is not a model. The exercise also confirmed condition sits on **both** sides of Fit, feeding the effective response profile and being modified by it.
+*Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* the **variable set is now resolved** — vitality, stress load and reserves, with developmental state as a separate axis (AMO-D056, AMO-D057). Tested against the four existing scenarios rather than new ones: a single `health` scalar fails Scenario C, since it saturates at healthy and leaves favourable Fit nothing to act on. No case required a fourth condition variable and none was left unexplained.
+*What remains open:* the dynamics above, all thresholds, and one substantive question the specification flags rather than hides — **whether vitality must be stored at all.** If no harm is ever permanent it could in principle be derived from stress and reserves; it is stored because irreversible damage could not be carried by a derived summary. That makes AMO-Q045 the test which settles it.
 
 ### AMO-Q074 — Simulation time step and update frequency
 **Status:** OPEN · **Constraints:** AMO-D046, AMO-D049
@@ -406,6 +412,11 @@ Can objectives arise naturally from the combination of differing individual capa
 **Status:** OPEN · **Constraints:** AMO-D028, AMO-D031, AMO-D050, AMO-D054
 Under what conditions does an individual established far away remain available for future astral entry? Does distance, time, ownership, access or anything else besides biological condition affect it?
 *Notes:* Biological condition already gates inhabitability (AMO-D031, AMO-D050). What is open is whether anything *else* does — transfer distance and eligibility (AMO-Q040) is the same question seen from the other end. If nothing else gates it, a distant established individual is permanently a body the player can step into, which is a large strategic fact worth deciding deliberately rather than by default.
+
+### AMO-Q083 — Animated form and biological condition
+**Status:** OPEN · **Constraints:** AMO-D030, AMO-D056
+Does being animated cost the individual anything biologically — reserves spent, stress added, vitality risked — and does condition change differently while inhabited than while rooted?
+*Notes:* What is decided is that condition **persists across the transition**, because the rooted plant and the animated Amorpho are one individual (AMO-D030, AMO-D056): biological state does not vanish on animation. Whether animation is biologically free, costly, or even restorative is untouched. Closely tied to combat consequences (AMO-Q026) and to transformation cost generally (AMO-Q022); answering it would give the one-body law a biological price as well as a logistical one.
 
 ## Earth representation
 

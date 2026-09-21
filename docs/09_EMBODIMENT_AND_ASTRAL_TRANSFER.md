@@ -93,6 +93,8 @@ State names, granularity and thresholds are open, including whether inhabitabili
 
 Inhabitability is always derived from the individual's **biological condition**, never set by the World or by geography (AMO-D050). A place is not inherently un-inhabitable; a plant's condition is. This is what lets the same location affect different species, different individuals, and the same individual at different times, differently.
 
+That condition is now specified — **vitality**, **stress load** and **reserves** (AMO-D056, [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)) — and inhabitability reads principally **vitality**, plausibly also stress load. It remains derived rather than stored, and is not a condition variable of its own. The threshold, its granularity and the entry rule stay open (AMO-Q042).
+
 ## 8. Astral exit and rooting
 
 Leaving an inhabited Amorpho returns the individual to its biological plant state (AMO-D032). That requires rooting, or another biologically appropriate transition the game may later define.
