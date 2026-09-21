@@ -185,6 +185,8 @@ AMORPHOS ESTABLISHED IN A LOCATION
 
 Nothing in this changes the ownership boundary. The Environment does not decide to create a trait, and the Evolutionator never reads the location's name. Establishment simply supplies the conditions under which selection can operate.
 
+None of this depends on the human control layer. Wild populations are unanchored and unowned by default, and every new individual begins unbound, so populations and selection operate on biological individuals regardless of whether any player can reach them astrally (AMO-D064). Anchoring is a human layer laid over a biological world that does not need it.
+
 Several players may independently establish individuals in the same favourable region, and such a place may over time become a meaningful population or cultivation area — with same-species reproduction, approved-pair hybridization, pollen movement, player-selected breeding, competition and locally emerging lineages. No ownership, land-rights, population or pollination mechanics follow from this (AMO-Q079, AMO-Q080).
 
 ### Individual development is not population evolution

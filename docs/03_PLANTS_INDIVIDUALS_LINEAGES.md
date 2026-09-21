@@ -52,6 +52,8 @@ Over its life an individual can accumulate provenance such as:
 - phenotype and game traits;
 - transformation and combat history, where appropriate.
 
+An individual is also not the same thing as its **current visible structure**. Across its life it may be a tuber, a leaf-form plant or a flowering individual, and identity, lineage, genotype and history stay attached to the individual through every phase — a plant that loses its leaf and grows another has not become a second plant (AMO-D058, [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)).
+
 **Knowing is not showing.** The simulation may track all of this; what any player sees is a separate design decision (L14). For example, a player might know only that a plant was "bought from a collector", while the world knows its full chain of custody.
 
 ## 4. Acclimation versus genetic change
@@ -63,6 +65,8 @@ Genetic change happens only **across generations and populations**, through repr
 ## 5. Reproduction and propagation
 
 Propagation paths fall into two conceptual categories:
+
+Every new individual — however produced — begins **unowned and without an Astral Anchor**. Parent ownership and anchoring never propagate to offspring, and anchoring is never required for reproduction or population persistence (AMO-D064).
 
 - **Vegetative propagation** produces new individuals that are genetically copies of the parent. Each is still a separate individual with its own identity and history, linked to its parent; together they form a clone line.
 - **Sexual reproduction** (pollination, seed) produces new individuals with new genetic combinations from two parents. This is the only route to genetic change and to hybrids.

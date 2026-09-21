@@ -56,11 +56,13 @@ One shared world, several shards, private worlds, or a mix? Can the game be play
 What can a player own (plants, pots, homes, land, greenhouses), how is ownership established and transferred, and what happens to property of inactive players?
 *Notes:* Inactive players' plants are part of a persistent world with finite populations; their fate affects everyone.
 *Refined 2026-09-21:* strategic establishment makes outdoor growing sites worth holding, sharing and protecting, so ownership now has to cover land and cultivation areas rather than mainly plants and buildings (AMO-D054, AMO-Q080).
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* ownership is now explicitly **one of five axes** — existence, ownership, custody, anchoring, availability — which may disagree and must not collapse into one field (AMO-D065). Wild, unowned, unanchored life is the default for natural populations (AMO-D064). The detailed ownership questions are AMO-Q093.
 
 ### AMO-Q008 — Theft rules and anti-griefing
 **Status:** OPEN · **Constraints:** AMO-D014, AMO-D015
 When, where and how can plants be stolen? What protections, consequences and recovery exist? How is harassment prevented?
 *Notes:* Theft risk is part of the outdoor risk/reward law (L10), but must not make the game miserable or enable targeted harassment.
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* theft may now involve the plant, its **Astral Anchor**, or both, since Anchors are physical objects on the individual (AMO-D061). Physical possession is **not** assumed to grant astral access; rebinding is AMO-Q091. Note the interaction with dormancy: a deeply dormant tuber is naturally hard to find, so concealment is a real defence (AMO-D060).
 
 ### AMO-Q009 — Economy and trade
 **Status:** OPEN · **Constraints:** AMO-D010, AMO-D011
@@ -83,6 +85,7 @@ How is Amorpho funded and sold?
 Which life-cycle stages, growth processes and care actions are simulated, and in how much detail?
 *Notes:* Real life-cycle facts per species are not Amorpho's to research and must not be assumed; if a system needs them, they arrive as approved input (AMO-D025).
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* life-cycle phases now have an architectural home — **developmental state**, a separate axis from condition (AMO-D057) — but the **state machine is deferred to this question**. Dormant, active growth, flowering, reproductive and any other phases are undesigned, and no species' life-cycle facts are assumed or imported. Acclimation also sits in the condition layer of the response profile and remains part of this question.
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* five broad phases are now recognised (AMO-D059) and the state machine itself is tracked as **AMO-Q084**. This question keeps simulation *depth* — which processes are modelled and how finely — plus acclimation.
 *Refined 2026-09-21:* also covers **acclimation** — whether and how an individual's response profile shifts with sustained exposure, which sits in the current-condition layer of the response profile (AMO-D048) and must stay distinct from genetic change (AMO-D039). Condition variables themselves are AMO-Q073.
 
 ### AMO-Q013 — Genetic abstraction
@@ -100,6 +103,7 @@ Are pollinators simulated, abstracted as a probability field, or represented oth
 **Status:** OPEN · **Constraints:** AMO-D015
 How does flowering make a plant discoverable: detection radius, local reports, environmental clues, pollinator attraction, temporary map information, approximate signals?
 *Notes:* Must preserve the law while respecting AMO-Q003 and AMO-Q008.
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* discoverability now varies by **life-cycle phase**. Bloom carries a strong signature at the moment an individual is most valuable; a deeply dormant unexposed tuber is normally undiscoverable without prior location knowledge, which is concealment rather than invisibility — someone who knows the pot or the site can still find it physically (AMO-D060). No generic world signal may reveal dormant tubers.
 
 ### AMO-Q016 — Game handling of changes in the approved species list
 **Status:** OPEN · **Constraints:** AMO-D004, AMO-D005, AMO-D022, AMO-D024
@@ -133,6 +137,7 @@ Which problems exist, how they spread, and whether they reflect real organisms o
 **Status:** OPEN · **Constraints:** AMO-D007, AMO-D029
 What is the artifact (amulet, belt, something else)? What is it called, where does it come from, and what does it mean in the fiction? Also: the plural of "Amorpho", and the name of the act of awakening.
 *Refined 2026-09-20:* the transfer may not depend on an object at all — a ritual room, an artifact, several artifacts, or a combination of place and object are all candidates. The lore question is tracked as AMO-Q039; this question remains the artifact-specific part of it.
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* the access path now has two physical halves — the human's **Warden artifact** and the **Astral Anchor** on the individual (AMO-D061). How they pair, and whether attachment alone suffices or a ritual is required, is AMO-Q089. This question stays the artifact's own form, name and origin.
 
 ### AMO-Q022 — Transformation rules
 **Status:** OPEN · **Constraints:** AMO-D007, AMO-D028, AMO-D031, AMO-D032
@@ -243,6 +248,7 @@ Where is the line between inhabitable and merely alive? Is inhabitability binary
 *Notes:* No thresholds or state names may be fixed prematurely. The transition from astral rescue to physical rescue depends entirely on this answer.
 *Refined 2026-09-21:* the evaluation path is now fixed — inhabitability derives from biological condition, never from the World or geography (AMO-D050). What stays open is the threshold itself, its granularity, and which condition variables feed it (AMO-Q073).
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* the candidate inputs are now named — principally **vitality**, plausibly also **stress load** (AMO-D056). Inhabitability remains **derived, never stored**, and is not a fourth condition variable. The rule, the threshold and whether it is binary or continuous all remain open.
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* biological inhabitability is now one of **three** independent gates — the others being an Astral Anchor and life-cycle accessibility (AMO-D063). They fail for different reasons and are restored by different actions, so this question covers only the biological gate.
 
 ### AMO-Q043 — Valid rooting sites
 **Status:** OPEN · **Constraints:** AMO-D032, AMO-D033
@@ -265,6 +271,7 @@ How does an individual recover from a critical state? Can some damage become per
 *Refined 2026-09-21:* Fit's growth/recovery output makes recovery a first-class outcome rather than an exception (AMO-D049), so the open part is the **recovery model** — how fast, from how far down, and whether any damage is irreversible. Relates to AMO-Q072 and AMO-Q073.
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* Scenario C walked recovery through two phases — restoring condition, then supporting development once baseline is reached — and the condition feedback loop means recovery firms up as it proceeds, then levels off. Irreversible damage remains entirely unmodelled: nothing in v0 prevents full recovery from any survivable state, which may or may not be the intent.
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* this question now carries extra weight, because **it decides whether vitality needs to exist as stored state** (AMO-Q073, AMO-D056). If harm is always fully reversible, vitality could be derived from stress and reserves; if any harm is lasting, it cannot. The condition model also fixes the terms: stress load is *history*, not damage, so lasting damage — if it exists — would be a loss of vitality that does not return. Death's path `viable → deteriorating → critical → non-viable` is preserved, but whether death is a vitality threshold, a terminal developmental state or both remains open (AMO-D057).
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* the life-cycle architecture now **precedes** this question deliberately, and narrows it. Damage to a temporary manifestation ends with that manifestation; only damage to the **persistent core** is a candidate for permanence (AMO-D058, AMO-Q086). A further case now exists: if catastrophic core damage leaves a regenerating fragment, whether the result is the same individual is AMO-Q094.
 
 ### AMO-Q046 — Physical rescue: the human, and other players
 **Status:** OPEN · **Constraints:** AMO-D029, AMO-D031
@@ -361,6 +368,7 @@ How is accumulated recent experience of conditions modelled, given that `brief c
 *Notes:* Should be settled by what the Fit boundary genuinely requires, not by physiological ambition (AMO-D048). Fewer, broader variables are the conservative default. Relates to plant simulation depth (AMO-Q012) and the inhabitability threshold (AMO-Q042).
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* three variables did real, distinguishable work across the scenarios — **health**, **stress load** and **stored resources**. Each was needed: resources to explain depletion under a critical constraint, stress load to carry accumulation, health to gate inhabitability. A **development or growth state** was also implied by Scenario C phase 2, where opportunity continues to be spent after recovery completes. Suggestive, not conclusive — one fictional value set is not a model. The exercise also confirmed condition sits on **both** sides of Fit, feeding the effective response profile and being modified by it.
 *Refined 2026-09-21 (specified in [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)):* the **variable set is now resolved** — vitality, stress load and reserves, with developmental state as a separate axis (AMO-D056, AMO-D057). Tested against the four existing scenarios rather than new ones: a single `health` scalar fails Scenario C, since it saturates at healthy and leaves favourable Fit nothing to act on. No case required a fourth condition variable and none was left unexplained.
+*Refined 2026-09-21 ([15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)):* a second integrity concept may sit beside these — **phase-specific integrity** bounded by the current manifestation, distinct from persistent core vitality (AMO-D058, AMO-Q086). Whether it lives in condition, in developmental state, or beside both is open.
 *What remains open:* the dynamics above, all thresholds, and one substantive question the specification flags rather than hides — **whether vitality must be stored at all.** If no harm is ever permanent it could in principle be derived from stress and reserves; it is stored because irreversible damage could not be carried by a derived summary. That makes AMO-Q045 the test which settles it.
 
 ### AMO-Q074 — Simulation time step and update frequency
@@ -378,6 +386,65 @@ Should the deterministic-evaluator position hold as the model matures? Which ups
 Once the environmental model is settled enough to need them, what is the minimal approved input that expresses a species response profile? Which dimensions, which zones, and in what form?
 *Notes:* Nothing may be imported before the consuming model exists (AMO-D053), and only what the game demonstrably needs may cross (AMO-D025). The research behind any such values stays outside Amorpho (AMO-D024). Note the shape problem: a per-species × per-dimension × per-zone table is considerably richer than the current two-column CSV, so this may be where CSV stops being sufficient (AMO-D026).
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the worked profiles make the shape concrete — five dimensions × three zones expressed as range boundaries, roughly twenty numbers per species before individual variation is considered. Whether approved input carries all of it, or only a baseline from which zones are derived, is part of this question. Nothing in the scenarios is importable: every value there is fictional and labelled as such.
+
+## Life cycle, anchors and availability
+
+These follow from [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md) (AMO-D058–AMO-D065).
+
+### AMO-Q084 — The life-cycle state machine
+**Status:** OPEN · **Constraints:** AMO-D024, AMO-D059
+What are the actual phases, in what order, with what overlap and what durations? Can leaf and bloom coexist? How much do species differ, and is one shared machine even right?
+*Notes:* v0 recognises five broad phases (AMO-D059) and deliberately stops there. Real life-cycle facts are not Amorpho's to research and arrive only as approved input if a system needs them (AMO-D024, AMO-D025). Overlaps plant simulation depth (AMO-Q012) and what a rooted individual does over time (AMO-Q077).
+
+### AMO-Q085 — Astral access windows across the life cycle
+**Status:** OPEN · **Constraints:** AMO-D060, AMO-D063
+Where exactly does the astral door close and reopen? Is there a transitional window after dormancy entry during which entry remains possible, and does accessibility return before emergence? What marks the boundary of deep dormancy, and what warning does the player get?
+*Notes:* Only the extreme is decided: **deep dormancy is closed** (AMO-D060). The windows are a current design direction, not a rule, and if they exist they may create distinctive tuber and transition gameplay. Dormancy entry should normally give visible biological warning rather than a bare *unavailable* (AMO-D059) — what that looks like is part of this question.
+
+### AMO-Q086 — Phase-specific abilities and damage
+**Status:** OPEN · **Constraints:** AMO-D056, AMO-D058
+What does each playable phase actually do, and what integrity does it carry? Is there a leaf integrity, a bloom integrity, something else? How does damage to a temporary structure relate to persistent core vitality, and what does core compromise mean?
+*Notes:* The architecture is reserved, not designed (AMO-D058): phase-specific integrity ends with its phase, core vitality persists. Must be answered coherently with combat consequences (AMO-Q026) and lasting damage (AMO-Q045). No formulas, magnitudes or variable names exist.
+
+### AMO-Q087 — Premature dormancy: triggers and costs
+**Status:** OPEN · **Constraints:** AMO-D059, AMO-D056
+What causes an individual to abandon its active phase early, and what does that cost — depleted reserves, a smaller resulting tuber, lost developmental progress, a reduced re-emergence?
+*Notes:* Architecturally this is a **survivable failure with a lasting price**, distinct from both a minor setback and death — which is exactly the band the game most needs and has least of. No trigger or magnitude is defined.
+
+### AMO-Q088 — Bloom: duration, abilities and trade-offs
+**Status:** OPEN · **Constraints:** AMO-D015, AMO-D059
+How long does Bloom last, what can a flowering individual do that others cannot, and what does it cost — reserve investment, discoverability, reproductive consequence, risk?
+*Notes:* Decided: Bloom is rare, short and exceptional, a temporary superstate rather than a strictly better form (AMO-D059). Not decided: any of the content. It must not become "Leaf Form with better numbers", and it must not be universally optimal. Ties to flowering discoverability (AMO-Q015) and reproduction (AMO-Q079).
+
+### AMO-Q089 — Astral Anchor: name, form, attachment and pairing
+**Status:** OPEN · **Constraints:** AMO-D007, AMO-D061
+What is an Anchor physically, how does it attach to an individual, and how does it pair with the human Warden artifact? Is attachment alone sufficient, or is a ritual required? Is "Astral Anchor" the final name?
+*Notes:* "Astral Anchor" is working terminology. The artifact's own form and lore remain open (AMO-Q021). What is fixed is only that the Anchor is physical, reusable, and bound to the individual rather than to a pot or place (AMO-D061).
+
+### AMO-Q090 — Anchor economy
+**Status:** OPEN · **Constraints:** AMO-D061, AMO-D062
+How many Anchors can a player have? How are they acquired — found, bought, crafted, granted? Can they be destroyed or lost? Do they differ in capability or grade?
+*Notes:* Deliberately undecided, and consequential: Anchor supply is what turns roster composition into a real decision (AMO-D063). Too many and the constraint disappears; too few and the collection stops mattering. Only reuse and physical manipulation are accepted so far.
+
+### AMO-Q091 — Anchor transfer, theft and rebinding
+**Status:** OPEN · **Constraints:** AMO-D061, AMO-D062, AMO-D065
+How does an Anchor change hands legitimately, and what happens when one is stolen along with its plant? Can a stolen Anchor be rebound to a new player, and under what conditions? Can an Anchor be stolen on its own?
+*Notes:* Physical possession is **not** assumed to grant astral access (AMO-D065). This sits between theft rules (AMO-Q008) and ownership (AMO-Q093), and it must not become a way to bypass the human-hands rule (AMO-D062).
+
+### AMO-Q092 — The Astral Radar
+**Status:** OPEN · **Constraints:** AMO-D061, AMO-D060
+What does the player's astral interface actually expose — which individuals, what availability, what condition, what location precision? Does distance matter? Does deep dormancy weaken the signal or silence it entirely?
+*Notes:* Fixed: it is a view of the player's own anchored connections, **not** a global botanical scanner, and not automatically a positioning system (AMO-D061). An anchored dormant individual may remain listed while unreachable, and its information may be deliberately minimal (AMO-D060). Interacts with the privacy constraint on locations (AMO-Q003).
+
+### AMO-Q093 — Game ownership, release and custody
+**Status:** OPEN · **Constraints:** AMO-D064, AMO-D065
+What does ownership mean in game terms? Must every cultivated plant be owned? Does a released plant become ownerless immediately? What rights does a player have over offspring produced on their property, and how does custody by a friend or their greenhouse work?
+*Notes:* Keep legal and social mechanics **separate** from astral mechanics (AMO-D065): astral access cannot change because an ownership field changed. Wild, unowned, unanchored life is the default state and must stay possible indefinitely (AMO-D064). Extends AMO-Q007 and relates to AMO-Q080.
+
+### AMO-Q094 — Identity after severe core loss
+**Status:** OPEN · **Constraints:** AMO-D011, AMO-D022, AMO-D058
+If catastrophic core damage leaves a viable surviving fragment and it regenerates, is the result the **same persistent individual** or a **new clonal descendant** linked by provenance?
+*Notes:* Both a gameplay and an identity-model question, and it now matters more than it first appears: identifiers are never reused (AMO-D011, AMO-D022), so the answer decides whether a lineage record can survive its own near-destruction — and whether a rare individual can ever truly be recovered. No botanical rule is encoded either way. Must be answered together with lasting damage and death (AMO-Q045).
 
 ## Establishment and long-term rooted life
 

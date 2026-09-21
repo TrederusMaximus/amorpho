@@ -129,6 +129,10 @@ Three arguments decided this, and the third is the strongest:
 2. **Condition is evaluative; development is not.** Condition has a good/bad axis. Development does not: a seedling is not in worse condition than a mature plant, it is at a different point. Folding development into condition would make "more developed" read as "better", and a large unhealthy plant would score well — exactly the confusion the *surviving is not thriving* law exists to prevent (L38, L40).
 3. **They shape the response profile differently.** Condition degrades the profile: a compromised individual tolerates less of everything. Development changes *which* sensitivities apply at all — a dormant individual and an actively growing one do not merely differ in degree. That is a categorical influence, not a degradational one, and categorical and degradational influences do not belong in the same variable.
 
+**Phases are now named.** Developmental state has v0 content — tuber/dormant, emergence, leaf, bloom, senescence — and it determines which body is expressed and whether that phase permits astral entry at all (AMO-D059, AMO-D063, [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)).
+
+A second integrity concept may eventually sit beside condition: **phase-specific integrity**, bounded by the current manifestation, as distinct from the persistent core vitality defined here. Leaf damage may persist for a phase without being permanent for the individual; when the phase ends, its structure and whatever damage it carried cease to exist (AMO-D058, AMO-Q086). Whether that lives in condition, in developmental state, or beside both is open (AMO-Q073).
+
 **The state machine is deferred.** Dormant, active growth, flowering, reproductive and any other phases are not designed here, and no botanical facts about any species' life cycle are assumed or imported (AMO-D024, AMO-Q012). This document settles only *where such state belongs*.
 
 > **Condition says how the individual is doing. Development says what phase it is in.** (L40)

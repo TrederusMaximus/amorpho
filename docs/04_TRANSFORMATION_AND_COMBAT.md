@@ -49,6 +49,8 @@ Combat design belongs to Game Design Data (Layer 2). It references species by th
 
 Individuals of the same species may differ in appearance through variation and history. Whether individual differences also affect combat is part of AMO-Q025.
 
+An individual also has more than one **body** over its life. Leaf form and Bloom form are different biological manifestations of the same persistent individual, and Bloom is intended as a rare, short superstate with capabilities unavailable otherwise — not the same fighter with better numbers (AMO-D058, AMO-D059). Phase-specific abilities and the relationship between damage to a temporary structure and damage to the persistent core are open (AMO-Q086). See [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
+
 ## 5. Combat pillars
 
 Combat is intended to become a fully developed, real-time, skill-based fighting game (AMO-D008):

@@ -36,7 +36,7 @@ Typical work:
 - combat design pillars and a roster strategy (AMO-Q027);
 - an Evolutionator model, version 0: inheritance, variation, generation timing (AMO-Q013, AMO-Q052).
 
-Done in this phase so far: the individual's biological condition model ([14](14_CURRENT_BIOLOGICAL_CONDITION_V0.md); AMO-D056, AMO-D057), the environment model validated against four worked cases ([13](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)), including the World/Fit interaction boundary (AMO-D055), the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044), Earth as the World's geographic foundation ([02](02_WORLD_MODEL.md); AMO-D045), and the Environment and Environmental Fit model v0 ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md); AMO-D046–AMO-D053).
+Done in this phase so far: the life-cycle, Astral Anchor and availability architecture ([15](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md); AMO-D058–AMO-D065), the individual's biological condition model ([14](14_CURRENT_BIOLOGICAL_CONDITION_V0.md); AMO-D056, AMO-D057), the environment model validated against four worked cases ([13](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)), including the World/Fit interaction boundary (AMO-D055), the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044), Earth as the World's geographic foundation ([02](02_WORLD_MODEL.md); AMO-D045), and the Environment and Environmental Fit model v0 ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md); AMO-D046–AMO-D053).
 
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
@@ -96,13 +96,14 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Answer AMO-Q045 — is any harm permanent?** It is a small question with unusually wide reach: it decides whether *vitality* needs to exist as stored state at all (AMO-Q073, AMO-D056), it determines whether death is a vitality threshold or a terminal developmental state (AMO-D057), and it sets how much a player can ever lose by rooting badly. Conservative options exist in both directions, and the condition model is built so either answer fits.
-2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
-3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
-4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
-5. Write a one-page combat pillars and roster-strategy note (AMO-Q027).
-6. Sketch the transition test as a paper prototype before any code.
-7. Sketch one emergent scenario end to end on paper — two threatened Amorphos, one body, different environments — to check that the laws from this pass really do generate the dilemma without scripting it (L37).
+1. **Draft the life-cycle state machine, version 0** (AMO-Q084) — the phases, their ordering, and where the astral door opens and closes (AMO-Q085). Almost everything added in this pass now leans on it: phase-specific damage, premature dormancy, Bloom, seasonal roster availability and Anchor strategy all need to know what the phases actually are. Keep it species-neutral; no real life-cycle facts may be assumed (AMO-D024).
+2. **Answer AMO-Q045 — is any harm permanent?** It is a small question with unusually wide reach: it decides whether *vitality* needs to exist as stored state at all (AMO-Q073, AMO-D056), it determines whether death is a vitality threshold or a terminal developmental state (AMO-D057), and it sets how much a player can ever lose by rooting badly. Conservative options exist in both directions, and the condition model is built so either answer fits.
+3. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
+4. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
+5. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
+6. Write a one-page combat pillars and roster-strategy note (AMO-Q027).
+7. Sketch the transition test as a paper prototype before any code.
+8. Sketch one emergent scenario end to end on paper — two threatened Amorphos, one body, different environments — to check that the laws from this pass really do generate the dilemma without scripting it (L37).
 
 ## Engine decision
 

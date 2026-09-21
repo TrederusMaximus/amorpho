@@ -188,3 +188,17 @@ The World states what conditions exist; it never forbids a player from going som
 They are separate axes of an individual's biological state. A seedling is not in worse condition than a mature plant, and a large plant is not in better condition for being large. *(AMO-D056, AMO-D057)*
 **Smell:** a single score that rises with growth, or a model in which "more developed" reads as "healthier" — the same collapse L38 guards from the other side.
 
+## Life-cycle and access laws
+
+### L41 — The individual persists; the biological body changes.
+A tuber, a leaf-form plant and a flowering individual can all be the same persistent individual. Identity, lineage and history belong to the individual, never to the current structure — so damage to a temporary manifestation and damage to the persistent core have different horizons. *(AMO-D058, AMO-D059)*
+**Smell:** a phase modelled as a new entity, a lineage record that cannot survive a season, or leaf damage treated as permanent harm.
+
+### L42 — The soul may travel; the Anchor must move by human hands.
+Only the human can attach, remove or move an Astral Anchor. Changing which individuals are playable always costs human-world action. *(AMO-D062, AMO-D061)*
+**Smell:** reassigning an Anchor from a menu, an Amorpho managing its own access, or Anchors behaving as invisible roster slots.
+
+### L43 — Ownership is not availability.
+Existence, ownership, custody, anchoring and astral availability are five separate axes that may disagree. Owning an individual does not make it playable; holding one does not make it yours. *(AMO-D063, AMO-D064, AMO-D065)*
+**Smell:** a single `owner_id` standing in for all five, or a roster derived straight from the collection.
+

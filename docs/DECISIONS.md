@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief* or *Condition v0 brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief*, *Condition v0 brief* or *Life cycle and anchors brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -72,6 +72,14 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D055 | World owns environmental interactions; Fit owns biological ones | ACCEPTED |
 | AMO-D056 | Current Biological Condition v0: vitality, stress load, reserves | ACCEPTED |
 | AMO-D057 | Developmental State is a separate axis from condition | ACCEPTED |
+| AMO-D058 | The individual persists; its biological manifestation changes | ACCEPTED |
+| AMO-D059 | Life-cycle phases v0 | ACCEPTED |
+| AMO-D060 | Deep Dormancy closes the astral door and hides the individual | ACCEPTED |
+| AMO-D061 | Astral Anchors are physical, reusable objects on individuals | ACCEPTED |
+| AMO-D062 | Only the human may attach, remove or move an Anchor | ACCEPTED |
+| AMO-D063 | Astral entry requires three independent gates | ACCEPTED |
+| AMO-D064 | Biological life is independent of anchoring; new individuals begin unbound | ACCEPTED |
+| AMO-D065 | Existence, ownership, custody, anchoring and availability are separate | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -86,6 +94,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 **Interaction boundary (2026-09-21):** AMO-D055 settled where cross-dimensional interactions live, tested against a worked scenario in which two individually tolerable dimensions jointly change the outcome. Nothing was superseded; AMO-D035 and AMO-D049 carry *Revised* notes pointing at it.
 
 **Current condition v0 (2026-09-21):** AMO-D056 and AMO-D057 gave the persistent individual its biological memory — three condition variables and a separate developmental axis — tested against the four existing worked scenarios rather than new ones. Nothing was superseded; AMO-D048 carries a *Revised* note pointing at them. The specification is [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md).
+
+**Life cycle and anchors (2026-09-21):** AMO-D058–AMO-D065 added the biological life cycle as a gameplay axis, the physical Astral Anchor, and the separation of existence, ownership, custody, anchoring and availability. Nothing was superseded; AMO-D015, AMO-D031 and AMO-D057 carry *Revised* notes pointing at them. The specification is [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
 
 ---
 
@@ -201,6 +211,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** A flowering plant becomes easier for others to find, because of its scent. A flowering, valuable outdoor plant is therefore at greater risk.
 - **Rationale:** It turns a striking real characteristic of the genus into a natural risk/reward mechanic.
 - **Consequences:** The implementation (radius, reports, clues, approximate signals) is deliberately open (AMO-Q015).
+- **Revised:** 2026-09-21, life cycle — discoverability now varies by life-cycle phase: **Bloom** carries a strong signature, while a deeply dormant unexposed tuber is normally undiscoverable without prior location knowledge (AMO-D060). Substance unchanged.
 
 ## AMO-D016 — Hybrid compatibility is evidence-gated (directional)
 
@@ -322,6 +333,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Rationale:** It makes biological condition matter to the fantasy layer, and it creates the transition where astral rescue stops being possible and physical rescue becomes necessary.
 - **Consequences:** Deterioration can lock astral entry while the plant still lives (AMO-D034, AMO-Q042). State names, granularity, thresholds, whether inhabitability is binary or continuous, and re-entry rules are deliberately undecided; no numbers are defined anywhere.
 - **Revised:** 2026-09-21, environment v0 — the evaluation path is fixed: inhabitability is computed from biological condition, never set by the World or by geography (AMO-D050). Substance unchanged; the threshold itself remains open.
+- **Revised:** 2026-09-21, life cycle — biological stability is now one of **three** independent gates, alongside an Astral Anchor and life-cycle accessibility (AMO-D063). Deep dormancy closes entry regardless of how healthy the individual is (AMO-D060). Substance unchanged.
 
 ## AMO-D032 — Astral exit returns the individual to rooted plant state
 
@@ -545,4 +557,61 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** **Developmental State** — what biological phase an individual is in — sits *beside* Current Biological Condition, not inside it. An individual therefore carries persistent identity, inherited traits, current condition and developmental state as four distinct kinds of state, all of which feed the effective response profile.
 - **Rationale:** Three arguments, of which the third is decisive. They are **orthogonal** — healthy and dormant, healthy and growing, stressed and growing are all coherent. Condition is **evaluative** and development is not: a seedling is not in worse condition than a mature plant, so folding development into condition would make "more developed" read as "better" and let a large unhealthy plant score well — the confusion L38 exists to prevent. And they **shape the response profile differently**: condition degrades it uniformly, while development changes *which* sensitivities apply at all, since a dormant individual differs from an actively growing one in kind rather than degree. Categorical and degradational influences do not belong in one variable.
 - **Consequences:** The developmental **state machine is deferred** — dormant, active growth, flowering, reproductive and any other phases are not designed, and no species' life-cycle facts are assumed or imported (AMO-D024, AMO-Q012). Positive Fit has two sinks after recovery completes: reserves and development (AMO-D054). Whether death is a vitality threshold, a terminal developmental state, or both, is open (AMO-Q045). Recorded as L40.
+- **Revised:** 2026-09-21, life cycle — developmental state gains v0 content (five phases, AMO-D059) and becomes gameplay-relevant: it determines which body is expressed and whether the phase permits astral entry (AMO-D063). Substance unchanged.
+
+## AMO-D058 — The individual persists; its biological manifestation changes
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** A persistent individual is not identical to its current visible plant structure. The same individual may exist at different times as a rooted tuber, an actively growing leaf-form plant, a flowering individual, or something transitional, while identity, lineage, genotype, provenance, ownership and history stay attached to the individual throughout. **Each phase is never a new individual.**
+- **Rationale:** It is the same principle that already makes an Amorpho the plant rather than a separate creature (AMO-D030), extended along time instead of across the embodiment boundary. Without it, a plant that loses its leaf and grows another would be two plants, and lineage records could not survive an ordinary season.
+- **Consequences:** **Damage to a temporary manifestation and damage to the persistent core have different consequence horizons.** Leaf damage may persist for the rest of a phase without being permanent for the individual; when the phase ends, its temporary structure and whatever damage it carried cease to exist, while core state remains. This reserves a future split between **phase-specific integrity** and **persistent core vitality** (AMO-D056) without designing either (AMO-Q086). It also makes identity after catastrophic core loss a real question rather than an edge case (AMO-Q094). Extends AMO-D011 and AMO-D030.
+
+## AMO-D059 — Life-cycle phases v0
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** Five broad life-cycle phases are recognised: **Tuber / Dormant**, **Emergence / Sprouting**, **Leaf**, **Bloom / Flowering**, and **Senescence / Dormancy entry**. Developmental State determines which is currently expressed. **Bloom is a rare, short, exceptional phase** — a temporary superstate offering capabilities unavailable in other forms, not Leaf Form with better numbers, and not automatically superior.
+- **Rationale:** These are the phases gameplay already needs to distinguish: different playable bodies, different availability, different risk. Recognising them is what makes seasonal roster availability and Bloom's strategic value expressible at all.
+- **Consequences:** This is **not a finished state machine**: sequencing, overlap, duration, species variation, and whether leaf and bloom can coexist are all open, and no species' real life cycle is assumed or imported (AMO-D024, AMO-Q084). Bloom's abilities, duration and trade-offs are undesigned (AMO-Q088), as are premature dormancy triggers and costs (AMO-Q087). **Dormancy entry should normally give visible biological warning** before availability closes — a player should not simply be told *unavailable* (AMO-Q085). Gives AMO-D057's developmental axis its first content.
+
+## AMO-D060 — Deep Dormancy closes the astral door and hides the individual
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** A **deeply dormant tuber is not astrally inhabitable**, even when an Anchor is physically present and the relationship is recorded. This is biological unavailability, not loss of ownership or of the Anchor. A deeply dormant, unexposed tuber is also **normally extremely difficult or impossible for others to discover** unless its physical location is already known — no leaf, no flower, no scent signature, no movement.
+- **Rationale:** The two halves are one deliberate trade-off: dormancy buys safety with unavailability. It also gives the world a state in which a valuable individual is genuinely protected without any protection mechanic, and in which only the human layer can act.
+- **Consequences:** Concealment is **not magical invisibility** — someone who knows the exact site, pot or greenhouse bed can still find it physically. What may not exist is a generic world signal revealing dormant tubers. An anchored dormant individual may remain listed as connected while being unreachable, and information during dormancy may be deliberately minimal (AMO-Q092). Whether the whole tuber phase is equally closed is open: transitional windows after dormancy entry and before emergence remain a design direction, not a rule (AMO-Q085). Extends AMO-D015 and AMO-D031.
+
+## AMO-D061 — Astral Anchors are physical, reusable objects on individuals
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** An **Astral Anchor** is a physical, reusable magical object attached to an individual Amorpho, providing the physical side of the astral access path. It is associated with the **persistent individual**, not with the pot, property, greenhouse or location: if the plant is repotted, moved, animated or rooted elsewhere, the Anchor stays with it until physically removed. Removing it ends normal astral access through it and changes nothing biological — lineage, genotype, condition, developmental state and world history all remain, and the plant simply continues living unbound.
+- **Rationale:** Making the access path a physical object rather than a bookkeeping field is what forces the human layer to participate in roster decisions, and what lets release, theft and trade be real world events.
+- **Consequences:** Anchor count becomes a strategic constraint, so a limited supply makes the player choose which individuals are astrally reachable. Anchors are **not roster slots** and may not behave as invisible entries reassigned from a menu, though an interface may later assist. The **Astral Radar is a view of the player's own anchored connections, not a global botanical scanner** (AMO-Q092). Nothing about the economy is decided — starting count, maximum, rarity, price, crafting, acquisition, destructibility, grades, independent theft (AMO-Q090, AMO-Q091). Name, physical form, attachment method and any pairing ritual with the Warden artifact are open (AMO-Q021, AMO-Q089).
+
+## AMO-D062 — Only the human may attach, remove or move an Anchor
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** Only the human player can physically attach, remove, transfer or reconfigure Astral Anchors. An inhabited Amorpho cannot remove its own Anchor, move it to another individual, reconfigure the anchored roster, or attach Anchors remotely, and no other Amorpho may do so on the player's behalf.
+- **Rationale:** *The soul may travel; the Anchor must move by human hands.* Changing which individuals are playable must cost human-world action, or the astral layer quietly replaces the human layer it is supposed to complement (L23, AMO-D029).
+- **Consequences:** Reallocating an Anchor requires physically reaching both individuals, which makes geography and travel part of roster management (AMO-Q002). Only the human can collect unbound plants, redistribute a limited supply, perform future pairing, and physically manage dormant individuals. Recorded as L42.
+
+## AMO-D063 — Astral entry requires three independent gates
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** Normal astral entry requires all three of: an **Astral Anchor** (a physical access path), **life-cycle accessibility** (the current phase permits entry), and **biological inhabitability** (the individual is well enough). Each can block independently, and they are genuinely orthogonal.
+- **Rationale:** They fail for different reasons and are restored by different actions — an Anchor by human travel, a phase by time and season, condition by care and environment. Merging any two would hide which one is actually stopping the player.
+- **Consequences:** An active healthy unanchored plant has no path; an anchored dormant one has a path but a closed phase; an anchored active critically stressed one is blocked by condition alone (AMO-D031, AMO-D050). The playable roster is therefore an **emergent subset** of the collection, and owning many individuals does not produce many playable characters — the one-body law then allows only one to be inhabited at a time anyway (AMO-D028).
+
+## AMO-D064 — Biological life is independent of anchoring; new individuals begin unbound
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** An individual needs no Anchor to exist. Unanchored plants grow, enter dormancy, emerge, flower, reproduce, die, establish populations and participate in evolution exactly as anchored ones do. Wild populations begin biologically persistent, unanchored, unowned and without a human warden, and that must remain possible indefinitely. **Every newly created biological individual begins without an Anchor** — seedlings, germinated seeds, vegetative offspring, bulbils, other clonal propagation and hybrids alike. Parent ownership and anchoring never propagate to offspring.
+- **Rationale:** Anchoring is a human fantasy-control layer laid over a biological world that does not need it. If offspring inherited anchoring, a collection would compound into a roster by itself and the world would gradually become the property of whoever got there first.
+- **Consequences:** Anchors are **never** required for reproduction or population persistence; population and evolutionary processes operate on biological individuals (AMO-D038, AMO-D040). The game never assumes every plant belongs to a player. Release is a clean path from playable character to unbound living individual with nothing deleted. Rooted unanchored life continues developing unattended (AMO-D009, AMO-D054).
+
+## AMO-D065 — Existence, ownership, custody, anchoring and availability are separate
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Life cycle and anchors brief
+- **Decision:** Five axes are kept distinct and may disagree: the **biological individual** (it exists), **ownership** (who, if anyone, is recognised as owner), **physical custody** (who controls the plant or its location), **astral anchoring** (whose system is physically connected), and **astral availability** (whether conditions permit entry). They must never be reduced to a single `owner_id`.
+- **Rationale:** They already diverge in ordinary cases — a wild plant exists with none of the others; a stolen anchored plant separates custody from ownership; a dormant anchored plant separates anchoring from availability. A single field could not express any of these.
+- **Consequences:** **Ownership is not availability** (L43): a player may own an individual that cannot be played, and may physically hold an unowned, unbound plant that is not playable at all. Theft may take the plant, the Anchor or both, and physical possession is **not** assumed to grant astral access — rebinding rules are open (AMO-Q091, AMO-Q008). Trade must involve the physical Anchor: *astral access cannot change merely because an ownership field changed* (AMO-Q093). Legal and social mechanics stay separate from astral mechanics. World state holds all five (AMO-D021).
 

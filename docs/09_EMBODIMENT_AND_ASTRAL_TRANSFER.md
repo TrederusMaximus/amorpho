@@ -95,6 +95,20 @@ Inhabitability is always derived from the individual's **biological condition**,
 
 That condition is now specified — **vitality**, **stress load** and **reserves** (AMO-D056, [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md)) — and inhabitability reads principally **vitality**, plausibly also stress load. It remains derived rather than stored, and is not a condition variable of its own. The threshold, its granularity and the entry rule stay open (AMO-Q042).
 
+### Three gates, not one
+
+Biological condition is only one of **three independent gates** on astral entry (AMO-D063):
+
+```
+ASTRAL ANCHOR            is there a physical access path?
+LIFE-CYCLE ACCESSIBILITY does this phase permit entry?
+BIOLOGICAL INHABITABILITY is this individual well enough?
+                    ▼
+                  ENTRY
+```
+
+Each can block alone, and they are restored by different actions — an Anchor by human travel, a phase by time and season, condition by care and environment. In particular **deep dormancy closes the astral door** regardless of how healthy the individual is (AMO-D060), and an unanchored plant is unreachable however well it is doing (AMO-D061). The full model is in [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
+
 ## 8. Astral exit and rooting
 
 Leaving an inhabited Amorpho returns the individual to its biological plant state (AMO-D032). That requires rooting, or another biologically appropriate transition the game may later define.
