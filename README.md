@@ -2,7 +2,7 @@
 
 Amorpho is a game whose cast is real: the species of the plant genus *Amorphophallus*.
 
-The player lives as a human in a persistent world modelled on Earth — exploring, discovering, acquiring, cultivating, propagating and trading individual plants, each with its own origin and history. Through a single magical artifact, a player can temporarily awaken a suitable plant as an **Amorpho**: a fighter controlled in real-time, skill-based combat. The plant they raised is the fighter they learn to master.
+The player lives as a human in a persistent world modelled on Earth — exploring, discovering, acquiring, cultivating, propagating and trading individual plants, each with its own origin and history. Through a magical mechanism, the player's consciousness can leave their human body and inhabit a suitable plant, which becomes an **Amorpho**: a fighter controlled in real-time, skill-based combat. The plant they raised is the fighter they learn to master.
 
 > Reality provides the cast. The game provides the fantasy.
 
@@ -16,6 +16,9 @@ Amorpho aims to create a distinct genre from a combination of ideas that are fam
 - **Environment, not borders.** Where a plant can grow depends on climate and conditions, not on which country it is native to.
 - **Risk is where the decisions are.** Protected cultivation is safer; outdoor planting can be better but exposes plants to weather, pests, theft and accidental pollination. A flowering plant's scent makes it easier for others to find.
 - **The plant you raised is the fighter you play.** The same individual spans long-term cultivation and intense, skill-based fighting.
+- **One consciousness, one body.** You have one human body and inhabit at most one plant at a time. A hundred Amorphos give you options and logistics, never an army.
+- **Plants change across generations.** Inheritance, variation and selection — from the world and from you — can make distinctive lineages emerge within real species.
+- **Two ways in, one world.** Standard and VR gameplay are both first-class entrances to the same persistent game. VR is optional, never secondary.
 
 **Fun comes first.** Botanical realism grounds the world but never suffocates the game. A player with no interest in plants should be able to love Amorpho purely as a game.
 
@@ -23,12 +26,12 @@ Amorpho aims to create a distinct genre from a combination of ideas that are fam
 
 | | Human / World layer | Amorpho / Combat layer |
 |---|---|---|
-| **You are** | a human character in a persistent world | the controller of an awakened plant |
+| **You are** | a human character in a persistent world | one of your plants, inhabited and animated — while your human body waits somewhere |
 | **You do** | travel, explore, discover, acquire, trade, cultivate, propagate, maintain homes, gardens and greenhouses | fight in real time: movement, positioning, timing, blocking, attacks, counters, learnable moves, combinations, rounds |
 | **Timescale** | long-term, persistent | short, intense |
 | **Mastery** | knowledge, planning, risk management | practised skill with a specific Amorpho |
 
-The bridge between them is **transformation**: the artifact temporarily brings a suitable individual plant to life as an Amorpho. Fighting uses fighting-game rounds, not turn selection.
+The bridge between them is **transformation**, and its mechanism is **astral transfer**: the player's consciousness leaves the human body and inhabits one suitable individual, which becomes an active Amorpho. The human body stays in the world while this happens, so where it rests matters — and when the player leaves the Amorpho, the plant roots and is once again governed by its real relationship with its environment. Fighting uses fighting-game rounds, not turn selection.
 
 ## Real species, real limits
 
@@ -46,7 +49,7 @@ Each species has a permanent, opaque ID such as `AMO-SP-000001`; its scientific 
 
 ## Current maturity
 
-**Foundation.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, and the input contract for the Reality Gate.
+**Foundation, plus the first systems pass.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, the input contract for the Reality Gate, and — from the first post-foundation design pass — the embodiment model, the three simulation domains, and the Standard/VR interface principles.
 
 It does **not** yet contain game code, an engine, art, or any species data. The species input file contains only its header until the first approved export is supplied. No engine or programming language has been chosen; that decision will be made from evidence.
 
@@ -75,6 +78,9 @@ docs/
   06_OPEN_QUESTIONS.md         what is not decided yet
   07_INCUBATION_ROADMAP.md     maturity phases and near-term steps
   08_CONCEPTUAL_ARCHITECTURE.md  data layers, boundaries, engine decision criteria
+  09_EMBODIMENT_AND_ASTRAL_TRANSFER.md  one body at a time, rooting, rescue, equipment
+  10_WORLD_AMORPHO_EVOLUTIONATOR.md     the three simulation domains and Environmental Fit
+  11_STANDARD_AND_VR_GAMEPLAY.md        two first-class interfaces to one game
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

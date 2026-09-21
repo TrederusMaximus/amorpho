@@ -6,31 +6,36 @@
 
 *Amorphophallus* plants in Amorpho are normally plants. They live, grow, flower, reproduce and die according to the world simulation. They do not walk around, and they are not creatures in disguise.
 
-## 2. The artifact
+## 2. The mechanism
 
-Each player possesses **one** special magical artifact. It allows a suitable plant to be temporarily brought to life as an **Amorpho** (AMO-D007).
+Awakening requires a magical mechanism that is not yet settled. A single artifact — an amulet, a belt — was the founding concept; a dedicated ritual room inside the player's home is now the leading one, and a combination of place and object remains possible. Its name, origin story and role in the fiction are open (AMO-Q021, AMO-Q039). "The artifact" is a placeholder term for whatever this turns out to be.
 
-The artifact's physical form (possible concepts include an amulet or a belt), its name, its origin story and its role in the fiction are open (AMO-Q021). "The artifact" is a placeholder term.
+## 3. Transformation is astral transfer
 
-## 3. Transformation
-
-Transformation is the bridge between the two gameplay layers:
+Transformation is the bridge between the two gameplay layers, and its mechanism is **astral transfer**: the player's consciousness leaves their human body and inhabits one eligible individual, which becomes an active Amorpho (AMO-D028, AMO-D029).
 
 ```
-Human / World layer                      Amorpho / Combat layer
-─────────────────────                    ──────────────────────
-individual plant in a pot,   ──awaken──▶  the same individual,
-greenhouse or landscape                   as an active fighter
-                             ◀──return──
+Human / World layer                          Amorpho / Combat layer
+─────────────────────                        ──────────────────────
+human body  ──────────▶ remains in the world, unattended
+     +
+consciousness ─────────────astral transfer──▶ inhabits one individual,
+                                              which becomes an active fighter
+individual plant in a pot,  ◀──rooting───────
+greenhouse or landscape
 ```
 
 Accepted:
 
-- The Amorpho **is** the individual plant, temporarily awakened — not a separate creature, copy or summon (L16).
-- Only a **suitable** plant can be awakened.
-- Awakening is **temporary**; the plant returns to being a plant.
+- The Amorpho **is** the individual plant, temporarily animated — not a separate creature, copy or summon (L16, AMO-D030).
+- The human body does **not** transform, vanish or leave the world; it stays somewhere, and that somewhere matters (AMO-D029).
+- Only **one** body is inhabited at a time, however many plants a player owns (AMO-D028).
+- Only a plant that is biologically stable enough can be inhabited — alive is not the same as inhabitable (AMO-D031).
+- Awakening is **temporary**, and it ends by rooting, which returns the individual to plant state and to its real relationship with its environment (AMO-D032).
 
-Open (AMO-Q022): what makes a plant suitable (age, life-cycle stage, health, size, bond, species); how long awakening lasts; what it costs; where it can happen; and whether it has consequences for the plant afterwards.
+The full model is in [09_EMBODIMENT_AND_ASTRAL_TRANSFER.md](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), including rooting, rescue and equipment.
+
+Open (AMO-Q022): what else makes a plant suitable (age, life-cycle stage, size, bond, species); how long awakening lasts; what it costs; and whether it has consequences for the plant afterwards. Finer questions are tracked as AMO-Q039–AMO-Q043.
 
 ## 4. From species to fighter
 
@@ -59,6 +64,8 @@ Combat is intended to become a fully developed, real-time, skill-based fighting 
 
 "Rounds" means fighting-game rounds. It does **not** mean selecting actions in turns.
 
+These pillars describe **Standard Gameplay** combat, which is never reduced because VR exists. VR combat is intended to become a genuinely VR-native discipline rather than a remapped gamepad, with its own answers to skill, mastery and balance — and how the two relate competitively is an open problem (AMO-D042, AMO-Q059, AMO-Q060). See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
+
 ## 6. Mastery
 
 A player must be able to become significantly better with the same Amorpho through practice. This is the defining property of the combat layer (L15).
@@ -79,4 +86,4 @@ The real genus provides the cast, and its species count is expected to be large.
 
 ## 9. Open questions
 
-Artifact (AMO-Q021), transformation rules (AMO-Q022), control model (AMO-Q023), camera and perspective (AMO-Q024), cultivation's effect on combat (AMO-Q025), death, loss and recovery (AMO-Q026), roster scale (AMO-Q027), and where and against whom combat happens (AMO-Q028). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).
+Artifact (AMO-Q021), transformation rules (AMO-Q022), control model (AMO-Q023), camera and perspective (AMO-Q024), cultivation's effect on combat (AMO-Q025), death, loss and recovery (AMO-Q026), roster scale (AMO-Q027), and where and against whom combat happens (AMO-Q028). From this pass: astral transfer lore (AMO-Q039), inhabitability and re-entry (AMO-Q042), VR-native combat (AMO-Q059) and Standard/VR parity (AMO-Q060). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).

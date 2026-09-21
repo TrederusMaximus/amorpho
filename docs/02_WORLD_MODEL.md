@@ -30,15 +30,17 @@ Trade, transport, collection and theft move plants between places and owners; th
 
 How initial populations are sized and placed is open (AMO-Q019). How a species added to the approved list later enters a live world is open (AMO-Q033).
 
-## 4. Environment and suitability
+## 4. Environment and Environmental Fit
 
-Suitability replaces country locks (AMO-D013). A species is neither allowed somewhere merely because it is native to that country nor forbidden everywhere else.
+Environmental Fit replaces country locks (AMO-D013). A species is neither allowed somewhere merely because it is native to that country nor forbidden everywhere else.
+
+> **Terminology.** This concept was introduced at foundation as *suitability*. It is now called **Environmental Fit**, because the name has to carry an ownership boundary: the World describes conditions, the individual knows its own requirements, and Fit is derived from their interaction (AMO-D035, AMO-D036, AMO-D037). The full ownership model is in [10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md); this section covers the world side of it.
 
 The concept has three parts:
 
-1. **Location environment.** A place has environmental properties. Candidate properties include temperature range, seasonality, rainfall, moisture, dry season, light/shade and drainage — and perhaps soil or others where gameplay value justifies them. The final set is open (AMO-Q005).
-2. **Species tolerance profile.** Each species has a corresponding profile of what it tolerates and prefers. This is reality-derived knowledge. Once the environment model is designed, the approved input format will be extended with exactly the facts it needs (AMO-D025). No profile data exists yet, and none may be invented.
-3. **Suitability.** Comparing an environment with a profile yields how well an individual can live and develop there. Suitability is best thought of as graded rather than a simple allowed/forbidden switch — a plant might thrive, grow, struggle or fail — but the exact form is undecided.
+1. **Location environment.** A place has environmental properties. Candidate properties include temperature range, seasonality, rainfall, moisture, dry season, light/shade and drainage — and perhaps soil or others where gameplay value justifies them. The final set is open (AMO-Q005). The World describes these conditions; it does not know whether they suit any particular plant (AMO-D035).
+2. **Species tolerance profile.** Each species has a corresponding profile of what it tolerates and prefers, and each individual has its own condition and variation on top of that (AMO-D036). This is reality-derived knowledge. Once the environment model is designed, the approved input format will be extended with exactly the facts it needs (AMO-D025). No profile data exists yet, and none may be invented.
+3. **Environmental Fit.** Comparing an effective environment with an individual yields what happens to it there. Fit is best thought of as graded rather than a simple allowed/forbidden switch, and its range genuinely extends into the positive: an environment may cause deterioration, hold an individual in equilibrium, or let it recover, grow and improve (AMO-D033, AMO-D037). Fit is **not** a synonym for stress. The exact form — continuous or tiered — is undecided.
 
 ### Effective environment
 
@@ -48,12 +50,14 @@ A plant does not experience only its location. It experiences an **effective env
 location environment
    modified by cultivation context (pot, home, greenhouse, outdoors)
    modified by care (player actions, neglect)
-   = effective environment  →  compared with species profile  →  suitability
+   = effective environment  →  met with the individual  →  Environmental Fit
 ```
 
 This is how a species can survive far outside its natural range under cultivation, and how the same species can do very differently in two gardens in the same city.
 
-Suitability affects how an individual *develops and expresses itself*. It does not change the individual's genetics (AMO-D012); see [03_PLANTS_INDIVIDUALS_LINEAGES.md](03_PLANTS_INDIVIDUALS_LINEAGES.md).
+Buildings and greenhouses work by **modifying local conditions**, not by granting exemptions. A greenhouse should never need a special rule such as `greenhouse makes tropical plant valid`; it produces different temperature, humidity, exposure and protection, and the ordinary mechanism handles the result (AMO-D035, AMO-Q049).
+
+Environmental Fit affects how an individual *develops and expresses itself*. It does not change the individual's genetics (AMO-D012). Genetic change happens across generations, and belongs to a separate domain, the Evolutionator (AMO-D038, AMO-D039); see [03_PLANTS_INDIVIDUALS_LINEAGES.md](03_PLANTS_INDIVIDUALS_LINEAGES.md) and [10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md).
 
 ## 5. Cultivation contexts
 
@@ -94,13 +98,18 @@ The player is a human in the world, not a disembodied collector. Over time the p
 - interact with collectors and other players;
 - build a personal history inside the world.
 
+The human body is also where the player's consciousness starts and returns, and it stays physically in the world while they inhabit an Amorpho (AMO-D029). Two consequences belong to the world model:
+
+- **Where the human body rests matters.** Astral transfer happens from a physical location, and the world continues around that location while the body is unattended (AMO-Q039, AMO-Q041).
+- **Safe rooting locations are world infrastructure.** A player's own home need not be the only one. Other owned properties, greenhouses, suitable outdoor habitat, trusted friends' greenhouses and shared infrastructure may all serve, which makes cultivation infrastructure social and strategic rather than merely personal (AMO-Q043, AMO-Q046).
+
 Who the "other people" are — other players, non-player characters, or both — is open (AMO-Q010), as are multiplayer topology (AMO-Q006), ownership (AMO-Q007), theft rules (AMO-Q008) and economy (AMO-Q009).
 
 ## 8. Deliberately not specified yet
 
 - map scale, projection and level of detail;
 - the environmental variables and their resolution;
-- any suitability formula;
+- any Environmental Fit formula;
 - time compression;
 - server or simulation architecture;
 - how much of the world is simulated in detail at once.

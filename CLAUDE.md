@@ -6,7 +6,7 @@ This file tells future Claude Code sessions (and any other development agent) ho
 
 **Amorpho** is a long-running game project: a persistent Earth-like world in which a human player collects, cultivates, propagates and trades individual plants of real *Amorphophallus* species, and can temporarily awaken one as an Amorpho for real-time, skill-based fighting.
 
-**Maturity:** foundation. There is no game code, no engine, no programming language commitment and no species data. The approved species input is header only. The project is entering Phase 1 — Systems Specification ([docs/07_INCUBATION_ROADMAP.md](docs/07_INCUBATION_ROADMAP.md)).
+**Maturity:** foundation plus the first systems pass. There is no game code, no engine, no programming language commitment and no species data. The approved species input is header only. The project is in Phase 1 — Systems Specification ([docs/07_INCUBATION_ROADMAP.md](docs/07_INCUBATION_ROADMAP.md)); the embodiment, simulation-domain and interface laws are settled (AMO-D028–AMO-D044), and the recommended next step is the environment and Environmental Fit model, version 0 (AMO-Q005).
 
 ## Non-negotiable rules
 
@@ -29,6 +29,10 @@ This file tells future Claude Code sessions (and any other development agent) ho
 ### The game
 13. **Fun comes first.** Realism grounds the game; it never overrides fun, and fun never justifies fabricating facts. Amorpho is not educational software. (AMO-D003)
 14. **Combat is skill-based, real-time fighting** with fighting-game rounds — not turn selection. Botany does not dictate combat mechanics. (AMO-D006, AMO-D008)
+15. **One consciousness, one inhabited body.** Transformation is astral transfer: the player's consciousness leaves a persistent human body and inhabits **one** eligible individual at a time. The human body stays in the world; the plant and its animated form are one individual in two states. A collection is never an army. (AMO-D028, AMO-D029, AMO-D030, [docs/09](docs/09_EMBODIMENT_AND_ASTRAL_TRANSFER.md))
+16. **Rooting is not a penalty.** It exposes the individual to Environmental Fit, whose outcomes range from death to genuine improvement. Never write a decline timer or a fixed rescue window. (AMO-D033, AMO-D034)
+17. **Keep the three simulation domains separate.** The **World** owns environmental truth, the **Amorpho** owns biological requirements and condition, the **Evolutionator** owns inheritance and generational change; **Environmental Fit** is derived and owns nothing. No place names in the plant or the Evolutionator; no biology in the World. (AMO-D035–AMO-D038, [docs/10](docs/10_WORLD_AMORPHO_EVOLUTIONATOR.md))
+18. **Standard and VR are both first-class.** Two interfaces, one persistent world and history. VR is optional, never secondary; account for it in architecture, but build no VR production systems and commit to no VR hardware or SDK. No shared cross-project VR framework — prove first, extract later. (AMO-D041–AMO-D044, [docs/11](docs/11_STANDARD_AND_VR_GAMEPLAY.md))
 
 ## How to work here
 

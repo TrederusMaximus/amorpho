@@ -101,3 +101,75 @@ Build on accepted decisions. Change them deliberately, through the decision ledg
 ### L21 — Amorpho uses reality; it does not research it.
 Botanical research happens outside this repository. Amorpho receives approved files and imports only what the game demonstrably needs. *(AMO-D024, AMO-D025)*
 **Smell:** a column added "because the master list has it", stored citations or source comparisons, copied third-party text or images, or a script that fetches botanical data.
+
+## Embodiment laws
+
+### L22 — One consciousness, one inhabited body.
+The player has one persistent human body and may own many plants, but inhabits exactly one body at a time. A collection creates options, logistics and strategic choices — never simultaneous direct control. *(AMO-D028)*
+**Smell:** squad commands, remote orders, or uninhabited plants acting on the player's behalf.
+
+### L23 — Human and plant are separate persistent bodies.
+The human does not physically become a plant. During astral transfer the human body remains in the world, unattended, and the plant remains a persistent individual that is now animated. *(AMO-D029)*
+**Smell:** "the human disappears and a fighter appears", or a design in which the human body has no location while an Amorpho is active.
+
+### L24 — The plant and the Amorpho are one individual in two states.
+Identity, provenance, lineage, ownership, history, genetics and variation belong to the individual and cross the state change with it. *(AMO-D030)*
+**Smell:** a fighter object created alongside a plant object and reconciled afterwards.
+
+### L25 — Astral entry requires biological stability.
+`alive` and `inhabitable` are different. A plant can be alive and too stressed to inhabit. *(AMO-D031)*
+**Smell:** a design that treats "not dead" as "available".
+
+### L26 — Astral exit returns fantasy to biological reality.
+Leaving an Amorpho returns the individual to rooted plant state, where its real relationship with its environment resumes. *(AMO-D032)*
+**Smell:** an Amorpho that can be parked indefinitely in animated form, or a rooting act with no environmental consequence at all.
+
+### L27 — Rooting is not inherently harmful; Environmental Fit determines the trajectory.
+Rooting exposes an individual to its environment. The result may be deterioration, equilibrium, stability, recovery, growth or improvement. Rescue windows emerge from conditions; there is no universal timer. *(AMO-D033, AMO-D034)*
+**Smell:** a countdown that starts when a plant roots, or any fixed survival constant.
+
+## Simulation ownership laws
+
+### L28 — The World owns environmental truth.
+The World answers *what conditions exist here, now?* and nothing more. It does not know whether those conditions suit any particular individual. *(AMO-D035)*
+**Smell:** `species X allowed here` inside World logic — the ownership form of L9.
+
+### L29 — The Amorpho owns its own biology.
+The individual answers *what do I need, prefer and tolerate?* It knows itself; it does not know countries. *(AMO-D036)*
+**Smell:** `Thailand = good`, `Russia = bad`, or any place name inside the plant model.
+
+### L30 — Environmental Fit is derived, never a third source of truth.
+Fit evaluates the interaction of World and Amorpho. It stores no environment and no biology of its own, and it is not a synonym for stress. *(AMO-D037)*
+**Smell:** a fit system that accumulates its own climate model, or one whose only output is damage.
+
+### L31 — The Evolutionator owns inheritance, variation and generational change.
+Trait transmission across reproduction belongs to its own domain, which needs no geography. Adaptation emerges from variation, differential success and inheritance. *(AMO-D038)*
+**Smell:** `if region == … then grant tolerance`, or an evolution system reading place names.
+
+### L32 — Acclimation is not evolution.
+An individual may change within its lifetime; that is not genetic change. Populations shift only across generations. *(AMO-D012, AMO-D039)*
+**Smell:** a plant becoming genetically adapted because it lived somewhere long enough.
+
+### L33 — Selection is emergent, and comes from both the World and players.
+Environmental and player-driven selection may act at once, producing distinctive lineages within a real species. There is no `EVOLVE` action that upgrades a species. *(AMO-D040)*
+**Smell:** stage evolution, an experience bar that unlocks a better form, or a lineage promoted to a new species.
+
+## Interface laws
+
+### L34 — Standard and VR are first-class entrances to the same game.
+Two interfaces, one persistent world, one character, one history, one progression. VR is optional, but never secondary, and Standard is never a fallback. *(AMO-D041, AMO-D042)*
+**Smell:** "Amorpho VR" as a separate mode, world or save; or any core activity that requires one interface.
+
+### L35 — Account for VR early; pay for VR production later.
+Avoid flat-screen-only assumptions and express gameplay intent rather than one physical input — but build no VR production systems and commit to no VR hardware yet. *(AMO-D043)*
+**Smell:** either a core rule written as `button X = action`, or VR hands and locomotion being built before the game exists.
+
+## Further project laws
+
+### L36 — Prove first; extract later.
+Shared infrastructure is extracted from repeated real use, never designed in advance for projects that do not exist yet. *(AMO-D044)*
+**Smell:** a shared framework created before two real consumers have proven the need.
+
+### L37 — Prefer systems that generate situations over scripted special cases.
+A small number of coherent rules should produce many meaningful situations. *(AMO-D028, AMO-D033, AMO-D040)*
+**Smell:** an illustrative example turned into a hard-coded feature, or a scripted choice screen standing in for a simulated dilemma.

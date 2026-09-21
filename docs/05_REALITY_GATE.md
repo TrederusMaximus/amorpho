@@ -49,7 +49,7 @@ This keeps licensing exposure, data duplication, external dependencies, scientif
 |---|---|---|
 | which species exist, and what they are currently called | `amorphophallus_species.csv` | contract defined; header only |
 | which species pairs may hybridize | `amorphophallus_hybrid_compatibility.csv` | contract documented; file not created |
-| environmental facts for suitability | — | deferred until the environment model is designed |
+| environmental facts for Environmental Fit | — | deferred until the environment model is designed |
 
 The exact file contracts and validation rules are in [`data/input/README.md`](../data/input/README.md).
 
@@ -88,7 +88,7 @@ For gameplay, hybrid compatibility is a **symmetric species-pair relationship** 
 
 ## 8. Environmental data: design first, import second
 
-Real environmental suitability will matter (AMO-D013), but the environment model is not designed yet (AMO-Q005). No fields for range, countries, latitude, altitude, climate, rainfall, humidity, temperature, dormancy, soil, drainage, pollinators, flowering, odour or growth size are defined. When the environment model exists, the input format is extended with exactly the subset it needs.
+Real environmental fit will matter (AMO-D013, AMO-D037), but the environment model is not designed yet (AMO-Q005). No fields for range, countries, latitude, altitude, climate, rainfall, humidity, temperature, dormancy, soil, drainage, pollinators, flowering, odour or growth size are defined. When the environment model exists, the input format is extended with exactly the subset it needs.
 
 ## 9. Third-party content and dependency principle
 

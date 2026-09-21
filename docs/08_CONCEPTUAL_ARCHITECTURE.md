@@ -49,20 +49,34 @@ Only Layer 1 has a location today: accepted files in [`data/input/`](../data/inp
 
 These are boundaries of responsibility, useful for reasoning and for future work allocation — not a component list to implement.
 
+Three of them are **independent long-term simulation domains** that own different truths, and each must be able to become substantially more sophisticated without forcing the others to change (AMO-D035, AMO-D036, AMO-D038):
+
+```
+WORLD           what conditions exist here, now?
+AMORPHO         what does this individual need, prefer and tolerate?
+EVOLUTIONATOR   how are traits transmitted and changed across generations?
+```
+
+Between the first two sits **Environmental Fit**, which owns no truth at all and only evaluates their interaction (AMO-D037). The full model is in [10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md).
+
 | System | Responsibility | Gameplay layer |
 |---|---|---|
 | **Approved reality** | species identities, names and approved pairs, derived from approved input; read-only at runtime | shared |
-| **Environment** | location environments; effective environment; suitability | world |
-| **Plant life** | growth, life cycle, health, acclimation | world |
-| **Genetics and lineage** | genotype, inheritance, variation, hybridization between approved compatible pairs | world |
+| **Environment** (World) | location environments; effective environment; conditions only, never verdicts | world |
+| **Plant life** (Amorpho) | growth, life cycle, health, condition, requirements, tolerances, acclimation | world |
+| **Environmental Fit** | derived evaluation of environment × individual: stress, stability, recovery, growth | world (derived) |
+| **Evolutionator** | inheritance, variation, recombination, generational and population change | world |
+| **Genetics and lineage** | genotype and phenotype representation; lineages; hybridization between approved compatible pairs | world |
 | **Populations** | natural and cultivated populations; spread; establishment | world |
 | **Geography and places** | the representation of Earth; cities; travel | world |
 | **Human life** | player character, homes, property, cultivation actions | world |
 | **Society and trade** | other people, ownership, exchange, theft | world |
 | **Discovery** | flowering scent, detection, information about where plants are | world |
 | **History** | provenance and event records for individuals and the world | world |
-| **Transformation** | turning an individual plant into an active Amorpho and back | bridge |
+| **Transformation** | astral transfer: moving the player's consciousness into one eligible individual and back | bridge |
 | **Combat** | real-time, skill-based fighting | combat |
+
+Independence between the three domains is the point of the split: the World may gain seasons, microclimates and extreme events without the Evolutionator changing; the Amorpho trait model may become much richer without the World learning any biology; the Evolutionator may gain a more sophisticated inheritance model without touching how weather is represented. They meet through explicit boundaries, never shared hidden assumptions.
 
 ## 4. The bridge between the gameplay layers
 
@@ -75,8 +89,26 @@ World state: individual plant ──▶ Transformation ──▶ Combat: fighter
 ```
 
 - The combat layer receives a **view** of an individual — its species, identity and whatever traits design decides are relevant (AMO-Q025). It does not need the world simulation to run.
+- A view is not a second entity. The plant and the animated Amorpho are one persistent individual in two states, and identity, provenance, lineage, ownership and history stay attached to it across the boundary (AMO-D030). Nothing may duplicate the individual into an unrelated plant object and fighter object to be reconciled afterwards.
+- The human body does not cross this bridge. It remains in world state, unattended, while the player's consciousness is elsewhere (AMO-D029) — so the world layer keeps running for the human even during combat.
 - What, if anything, flows back into the world after combat (history entries, injury, fatigue) is open (AMO-Q026).
 - Keeping this bridge narrow allows the two gameplay layers to be prototyped, and possibly implemented, separately.
+
+### Interfaces are not layers
+
+Standard Gameplay and VR Gameplay are two first-class ways of inhabiting the same game — not a third layer, not separate worlds, accounts or progression systems (AMO-D041, AMO-D042):
+
+```
+                 SAME AMORPHO GAME
+                         │
+              gameplay and world truth
+                         │
+                   player intent
+                   ╱           ╲
+         STANDARD GAMEPLAY     VR GAMEPLAY
+```
+
+The architectural consequence today is modest and deliberate: core rules should express gameplay intent rather than hard-code one physical input method, and core concepts should not fundamentally require a 2D UI. No intent API is defined, and no VR production system is built (AMO-D043). See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
 
 ## 5. Outside, import time and runtime
 
@@ -89,6 +121,8 @@ World state: individual plant ──▶ Transformation ──▶ Combat: fighter
 ## 6. Technology posture
 
 - No engine, framework, programming language or runtime stack has been chosen (AMO-D020).
+- No VR platform, SDK, middleware or headset has been chosen either, and none may be until there is evidence (AMO-D043, AMO-Q062).
+- No shared cross-project VR framework exists or is planned; reuse is extracted from proven use, never designed in advance (AMO-D044).
 - Repository contents are language-neutral: Markdown and CSV.
 - No dependencies have been added. Add one only when a concrete step needs it, and record why.
 
@@ -101,6 +135,7 @@ An eventual engine decision (AMO-Q036) must be evidence-driven and should answer
 - **Networking.** What multiplayer topology does it support (AMO-Q006)? What server-authority model?
 - **Fighting latency.** Can it deliver the input responsiveness and network techniques that competitive real-time fighting needs?
 - **Animation.** Can it support expressive, distinct characters at roster scale (AMO-Q027) — including non-humanoid plant bodies?
+- **VR capability.** Could it eventually support first-class VR — both layers, not a combat-only mode — without a rewrite, and without requiring VR work now (AMO-D042, AMO-D043, AMO-Q062)? This is a selection criterion, not a commitment to any VR technology.
 - **Target platforms** (AMO-Q037).
 - **Content pipeline.** How do approved input, design data and assets flow into builds? Is modding or user-generated content desirable?
 - **Procedural and simulation systems.** Does it support large-scale background simulation (populations, environment, genetics) without fighting the engine?

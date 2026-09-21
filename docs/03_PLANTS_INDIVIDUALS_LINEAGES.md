@@ -54,9 +54,9 @@ Over its life an individual can accumulate provenance such as:
 
 ## 4. Acclimation versus genetic change
 
-Moving an individual somewhere else does **not** change its genetics. An individual can *acclimate*: its phenotype responds to its new effective environment, so it may grow differently, larger or smaller, faster or slower.
+Moving an individual somewhere else does **not** change its genetics. An individual can *acclimate*: its phenotype responds to its new effective environment, so it may grow differently, larger or smaller, faster or slower. A favourable environment may genuinely improve it — recovery, healthier growth, better development, improved reproductive condition — and that is still not evolution (AMO-D039).
 
-Genetic change happens only **across generations and populations**, through reproduction, variation and selection (AMO-D012).
+Genetic change happens only **across generations and populations**, through reproduction, variation and selection (AMO-D012). That process is owned by its own simulation domain, the **Evolutionator** (AMO-D038), which knows nothing about geography: adaptation emerges from variation, differential success and inheritance, and is never granted by a place. See [10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md).
 
 ## 5. Reproduction and propagation
 
@@ -88,6 +88,8 @@ species
 
 Such lineages — player-created or location-created — may become one of Amorpho's most important sources of emergent uniqueness. A lineage is always a world-state phenomenon, never a new species (AMO-D005).
 
+Two kinds of selection can drive this, possibly at once (AMO-D040): the **World** creates selection pressure simply by producing conditions under which some heritable variants do better, and **players** create it deliberately by choosing which individuals reproduce. A cultivated line may therefore reflect both what a player selected and what the world allowed to thrive. There is no `EVOLVE` action: change is generational and emergent. How lines are identified or named, how far they may diverge, and how selection interacts with hybrids are open (AMO-Q053, AMO-Q054, AMO-Q055).
+
 ## 8. Hybrids
 
 Hybridization exists, but only between approved compatible pairs (AMO-D027):
@@ -99,4 +101,4 @@ Hybridization exists, but only between approved compatible pairs (AMO-D027):
 
 ## 9. Open questions
 
-Plant simulation depth (AMO-Q012), genetic abstraction (AMO-Q013), pollinators (AMO-Q014), changes in the approved species list (AMO-Q016), hybrid fertility (AMO-Q018), initial populations (AMO-Q019), and pests and pathogens (AMO-Q020). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).
+Plant simulation depth (AMO-Q012), genetic abstraction (AMO-Q013), pollinators (AMO-Q014), changes in the approved species list (AMO-Q016), hybrid fertility (AMO-Q018), initial populations (AMO-Q019), and pests and pathogens (AMO-Q020). From the Evolutionator: generation timing and selection strength (AMO-Q052), populations and divergence limits (AMO-Q053), player-created lines (AMO-Q054), and selection's interaction with hybridization (AMO-Q055). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).

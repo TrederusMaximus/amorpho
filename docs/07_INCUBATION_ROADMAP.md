@@ -2,7 +2,7 @@
 
 > The game may grow very slowly — but from now on, it never stops growing.
 
-**Current phase:** Phase 0 is complete; the next work belongs to Phase 1 — Systems Specification.
+**Current phase:** Phase 0 is complete. Phase 1 — Systems Specification — has begun: the first design pass (2026-09-20) settled the embodiment model, the World / Amorpho / Evolutionator ownership split and the Standard/VR interface principles, as laws and decisions rather than mechanics.
 
 This roadmap is organised by **maturity**, not by dates. No calendar is promised. A phase ends when its exit criteria are met, however long that takes. Phases may overlap: a technical spike can run during specification, and a micro-prototype can motivate a spike.
 
@@ -30,9 +30,13 @@ Typical work:
 - accepting the first approved species export, once it is supplied from outside the repository;
 - the game's handling of later changes to the approved species list (AMO-Q016);
 - the individual-plant model: identity, provenance, genotype/phenotype split (AMO-Q012, AMO-Q013);
-- an environment and suitability model, version 0 (AMO-Q005);
+- an **environment and Environmental Fit model, version 0** (AMO-Q005) — the smallest set of variables on each side of the World/Amorpho boundary that produces the full negative-to-positive range;
+- inhabitability and the three tolerance concepts, once Fit exists (AMO-Q042, AMO-Q051);
 - the transformation contract: what an individual plant hands to the combat layer (AMO-Q022, AMO-Q025);
-- combat design pillars and a roster strategy (AMO-Q027).
+- combat design pillars and a roster strategy (AMO-Q027);
+- an Evolutionator model, version 0: inheritance, variation, generation timing (AMO-Q013, AMO-Q052).
+
+Done in this phase so far: the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044).
 
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
@@ -54,11 +58,14 @@ Tiny, focused, playable experiments that test whether ideas are **fun**. Each te
 
 Candidates (not all are needed, and none needs to be built immediately):
 - one persistent plant through its lifecycle;
-- one minimal climate-suitability simulation: the same species in two places;
+- one minimal Environmental Fit simulation: the same species in two places;
 - one small human-space prototype: a room, a pot, a plant;
 - one plant → Amorpho transformation;
 - a two-character fighting prototype;
+- one rooting decision: the same Amorpho rooted in two different environments, to see whether the trajectory range reads as a real choice (AMO-D033);
 - **the transition test:** moving between cultivation and combat with the same plant — the central hypothesis ([04_TRANSFORMATION_AND_COMBAT.md](04_TRANSFORMATION_AND_COMBAT.md#7-the-central-hypothesis-to-test)).
+
+The VR questions (AMO-Q056–AMO-Q062) will eventually need prototypes of their own, and this is where they belong — not earlier. Recording them now is what AMO-D043 asks for; building them now is what it forbids.
 
 **Exit criteria:** the central hypothesis is either supported, or the concept has been deliberately adjusted through the decision ledger.
 
@@ -88,12 +95,13 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
-2. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
-3. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
-4. Draft an environment and suitability model, version 0, on paper — and only then decide which environmental facts approved input must carry.
+1. **Draft the environment and Environmental Fit model, version 0, on paper** (AMO-Q005) — and only then decide which environmental facts approved input must carry. This is the recommended next step: the ownership split is decided, so what remains is the smallest set of variables that makes Fit produce deterioration, equilibrium *and* improvement. It gates AMO-Q042, AMO-Q044 and AMO-Q051, and it is the precondition for any environmental column ever entering approved input (AMO-D025).
+2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
+3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
+4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
 5. Write a one-page combat pillars and roster-strategy note (AMO-Q027).
 6. Sketch the transition test as a paper prototype before any code.
+7. Sketch one emergent scenario end to end on paper — two threatened Amorphos, one body, different environments — to check that the laws from this pass really do generate the dilemma without scripting it (L37).
 
 ## Engine decision
 

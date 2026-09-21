@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief* or *Foundation closure brief* (set by the project owner), or *Foundation session, derived* (a conservative consequence worked out while laying the foundation).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief* or *Embodiment and systems brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -42,8 +42,27 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D025 | Import only what the game demonstrably needs | ACCEPTED |
 | AMO-D026 | Approved reality input is a simple file; CSV while sufficient | ACCEPTED |
 | AMO-D027 | Hybrid compatibility is a symmetric approved species pair | ACCEPTED |
+| AMO-D028 | One consciousness, one inhabited body | ACCEPTED |
+| AMO-D029 | Human body and Amorpho are separate persistent entities | ACCEPTED |
+| AMO-D030 | Plant state and animated state are one persistent individual | ACCEPTED |
+| AMO-D031 | Astral entry requires sufficient biological stability | ACCEPTED |
+| AMO-D032 | Astral exit returns the individual to rooted plant state | ACCEPTED |
+| AMO-D033 | Rooting is not inherently harmful; Environmental Fit decides | ACCEPTED |
+| AMO-D034 | Rescue windows are environmentally derived, never fixed | ACCEPTED |
+| AMO-D035 | The World owns environmental truth | ACCEPTED |
+| AMO-D036 | The Amorpho owns biological requirements, traits and condition | ACCEPTED |
+| AMO-D037 | Environmental Fit is derived from World × Amorpho | ACCEPTED |
+| AMO-D038 | The Evolutionator owns inheritance, variation and generational change | ACCEPTED |
+| AMO-D039 | Individual acclimation is distinct from generational evolution | ACCEPTED |
+| AMO-D040 | Environmental and player-driven selection both shape lineages | ACCEPTED |
+| AMO-D041 | Standard and VR Gameplay are first-class interfaces to one game | ACCEPTED |
+| AMO-D042 | VR is optional, never secondary | ACCEPTED |
+| AMO-D043 | Account for VR early; defer VR production cost | ACCEPTED |
+| AMO-D044 | No shared cross-project VR platform; prove first, extract later | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
+
+**Embodiment and systems pass (2026-09-20):** the first post-foundation design pass added AMO-D028–AMO-D044, covering the embodiment model (astral transfer), the World / Amorpho / Evolutionator ownership split with Environmental Fit as the derived bridge, and Standard and VR Gameplay as two first-class interfaces. Nothing was superseded. AMO-D007, AMO-D012 and AMO-D013 were extended rather than replaced; they carry *Revised* notes pointing at the extensions.
 
 ---
 
@@ -96,6 +115,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Amorpho has a **Human / World layer** (the player as a human in a persistent world: exploring, acquiring, cultivating, propagating, trading) and an **Amorpho / Combat layer** (skill-based fighting). A single magical artifact per player lets a suitable plant be temporarily awakened as an Amorpho. The plant that fights is the same persistent individual that lives in a pot, greenhouse or landscape.
 - **Rationale:** The bond between the plant a player has raised and the fighter they master is the core of the concept.
 - **Consequences:** Both layers operate on the same individual-plant identity. The artifact's form, name and origin, and the exact transformation rules, are open (AMO-Q021, AMO-Q022).
+- **Revised:** 2026-09-20, embodiment and systems pass — the bridge is **astral transfer**: the player's consciousness leaves a persistent human body and inhabits one eligible individual (AMO-D028, AMO-D029, AMO-D030). "Transformation" remains the umbrella term; substance unchanged, and the artifact's form stays open.
 
 ## AMO-D008 — Combat is real-time and skill-based, with fighting-game rounds
 
@@ -131,6 +151,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Moving an individual plant does not change its genetics. An individual may acclimate and express different growth. Genetic change emerges across generations and populations through reproduction, variation and selection. Species, individual, genotype, phenotype, lineage, environment and acquired history are kept conceptually separate.
 - **Rationale:** This keeps the model coherent and leaves room for a playable inheritance system and for recognisable player- or location-created lineages.
 - **Consequences:** Data models must not merge these concepts. The genetic abstraction itself is open (AMO-Q013).
+- **Revised:** 2026-09-20, embodiment and systems pass — inheritance, variation and generational change are owned by the **Evolutionator** (AMO-D038), and the acclimation/evolution distinction is restated as AMO-D039. Substance unchanged.
 
 ## AMO-D013 — Environmental suitability, not country locks
 
@@ -138,6 +159,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Where a species can grow is determined by environmental suitability (for example temperature, seasonality, rainfall, moisture, dry season, light, drainage), not by political borders or native-country membership.
 - **Rationale:** It allows meaningful movement of plants around the world and ties outcomes to understandable causes.
 - **Consequences:** Locations carry environmental properties; species carry tolerance/suitability profiles. The exact variables and resolution are deliberately unspecified (AMO-Q005). Environmental facts enter approved input only after the environment model is designed (AMO-D025).
+- **Revised:** 2026-09-20, embodiment and systems pass — the ownership boundary is made explicit (AMO-D035, AMO-D036) and *suitability* is renamed **Environmental Fit**, derived from World × Amorpho (AMO-D037). Substance unchanged.
 
 ## AMO-D014 — Cultivation context is a risk/reward choice
 
@@ -243,3 +265,122 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** For gameplay, hybrid compatibility is a relationship between two species: `A + B` is either an **approved compatible pair** or **not approved as compatible**. It is symmetric: `A ↔ B`. A pair is approved only when the external research process has established that the two species can hybridize and the pair is supplied in approved input. Directional and evidential detail stays outside Amorpho. Absence of approval means "not currently approved as compatible", never "proven incompatible"; in the game, an unapproved pair cannot hybridize. Each pair is stored once, lower species ID first. An exception to symmetry would need a future explicit decision.
 - **Rationale:** The game needs the final, approved answer, not the evidence behind it. A symmetric pair is the simplest representation that serves gameplay.
 - **Consequences:** Hybrid pairs are never invented. No compatibility data exists yet; the future input file is documented in [`data/input/README.md`](../data/input/README.md) but not created. Deliberate and accidental hybridization in the world is possible only for approved pairs. Which individual plant acted as seed parent in a world event is world-state history (parentage), not compatibility data.
+
+## AMO-D028 — One consciousness, one inhabited body
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** The player has one persistent human body and may own many plants, but their consciousness inhabits exactly one body at a time. Transformation is **astral transfer**: the player's consciousness leaves the human body and inhabits one eligible individual, which becomes an active Amorpho. A player who owns a hundred plants has one human body, a hundred plant individuals, and at most one of them inhabited.
+- **Rationale:** Collection size should create options, logistics and strategic choices — not simultaneous direct control. The interesting decisions come from being able to be in only one place.
+- **Consequences:** A collection is never a remotely controllable army. Simultaneous control of several Amorphos, remote orders and autonomous defence by uninhabited plants are excluded and would require a new decision. Multiple simultaneous threats become genuine dilemmas (AMO-Q047). See [09_EMBODIMENT_AND_ASTRAL_TRANSFER.md](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md).
+
+## AMO-D029 — Human body and Amorpho are separate persistent entities
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** The human does not physically transform into a plant. During astral transfer the human body remains physically present in the persistent world, in an unattended, trance-like state, while the plant individual remains a persistent physical individual that is now animated. Astral embodiment does not remove the human body from world reality.
+- **Rationale:** Keeping both bodies real is what makes the human layer continue to matter and gives the location of the human body meaning.
+- **Consequences:** The model "human disappears, unrelated fighter appears" is excluded. Where the transfer happens matters; a protected ritual location is the leading concept but the lore is open (AMO-Q021, AMO-Q039). What may happen to an unattended human body, and the anti-griefing implications, are open (AMO-Q041).
+
+## AMO-D030 — Plant state and animated state are one persistent individual
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** The rooted plant and its animated Amorpho form are two states of the **same** persistent individual. Identity, provenance, lineage, ownership, history, genetics and individual variation belong to that individual and remain attached across the state change.
+- **Rationale:** "The plant you raised is the fighter you play" (L16) is only true if it is literally the same individual.
+- **Consequences:** The individual is never duplicated into an unrelated plant object and fighter object to be reconciled afterwards. The combat layer still receives a narrow view of the individual rather than the whole world simulation (AMO-D021, AMO-Q025); a view is not a second entity. Extends AMO-D007.
+
+## AMO-D031 — Astral entry requires sufficient biological stability
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** `alive` and `inhabitable` are different concepts. A target individual must be healthy, stable and biologically functional enough for astral entry. A plant may be alive, but too stressed to be inhabited.
+- **Rationale:** It makes biological condition matter to the fantasy layer, and it creates the transition where astral rescue stops being possible and physical rescue becomes necessary.
+- **Consequences:** Deterioration can lock astral entry while the plant still lives (AMO-D034, AMO-Q042). State names, granularity, thresholds, whether inhabitability is binary or continuous, and re-entry rules are deliberately undecided; no numbers are defined anywhere.
+
+## AMO-D032 — Astral exit returns the individual to rooted plant state
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Leaving an inhabited Amorpho returns the individual to its biological plant state, which requires rooting or another biologically appropriate transition the game may later define. From that moment the individual is again governed by its actual relationship with its environment.
+- **Rationale:** *Astral exit returns fantasy to biological reality.* The fantasy layer is temporary; the biological layer is the persistent one.
+- **Consequences:** Where a player can safely stop being an Amorpho becomes a real strategic question, distinct from where they can travel (AMO-D033, AMO-Q051). What counts as a valid rooting site is open (AMO-Q043). Equipment that protects the animated body does not automatically protect the rooted plant (AMO-Q048).
+
+## AMO-D033 — Rooting is not inherently harmful; Environmental Fit decides
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Rooting does not cause deterioration. Rooting **exposes** the individual to Environmental Fit, and the resulting trajectory may be strongly negative, mildly negative, neutral, positive or strongly positive. A rooted Amorpho in an excellent environment may remain healthy and inhabitable indefinitely, and may recover, grow, develop, improve in condition, accumulate resources or become reproductively successful.
+- **Rationale:** If rooting always harmed the plant, the whole environmental system would collapse into a penalty timer and location would stop mattering.
+- **Consequences:** Rooting has at least two strategic meanings — **emergency rooting** (leaving the Amorpho somewhere suboptimal and hoping it stays recoverable) and **strategic rooting** (deliberately establishing it somewhere favourable). Environmental Fit must never be treated as a synonym for stress. Nothing may model rooting as automatic decline.
+
+## AMO-D034 — Rescue windows are environmentally derived, never fixed
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** There is no universal rescue timer. Where emergency rooting creates a limited window, its duration emerges from the World environment, the individual's biological requirements and current condition, and possibly acclimation, life stage, individual variation and other factors the eventual model includes. A mildly unsuitable place may allow substantial recovery time; a catastrophic one may produce rapid decline; a suitable one may produce no deadline at all.
+- **Rationale:** An emergent window makes location, species and condition genuinely meaningful; a fixed timer would make them decorative.
+- **Consequences:** No countdown constant exists anywhere in the design. How much prognosis a player can see, and how certain it is, is open (AMO-Q044). Once condition crosses the inhabitability threshold, astral rescue ends and physical rescue is required (AMO-D031, AMO-Q046).
+
+## AMO-D035 — The World owns environmental truth
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** The World owns environmental state and answers only *what conditions exist here, now?* It may eventually describe location, season, time, temperature, humidity, rainfall, weather, light, substrate, soil, drainage, exposure, shelter, microclimate and other variables. The World does not know whether conditions are good or bad for a particular individual.
+- **Rationale:** Separating description from judgement is what allows the environmental model and the biological model to grow independently.
+- **Consequences:** Rules of the form `species X allowed here` or `species Y forbidden here` must never appear in World logic — the ownership form of L9 and AMO-D013. Buildings and greenhouses modify local conditions rather than granting exemptions (AMO-Q049). The variable list stays open (AMO-Q005).
+
+## AMO-D036 — The Amorpho owns biological requirements, traits and condition
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** The Amorpho side owns what an individual is and needs, answering *what does this individual need, prefer and tolerate?* This may eventually include preferred ranges, tolerance ranges, critical limits, health, developmental state, dormancy, acclimation, individual variation and inherited traits. The Amorpho knows itself; it does not know countries.
+- **Rationale:** Biology belongs to the organism, not to the map.
+- **Consequences:** Simplistic encodings such as `Thailand = good` or `Russia = bad` are excluded from the plant model. No real values exist or may be invented: botanical facts arrive only as approved input once the model that needs them is designed (L4, AMO-D025). Place names are World labels, never plant mechanics.
+
+## AMO-D037 — Environmental Fit is derived from World × Amorpho
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** The effect of an environment on an individual is derived from the interaction of World environmental state and Amorpho requirements and condition. Environmental Fit evaluates; it is not a third owner of truth and holds no environmental or biological model of its own. Its results feed stability, stress, recovery, growth, development, reproductive performance and, across generations, selection pressure.
+- **Rationale:** A derived bridge keeps both sides free to become more sophisticated without a shared hidden model in the middle.
+- **Consequences:** Environmental Fit is not a synonym for stress; deterioration, equilibrium, stability, recovery, growth and improvement are all possible outcomes (AMO-D033). **Terminology:** Environmental Fit is the refined name for the concept [02_WORLD_MODEL.md](02_WORLD_MODEL.md) introduced as *suitability*; *effective environment* is unchanged and remains the World-side input to it. Extends AMO-D013.
+
+## AMO-D038 — The Evolutionator owns inheritance, variation and generational change
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** A third independent long-term simulation domain, the **Evolutionator**, owns inheritance, heritable variation, recombination where appropriate, future mutation and variation mechanisms, transmission of traits through reproduction, generational change and population-level change over time. It answers *how are traits transmitted and changed across reproduction and generations?* It owns neither environmental conditions nor individual requirements, and it does not decide that a population should become adapted to a named place.
+- **Rationale:** Inheritance, environment and biology change at different rates and should be improvable independently over the project's lifetime.
+- **Consequences:** The Evolutionator needs no country names, continents, climatic-zone labels, borders or region names; logic such as `if location == Russia → increase cold resistance` violates the architecture. Adaptation emerges from variation, Environmental Fit, differential success and inheritance. World, Amorpho and Evolutionator meet through explicit boundaries, never shared hidden assumptions. The genetic abstraction remains open (AMO-Q013, AMO-Q052).
+
+## AMO-D039 — Individual acclimation is distinct from generational evolution
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Changes within one individual's lifetime — acclimation, developmental response, health and condition changes, resource accumulation, different phenotypic expression, recovery, stress response — are not evolution. A plant does not become genetically cold-adapted because it spent a long time somewhere cold. Evolutionary change occurs across reproduction and generations, when heritable variation meets differential success repeatedly.
+- **Rationale:** Conflating the two would make the whole generational system meaningless and would quietly turn acclimation into a stat upgrade.
+- **Consequences:** Individual improvement under a favourable environment (recovery, healthier growth, better development, improved reproductive condition) is Environmental Fit acting on one plant; shifting trait distributions is the Evolutionator. Both must be documented and modelled separately. Extends AMO-D012 to the Evolutionator boundary.
+
+## AMO-D040 — Environmental and player-driven selection both shape lineages
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Selection pressure may come from the World and from players simultaneously. The World creates it without knowing anything about evolution, simply by producing conditions under which some heritable variants perform better. Players may create it deliberately by choosing which individuals reproduce. A cultivated lineage may therefore reflect both what the player selected and what the World allowed to thrive. Evolutionary change is emergent: there is no generic `EVOLVE` action that upgrades a species once enough experience accumulates.
+- **Rationale:** Emergent, systemic change produces more meaningful long-term history than stage evolution, and it lets players influence outcomes without commanding them.
+- **Consequences:** No selectable trait list is defined and no breeding algorithm is designed (AMO-Q052, AMO-Q054). Distinctive game-world lineages within a real species are expected and are never new species (L3, AMO-D005). Divergence limits and the interaction with hybridization are open (AMO-Q053, AMO-Q055).
+
+## AMO-D041 — Standard and VR Gameplay are first-class interfaces to one game
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Standard Gameplay and VR Gameplay are two first-class entry points into the same Amorpho game — not separate games, persistent worlds, accounts or progression systems. A player who has played only in Standard Gameplay for years and later obtains VR hardware enters the same world as the same character, with the same plants, houses, greenhouses, ownership and history.
+- **Rationale:** The persistent world and the player's accumulated history are the product. An interface is a way to inhabit them, not a second product.
+- **Consequences:** No "Amorpho VR" as a separate title, world or save. The embodiment model (AMO-D028) already separates *who the player is* from *which body they occupy*, which this builds on. The technical architecture is deliberately unresolved; no classes, APIs or code follow from this decision.
+
+## AMO-D042 — VR is optional, never secondary
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Amorpho is neither a VR-only game, nor a conventional game with a VR novelty mode, nor a VR game with a reduced non-VR fallback. A player on conventional hardware must be able to experience the complete game — world exploration, collection, ownership, cultivation, propagation, trading, property, greenhouses, astral transfer, embodiment, combat, progression, social systems and persistent-world participation — and a VR player must eventually be able to remain in VR for the complete meaningful experience, across both the Human / World and Amorpho layers.
+- **Rationale:** Either interface being a compromise would make one group of players second-class in a world they share.
+- **Consequences:** Standard combat is not reduced because VR exists (AMO-D008). VR is not combat-only, sightseeing-only or a collection viewer. VR-native combat is a deliberately designed discipline, not a remapped gamepad (AMO-Q059), and competitive parity between the interfaces is an open problem requiring prototypes (AMO-Q060).
+
+## AMO-D043 — Account for VR early; defer VR production cost
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** VR influences architecture from the beginning but does not trigger production work now. Amorpho avoids unnecessary flat-screen-only architectural assumptions, avoids core gameplay concepts that fundamentally require a 2D UI, preserves semantic separation between gameplay meaning and physical input, and considers embodiment and physical scale when designing world interactions. It does **not** build VR hands, tracked bodies, VR locomotion, motion controllers, hand tracking, VR avatars, VR combat, headset-specific rendering or XR menus, and it commits to no VR hardware, SDK or middleware.
+- **Rationale:** *Account for VR early. Pay for VR production when the project is ready.* The risk to avoid is years of decisions that make full VR prohibitively expensive to add; the opposite risk is paying for VR production before the game exists.
+- **Consequences:** Core rules should express gameplay intent rather than hard-coding one physical input method — but no intent API is defined and no abstraction is built for its own sake. VR joins the engine decision criteria (AMO-Q036, AMO-D020). Platform and hardware choices stay open (AMO-Q062). This is a constraint on design, not a licence to build.
+
+## AMO-D044 — No shared cross-project VR platform; prove first, extract later
+
+- **Status:** ACCEPTED · **Date:** 2026-09-20 · **Origin:** Embodiment and systems brief
+- **Decision:** Amorpho creates no shared Trederus Maximus VR framework and introduces no dependency to or from any sibling project, and no cross-repository infrastructure. If Amorpho and, later, another project demonstrate through repeated real use that certain interaction primitives are genuinely generic, they may eventually be extracted deliberately. The path is project-specific implementation → repeated real use → proven generic behaviour → deliberate extraction → optional shared technology; never shared framework first.
+- **Rationale:** *Prove first. Extract later.* A framework designed before two real users exist would force both into abstractions neither needs, and would breach Amorpho's independence.
+- **Consequences:** Reuse potential for other projects is context only, never architecture (AMO-D002, AMO-D018). Interaction primitives such as grab, hold, inspect, place, point, select, open, navigate, manipulate and interact are illustrative examples, not a planned library. See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
