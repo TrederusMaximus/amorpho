@@ -201,6 +201,8 @@ Both can happen in the same place, and they are different processes (AMO-D039):
 
 A plant thriving magnificently in an excellent location has not evolved. Its descendants, repeatedly succeeding there over generations, may represent a population that has.
 
+**Developmental Maturity is never inherited.** It belongs to one individual and accumulates over its own life cycles (AMO-D080). A mature parent does not produce developmentally mature offspring: every new individual begins its own developmental history, and parent maturity is never copied. Inherited traits may later influence how *readily* an offspring develops — that is this domain's business — but that is not a transfer of accumulated development. **Do not confuse ontogeny with evolution** (AMO-D039, AMO-D064).
+
 ## 11. Player-driven selection
 
 Players may create selection pressure deliberately, eventually choosing which individuals reproduce on the basis of traits they value — appearance, size, environmental tolerance, growth behaviour, reproductive traits or other inheritable characteristics. This may produce cultivated lines.

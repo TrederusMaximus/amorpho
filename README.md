@@ -91,6 +91,7 @@ docs/
   16_HUMAN_WARDEN_PROGRESSION_V0.md     the human's own slow magical progression
   17_LIFE_CYCLE_STATE_MACHINE_V0.md     the life-cycle topology and astral access windows
   18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md  harm horizons, recovery, Bloom maturity
+  19_DEVELOPMENTAL_MATURITY_V0.md       the persistent developmental axis
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

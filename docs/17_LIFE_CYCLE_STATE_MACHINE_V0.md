@@ -23,7 +23,7 @@ DEVELOPMENTAL / LIFE-CYCLE STATE
 CURRENT BIOLOGICAL MANIFESTATION
 ```
 
-A transition **never** creates a new individual, and never resets provenance, lineage, genotype, Anchor state, ownership or custody (AMO-D058, AMO-D011).
+A transition **never** creates a new individual, and never resets provenance, lineage, genotype, Anchor state, ownership or custody (AMO-D058, AMO-D011). Nor does it reset **Developmental Maturity**, which accumulates across cycles and is what makes one individual developmentally further along than another in the same phase (AMO-D080, [19_DEVELOPMENTAL_MATURITY_V0.md](19_DEVELOPMENTAL_MATURITY_V0.md)).
 
 If a leaf is lost, the individual remains. If a Bloom ends, the individual remains. If the individual enters dormancy, the individual remains. This is obvious and worth writing down anyway, because future character, roster and interface systems must **never key identity to the current visual manifestation** (AMO-D070).
 

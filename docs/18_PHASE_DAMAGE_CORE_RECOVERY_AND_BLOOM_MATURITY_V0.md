@@ -182,7 +182,9 @@ Developmental Maturity  → how far the individual has developed across repeated
 
 **It does not regress merely because a manifestation is damaged.** Regression requires meaningful consequence at the *persistent* level — crossing the Core-Impact Threshold (AMO-D079). `Leaf integrity loss` and `maturity loss` are different events, and equating them would make every torn leaf cost years of development (AMO-Q106).
 
-**It is not experience points.** Maturity is biological development, not a combat currency, and it emerges from successful life cycles, favourable growth and biological condition rather than from activity (AMO-D077, AMO-Q106).
+**It is not experience points.** Maturity is biological development, not a combat currency, and it emerges from successful life cycles, favourable growth and biological condition rather than from activity (AMO-D077, L47).
+
+The axis is now specified in [19_DEVELOPMENTAL_MATURITY_V0.md](19_DEVELOPMENTAL_MATURITY_V0.md) (AMO-D080–AMO-D083): one continuous, species-relative quantity; growth from persistent biological surplus rather than awarded by Fit; regression only on Core Impact, with **lost opportunity distinct from regression**; and **healing distinct from regrowth** — full vitality recovery does not restore lost development (L48).
 
 ## 9. Bloom requires flowering maturity
 

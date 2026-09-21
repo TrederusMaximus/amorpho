@@ -218,3 +218,7 @@ Biological harm differs in depth, cost and how many cycles it takes to undo — 
 The player creates the conditions; the living individual reaches the state. Eligibility comes from species-specific developmental maturity, can be lost by regression, and can be rebuilt. *(AMO-D078, AMO-D077)*
 **Smell:** an *Unlock Bloom* action, a flowering cost paid in currency or experience, or a maturity value that grows by doing activities rather than by living well.
 
+### L48 — Healing restores integrity; growth restores development.
+Vitality and Developmental Maturity are different things and recover by different means. A fully healed individual may still be a fraction of what it was, and only successful biological life rebuilds that. *(AMO-D083, AMO-D080)*
+**Smell:** recovery that restores size along with health, a single "damage" number covering both, or lost development returning because a timer expired.
+
