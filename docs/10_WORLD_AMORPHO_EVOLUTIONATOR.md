@@ -86,7 +86,9 @@ Stress is one possible outcome among several. Without committing to discrete tie
 | good | stable health; growth and development; long-term inhabitability |
 | excellent | recovery; strong development; favourable growth; potentially improved reproductive performance |
 
-No numerical thresholds are defined, and the tiers above are illustration, not schema. What matters is that the range genuinely extends into the positive: an environment can **improve** a plant.
+No numerical thresholds are defined, and the tiers above are illustration, not schema. What matters is that the range genuinely extends into the positive: an environment can **improve** a plant — *surviving is not thriving* (L38).
+
+The first concrete model of all of this is [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md): five neutral World dimensions, a zoned Amorpho response profile, and a Fit output contract that keeps per-dimension detail alongside an aggregate trajectory (AMO-D046–AMO-D049).
 
 This is what makes rooting a real decision rather than a penalty (AMO-D033), and what makes rescue windows emergent rather than fixed (AMO-D034). See [09_EMBODIMENT_AND_ASTRAL_TRANSFER.md](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md).
 

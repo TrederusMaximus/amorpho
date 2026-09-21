@@ -110,7 +110,7 @@ The concept has three parts:
 
 1. **Location environment.** A place has environmental properties. Candidate properties include temperature range, seasonality, rainfall, moisture, dry season, light/shade and drainage — and perhaps soil or others where gameplay value justifies them. The final set is open (AMO-Q005). The World describes these conditions; it does not know whether they suit any particular plant (AMO-D035).
 2. **Species tolerance profile.** Each species has a corresponding profile of what it tolerates and prefers, and each individual has its own condition and variation on top of that (AMO-D036). This is reality-derived knowledge. Once the environment model is designed, the approved input format will be extended with exactly the facts it needs (AMO-D025). No profile data exists yet, and none may be invented.
-3. **Environmental Fit.** Comparing an effective environment with an individual yields what happens to it there. Fit is best thought of as graded rather than a simple allowed/forbidden switch, and its range genuinely extends into the positive: an environment may cause deterioration, hold an individual in equilibrium, or let it recover, grow and improve (AMO-D033, AMO-D037). Fit is **not** a synonym for stress. The exact form — continuous or tiered — is undecided.
+3. **Environmental Fit.** Comparing an effective environment with an individual yields what happens to it there. The first concrete model — five World dimensions, a zoned response profile and a defined output contract — is [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) (AMO-D046–AMO-D049). Fit is best thought of as graded rather than a simple allowed/forbidden switch, and its range genuinely extends into the positive: an environment may cause deterioration, hold an individual in equilibrium, or let it recover, grow and improve (AMO-D033, AMO-D037). Fit is **not** a synonym for stress. The exact form — continuous or tiered — is undecided.
 
 ### Effective environment
 
@@ -127,7 +127,7 @@ This is how a species can survive far outside its natural range under cultivatio
 
 Buildings and greenhouses work by **modifying local conditions**, not by granting exemptions. A greenhouse should never need a special rule such as `greenhouse makes tropical plant valid`; it produces different temperature, humidity, exposure and protection, and the ordinary mechanism handles the result (AMO-D035, AMO-Q049).
 
-Environmental state can exist at increasingly local scales, nested inside the World rather than replacing it:
+Every level produces the same environmental dimensions, so complexity can be inserted between levels without Environmental Fit ever learning about buildings (AMO-D046). Environmental state can exist at increasingly local scales, nested inside the World rather than replacing it:
 
 ```
 world / city conditions → house → room → pot → root zone
@@ -152,6 +152,10 @@ Two consequences follow:
 
 - **Species identity does not equal achieved size.** How large and vigorous a plant becomes is an outcome of genetics, effective environment, pot size and history.
 - **Outdoors is where the drama is.** The best growth, natural pollination, exposure, theft and accidental hybrids all concentrate there.
+
+Cultivation context is one of the things that turns a location environment into an effective environment; a pot, a room and a greenhouse are progressively more local environments, not exemptions from biology (AMO-D046, [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md)).
+
+The World also never blocks a player from taking a plant somewhere unsuitable. It states the conditions and the player judges the risk (L39, AMO-D051).
 
 Property, greenhouse and home systems are open (AMO-Q032). Pests, pathogens and weather events are open (AMO-Q020).
 

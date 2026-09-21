@@ -38,10 +38,11 @@ How does world time relate to real time? How are real plant timescales (not Amor
 *Refined 2026-09-20:* also covers the season model, since Environmental Fit varies with season and weather, not only with place (AMO-D035). Generation timing for the Evolutionator is tracked separately as AMO-Q052.
 
 ### AMO-Q005 — Environmental model: variables and resolution
-**Status:** OPEN · **Constraints:** AMO-D013, AMO-D035, AMO-D036, AMO-D037
+**Status:** EXPLORING (version 0 specified in [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md)) · **Constraints:** AMO-D013, AMO-D035, AMO-D036, AMO-D037, AMO-D046–AMO-D049
 Which environmental variables are modelled, at what spatial and temporal resolution, and how is Environmental Fit computed?
 *Notes:* Candidates: temperature range, seasonality, rainfall, moisture, dry season, light/shade, drainage, perhaps soil. Species tolerance facts are reality-derived: once this model is designed, the approved input format is extended with exactly the subset it needs (AMO-D025). No environmental fields exist until then.
-*Refined 2026-09-20:* the ownership split is now decided (World describes, Amorpho requires, Fit evaluates — AMO-D035–AMO-D037); what remains open is the content on each side. Also covers weather, extreme events and how deep microclimates go. Whether Fit is continuous or tiered is part of this question. Substrate is tracked separately as AMO-Q050.
+*Refined 2026-09-20:* the ownership split is now decided (World describes, Amorpho requires, Fit evaluates — AMO-D035–AMO-D037); what remains open is the content on each side. Also covers weather, extreme events and how deep microclimates go. Substrate is tracked separately as AMO-Q050.
+*Refined 2026-09-21:* version 0 answers the first cut — five neutral dimensions (temperature, water availability, light availability, air moisture, exposure/protection), local and time-dependent, with a specified Fit output contract (AMO-D046–AMO-D049). This question stays open for what v0 deliberately did not settle: spatial and temporal **resolution**, which further dimensions earn their place, and whether exposure/protection should decompose. Value representation is AMO-Q069, aggregation AMO-Q070, interactions AMO-Q071, time step AMO-Q074.
 
 ## Society, multiplayer and economy
 
@@ -80,6 +81,7 @@ How is Amorpho funded and sold?
 **Status:** OPEN · **Constraints:** AMO-D003, AMO-D011, AMO-D012
 Which life-cycle stages, growth processes and care actions are simulated, and in how much detail?
 *Notes:* Real life-cycle facts per species are not Amorpho's to research and must not be assumed; if a system needs them, they arrive as approved input (AMO-D025).
+*Refined 2026-09-21:* also covers **acclimation** — whether and how an individual's response profile shifts with sustained exposure, which sits in the current-condition layer of the response profile (AMO-D048) and must stay distinct from genetic change (AMO-D039). Condition variables themselves are AMO-Q073.
 
 ### AMO-Q013 — Genetic abstraction
 **Status:** OPEN · **Constraints:** AMO-D012, AMO-D027, AMO-D038, AMO-D039
@@ -235,6 +237,7 @@ What can happen to the human body while the player inhabits an Amorpho? Can othe
 **Status:** OPEN · **Constraints:** AMO-D031, AMO-D034
 Where is the line between inhabitable and merely alive? Is inhabitability binary or continuous? Does a moderately stressed plant become harder, riskier or costlier to inhabit rather than simply unavailable? What rules govern re-entry after emergency rooting?
 *Notes:* No thresholds or state names may be fixed prematurely. The transition from astral rescue to physical rescue depends entirely on this answer.
+*Refined 2026-09-21:* the evaluation path is now fixed — inhabitability derives from biological condition, never from the World or geography (AMO-D050). What stays open is the threshold itself, its granularity, and which condition variables feed it (AMO-Q073).
 
 ### AMO-Q043 — Valid rooting sites
 **Status:** OPEN · **Constraints:** AMO-D032, AMO-D033
@@ -247,11 +250,13 @@ What counts as a place where an inhabited Amorpho can root and return to plant s
 **Status:** OPEN · **Constraints:** AMO-D034, AMO-D037
 Before rooting, how much does the player learn about how the individual will fare there? Is the prognosis exact, approximate, uncertain, or learned through experience? Are forecasts available, and how reliable are they?
 *Notes:* Certainty here decides whether rooting is a judgement call or a lookup. Too much information makes emergency rooting trivial; too little makes it arbitrary.
+*Refined 2026-09-21:* the separation of **simulation truth** from **player knowledge** is now explicit (AMO-D051): the simulation may hold a trajectory without exposing certainty about it, and nothing assumes a visible countdown to non-inhabitability. The question is the information model — forecasts, sensors, cultivation knowledge, equipment, warnings, and how accurately a player can predict Fit before committing to a location or a rooting event.
 
 ### AMO-Q045 — Critical condition, recovery, permanent damage and death
 **Status:** OPEN · **Constraints:** AMO-D031, AMO-D033, AMO-D034
 How does an individual recover from a critical state? Can some damage become permanent? How does plant death actually work, and is it ever instantaneous?
 *Notes:* Must be coherent with whatever combat does to a plant (AMO-Q026). Permanent damage is powerful and risky: it raises stakes but can make players refuse to play.
+*Refined 2026-09-21:* Fit's growth/recovery output makes recovery a first-class outcome rather than an exception (AMO-D049), so the open part is the **recovery model** — how fast, from how far down, and whether any damage is irreversible. Relates to AMO-Q072 and AMO-Q073.
 
 ### AMO-Q046 — Physical rescue: the human, and other players
 **Status:** OPEN · **Constraints:** AMO-D029, AMO-D031
@@ -274,16 +279,19 @@ What happens to worn animated-state equipment when an Amorpho roots? Does it fal
 **Status:** OPEN · **Constraints:** AMO-D014, AMO-D035
 How do homes, greenhouses and other controlled spaces modify local conditions, and how deeply is an indoor environment simulated? How much control can a player exert, at what cost?
 *Notes:* The architecture is decided: a building produces a modified local environment, evaluated by the ordinary mechanism — never a special rule such as `greenhouse makes tropical plant valid` (AMO-D035). What is open is fidelity and cost. Relates to AMO-Q032.
+*Refined 2026-09-21:* a controlled environment modifies the five v0 dimensions and nothing else, so Fit never learns about buildings (AMO-D046, AMO-D047). Open: which dimensions a given structure can modify, how far, at what cost, and how reliably.
 
 ### AMO-Q050 — Substrate and rooting medium
 **Status:** OPEN · **Constraints:** AMO-D035, AMO-D036
 Is substrate modelled at all, and if so how — soil type, drainage, quality, volume? Is it a World property, a property of a pot, or both?
 *Notes:* Pot size already constrains development (AMO-D014). Substrate could extend that meaningfully or add depth nobody plays with. Real soil requirements per species are not Amorpho's to research (AMO-D024).
+*Refined 2026-09-21:* the entry point is fixed — a container and its root zone extend the Local Environment State at the lowest level of the hierarchy, not as a separate system (AMO-D046). v0 adds no root-zone dimensions. Open: whether root volume, water state, drainage, substrate and root-zone temperature become dimensions of their own or modifiers of existing ones.
 
 ### AMO-Q051 — Traversal, rooting and long-term suitability
 **Status:** OPEN · **Constraints:** AMO-D032, AMO-D033, AMO-D037
 How are the three environmental capabilities distinguished in practice: where an animated Amorpho can temporarily operate, where the individual can survive once rooted, and where it can genuinely persist, grow and reproduce? How much does equipment extend the first without touching the others?
 *Notes:* They must never collapse into one `can live here / cannot live here` flag. This is the question behind *"I can travel here — but can I safely stop being Amorpho here?"* Relates to AMO-Q025 and AMO-Q005.
+*Refined 2026-09-21:* v0 specifies the **rooted** evaluation and reserves a second context, *animated environmental response*, which would use the same World Environment plus animated-state protections and modifiers. That second model is undesigned. Long-term suitability is a question of trajectory sustained over time rather than a separate evaluation (AMO-D049).
 
 ## Evolutionator
 
@@ -307,6 +315,50 @@ Can players identify, name or formally register a line they have bred? Is there 
 How do selection and lineages interact with hybrids? Can a hybrid line be selectively bred, and does that depend on hybrid fertility?
 *Notes:* Depends on AMO-Q018. Compatibility itself never changes through play: approved pairs come only from approved input (AMO-D027), and nothing in the Evolutionator may create or imply new pairs.
 
+## Environment and Environmental Fit
+
+These follow from [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md). v0 is a boundary contract; these are the things it deliberately did not settle.
+
+### AMO-Q069 — Value representation: units, normalisation, continuous or tiered
+**Status:** OPEN · **Constraints:** AMO-D047, AMO-D048, AMO-D049
+How are environmental values, response zones and fit results represented? Standard physical units per dimension, normalised abstract scales, or a mix? Is the internal model continuous, tiered, or continuous with categories exposed outward? Should exposure / protection decompose into more specific dimensions?
+*Notes:* v0 deliberately chose nothing here. The seven labels in §10 of the model are documentation and UI vocabulary, not mandatory internal states, and nothing may lock an implementation to seven enumerated values. Physical units are a likely eventual representation for temperature and humidity; less obviously so for exposure. Exposure / protection is flagged as provisional precisely because a vague universal score can absorb every future variable and become meaningless.
+
+### AMO-Q070 — Fit aggregation and limiting factors
+**Status:** OPEN · **Constraints:** AMO-D049
+How do per-dimension fits combine into a biological direction? What rule gives limiting factors their required weight without making every mildly poor dimension catastrophic?
+*Notes:* The requirement is fixed: catastrophic failure in one dimension may not disappear behind excellent values elsewhere (AMO-D049). Candidate shapes include a minimum, a weighted minimum, a product, or a soft floor. None is chosen. The rule also has to leave room for the positive end of the range (L38) rather than only capping.
+
+### AMO-Q071 — Interactions between environmental factors
+**Status:** OPEN · **Constraints:** AMO-D049
+Do dimensions interact, and if so how? High temperature may worsen water stress; protection may reduce effective exposure; low light may change water use.
+*Notes:* v0 treats dimensions independently and records this as an extension point. The architecture may not assume independence is permanent. Whether interaction belongs in the World (producing an adjusted local state) or in Fit (evaluating combinations) is itself part of the question, and the answer affects AMO-D035's boundary.
+
+### AMO-Q072 — Exposure history and accumulation
+**Status:** OPEN · **Constraints:** AMO-D048, AMO-D049
+How is accumulated recent experience of conditions modelled, given that `brief cold ≠ prolonged cold` and `one dry interval ≠ sustained drought`? Does exposure history live in the individual's condition, in a separate accumulation layer, or in Fit's inputs?
+*Notes:* v0 names the distinction between instantaneous environment and exposure history and defines no mathematics for it. This is likely a precondition for a credible recovery model (AMO-Q045) and for stress that feels biological rather than instantaneous.
+
+### AMO-Q073 — Current-condition variables
+**Status:** OPEN · **Constraints:** AMO-D048, AMO-D050
+Which condition variables does an individual actually need — health, stress load, development or growth state, stored resources, something else? Which of them feed inhabitability?
+*Notes:* Should be settled by what the Fit boundary genuinely requires, not by physiological ambition (AMO-D048). Fewer, broader variables are the conservative default. Relates to plant simulation depth (AMO-Q012) and the inhabitability threshold (AMO-Q042).
+
+### AMO-Q074 — Simulation time step and update frequency
+**Status:** OPEN · **Constraints:** AMO-D046, AMO-D049
+How often is environment recomputed and Fit re-evaluated, and at what granularity does condition accumulate? Does a plant nobody is watching update continuously, on a coarse schedule, or on demand?
+*Notes:* v0 defines the shape `Condition(t + Δt) = Condition(t) + effects of Fit during Δt` and no rate. A persistent world full of individuals that develop unobserved (AMO-D009, AMO-D011) makes this a cost question as much as a design one. Coupled to world time scale (AMO-Q004) and to how populations are represented spatially (AMO-Q068).
+
+### AMO-Q075 — Where randomness lives
+**Status:** OPEN · **Constraints:** AMO-D052
+Should the deterministic-evaluator position hold as the model matures? Which upstream systems own the randomness — weather, individual variation, stochastic events, pests, disease — and how much variation should two apparently similar plants show?
+*Notes:* v0 takes the conservative position that Fit itself is deterministic for identical state and that randomness sits upstream, in the state being evaluated (AMO-D052). That is a claim about the evaluator, not about biology. Revisit if outcomes feel mechanical in a prototype.
+
+### AMO-Q076 — Approved input for species response profiles
+**Status:** OPEN · **Constraints:** AMO-D024, AMO-D025, AMO-D026, AMO-D053
+Once the environmental model is settled enough to need them, what is the minimal approved input that expresses a species response profile? Which dimensions, which zones, and in what form?
+*Notes:* Nothing may be imported before the consuming model exists (AMO-D053), and only what the game demonstrably needs may cross (AMO-D025). The research behind any such values stays outside Amorpho (AMO-D024). Note the shape problem: a per-species × per-dimension × per-zone table is considerably richer than the current two-column CSV, so this may be where CSV stops being sufficient (AMO-D026).
+
 ## Earth representation
 
 ### AMO-Q063 — Local detail: authored versus procedural
@@ -323,6 +375,7 @@ How do player-created properties, buildings, greenhouses and interiors sit insid
 **Status:** OPEN · **Constraints:** AMO-D035, AMO-D037, AMO-D045
 How deep does environmental nesting go — world, city, property, building, room, pot, root zone — and where does it usefully stop? Does each level hold its own state, or is local state derived on demand from the level above plus modifiers?
 *Notes:* The principle is that environmental state can exist at increasingly local scales, which is what lets a potted plant experience something different from the room and the street. Depth is a cost decision as much as a design one. Relates to AMO-Q005, AMO-Q049 and AMO-Q050.
+*Refined 2026-09-21:* the contract is now fixed — every level produces the same five dimensions, so complexity can be inserted between levels without changing ownership (AMO-D046, AMO-D047). Open: how many levels actually exist, whether each holds state or derives it on demand from the level above plus modifiers, and where the cost stops being worth it.
 
 ### AMO-Q066 — How real geographic data could ever enter Amorpho
 **Status:** OPEN · **Constraints:** AMO-D018, AMO-D024, AMO-D025, AMO-D045
@@ -382,7 +435,7 @@ Which VR platforms and hardware are targeted, and what are the minimum requireme
 
 In rough order of value for the next phase:
 
-1. **AMO-Q005** (environmental model, version 0) — now the highest-value step. The ownership split is decided (AMO-D035–AMO-D037), so what remains is the smallest set of variables on each side that makes Environmental Fit produce the full negative-to-positive range. It also gates AMO-Q042, AMO-Q044 and AMO-Q051, and it must exist before any environmental facts can enter approved input (AMO-D025).
+1. **AMO-Q069** and **AMO-Q070** (value representation; aggregation and limiting factors) — now the highest-value pair. Version 0 fixed the boundary (AMO-D046–AMO-D049); these are the first two things a working evaluator needs, and both are best answered by walking worked examples through the contract rather than by argument.
 2. **AMO-Q016** (changes in the approved species list) — needed before the second approved species export, not the first.
 3. **AMO-Q013** and **AMO-Q012** (genetics, simulation depth) — shape the individual-plant model and the Evolutionator's core.
 4. **AMO-Q042** and **AMO-Q051** (inhabitability; the three tolerance concepts) — turn the embodiment laws into something a prototype can be built against.

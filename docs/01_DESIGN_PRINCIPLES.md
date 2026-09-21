@@ -173,3 +173,14 @@ Shared infrastructure is extracted from repeated real use, never designed in adv
 ### L37 — Prefer systems that generate situations over scripted special cases.
 A small number of coherent rules should produce many meaningful situations. *(AMO-D028, AMO-D033, AMO-D040)*
 **Smell:** an illustrative example turned into a hard-coded feature, or a scripted choice screen standing in for a simulated dilemma.
+
+## Environmental laws
+
+### L38 — Surviving is not thriving.
+Absence of stress is not the best possible outcome. The model must distinguish not dying, stable survival, healthy growth and highly favourable development — and an excellent environment must be worth seeking, not merely a punishment avoided. *(AMO-D049, AMO-D033)*
+**Smell:** a design whose best case is "nothing bad happened", or a fit score that only ever subtracts.
+
+### L39 — Environment describes conditions, not permissions.
+The World states what conditions exist; it never forbids a player from going somewhere or rooting there. Consequences emerge through Environmental Fit. *(AMO-D051)*
+**Smell:** a travel, planting or rooting action blocked because a location is "unsuitable" — the agency form of L9's smell.
+

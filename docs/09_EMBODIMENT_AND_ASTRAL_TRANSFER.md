@@ -91,6 +91,8 @@ Astral entry requires sufficient biological stability (AMO-D031). A plant can be
 
 State names, granularity and thresholds are open, including whether inhabitability is a binary gate or a continuous quality (AMO-Q042). The law is the separation of the two concepts, not the table.
 
+Inhabitability is always derived from the individual's **biological condition**, never set by the World or by geography (AMO-D050). A place is not inherently un-inhabitable; a plant's condition is. This is what lets the same location affect different species, different individuals, and the same individual at different times, differently.
+
 ## 8. Astral exit and rooting
 
 Leaving an inhabited Amorpho returns the individual to its biological plant state (AMO-D032). That requires rooting, or another biologically appropriate transition the game may later define.
@@ -106,6 +108,10 @@ The moment the player leaves, the individual is once again governed by its real 
 This is easy to get wrong, so it is stated as a law (AMO-D033). Rooting does **not** start a decline timer. Rooting **exposes the individual to Environmental Fit**, and the resulting trajectory may be strongly negative, mildly negative, neutral, positive or strongly positive.
 
 A rooted Amorpho in an excellent environment may stay healthy and inhabitable indefinitely. It may also recover, grow, develop, improve in condition, accumulate resources or become reproductively successful.
+
+> **Rooting does not start a countdown. It starts an environmental relationship.**
+
+How that relationship is evaluated is specified in [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
 
 Rooting therefore has at least two strategically different meanings:
 
@@ -123,7 +129,7 @@ Emergency rooting may create a limited rescue window, but there is no fixed one 
 
 A mildly unsuitable place might allow a long recovery period. A catastrophically unsuitable one might produce rapid decline. A suitable place might produce no deadline at all, and an excellent one may improve the plant.
 
-No numerical thresholds are defined here, and none should be invented elsewhere.
+No numerical thresholds are defined here, and none should be invented elsewhere. There is no rescue-timer system anywhere in Amorpho: a window exists only while a negative trajectory is running and the individual is still inhabitable, and a stable or positive trajectory produces no window at all (AMO-D049, AMO-D050).
 
 ## 11. The astral re-entry window
 

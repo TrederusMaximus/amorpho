@@ -26,6 +26,8 @@ phenotype = f(genotype, effective environment, age and history)
 genotype  = inherited at creation; never changed afterwards
 ```
 
+How an individual responds to its environment is layered from **species baseline**, **individual traits** and **current condition** into an effective response profile, which Environmental Fit then evaluates (AMO-D048). See [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
+
 ## 2. Species
 
 A species exists in Amorpho only because it appears in approved input (AMO-D004, AMO-D017). Its identity is a permanent, opaque species ID such as `AMO-SP-000001`; its scientific name is mutable metadata that may change in a later approved export without affecting the identity (AMO-D022). The approved species list currently contains no species.

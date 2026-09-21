@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief* or *World foundation brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief* or *Environment v0 brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -60,12 +60,22 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D043 | Account for VR early; defer VR production cost | ACCEPTED |
 | AMO-D044 | No shared cross-project VR platform; prove first, extract later | ACCEPTED |
 | AMO-D045 | Amorpho's World is Earth | ACCEPTED |
+| AMO-D046 | World environment is local and time-dependent | ACCEPTED |
+| AMO-D047 | Environment Vector v0: five neutral dimensions | ACCEPTED |
+| AMO-D048 | Amorpho response profile v0: zones, three contributing layers | ACCEPTED |
+| AMO-D049 | Environmental Fit v0 output contract | ACCEPTED |
+| AMO-D050 | Inhabitability is downstream of biological condition | ACCEPTED |
+| AMO-D051 | Environment describes conditions, not permissions | ACCEPTED |
+| AMO-D052 | Fit is deterministic for identical state; randomness is upstream | ACCEPTED |
+| AMO-D053 | The design model precedes importing real environmental data | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
 **Embodiment and systems pass (2026-09-20):** the first post-foundation design pass added AMO-D028–AMO-D044, covering the embodiment model (astral transfer), the World / Amorpho / Evolutionator ownership split with Environmental Fit as the derived bridge, and Standard and VR Gameplay as two first-class interfaces. Nothing was superseded. AMO-D007, AMO-D012 and AMO-D013 were extended rather than replaced; they carry *Revised* notes pointing at the extensions.
 
 **World foundation (2026-09-21):** AMO-D045 fixed the World as a coherent representation of the real Earth, shared by the Human and Amorpho layers, with progressive fidelity and no technology commitment. Nothing was superseded; AMO-D009 carries a *Revised* note pointing at it.
+
+**Environment and Fit v0 (2026-09-21):** AMO-D046–AMO-D053 gave the accepted architecture its first usable environmental model — a five-dimension World vector, a zoned Amorpho response profile, and a Fit output contract that preserves per-dimension information alongside an aggregate trajectory. It is a boundary contract, not a biological simulation: no values, units, formulas or tick rates are fixed. Nothing was superseded; AMO-D013, AMO-D031 and AMO-D037 carry *Revised* notes pointing at it. The specification is [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
 
 ---
 
@@ -135,6 +145,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Rationale:** A world with its own continuity is what gives plants and events real history.
 - **Consequences:** World state must be persistent and must evolve without player input. Scale, time model and topology are open (AMO-Q001, AMO-Q004, AMO-Q006).
 - **Revised:** 2026-09-21, world foundation — the world that persists is specifically a coherent representation of the real **Earth**, shared by the Human and Amorpho layers (AMO-D045). Substance unchanged; scale and fidelity remain open.
+- **Revised:** 2026-09-21, environment v0 — this is AMO-D009's entry; see also AMO-D046, which makes the persisting world's environment local and time-dependent rather than a fixed property of a place.
 
 ## AMO-D010 — Plant populations are finite; no spawning on demand
 
@@ -165,6 +176,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Rationale:** It allows meaningful movement of plants around the world and ties outcomes to understandable causes.
 - **Consequences:** Locations carry environmental properties; species carry tolerance/suitability profiles. The exact variables and resolution are deliberately unspecified (AMO-Q005). Environmental facts enter approved input only after the environment model is designed (AMO-D025).
 - **Revised:** 2026-09-20, embodiment and systems pass — the ownership boundary is made explicit (AMO-D035, AMO-D036) and *suitability* is renamed **Environmental Fit**, derived from World × Amorpho (AMO-D037). Substance unchanged.
+- **Revised:** 2026-09-21, environment v0 — the first concrete model is specified: a five-dimension World vector, a zoned response profile and a Fit output contract (AMO-D047–AMO-D049, [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md)). Substance unchanged; values, units and formulas remain undefined.
 
 ## AMO-D014 — Cultivation context is a risk/reward choice
 
@@ -299,6 +311,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** `alive` and `inhabitable` are different concepts. A target individual must be healthy, stable and biologically functional enough for astral entry. A plant may be alive, but too stressed to be inhabited.
 - **Rationale:** It makes biological condition matter to the fantasy layer, and it creates the transition where astral rescue stops being possible and physical rescue becomes necessary.
 - **Consequences:** Deterioration can lock astral entry while the plant still lives (AMO-D034, AMO-Q042). State names, granularity, thresholds, whether inhabitability is binary or continuous, and re-entry rules are deliberately undecided; no numbers are defined anywhere.
+- **Revised:** 2026-09-21, environment v0 — the evaluation path is fixed: inhabitability is computed from biological condition, never set by the World or by geography (AMO-D050). Substance unchanged; the threshold itself remains open.
 
 ## AMO-D032 — Astral exit returns the individual to rooted plant state
 
@@ -341,6 +354,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** The effect of an environment on an individual is derived from the interaction of World environmental state and Amorpho requirements and condition. Environmental Fit evaluates; it is not a third owner of truth and holds no environmental or biological model of its own. Its results feed stability, stress, recovery, growth, development, reproductive performance and, across generations, selection pressure.
 - **Rationale:** A derived bridge keeps both sides free to become more sophisticated without a shared hidden model in the middle.
 - **Consequences:** Environmental Fit is not a synonym for stress; deterioration, equilibrium, stability, recovery, growth and improvement are all possible outcomes (AMO-D033). **Terminology:** Environmental Fit is the refined name for the concept [02_WORLD_MODEL.md](02_WORLD_MODEL.md) introduced as *suitability*; *effective environment* is unchanged and remains the World-side input to it. Extends AMO-D013.
+- **Revised:** 2026-09-21, environment v0 — the output contract is specified (AMO-D049): per-dimension fit, biological direction, stress pressure, growth/recovery opportunity and critical constraint indicators. Substance unchanged.
 
 ## AMO-D038 — The Evolutionator owns inheritance, variation and generational change
 
@@ -406,3 +420,59 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
   - **No map technology, data source, streaming architecture or world-instance model is selected by this decision** (AMO-D020, AMO-Q001, AMO-Q066). It authorises no global map, GIS ingestion, imagery, procedural cities, terrain generation, navigation or weather service.
   - Real Earth geography never implies anything about a player's real residential address; that separation stands (AMO-Q003).
   - No geographic facts enter approved input now. If species origin data is ever needed, it arrives through the Reality Gate once a game system requires it (AMO-D025, AMO-Q019).
+
+## AMO-D046 — World environment is local and time-dependent
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** The World produces a **Local Environment State** for a specific place, time and local context — conceptually `LocalEnvironment(place, time, context)`. Environment is never a permanent property of a place. World conditions are progressively modified into local conditions by season, weather, time of day, buildings, shelter and eventually containers, and the result always presents the same environmental dimensions.
+- **Rationale:** Season, weather and controlled environments are where most of the interesting variation lives. A place-only model could not express any of it, and a context-free model would force every building and pot to become a special case.
+- **Consequences:** The same geographic position may carry different environments outside, in a house, in a greenhouse, under shade or in a root zone. Because modifiers produce the same dimensions, Environmental Fit never learns about buildings (AMO-D035). No nesting mechanics, resolution or update frequency are defined (AMO-Q065, AMO-Q074). Geography locates; the World describes (AMO-D045).
+
+## AMO-D047 — Environment Vector v0: five neutral dimensions
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** Version 0 of the World Environment Vector has five dimensions: **temperature**, **water availability**, **light availability**, **air moisture / humidity**, and **exposure / protection**. They are neutral World facts and are never labelled good, bad, suitable, unsuitable, tropical or species-compatible. Water availability means usable moisture at the root system, not rainfall. Air moisture is kept separate from water availability because they are biologically different. Exposure / protection is an explicitly provisional coarse abstraction expected to decompose later.
+- **Rationale:** Five dimensions are enough to produce meaningful, explicable outcomes indoors and outdoors, across seasons, for any species — and few enough to understand and test. Naming what the plant experiences, rather than the mechanisms that produce it, lets rainfall, irrigation, drainage, canopy and artificial light be added later without changing what Fit consumes.
+- **Consequences:** Deferred until gameplay demonstrates a need: soil chemistry, pH, nutrients, altitude as a direct variable, wind as its own vector, atmospheric pressure, rainfall history, pathogen load, pests, pollinators, drainage mechanics and substrate chemistry. No units, scales or normalisation are chosen (AMO-Q069). No species values exist, and none may be invented (L4, AMO-D025, AMO-D036). This applies AMO-D025's discipline to design data: *add environmental dimensions when gameplay or biological modelling demonstrates a need.*
+
+## AMO-D048 — Amorpho response profile v0: zones, three contributing layers
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** For each environmental dimension, the Amorpho side eventually provides a biological response profile expressed as zones rather than a single ideal value: a **preferred range** (can thrive), a **tolerable range** (outside preferred, still manageable) and a **critical boundary** (beyond which severe stress or damage may develop). The effective profile an individual responds with is layered from **species baseline** + **individual traits** + **current condition**.
+- **Rationale:** Zones are the smallest structure that distinguishes thriving from surviving from failing, which is the distinction the whole model exists to make (L38). Layering means individual variation and condition have somewhere to live from the start instead of being retrofitted onto a species-only model.
+- **Consequences:** No numeric values exist, and none may be guessed (L4). Not every dimension necessarily needs exactly three hard ranges forever; a later implementation may use continuous response curves (AMO-Q069). Genetics remain the Evolutionator's (AMO-D038) and acclimation remains open (AMO-Q012). Which current-condition variables exist is open (AMO-Q073). Species profile data enters only through the Reality Gate, and only after the model needing it exists (AMO-D053).
+
+## AMO-D049 — Environmental Fit v0 output contract
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** Environmental Fit v0 consumes a Local Environment State and an effective response profile and produces: **(A)** fit by dimension; **(B)** biological direction — conceptually improving, stable or deteriorating; **(C)** stress pressure; **(D)** growth / recovery opportunity; **(E)** critical constraint indicators. Per-dimension information is preserved alongside the aggregate. Fit must eventually support **limiting-factor** behaviour: catastrophic failure in one dimension may not disappear behind excellent values elsewhere.
+- **Rationale:** The aggregate is what downstream systems act on; the per-dimension detail is what makes it possible to ever explain *why* a plant is struggling. Naive averaging would let a plant with no water be rated "good" because the light is excellent.
+- **Consequences:** Outputs D and C together make positive, neutral and negative trajectories first-class, so Fit is never a synonym for stress (AMO-D037, AMO-D033). No numeric ranges, scales or aggregation formulas are defined (AMO-Q070). Dimensions are treated independently in v0, but the architecture may not assume they stay independent forever (AMO-Q071). Nothing further is added to the contract without a demonstrated downstream need.
+
+## AMO-D050 — Inhabitability is downstream of biological condition
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** Neither the World nor geography may set `inhabitable = false` directly. Inhabitability is evaluated from the individual's current biological condition, which is itself produced by Fit acting over time: *World environment + Amorpho → Fit → condition → inhabitability*.
+- **Rationale:** It is what lets one location affect different species differently, different individuals differently, and the same individual differently over time. A place is never inherently un-inhabitable; a plant's condition is.
+- **Consequences:** No location, region or climate may carry an inhabitability flag. The rescue window is emergent, not a system: it exists only while a negative trajectory is running and the individual is still inhabitable (AMO-D031, AMO-D034). Where the threshold sits and how it relates to health remains open (AMO-Q042).
+
+## AMO-D051 — Environment describes conditions, not permissions
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** The World never prevents a player from taking an Amorpho into an unsuitable environment. It states the conditions; the player decides whether the risk is acceptable; the consequences emerge through Fit.
+- **Rationale:** Blocking movement would replace a judgement with a rule and destroy exactly the decisions the environmental system exists to create. It is also the agency form of L9: the map is not a permission list.
+- **Consequences:** No travel, planting or rooting action is gated on environmental suitability. Simulation truth and player knowledge stay separate: the player may have forecasts, sensors, knowledge or warnings, and how much certainty is exposed is open (AMO-Q044). In particular nothing assumes the player sees an exact countdown to non-inhabitability.
+
+## AMO-D052 — Fit is deterministic for identical state; randomness is upstream
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief, derived
+- **Decision:** Given identical World state and identical Amorpho state, Environmental Fit itself produces the same result. Randomness belongs to the systems where it carries meaning — weather, individual biological variation, stochastic events, pests, future disease and other World events — which sit upstream of Fit, in the state it evaluates.
+- **Rationale:** Hidden rolls inside the evaluator would make outcomes unexplainable to players and untestable for the project, while adding nothing that upstream randomness cannot express. Determinism here also makes the validating spike meaningful.
+- **Consequences:** Variation between two apparently similar plants comes from genuinely different state — individual traits, condition, exposure history — not from a die roll inside Fit. This is a conservative v0 position about the *evaluator*, not a claim that biology is deterministic; whether it should hold as the model matures is open (AMO-Q075).
+
+## AMO-D053 — The design model precedes importing real environmental data
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Environment v0 brief
+- **Decision:** The game-side environmental model is designed first; approved real-world environmental facts are imported only afterwards, and only in the minimal form the finished model demonstrably needs. No environmental field enters approved input before the system that consumes it exists.
+- **Rationale:** Importing first would let the shape of someone else's data decide the shape of the game's model, which is the coupling the Reality Gate exists to prevent.
+- **Consequences:** `data/input/amorphophallus_species.csv` remains `species_id,scientific_name` with no environmental columns. This is AMO-D025 applied to the environment model, and it makes v0 the precondition for ever extending the input contract. What minimal approved input a species response profile would need is an open question, not a design (AMO-Q076, AMO-D024).

@@ -50,7 +50,7 @@ Each species has a permanent, opaque ID such as `AMO-SP-000001`; its scientific 
 
 ## Current maturity
 
-**Foundation, plus the first systems pass.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, the input contract for the Reality Gate, and — from the first post-foundation design passes — the embodiment model, the three simulation domains, the Standard/VR interface principles, and Earth as the World's geographic foundation.
+**Foundation, plus the first systems pass.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, the input contract for the Reality Gate, and — from the first post-foundation design passes — the embodiment model, the three simulation domains, the Standard/VR interface principles, Earth as the World's geographic foundation, and the first environmental model.
 
 It does **not** yet contain game code, an engine, art, or any species data. The species input file contains only its header until the first approved export is supplied. No engine or programming language has been chosen; that decision will be made from evidence.
 
@@ -82,6 +82,7 @@ docs/
   09_EMBODIMENT_AND_ASTRAL_TRANSFER.md  one body at a time, rooting, rescue, equipment
   10_WORLD_AMORPHO_EVOLUTIONATOR.md     the three simulation domains and Environmental Fit
   11_STANDARD_AND_VR_GAMEPLAY.md        two first-class interfaces to one game
+  12_ENVIRONMENT_AND_FIT_MODEL_V0.md    the first environmental model: vector, profile, fit contract
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
