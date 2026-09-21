@@ -106,7 +106,7 @@ VR also joins the list of things the eventual engine decision must weigh (AMO-Q0
 
 ## 12. No shared cross-project VR platform
 
-Amorpho's future VR work may produce knowledge and technical primitives that could eventually benefit other Trederus Maximus projects — the Imperial Library project is one plausible future consumer, since a spatial library experience would need similar interaction primitives.
+Amorpho's future VR work may produce knowledge and technical primitives that could eventually benefit other Trederus Maximus projects. **Imperblio**, the Imperial Library, is one plausible future consumer: a spatial library experience — entering a library, moving through shelves, taking a book down, opening it, reading, inspecting works — would need similar interaction primitives.
 
 That is **context, not architecture** (AMO-D044). Amorpho remains independent (AMO-D002, AMO-D018):
 

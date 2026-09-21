@@ -13,7 +13,7 @@ This file tells future Claude Code sessions (and any other development agent) ho
 ### Identity and independence
 1. **The product name is Amorpho.** Never "TM Amorpho", "TM Amorpho Game", "Trederus Maximus Amorpho" or any prefixed variant — not in headings, package names, identifiers, file names or docs. The local checkout directory may carry a different name; do not propagate it. (AMO-D001)
 2. **Keep the Trederus Maximus affiliation quiet.** It appears as one sentence in the README's About section. It is never a runtime or architecture concern.
-3. **Amorpho is independent.** No runtime, build, code or data dependency on any other system — including Imperbio, TM Botanics, any other Trederus Maximus system, or any botanical website or database. No API clients, live data feeds, HTTP fetches, shared databases, shared runtime packages, callbacks, sync jobs, or environment variables pointing at research systems. (AMO-D002, AMO-D018)
+3. **Amorpho is independent.** No runtime, build, code or data dependency on any other system — including Imperblio, TM Botanics, any other Trederus Maximus system, or any botanical website or database. No API clients, live data feeds, HTTP fetches, shared databases, shared runtime packages, callbacks, sync jobs, or environment variables pointing at research systems. (AMO-D002, AMO-D018)
 
 ### Reality and botany
 4. **Amorpho does not research botany.** Detailed research about *Amorphophallus* happens outside this repository. Do not research taxonomy, browse botanical sources, or import botanical facts unless a task explicitly requires external investigation. Amorpho is not a botanical database, literature archive, evidence platform or mirror. (AMO-D024)

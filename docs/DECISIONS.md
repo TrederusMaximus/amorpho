@@ -76,9 +76,10 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 ## AMO-D002 — Amorpho is an independent repository and system
 
 - **Status:** ACCEPTED · **Date:** 2026-09-18 · **Origin:** Founding brief
-- **Decision:** Amorpho is self-contained. It has no code, build, data or service dependencies on any other system, including other Trederus Maximus projects such as Imperbio or TM Botanics.
+- **Decision:** Amorpho is self-contained. It has no code, build, data or service dependencies on any other system, including other Trederus Maximus projects such as Imperblio or TM Botanics.
 - **Rationale:** The game must be able to exist, be built and be run entirely on its own, for as long as it lives.
 - **Consequences:** Anything Amorpho needs, it owns. Knowledge from outside arrives only as approved input files through the Reality Gate (AMO-D017).
+- **Revised:** 2026-09-21 — a sibling project's name was misspelled "Imperbio" at foundation and is corrected in place to **Imperblio**. Spelling only; substance unchanged, and the project remains a named example of something Amorpho does not depend on.
 
 ## AMO-D003 — Fun comes first; entertainment is the product
 
@@ -192,10 +193,11 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 ## AMO-D018 — No runtime dependency on external systems
 
 - **Status:** ACCEPTED · **Date:** 2026-09-18 · **Origin:** Founding brief
-- **Decision:** The running game, its tools and its data never query, call or reference external knowledge systems (including Imperbio, TM Botanics or any other Trederus Maximus system), botanical websites or databases, external APIs or live data sources. Approved input files never name or identify their source.
+- **Decision:** The running game, its tools and its data never query, call or reference external knowledge systems (including Imperblio, TM Botanics or any other Trederus Maximus system), botanical websites or databases, external APIs or live data sources. Approved input files never name or identify their source.
 - **Rationale:** Sources are relevant to the external research process, not to the game. Independence preserves Amorpho's ability to exist on its own.
 - **Consequences:** No imports from external repositories, shared runtime packages, database links, callbacks, synchronisation jobs or environment variables pointing at research systems. Once an approved import is accepted, nothing in Amorpho needs continued access to the external master-data system.
 - **Revised:** 2026-09-18, foundation closure — consequences restated for the file-based input; substance unchanged.
+- **Revised:** 2026-09-21 — "Imperbio" corrected in place to **Imperblio**. Spelling only; substance unchanged.
 
 ## AMO-D019 — Slow, continuous incubation
 
