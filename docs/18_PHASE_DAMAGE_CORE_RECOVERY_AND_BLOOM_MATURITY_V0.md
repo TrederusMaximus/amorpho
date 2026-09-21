@@ -32,6 +32,22 @@ Different harm operates over different horizons, and the horizon is what matters
 
 **The horizons recover at different speeds, and the asymmetry is deliberate.** Reversible burden recovers substantially faster than severe core compromise: stress falls and reserves rebuild over favourable conditions, while deep vitality loss may need repeated healthy phases across multiple cycles. Without that gap, core damage would be indistinguishable from a bad week, and the severity ladder in §11 would collapse into a single rung. Actual rates are open (AMO-Q102).
 
+### Crossing from manifestation to core
+
+Harm does not move freely between the horizons, and the boundary between A and B is itself a design object (AMO-D079).
+
+> **Manifestation damage affects the current manifestation first.** It must become deep enough in its biological consequences before it propagates into persistent state.
+
+This boundary is called the **Core-Impact Threshold**. It is a *conceptual* boundary, not a number, and nothing about where it sits is defined (AMO-Q108).
+
+**Below it — manifestation-only consequence.** The current leaf or bloom stays damaged, the inhabited Amorpho may be substantially impaired, some capabilities may be unavailable for that manifestation, and yet the manifestation may still complete its active period, persistent growth may continue broadly unaffected, developmental maturity need not regress, and the next manifestation emerges structurally whole.
+
+> A difficult season can impair the current fighter without costing long-term biological progress.
+
+**Above it — core-impact consequence.** Severity, or the biological stress that comes with it, becomes sufficient for persistent consequences to begin: reserve depletion, inadequate persistent growth, developmental maturity regression, premature senescence, a reduced next-cycle starting point, vitality compromise. All of it still recovers while the individual lives (AMO-D075).
+
+**Visible damage does not determine the crossing by itself.** Two manifestations with similar apparent damage may have entirely different persistent consequences depending on current condition, reserves, Environmental Fit, developmental context, how long the impairment lasted and eventual species biology. A percentage of a structure lost is not a biological verdict, and nothing may treat it as one (AMO-Q108).
+
 ## 3. The recovery law
 
 > **If the biological individual survives, all forms of biological damage are ultimately recoverable** (AMO-D075, L46).
@@ -74,6 +90,8 @@ But the individual enters that cycle carrying everything else — reserves, stre
 ### Damaged seasons are graded, not binary
 
 Moderate leaf damage need not destroy the active season. The individual may remain functional, complete the phase, accumulate some reserves, hold or even increase developmental maturity, and enter dormancy normally.
+
+Leaf damage therefore does **not** automatically imply premature retreat, maturity loss, core damage or a failed season (AMO-D079). A damaged leaf may still provide enough biological function to carry a successful cycle. How structural impairment translates into biological productivity at all is open (AMO-Q108).
 
 Nothing in the model produces a binary *healthy season / failed season*, and nothing should (AMO-D070).
 
@@ -162,6 +180,8 @@ Developmental Maturity  → how far the individual has developed across repeated
 
 **It can regress.** Severe stress, premature retreat, major core damage or extreme reserve loss may cost part of previously accumulated maturity. The individual survives and may later rebuild — meaningful regression without permanent damage.
 
+**It does not regress merely because a manifestation is damaged.** Regression requires meaningful consequence at the *persistent* level — crossing the Core-Impact Threshold (AMO-D079). `Leaf integrity loss` and `maturity loss` are different events, and equating them would make every torn leaf cost years of development (AMO-Q106).
+
 **It is not experience points.** Maturity is biological development, not a combat currency, and it emerges from successful life cycles, favourable growth and biological condition rather than from activity (AMO-D077, AMO-Q106).
 
 ## 9. Bloom requires flowering maturity
@@ -214,6 +234,8 @@ This is a central product distinction: the player creates the conditions, and th
 Bloom remains short-lived, exceptional, highly discoverable, reproductively significant and capable of unique gameplay — never "Leaf with better stats" (AMO-D059, AMO-D071). Maturity governs eligibility and expression, not duration or permanence.
 
 **Bloom manifestation damage is temporary**, exactly parallel to the leaf: damage may persist for that Bloom, the structure ends when the Bloom does, future Blooms begin fresh, and consequences carry through stress, reserves, vitality and maturity (AMO-D074).
+
+The Core-Impact boundary applies identically. A damaged Bloom may lose Bloom-specific capabilities, lose reproductive opportunity and stay structurally compromised for that Bloom — **without** reducing persistent developmental maturity or vitality. Only consequences deep enough to cross the threshold propagate further (AMO-D079), so losing a Bloom is not the same as losing the eligibility to bloom again.
 
 ## 10. Harm and astral access
 
@@ -294,13 +316,14 @@ Non-numeric, species-neutral, with no real biology.
 
 | Case | What happens |
 |---|---|
-| **A — moderate leaf damage, successful season** | leaf damaged; individual stays viable; season completes; maturity still increases somewhat; next cycle produces a fresh leaf |
+| **A — moderate leaf damage, successful season** | leaf damaged and the inhabited form impaired; damage stays **below the Core-Impact Threshold**; individual stays viable; season completes; maturity still increases somewhat; next cycle produces a structurally fresh leaf |
 | **B — severe leaf damage, premature retreat** | stress rises, reserves spent, early retreat; **vitality largely intact**; maturity falls or gains far less than expected; next emergence smaller and weaker; full recovery still possible |
 | **C — severe core damage** | vitality drops substantially; individual survives; damage **persists through dormancy and into next emergence**; long-term excellent care slowly restores vitality; maturity may have regressed significantly; full eventual recovery possible |
 | **D — flowering maturity reached** | repeated successful cycles raise maturity past the species threshold; Bloom becomes **possible but not guaranteed**; further cycles keep raising maturity; later Blooms may be more developed |
 | **E — mature individual suffers major setback** | maturity and reserves fall; Bloom **delayed or temporarily unavailable**; after sufficient recovery and growth, eligibility returns |
+| **G — damaged Bloom** | Bloom-specific capabilities and reproductive opportunity lost for that Bloom; structure stays compromised until the Bloom ends; **no automatic core damage and no maturity regression**; eligibility to bloom again is untouched |
 | **F — catastrophic damage, viable fragment** | no death declared while living continuity remains; maturity effectively collapses; long rebuild begins; **identity unresolved** (AMO-Q094) |
 
 ## 15. Open questions
 
-Vitality recovery dynamics and whether dormancy assists (AMO-Q102) · manifestation repair within a phase (AMO-Q103) · the death condition (AMO-Q104) · treatment and care (AMO-Q105) · representation, growth and regression of developmental maturity (AMO-Q106) · Bloom eligibility inputs beyond maturity, and repeated-Bloom timing (AMO-Q107). Related: phase-specific integrity (AMO-Q086), premature retreat cost (AMO-Q087), Bloom content and manifestation scale (AMO-Q088), fragment identity and Anchor continuity (AMO-Q094), inhabitability threshold (AMO-Q042), condition dynamics (AMO-Q073), combat consequences (AMO-Q026), approved input for species thresholds (AMO-Q076).
+The Core-Impact Threshold and how structural impairment becomes biological consequence (AMO-Q108) · how phase integrity alters a playable Amorpho's capabilities (AMO-Q109) · vitality recovery dynamics and whether dormancy assists (AMO-Q102) · manifestation repair within a phase (AMO-Q103) · the death condition (AMO-Q104) · treatment and care (AMO-Q105) · representation, growth and regression of developmental maturity (AMO-Q106) · Bloom eligibility inputs beyond maturity, and repeated-Bloom timing (AMO-Q107). Related: phase-specific integrity (AMO-Q086), premature retreat cost (AMO-Q087), Bloom content and manifestation scale (AMO-Q088), fragment identity and Anchor continuity (AMO-Q094), inhabitability threshold (AMO-Q042), condition dynamics (AMO-Q073), combat consequences (AMO-Q026), approved input for species thresholds (AMO-Q076).

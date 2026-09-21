@@ -430,6 +430,16 @@ What is this called player-facing — *Warden Progression*, *Astral Development*
 
 These follow from [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md) (AMO-D074–AMO-D078), which resolved the policy half of AMO-Q045.
 
+### AMO-Q108 — The Core-Impact Threshold
+**Status:** OPEN · **Constraints:** AMO-D074, AMO-D079
+What determines when manifestation damage starts to affect persistent state? How does structural impairment translate into biological productivity in the first place — does a half-damaged leaf feed the individual half as well, or not proportionally at all? Does the threshold depend on current condition, so that the same damage crosses it for a depleted individual and not for a robust one? And can **prolonged moderate** impairment accumulate into core impact without any single catastrophic event?
+*Notes:* The boundary is fixed and deliberately not numeric (AMO-D079). Two traps to avoid: making visible damage alone decide the crossing, which would turn a proportion of lost structure into a biological verdict; and making the threshold so high that manifestation damage never matters, or so low that every injury costs development. The accumulation question is the subtle one — if only single events can cross, a slow grinding season is free, which seems wrong. Relates to exposure history (AMO-Q072) and premature retreat (AMO-Q087).
+
+### AMO-Q109 — How phase integrity alters a playable Amorpho
+**Status:** OPEN · **Constraints:** AMO-D079, AMO-D008
+How does damage to the current manifestation change the inhabited Amorpho — available skills, skill strength, durability, attack, movement, reach, or something else entirely?
+*Notes:* Deliberately **downstream of the biological architecture** and belonging to character and combat design (AMO-Q026, AMO-Q086). What is fixed is only that such impairment can be substantial while leaving the persistent individual untouched (AMO-D079). Must respect skill remaining central to combat outcomes (L15), and must not become a stat-loss spiral that makes a damaged individual unplayable rather than merely harder to play.
+
 ### AMO-Q102 — Vitality recovery dynamics
 **Status:** OPEN · **Constraints:** AMO-D075, AMO-D076
 How fast does vitality recover, from how far down, and what conditions are required? How many life cycles should severe core compromise take to undo? Does **deep dormancy itself** ever assist recovery, hinder it, or neither?
@@ -439,6 +449,7 @@ How fast does vitality recover, from how far down, and what conditions are requi
 **Status:** OPEN · **Constraints:** AMO-D074
 How much can a damaged current leaf or bloom structure recover *during* its own phase? None, some, or is repair possible under favourable conditions?
 *Notes:* Fixed: biological recovery of the individual is not repair of the structure, and a new manifestation never inherits the old one's damage (AMO-D074). Open is whether impairment simply lasts until the structure is abandoned. Too much in-phase repair makes manifestation damage inconsequential; none at all may let one bad event dominate a whole season.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* answering this shapes AMO-Q108 too — if in-phase repair is possible, prolonged moderate impairment is less likely to accumulate into core impact, because the individual can partly climb back out.
 
 ### AMO-Q104 — The death condition
 **Status:** OPEN · **Constraints:** AMO-D075, AMO-D076
@@ -454,6 +465,7 @@ Beyond providing favourable conditions, can a human actively treat a compromised
 **Status:** OPEN · **Constraints:** AMO-D077
 How is maturity represented — a scalar, a stage, biological mass, something else? What makes it grow, and by how much? What makes it regress, and how far can one setback push it back?
 *Notes:* Fixed: it is biological development, **not** experience points, emerging from successful life cycles, favourable growth and condition rather than from activity (AMO-D077, L47). Open: everything quantitative, plus the name itself. The regression rule is the delicate part — it gives premature retreat its price, and it is what can cost a player years of cultivation without costing them the individual.
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* one boundary is now fixed before this question is answered: maturity must **not** regress merely because a manifestation is damaged. `Leaf integrity loss` and `maturity loss` are different events, and regression requires crossing the Core-Impact Threshold (AMO-D079). Any regression rule that reads directly off structural damage is wrong by construction.
 
 ### AMO-Q107 — Bloom eligibility inputs and repeated-Bloom timing
 **Status:** OPEN · **Constraints:** AMO-D078, AMO-D059
@@ -486,6 +498,7 @@ Where exactly does the astral door close and reopen? Is there a transitional win
 What does each playable phase actually do, and what integrity does it carry? Is there a leaf integrity, a bloom integrity, something else? How does damage to a temporary structure relate to persistent core vitality, and what does core compromise mean?
 *Notes:* The architecture is reserved, not designed (AMO-D058): phase-specific integrity ends with its phase, core vitality persists. Must be answered coherently with combat consequences (AMO-Q026) and core damage (AMO-Q045). No formulas, magnitudes or variable names exist.
 *Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the horizons are settled (AMO-D074) — a new manifestation never inherits the old one's structural damage, and no universal body-integrity meter exists. Still open: whether each phase needs a named integrity variable at all, and how much **in-phase repair** is possible (AMO-Q103).
+*Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the crossing into persistent state is now bounded by the **Core-Impact Threshold** (AMO-D079, AMO-Q108), and the *gameplay* mapping — how integrity changes a playable Amorpho — is tracked separately as AMO-Q109. This question keeps the biological side: what integrity each phase carries, if any.
 *Refined 2026-09-21 ([17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)):* each state now has its own manifestation, so a per-state integrity has somewhere to attach (AMO-D070). Two further points: phase-specific damage **outlasts embodiment** — exiting and re-entering repairs nothing, because the damage belongs to the manifestation rather than the animation (AMO-D072) — and if transitional **tuber-form gameplay** ever exists it belongs to Early Dormancy or Pre-Emergence, never to deep dormancy (AMO-D060).
 
 ### AMO-Q087 — Premature dormancy: triggers and costs
