@@ -107,7 +107,7 @@ BIOLOGICAL INHABITABILITY is this individual well enough?
                   ENTRY
 ```
 
-Each can block alone, and they are restored by different actions — an Anchor by human travel, a phase by time and season, condition by care and environment. In particular **deep dormancy closes the astral door** regardless of how healthy the individual is (AMO-D060), and an unanchored plant is unreachable however well it is doing (AMO-D061). The full model is in [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
+Each can block alone, and they are restored by different actions — an Anchor by human travel, a phase by time and season, condition by care and environment. Above them all, **Astral Capacity** limits how many Anchor relationships the human can sustain at once, which is a property of the character rather than of any plant (AMO-D067, L44, [16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)). In particular **deep dormancy closes the astral door** regardless of how healthy the individual is (AMO-D060), and an unanchored plant is unreachable however well it is doing (AMO-D061). The full model is in [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
 
 ## 8. Astral exit and rooting
 

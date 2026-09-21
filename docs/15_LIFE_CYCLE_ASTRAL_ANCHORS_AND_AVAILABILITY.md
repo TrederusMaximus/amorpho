@@ -188,6 +188,8 @@ The Anchor is associated with the **persistent individual**, not with the pot, t
 
 A human may remove an Anchor from one individual and later attach it to another eligible one. Anchor count therefore becomes a strategic constraint.
 
+Physical supply is only half of it. **Astral Capacity** — the human character's ability to sustain simultaneous connections — separately bounds how many active Anchor relationships can exist, so possessing more Anchor objects does not by itself widen the roster (AMO-D067, [16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)). The two are independent scarcity systems, one belonging to the world and one to the character.
+
 Nothing about the economy is decided — starting count, maximum, rarity, price, crafting, acquisition, destructibility, grades, or whether Anchors can be stolen independently (AMO-Q090, AMO-Q091).
 
 ### Removing an Anchor releases access, not life
@@ -235,7 +237,7 @@ Astral entry occurs only when the whole path is valid. The artifact's form, lore
 
 ## 14. The three gates
 
-Astral entry requires **all three** independently (AMO-D063):
+Astral entry requires **all three** independently (AMO-D063). Upstream of them, **Astral Capacity** bounds how many active Anchor relationships can exist at once — it does not add a fourth gate, it constrains the supply feeding the first (AMO-D067):
 
 ```
           ASTRAL ANCHOR            is there a physical access path?
@@ -311,6 +313,8 @@ individuals that exist
 ```
 
 Owning a hundred plants does not produce a hundred playable characters — and the one-body law means only one of them is ever inhabited anyway (AMO-D028).
+
+Human progression widens that roster slowly and never bypasses it: a more developed Warden can hold more connections open, but still cannot enter a dormant, compromised or unanchored individual, and still moves every Anchor by hand (AMO-D069, L42, L44).
 
 ### Seasonal and geographic strategy, without hemisphere rules
 

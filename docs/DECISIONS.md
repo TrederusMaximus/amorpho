@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief*, *Condition v0 brief* or *Life cycle and anchors brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief*, *Interaction boundary brief*, *Condition v0 brief*, *Life cycle and anchors brief* or *Warden progression brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -80,6 +80,10 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D063 | Astral entry requires three independent gates | ACCEPTED |
 | AMO-D064 | Biological life is independent of anchoring; new individuals begin unbound | ACCEPTED |
 | AMO-D065 | Existence, ownership, custody, anchoring and availability are separate | ACCEPTED |
+| AMO-D066 | Human/Warden progression is a distinct, slower domain | ACCEPTED |
+| AMO-D067 | Astral Capacity is human capability, distinct from Anchor supply | ACCEPTED |
+| AMO-D068 | Additional Astral Capacity becomes progressively harder | ACCEPTED |
+| AMO-D069 | Human progression expands capability without overriding rules | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -96,6 +100,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 **Current condition v0 (2026-09-21):** AMO-D056 and AMO-D057 gave the persistent individual its biological memory — three condition variables and a separate developmental axis — tested against the four existing worked scenarios rather than new ones. Nothing was superseded; AMO-D048 carries a *Revised* note pointing at them. The specification is [14_CURRENT_BIOLOGICAL_CONDITION_V0.md](14_CURRENT_BIOLOGICAL_CONDITION_V0.md).
 
 **Life cycle and anchors (2026-09-21):** AMO-D058–AMO-D065 added the biological life cycle as a gameplay axis, the physical Astral Anchor, and the separation of existence, ownership, custody, anchoring and availability. Nothing was superseded; AMO-D015, AMO-D031 and AMO-D057 carry *Revised* notes pointing at them. The specification is [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md).
+
+**Warden progression (2026-09-21):** AMO-D066–AMO-D069 established the human's own progression domain and its first dimension, Astral Capacity. No curve, value, requirement or timing rule was chosen. Nothing was superseded; AMO-D061 and AMO-D063 carry *Revised* notes pointing at them. The specification is [16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md).
 
 ---
 
@@ -586,6 +592,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** An **Astral Anchor** is a physical, reusable magical object attached to an individual Amorpho, providing the physical side of the astral access path. It is associated with the **persistent individual**, not with the pot, property, greenhouse or location: if the plant is repotted, moved, animated or rooted elsewhere, the Anchor stays with it until physically removed. Removing it ends normal astral access through it and changes nothing biological — lineage, genotype, condition, developmental state and world history all remain, and the plant simply continues living unbound.
 - **Rationale:** Making the access path a physical object rather than a bookkeeping field is what forces the human layer to participate in roster decisions, and what lets release, theft and trade be real world events.
 - **Consequences:** Anchor count becomes a strategic constraint, so a limited supply makes the player choose which individuals are astrally reachable. Anchors are **not roster slots** and may not behave as invisible entries reassigned from a menu, though an interface may later assist. The **Astral Radar is a view of the player's own anchored connections, not a global botanical scanner** (AMO-Q092). Nothing about the economy is decided — starting count, maximum, rarity, price, crafting, acquisition, destructibility, grades, independent theft (AMO-Q090, AMO-Q091). Name, physical form, attachment method and any pairing ritual with the Warden artifact are open (AMO-Q021, AMO-Q089).
+- **Revised:** 2026-09-21, Warden progression — physical Anchor supply is only one of two constraints; **Astral Capacity**, a human capability, separately bounds how many active Anchor relationships can be sustained (AMO-D067). Substance unchanged.
 
 ## AMO-D062 — Only the human may attach, remove or move an Anchor
 
@@ -600,6 +607,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Normal astral entry requires all three of: an **Astral Anchor** (a physical access path), **life-cycle accessibility** (the current phase permits entry), and **biological inhabitability** (the individual is well enough). Each can block independently, and they are genuinely orthogonal.
 - **Rationale:** They fail for different reasons and are restored by different actions — an Anchor by human travel, a phase by time and season, condition by care and environment. Merging any two would hide which one is actually stopping the player.
 - **Consequences:** An active healthy unanchored plant has no path; an anchored dormant one has a path but a closed phase; an anchored active critically stressed one is blocked by condition alone (AMO-D031, AMO-D050). The playable roster is therefore an **emergent subset** of the collection, and owning many individuals does not produce many playable characters — the one-body law then allows only one to be inhabited at a time anyway (AMO-D028).
+- **Revised:** 2026-09-21, Warden progression — **Astral Capacity** sits upstream of these gates, bounding how many active Anchor relationships can exist at once (AMO-D067). It is not a fourth gate; it constrains the supply feeding the first. Substance unchanged.
 
 ## AMO-D064 — Biological life is independent of anchoring; new individuals begin unbound
 
@@ -614,4 +622,32 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Five axes are kept distinct and may disagree: the **biological individual** (it exists), **ownership** (who, if anyone, is recognised as owner), **physical custody** (who controls the plant or its location), **astral anchoring** (whose system is physically connected), and **astral availability** (whether conditions permit entry). They must never be reduced to a single `owner_id`.
 - **Rationale:** They already diverge in ordinary cases — a wild plant exists with none of the others; a stolen anchored plant separates custody from ownership; a dormant anchored plant separates anchoring from availability. A single field could not express any of these.
 - **Consequences:** **Ownership is not availability** (L43): a player may own an individual that cannot be played, and may physically hold an unowned, unbound plant that is not playable at all. Theft may take the plant, the Anchor or both, and physical possession is **not** assumed to grant astral access — rebinding rules are open (AMO-Q091, AMO-Q008). Trade must involve the physical Anchor: *astral access cannot change merely because an ownership field changed* (AMO-Q093). Legal and social mechanics stay separate from astral mechanics. World state holds all five (AMO-D021).
+
+## AMO-D066 — Human/Warden progression is a distinct, slower domain
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Warden progression brief
+- **Decision:** The human character progresses along a long-term magical and astral development path that is **separate** from Amorpho biological progression. Amorphos advance through growth, development, life-cycle phases, cultivation, reproduction, selection, lineages and generations; the human advances through magical capability. Human advancement should be substantially **slower and harder** than ordinary change in the Amorpho ecosystem, and should **resist trivial grind acceleration** — it must not collapse into *repeat an activity → farm experience → unlock quickly*.
+- **Rationale:** The living world is meant to feel busy and largely outside the player's control. Against that, human development should feel fundamental rather than farmed. It also makes the human the **continuity character**: individual plants grow, reproduce, die, are traded and released, while the human persists through all of it — plausibly the slowest and most persistent progression a player ever builds.
+- **Consequences:** Two deliberately different pacing speeds coexist, which may become defining for Amorpho. **No player-facing term is fixed** — *Warden Progression*, *Astral Development* and *Astral Capacity* are working concepts (AMO-Q100) — and **conventional levelling is not assumed**: levels, ranks, stages, milestones or another representation are all still possible (AMO-Q096). What actually advances a Warden is undecided, as is whether world time or real elapsed time constrains it, in either direction (AMO-Q097). Because this progression is meant to be the slowest thing a player builds, casually destroying it is architecturally discouraged; any loss or regression needs its own explicit decision (AMO-Q098).
+
+## AMO-D067 — Astral Capacity is human capability, distinct from Anchor supply
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Warden progression brief
+- **Decision:** **Astral Capacity** is the human character's ability to sustain multiple active astral connections at once. It is distinct from **physical Anchor supply**, which is how many reusable Anchor objects the human possesses (AMO-D061). A player may hold more physical Anchors than their capacity lets them sustain simultaneously; acquiring another Anchor object does not by itself widen what the human can hold open. Capacity sits **upstream of the three gates**, bounding how many active Anchor relationships can exist, rather than adding a fourth gate to entry (AMO-D063).
+- **Rationale:** Splitting the constraint gives two independent scarcity systems — *do I physically have enough Anchors?* and *can I sustain this many connections?* — one belonging to the world and one to the character. It is also what keeps a large collection from converting into a large roster.
+- **Consequences:** Capacity is deliberately **narrow**: it means capacity and nothing else. It does **not** limit how many plants a player may own, cultivate, trade, breed, maintain or establish (AMO-D065), and it does not affect wild populations or offspring, which remain unbound regardless (AMO-D064). On the Astral Radar it may mean more simultaneous connections shown, since there are more of them — but **not** better range, precision, positional information or biological sensing (AMO-Q092). Which of the two scarcities usually binds is undecided, as are starting value and any maximum (AMO-Q090, AMO-Q095).
+
+## AMO-D068 — Additional Astral Capacity becomes progressively harder
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Warden progression brief
+- **Decision:** Increasing simultaneous Astral Capacity becomes **progressively more difficult**. Specifically excluded is any simple linear rule of the form `level N = N Anchors`. Gaining one more point of capacity must read as a deep magical development of the character, especially at higher capacity — never as `+1 inventory slot`.
+- **Rationale:** A linear slot progression would make capacity feel like storage and would let a determined player convert routine activity into simultaneous reach. An accelerating cost keeps each increase significant and makes very high capacity a genuine marker of long player history.
+- **Consequences:** **No curve, value or requirement is defined** (AMO-Q095). Whatever presentation eventually exists should reinforce the weight of the advancement, but no ceremony, ritual or interface is designed here (AMO-Q100). Very high capacity may reasonably be uncommon; rarity, maximum, prestige and competitive implications are all undecided.
+
+## AMO-D069 — Human progression expands capability without overriding rules
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Warden progression brief
+- **Decision:** Human progression expands what the human **can do**; it never overrides biological or physical access rules. A highly developed Warden still cannot enter a deeply dormant individual, one too biologically compromised for entry, or a dead one; cannot move an Anchor without physically travelling to it; cannot locate plants, convert ownership into access, resolve custody or remove geographic strategy. Human development is also **not** assumed to make any Amorpho stronger, faster or more damaging.
+- **Rationale:** Progression that dissolved world constraints would quietly delete the human layer's reason to exist — the very layer it is supposed to develop. *The soul may travel; the Anchor must move by human hands* holds at every level of advancement (L42, AMO-D062).
+- **Consequences:** Deep Dormancy, biological inhabitability and the missing-Anchor case all remain absolute regardless of capacity (AMO-D060, AMO-D031, AMO-D050). Whether human development touches combat at all is open and constrained by skill remaining central to outcomes (L15, AMO-Q025). **Astral Capacity is the only confirmed dimension of human progression.** Astral perception, transfer stability, richer Anchor information, ritual capability and sensitivity to life-cycle transitions are recorded as possibilities only — none is accepted, and no skill tree exists (AMO-Q099).
 

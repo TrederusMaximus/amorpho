@@ -202,3 +202,7 @@ Only the human can attach, remove or move an Astral Anchor. Changing which indiv
 Existence, ownership, custody, anchoring and astral availability are five separate axes that may disagree. Owning an individual does not make it playable; holding one does not make it yours. *(AMO-D063, AMO-D064, AMO-D065)*
 **Smell:** a single `owner_id` standing in for all five, or a roster derived straight from the collection.
 
+### L44 — Astral capacity belongs to the human; biological availability belongs to the Amorpho.
+How many connections a player can sustain is a property of the human character. Whether a given individual can be entered is a property of that individual and its phase. Neither side may answer the other's question. *(AMO-D067, AMO-D069)*
+**Smell:** human advancement that opens a dormant plant, or a plant's condition that changes how many others a player can hold open.
+

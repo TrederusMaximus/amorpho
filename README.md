@@ -18,6 +18,7 @@ Amorpho aims to create a distinct genre from a combination of ideas that are fam
 - **Risk is where the decisions are.** Protected cultivation is safer; outdoor planting can be better but exposes plants to weather, pests, theft and accidental pollination. A flowering plant's scent makes it easier for others to find.
 - **The plant you raised is the fighter you play.** The same individual spans long-term cultivation and intense, skill-based fighting.
 - **One consciousness, one body.** You have one human body and inhabit at most one plant at a time. A hundred Amorphos give you options and logistics, never an army.
+- **Two speeds.** The living world moves quickly around a human who changes rarely but permanently.
 - **What you can play shifts with the seasons.** A plant is playable only if it carries a physical Astral Anchor, is in an accessible life-cycle phase, and is well enough — and a dormant tuber is safe precisely because nobody can reach or find it.
 - **Plants change across generations.** Inheritance, variation and selection — from the world and from you — can make distinctive lineages emerge within real species.
 - **Two ways in, one world.** Standard and VR gameplay are both first-class entrances to the same persistent game. VR is optional, never secondary.
@@ -87,6 +88,7 @@ docs/
   13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md  worked cases that stress-test the v0 contract
   14_CURRENT_BIOLOGICAL_CONDITION_V0.md the biological state a persistent individual carries
   15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md  life-cycle phases, Astral Anchors, playable availability
+  16_HUMAN_WARDEN_PROGRESSION_V0.md     the human's own slow magical progression
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

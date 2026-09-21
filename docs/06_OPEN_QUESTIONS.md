@@ -187,6 +187,7 @@ Where does a new player's first plant come from, given that plants never spawn f
 ### AMO-Q031 — Progression
 **Status:** OPEN · **Constraints:** AMO-D008, AMO-D014
 What does a player progress in: skill, collection, property, reputation, knowledge, lineages? How do these relate?
+*Refined 2026-09-21 ([16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)):* one strand is now named and separated: **human magical progression**, distinct from Amorpho biological progression and deliberately much slower (AMO-D066). Its first dimension is **Astral Capacity** (AMO-D067). The remaining strands — combat skill, collection, property, reputation, knowledge, lineages — and how they relate to each other and to the human strand are still open. Note that several of them advance at the world's pace rather than the human's, which is intentional.
 
 ### AMO-Q032 — Property and greenhouse systems
 **Status:** OPEN · **Constraints:** AMO-D014, AMO-D029
@@ -387,6 +388,40 @@ Once the environmental model is settled enough to need them, what is the minimal
 *Notes:* Nothing may be imported before the consuming model exists (AMO-D053), and only what the game demonstrably needs may cross (AMO-D025). The research behind any such values stays outside Amorpho (AMO-D024). Note the shape problem: a per-species × per-dimension × per-zone table is considerably richer than the current two-column CSV, so this may be where CSV stops being sufficient (AMO-D026).
 *Refined 2026-09-21 (evidence: [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)):* the worked profiles make the shape concrete — five dimensions × three zones expressed as range boundaries, roughly twenty numbers per species before individual variation is considered. Whether approved input carries all of it, or only a baseline from which zones are derived, is part of this question. Nothing in the scenarios is importable: every value there is fictional and labelled as such.
 
+## Human / Warden progression
+
+These follow from [16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md) (AMO-D066–AMO-D069). Astral Capacity is the only confirmed dimension of human progression; nothing else is accepted.
+
+### AMO-Q095 — Astral Capacity: values and curve
+**Status:** OPEN · **Constraints:** AMO-D067, AMO-D068
+What capacity does a player start with? Is there a maximum? How steeply does each further increase cost more, and how rare should high capacity be?
+*Notes:* Fixed only that it accelerates and that `level N = N Anchors` is excluded (AMO-D068). This interacts with Anchor economy (AMO-Q090): if physical Anchors are plentiful, capacity is the binding constraint and its curve sets roster size alone; if Anchors are scarce, the two share the work. Which usually binds is itself undecided.
+
+### AMO-Q096 — What advances a Warden
+**Status:** OPEN · **Constraints:** AMO-D066
+What actually produces human magical advancement — long-term experience, meaningful astral use, relationships with individual Amorphos, significant events, mastery, difficult milestones, story progression, something else? Is it accumulated or granted at milestones? Is it levels, ranks, stages, or a representation with no number at all?
+*Notes:* The direction is that it must **resist trivial grind acceleration** (AMO-D066); the mechanism is entirely open, and conventional levelling is not assumed. A plausible tension to watch: anything measurable tends to become farmable, so the answer may need to be event- or milestone-shaped rather than quantitative.
+
+### AMO-Q097 — World time, real time and human advancement
+**Status:** OPEN · **Constraints:** AMO-D045, AMO-D066
+Should human advancement be constrained by persistent world time or real elapsed time, rather than by gameplay activity alone?
+*Notes:* Deliberately open **in both directions** — neither required nor forbidden. Real-time gating is a strong grind defence and an equally strong source of player frustration, so this should be settled with player experience in mind rather than by architecture. Relates to the world time scale (AMO-Q004).
+
+### AMO-Q098 — Can Astral Capacity regress?
+**Status:** OPEN · **Constraints:** AMO-D066
+Can human progression ever be lost or reduced — through death, catastrophe, disuse, or a deliberate cost? Are there human death mechanics at all?
+*Notes:* The default direction is to **avoid casually destroying long-term human progression**, since it is meant to be the slowest thing a player builds and the one constant across a lifetime of plants (AMO-D066). Any loss or regression needs its own explicit decision rather than arriving as a side effect of another system. Relates to loss generally (AMO-Q026).
+
+### AMO-Q099 — Other human magical capabilities
+**Status:** OPEN · **Constraints:** AMO-D069
+Does human progression have dimensions beyond capacity — astral perception, transfer stability, richer Anchor information, ritual speed or reliability, sensitivity to life-cycle transitions, others? Does it touch combat at all?
+*Notes:* **None of these is accepted**; they are recorded as possibilities so they are not reinvented as though new (AMO-D069). No skill tree exists or is implied. Any combat influence is constrained by skill remaining central to outcomes (L15, AMO-Q025). Adding a dimension should require the same justification a new environment dimension does: a demonstrated need, not a plausible idea.
+
+### AMO-Q100 — Naming and communicating human progression
+**Status:** OPEN · **Constraints:** AMO-D066, AMO-D068
+What is this called player-facing — *Warden Progression*, *Astral Development*, *Astral Capacity*, something else? How is an increase presented so it reads as deep magical development rather than `+1 slot`?
+*Notes:* Terminology is working-only and nothing is committed. Presentation matters more than usual here, because AMO-D068's whole intent is that an increase should feel significant; a curve alone will not carry that. No ceremony, ritual or interface is designed.
+
 ## Life cycle, anchors and availability
 
 These follow from [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md) (AMO-D058–AMO-D065).
@@ -425,6 +460,7 @@ What is an Anchor physically, how does it attach to an individual, and how does 
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D062
 How many Anchors can a player have? How are they acquired — found, bought, crafted, granted? Can they be destroyed or lost? Do they differ in capability or grade?
 *Notes:* Deliberately undecided, and consequential: Anchor supply is what turns roster composition into a real decision (AMO-D063). Too many and the constraint disappears; too few and the collection stops mattering. Only reuse and physical manipulation are accepted so far.
+*Refined 2026-09-21 ([16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)):* physical Anchor supply is now only **half** the constraint — **Astral Capacity** separately bounds how many active connections a human can sustain (AMO-D067). Two independent scarcity systems therefore exist, and this question covers the physical one. Whether they advance independently, and which usually binds, is open (AMO-Q095).
 
 ### AMO-Q091 — Anchor transfer, theft and rebinding
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D062, AMO-D065
@@ -435,6 +471,7 @@ How does an Anchor change hands legitimately, and what happens when one is stole
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D060
 What does the player's astral interface actually expose — which individuals, what availability, what condition, what location precision? Does distance matter? Does deep dormancy weaken the signal or silence it entirely?
 *Notes:* Fixed: it is a view of the player's own anchored connections, **not** a global botanical scanner, and not automatically a positioning system (AMO-D061). An anchored dormant individual may remain listed while unreachable, and its information may be deliberately minimal (AMO-D060). Interacts with the privacy constraint on locations (AMO-Q003).
+*Refined 2026-09-21 ([16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md)):* greater **Astral Capacity** may mean more simultaneous connections shown, simply because more exist. It is explicitly **not** assumed to improve range, precision, positional information or biological sensing — those would be separate progression dimensions if they exist at all (AMO-D067, AMO-Q099).
 
 ### AMO-Q093 — Game ownership, release and custody
 **Status:** OPEN · **Constraints:** AMO-D064, AMO-D065

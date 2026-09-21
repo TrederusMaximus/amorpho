@@ -74,6 +74,8 @@ A player must be able to become significantly better with the same Amorpho throu
 
 Consequently, whatever influence cultivation, size, health or lineage has on combat (AMO-Q025) must not replace skill as a central determinant of outcomes. A well-cultivated plant may matter; a well-practised player must matter.
 
+The same applies to the human's own magical development. A more advanced Warden is **not** assumed to make any Amorpho stronger, faster or more damaging — human progression expands what the human can do, and its only confirmed dimension is how many astral connections they can sustain (AMO-D067, AMO-D069). Whether it touches combat at all is open (AMO-Q025, AMO-Q099). See [16_HUMAN_WARDEN_PROGRESSION_V0.md](16_HUMAN_WARDEN_PROGRESSION_V0.md).
+
 ## 7. The central hypothesis to test
 
 The concept depends on one untested hypothesis:

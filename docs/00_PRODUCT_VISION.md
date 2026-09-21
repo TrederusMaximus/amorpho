@@ -35,11 +35,12 @@ The goal is not to be a better version of an existing game, but to make this par
 5. **Mastery.** Combat rewards practice. A player can become significantly better with the same Amorpho over time.
 6. **The bond between layers.** The same individual plant spans the calm, long-term world of cultivation and the intense, short-term world of fighting.
 7. **One consciousness, one body.** The player has one human body and inhabits at most one plant at a time. Owning many Amorphos creates logistics and hard choices, never simultaneous control (AMO-D028).
-8. **What you can play is not what you own.** A playable Amorpho needs a physical Astral Anchor, an accessible life-cycle phase and a healthy enough body — so a collection yields a shifting roster rather than a menu, and only the human can move an Anchor (AMO-D061–AMO-D065).
-9. **Rooting can be the destination.** A player may travel specifically to establish an individual somewhere favourable, where it may then live, grow and develop indefinitely while the player is elsewhere. Rooting is not primarily an emergency mechanic (AMO-D054).
-10. **Environment is an interaction, not a verdict.** The world says what conditions exist; a plant knows what it needs; what happens between them can harm, stabilise or genuinely improve the plant (AMO-D035–AMO-D037).
-11. **Change across generations.** Inheritance, variation and selection — environmental and player-driven — can make distinctive lineages emerge within real species over long spans of play (AMO-D038, AMO-D040).
-12. **Two ways in, one world.** Standard and VR gameplay are both first-class entrances to the same persistent game. VR is optional, never secondary (AMO-D041, AMO-D042).
+8. **Two speeds.** The living world moves quickly — plants grow, flower, reproduce, decline. The human changes rarely but permanently, accumulating slow magical capability across a lifetime of plants that come and go (AMO-D066).
+9. **What you can play is not what you own.** A playable Amorpho needs a physical Astral Anchor, an accessible life-cycle phase and a healthy enough body — so a collection yields a shifting roster rather than a menu, and only the human can move an Anchor (AMO-D061–AMO-D065).
+10. **Rooting can be the destination.** A player may travel specifically to establish an individual somewhere favourable, where it may then live, grow and develop indefinitely while the player is elsewhere. Rooting is not primarily an emergency mechanic (AMO-D054).
+11. **Environment is an interaction, not a verdict.** The world says what conditions exist; a plant knows what it needs; what happens between them can harm, stabilise or genuinely improve the plant (AMO-D035–AMO-D037).
+12. **Change across generations.** Inheritance, variation and selection — environmental and player-driven — can make distinctive lineages emerge within real species over long spans of play (AMO-D038, AMO-D040).
+13. **Two ways in, one world.** Standard and VR gameplay are both first-class entrances to the same persistent game. VR is optional, never secondary (AMO-D041, AMO-D042).
 
 ## Who it is for
 
@@ -85,6 +86,8 @@ Undecided (AMO-Q034). The subject invites humour — the plants' appearance, the
 | **unbound** | Of an individual: carrying no Astral Anchor. The default for wild plants and for every newly created individual (AMO-D064). |
 | **life-cycle phase** | Which biological body an individual currently expresses: tuber/dormant, emergence, leaf, bloom, senescence (AMO-D059). |
 | **Deep Dormancy** | The phase in which an individual is astrally unreachable and normally undiscoverable without prior location knowledge (AMO-D060). |
+| **Astral Capacity** | The human character's ability to sustain simultaneous astral connections. A human capability, distinct from how many physical Anchors they hold (AMO-D067). |
+| **Warden progression** | The human's own long-term magical development, separate from and much slower than Amorpho biological progression. Working term (AMO-D066, AMO-Q100). |
 | **playable roster** | The individuals a player can currently inhabit: anchored, life-cycle accessible and biologically inhabitable at once (AMO-D063). |
 | **emergency rooting** | Rooting somewhere less than ideal because the player has to; the concern is survival and rescue. |
 | **operational rooting** | Stationing an individual somewhere it may be useful later — seasonal access, staging, waiting for favourable conditions. |
