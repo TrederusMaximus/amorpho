@@ -2,11 +2,68 @@
 
 **Status:** conceptual. This document fixes the concepts and rules of the world. It deliberately does not specify scale, resolution, formulas or implementation. Where something is undecided it points to [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).
 
-## 1. A persistent representation of Earth
+## 1. The World is Earth
 
-The player exists as a human character in a persistent representation of Earth. Real geography and climate ground the world: continents, regions, cities and climates are recognisable, so that a plant's origin and journey mean something.
+The player exists as a human character in a persistent representation of **the real Earth** (AMO-D045). This is a foundational commitment, not a flavour note. Amorpho is not set on an abstract fantasy map, an Earth-inspired fictional planet, a handful of disconnected regions, or a simplified botanical habitat map.
+
+The World should ultimately contain a coherent representation of the globe, continents, countries, regions, real cities, natural areas, climatic regions, the real areas associated with real *Amorphophallus* species, and whatever other places human and Amorpho gameplay need. Amorpho does not invent a fictional substitute for Thailand, Indonesia, Africa, India, Australia, Europe or Russia in order to simplify the world. Real geographic identity is part of what makes a plant's origin and journey mean anything.
+
+This does **not** require every road, building, street or tree at one-to-one fidelity. Detail may grow progressively over the project's lifetime (§1.3).
 
 Cities and world geography exist independently of any individual player (AMO-D009). How faithfully and at what scale Earth is represented is open (AMO-Q001), as is how players travel (AMO-Q002) and how real places relate to player homes (AMO-Q003).
+
+### 1.1 One Earth, two gameplay domains
+
+The same World must serve two very different kinds of play, and neither may reduce the other to scenery:
+
+| | **Human World** | **Amorpho World** |
+|---|---|---|
+| Needs | an inhabited civilisation layer: countries, cities, towns, travel, homes, apartments, property, greenhouses, stores, collectors, trade, infrastructure, transport, social life | a biological layer: natural environments, climate, seasons, weather, vegetation, terrain, growing conditions, native and introduced populations, outdoor cultivation, microclimates, reproduction and population history |
+| Test | a believable place for a human to live | a biologically meaningful place for Amorphos to exist |
+
+These are **not separate maps**. They are two ways of interacting with the same persistent Earth, and the world model is wrong if it satisfies only one of them.
+
+It follows that the world is never designed as *cities or wilderness*. A player may live in a city apartment, keep Amorphos in pots, use a greenhouse, travel out of the city, reach natural habitat, establish plants outdoors, and travel to another country — ideally as one coherent world rather than a set of disconnected modes.
+
+### 1.2 Origin is not permission
+
+Where a species comes from and where it can live are different questions, and this decision does not blur them.
+
+A species may have a real original distribution. What happens to a plant in a given place is still decided by Environmental Fit — the World's local conditions met with that individual's biology (§4, AMO-D035–AMO-D037). A plant may therefore survive or even thrive far outside its origin if conditions suit it, and may fail inside it if they do not.
+
+```
+Earth        → determines place
+World        → determines local conditions
+the Amorpho  → determines biological requirements
+Environmental Fit → determines the result
+```
+
+`native country = allowed` and `non-native country = forbidden` remain excluded (L9, AMO-D013).
+
+### 1.3 Fidelity grows; structure does not change
+
+Geographic representation is conceptually a hierarchy, from the globe down to a single root zone:
+
+```
+Earth → continent / country → region → city → district / local area
+      → property / outdoor site → building / greenhouse → pot / bed → root zone
+```
+
+This is a conceptual ordering, not an implementation mandate and not a required set of levels. Its purpose is to let the World become progressively more detailed without invalidating the structure above it, and to let environmental state exist at increasingly local scales (§4).
+
+No map technology, data source, streaming architecture or world-instance model follows from any of this (AMO-D020, AMO-Q001, AMO-Q066). Nothing here authorises a global map, GIS ingestion, imagery, procedural cities, terrain generation, navigation or a weather service.
+
+### 1.4 Local spaces sit inside Earth
+
+A house, apartment, greenhouse or garden is a place *within* Earth geography, not an unrelated instance:
+
+```
+Earth → country → city → local area → property → greenhouse → growing bed → rooted Amorpho
+```
+
+This matters because outside conditions reach inside. A greenhouse in northern Europe and one in tropical Southeast Asia start from very different external conditions even when internal control brings their local environments close together — and that difference should emerge from the architecture rather than from special rules (AMO-Q064, AMO-Q065).
+
+Real Earth geography never implies anything about a player's real residential address. That separation is a safety requirement, and how player homes and properties are represented remains open (AMO-Q003).
 
 ## 2. The world continues without players
 
@@ -28,7 +85,20 @@ The world begins with **finite** natural populations and cultivated stocks (AMO-
 
 Trade, transport, collection and theft move plants between places and owners; they never create or destroy them. Plants never spawn because a player, quest or shop needs one. As a result, the global population develops historically, and an individual plant can matter because of where it has been.
 
-How initial populations are sized and placed is open (AMO-Q019). How a species added to the approved list later enters a live world is open (AMO-Q033).
+### Introductions and new populations
+
+Because the World is Earth and it persists, players can change where plants are over long spans of time:
+
+```
+natural population → collection → transport → cultivation elsewhere
+  → propagation → possible outdoor establishment → new game-world population
+```
+
+A species originating in one region may eventually have native populations, cultivated populations, greenhouse populations, player-created outdoor populations and long-established introduced lineages elsewhere on Earth. None of this creates plants from nothing (AMO-D010); it moves and multiplies what already exists.
+
+No population ecology is designed here. What is preserved is the spatial foundation that makes it possible, and the fact that distribution is world history rather than a fixed property of a species.
+
+How initial populations are sized and placed is open (AMO-Q019), as is how natural and introduced populations are represented spatially (AMO-Q068). How a species added to the approved list later enters a live world is open (AMO-Q033).
 
 ## 4. Environment and Environmental Fit
 
@@ -56,6 +126,14 @@ location environment
 This is how a species can survive far outside its natural range under cultivation, and how the same species can do very differently in two gardens in the same city.
 
 Buildings and greenhouses work by **modifying local conditions**, not by granting exemptions. A greenhouse should never need a special rule such as `greenhouse makes tropical plant valid`; it produces different temperature, humidity, exposure and protection, and the ordinary mechanism handles the result (AMO-D035, AMO-Q049).
+
+Environmental state can exist at increasingly local scales, nested inside the World rather than replacing it:
+
+```
+world / city conditions → house → room → pot → root zone
+```
+
+This is what lets a plant in a pot experience something different from the room, the house and the street outside. How deep this nesting goes — and where it usefully stops — is open (AMO-Q065), as is substrate (AMO-Q050). None of it is being built now; only the principle is preserved.
 
 Environmental Fit affects how an individual *develops and expresses itself*. It does not change the individual's genetics (AMO-D012). Genetic change happens across generations, and belongs to a separate domain, the Evolutionator (AMO-D038, AMO-D039); see [03_PLANTS_INDIVIDUALS_LINEAGES.md](03_PLANTS_INDIVIDUALS_LINEAGES.md) and [10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md).
 
@@ -108,10 +186,14 @@ Who the "other people" are — other players, non-player characters, or both —
 ## 8. Deliberately not specified yet
 
 - map scale, projection and level of detail;
+- any map technology, geographic data source, streaming architecture or world-instance model;
+- how cities, borders, interiors and wilderness are represented, and how much is authored versus procedural;
 - the environmental variables and their resolution;
 - any Environmental Fit formula;
 - time compression;
 - server or simulation architecture;
 - how much of the world is simulated in detail at once.
+
+Earth is the world (AMO-D045); *how* Earth is represented is exactly the part that stays open.
 
 These should be decided through small experiments (see [07_INCUBATION_ROADMAP.md](07_INCUBATION_ROADMAP.md)), not up front.

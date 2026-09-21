@@ -17,16 +17,19 @@ This register lists what is **not decided**. Nothing here is design law. Accepte
 **Status:** OPEN · **Constraints:** AMO-D009, AMO-D013
 How faithfully, at what scale and at what level of detail is Earth represented? Full-scale, compressed, region-based, abstracted network of places?
 *Notes:* Drives almost every technical decision (streaming, persistence, simulation cost, travel). Should be answered by experiment, not assumption.
+*Refined 2026-09-21:* the world **is** Earth (AMO-D045); what stays open is how Earth is represented. That includes global representation and streaming, how much detail cities and wilderness carry, how authored and procedural content mix (AMO-Q063), and how the game moves between global, regional and local scales. Fidelity may grow progressively without invalidating the structure above it.
 
 ### AMO-Q002 — Travel model
 **Status:** OPEN · **Constraints:** AMO-D009, AMO-D010
 How do players move around the world: continuous travel, fast travel, travel with time or cost, transport of plants (including risk in transit)?
 *Notes:* Travel cost is what gives plant movement and provenance meaning.
+*Refined 2026-09-21:* on a real Earth the distances are real, so this also covers how far travel is abstracted — between continents, between cities, and within a local area — and how transporting a plant differs from moving as a human or as an Amorpho (AMO-D045, AMO-Q046).
 
 ### AMO-Q003 — Real-world geography, cities and player homes
 **Status:** OPEN · **Constraints:** AMO-D009, AMO-D013
 How are real cities and places represented? Where can player homes be, and how are they allocated?
 *Notes:* The game must never map player homes to players' real-world addresses or reveal players' real locations. Discovery and theft mechanics (AMO-D015, AMO-Q008) make this a safety concern, not only a design one.
+*Refined 2026-09-21:* Earth is now the world (AMO-D045), which sharpens both halves. Open on the representation side: how countries, borders and cities are represented and named, and how player-created properties and interiors are placed inside real geography (AMO-Q064). Open on the safety side: real Earth geography must never imply anything about a player's real residential address — that separation is a requirement, and how it is maintained is the question.
 
 ### AMO-Q004 — Time scale
 **Status:** OPEN · **Constraints:** AMO-D009, AMO-D012
@@ -112,6 +115,7 @@ Can hybrid individuals reproduce further — backcross to a parent species, or c
 **Status:** OPEN · **Constraints:** AMO-D009, AMO-D010, AMO-D013
 Where are natural populations at world start, how large are they, and which cultivated stocks exist? What minimal native-range information would the game need from approved input?
 *Notes:* Native ranges are reality-derived and would arrive as approved input once a game system needs them (AMO-D025); population sizes are a design choice.
+*Refined 2026-09-21:* with Earth as the world (AMO-D045), approved origin data could one day be placed in the corresponding real areas. The architectural ability to do so is preserved; no geographic facts are imported now and no geographic columns are added to the species input. How populations are represented spatially is AMO-Q068.
 
 ### AMO-Q020 — Pests, pathogens and weather events
 **Status:** OPEN · **Constraints:** AMO-D014
@@ -303,6 +307,38 @@ Can players identify, name or formally register a line they have bred? Is there 
 How do selection and lineages interact with hybrids? Can a hybrid line be selectively bred, and does that depend on hybrid fertility?
 *Notes:* Depends on AMO-Q018. Compatibility itself never changes through play: approved pairs come only from approved input (AMO-D027), and nothing in the Evolutionator may create or imply new pairs.
 
+## Earth representation
+
+### AMO-Q063 — Local detail: authored versus procedural
+**Status:** OPEN · **Constraints:** AMO-D045, AMO-D019
+How is local detail produced — hand-authored places, procedural generation from geographic structure, or a mix that varies by importance? Which places deserve authored treatment?
+*Notes:* Authoring the whole Earth is impossible; generating all of it risks a world with no memorable places. The answer probably differs between a species' origin region, a major city and an arbitrary field. Strongly coupled to AMO-Q001 and to production capacity (L19).
+
+### AMO-Q064 — Properties and interiors inside Earth geography
+**Status:** OPEN · **Constraints:** AMO-D045, AMO-D014
+How do player-created properties, buildings, greenhouses and interiors sit inside real geography? Are they places in the world that others can reach, private spaces, or both? How is capacity and placement decided?
+*Notes:* The principle is fixed — a house or greenhouse is a place *within* Earth, not a detached instance (AMO-D045) — so that outside conditions can reach inside (AMO-Q049). The representation is open. Overlaps ownership (AMO-Q007), property systems (AMO-Q032), theft (AMO-Q008) and the privacy requirement (AMO-Q003).
+
+### AMO-Q065 — Nesting of local environments
+**Status:** OPEN · **Constraints:** AMO-D035, AMO-D037, AMO-D045
+How deep does environmental nesting go — world, city, property, building, room, pot, root zone — and where does it usefully stop? Does each level hold its own state, or is local state derived on demand from the level above plus modifiers?
+*Notes:* The principle is that environmental state can exist at increasingly local scales, which is what lets a potted plant experience something different from the room and the street. Depth is a cost decision as much as a design one. Relates to AMO-Q005, AMO-Q049 and AMO-Q050.
+
+### AMO-Q066 — How real geographic data could ever enter Amorpho
+**Status:** OPEN · **Constraints:** AMO-D018, AMO-D024, AMO-D025, AMO-D045
+If the game ever needs real geographic or climatic data, how would it arrive, and in what minimal form? Through the Reality Gate as approved input, as a one-time build-time asset, or not at all?
+*Notes:* Nothing is imported now and nothing is chosen. Whatever the answer, the running game may not depend on an external service or live data source (AMO-D018), and only what the game demonstrably needs may cross (AMO-D025). Geography is not botanical research, so it may not belong to the same gate — that is part of the question.
+
+### AMO-Q067 — World updates versus persistent player structures
+**Status:** OPEN · **Constraints:** AMO-D009, AMO-D011, AMO-D045
+When the World's geography or fidelity improves, what happens to player properties, plantings and populations already standing there? How are long-lived player structures protected across world changes?
+*Notes:* Progressive fidelity (AMO-D045) guarantees this situation will arise. Persistent individuals with long histories (AMO-D011) are exactly what must not be lost to a map revision. Relates to AMO-Q007.
+
+### AMO-Q068 — Spatial representation of populations
+**Status:** OPEN · **Constraints:** AMO-D009, AMO-D010, AMO-D045
+How are natural, cultivated and introduced populations represented in space — as individuals with locations, as population objects over an area, or at different resolutions depending on attention?
+*Notes:* Finite populations (AMO-D010) and persistent individuals (AMO-D011) must survive whatever abstraction is chosen, including when nobody is looking. Relates to AMO-Q019, AMO-Q012 and AMO-Q053.
+
 ## Standard and VR gameplay
 
 ### AMO-Q056 — VR locomotion, comfort and posture
@@ -353,5 +389,7 @@ In rough order of value for the next phase:
 5. **AMO-Q025** and **AMO-Q026** (cultivation's effect on combat; loss) — decide whether the two layers reinforce each other.
 6. **AMO-Q027** (roster scale) — decides whether the combat layer is producible at all.
 7. **AMO-Q001** and **AMO-Q004** (world scale, time) — decide the cost of everything else.
+
+The Earth-representation questions (AMO-Q063–AMO-Q068) mostly wait on AMO-Q001, which waits on evidence rather than argument. That the world *is* Earth is settled (AMO-D045); *how* it is represented is a technology-shaped question for Phase 2.
 
 The VR questions (AMO-Q056–AMO-Q062) are deliberately **not** near the top. They are recorded so that architecture can account for them (AMO-D043); answering them needs prototypes, which belong to Phase 3.

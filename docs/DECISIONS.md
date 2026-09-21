@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief* or *Embodiment and systems brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief* or *World foundation brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -59,10 +59,13 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D042 | VR is optional, never secondary | ACCEPTED |
 | AMO-D043 | Account for VR early; defer VR production cost | ACCEPTED |
 | AMO-D044 | No shared cross-project VR platform; prove first, extract later | ACCEPTED |
+| AMO-D045 | Amorpho's World is Earth | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
 **Embodiment and systems pass (2026-09-20):** the first post-foundation design pass added AMO-D028–AMO-D044, covering the embodiment model (astral transfer), the World / Amorpho / Evolutionator ownership split with Environmental Fit as the derived bridge, and Standard and VR Gameplay as two first-class interfaces. Nothing was superseded. AMO-D007, AMO-D012 and AMO-D013 were extended rather than replaced; they carry *Revised* notes pointing at the extensions.
+
+**World foundation (2026-09-21):** AMO-D045 fixed the World as a coherent representation of the real Earth, shared by the Human and Amorpho layers, with progressive fidelity and no technology commitment. Nothing was superseded; AMO-D009 carries a *Revised* note pointing at it.
 
 ---
 
@@ -131,6 +134,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** The world, its cities and its geography exist independently of any individual player. Without player intervention, natural *Amorphophallus* populations continue to exist and develop in their natural regions. Players act inside the world and can change its history; they are not its centre.
 - **Rationale:** A world with its own continuity is what gives plants and events real history.
 - **Consequences:** World state must be persistent and must evolve without player input. Scale, time model and topology are open (AMO-Q001, AMO-Q004, AMO-Q006).
+- **Revised:** 2026-09-21, world foundation — the world that persists is specifically a coherent representation of the real **Earth**, shared by the Human and Amorpho layers (AMO-D045). Substance unchanged; scale and fidelity remain open.
 
 ## AMO-D010 — Plant populations are finite; no spawning on demand
 
@@ -386,3 +390,19 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Amorpho creates no shared Trederus Maximus VR framework and introduces no dependency to or from any sibling project, and no cross-repository infrastructure. If Amorpho and, later, another project demonstrate through repeated real use that certain interaction primitives are genuinely generic, they may eventually be extracted deliberately. The path is project-specific implementation → repeated real use → proven generic behaviour → deliberate extraction → optional shared technology; never shared framework first.
 - **Rationale:** *Prove first. Extract later.* A framework designed before two real users exist would force both into abstractions neither needs, and would breach Amorpho's independence.
 - **Consequences:** Reuse potential for other projects is context only, never architecture (AMO-D002, AMO-D018). Interaction primitives such as grab, hold, inspect, place, point, select, open, navigate, manipulate and interact are illustrative examples, not a planned library. See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
+
+## AMO-D045 — Amorpho's World is Earth
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** World foundation brief
+- **Decision:** The long-term Amorpho World is a coherent representation of the real Earth. Real continents, countries, regions and cities form the geographic foundation for both Human and Amorpho gameplay, including the real areas associated with real *Amorphophallus* species. Fidelity may increase progressively over the project's lifetime and does not imply one-to-one representation of every road, building, street or tree.
+- **Rationale:** Human life, travel, cultivation, native species geography, climate, introduced populations and social infrastructure all need one shared coherent geographic world. A fictional substitute for Thailand, Indonesia, Africa, India, Australia, Europe or Russia would cost the game the meaning that real provenance and real journeys give a plant.
+- **Consequences:**
+  - No fictional world map is substituted for Earth, and no invented stand-in for a real region.
+  - Human and Amorpho gameplay occupy the **same** Earth — not a civilisation map and a separate habitat map. Cities and natural environments coexist, and the world must remain believable to live in *and* biologically meaningful (AMO-D009).
+  - Native geography and Environmental Fit stay separate concepts. Where a species originates is not where it may live: `native country = allowed` and `non-native country = forbidden` remain excluded (L9, AMO-D013, AMO-D035–AMO-D037).
+  - Local spaces — properties, buildings, greenhouses, beds, pots — have a place *inside* Earth geography rather than being detached instances, so outside conditions can reach them (AMO-Q064, AMO-Q065).
+  - Players may change distribution over time: collection, transport, cultivation, propagation and outdoor establishment can create introduced populations far from a species' origin (AMO-D010).
+  - World detail may grow progressively without invalidating the higher-level geographic structure.
+  - **No map technology, data source, streaming architecture or world-instance model is selected by this decision** (AMO-D020, AMO-Q001, AMO-Q066). It authorises no global map, GIS ingestion, imagery, procedural cities, terrain generation, navigation or weather service.
+  - Real Earth geography never implies anything about a player's real residential address; that separation stands (AMO-Q003).
+  - No geographic facts enter approved input now. If species origin data is ever needed, it arrives through the Reality Gate once a game system requires it (AMO-D025, AMO-Q019).

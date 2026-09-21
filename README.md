@@ -13,6 +13,7 @@ Amorpho aims to create a distinct genre from a combination of ideas that are fam
 - **The cast is real.** Species are the real species of the genus, from very small to enormous. No species are invented.
 - **Every plant is an individual.** Plants are persistent, with identity, provenance and lineage — not interchangeable items.
 - **The world has its own continuity.** Natural populations exist and develop whether or not players intervene. Plants never spawn on demand.
+- **One Earth.** The world is a coherent representation of the real Earth — real countries, regions and cities — shared by human life and plant life alike.
 - **Environment, not borders.** Where a plant can grow depends on climate and conditions, not on which country it is native to.
 - **Risk is where the decisions are.** Protected cultivation is safer; outdoor planting can be better but exposes plants to weather, pests, theft and accidental pollination. A flowering plant's scent makes it easier for others to find.
 - **The plant you raised is the fighter you play.** The same individual spans long-term cultivation and intense, skill-based fighting.
@@ -49,7 +50,7 @@ Each species has a permanent, opaque ID such as `AMO-SP-000001`; its scientific 
 
 ## Current maturity
 
-**Foundation, plus the first systems pass.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, the input contract for the Reality Gate, and — from the first post-foundation design pass — the embodiment model, the three simulation domains, and the Standard/VR interface principles.
+**Foundation, plus the first systems pass.** This repository currently contains the product vision, design laws, decision ledger, open-question register, conceptual architecture, the input contract for the Reality Gate, and — from the first post-foundation design passes — the embodiment model, the three simulation domains, the Standard/VR interface principles, and Earth as the World's geographic foundation.
 
 It does **not** yet contain game code, an engine, art, or any species data. The species input file contains only its header until the first approved export is supplied. No engine or programming language has been chosen; that decision will be made from evidence.
 

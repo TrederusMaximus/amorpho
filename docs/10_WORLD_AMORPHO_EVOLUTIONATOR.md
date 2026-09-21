@@ -21,6 +21,24 @@ Each domain must be able to become substantially more sophisticated over the lif
 
 The World describes conditions. It may eventually model location, season, time, temperature, humidity, rainfall, current weather, light, substrate, soil, drainage, exposure, shelter, local microclimate and other variables. The final list is open (AMO-Q005).
 
+Those conditions have a geographic source: the World is a coherent representation of the real Earth (AMO-D045). Geography, environment and biology stay separate while feeding one another:
+
+```
+EARTH GEOGRAPHY
+      ▼
+WORLD SYSTEMS
+      ▼
+location + time + weather + local modifiers
+      ▼
+LOCAL ENVIRONMENT STATE  +  AMORPHO BIOLOGICAL STATE
+      ▼
+ENVIRONMENTAL FIT
+      ▼
+deterioration / equilibrium / recovery / growth
+```
+
+Earth decides *place*. The World decides *conditions*. The individual decides *requirements*. Fit decides *what happens*. See [02_WORLD_MODEL.md](02_WORLD_MODEL.md).
+
 The key rule is ownership, not content:
 
 > The World describes conditions. It does not know whether those conditions are good or bad for a particular Amorpho.

@@ -2,7 +2,7 @@
 
 > The game may grow very slowly — but from now on, it never stops growing.
 
-**Current phase:** Phase 0 is complete. Phase 1 — Systems Specification — has begun: the first design pass (2026-09-20) settled the embodiment model, the World / Amorpho / Evolutionator ownership split and the Standard/VR interface principles, as laws and decisions rather than mechanics.
+**Current phase:** Phase 0 is complete. Phase 1 — Systems Specification — has begun. The first design pass (2026-09-20) settled the embodiment model, the World / Amorpho / Evolutionator ownership split and the Standard/VR interface principles; a following pass (2026-09-21) fixed the World as the real Earth (AMO-D045). All of it as laws and decisions rather than mechanics.
 
 This roadmap is organised by **maturity**, not by dates. No calendar is promised. A phase ends when its exit criteria are met, however long that takes. Phases may overlap: a technical spike can run during specification, and a micro-prototype can motivate a spike.
 
@@ -36,7 +36,7 @@ Typical work:
 - combat design pillars and a roster strategy (AMO-Q027);
 - an Evolutionator model, version 0: inheritance, variation, generation timing (AMO-Q013, AMO-Q052).
 
-Done in this phase so far: the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044).
+Done in this phase so far: the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044), and Earth as the World's geographic foundation ([02](02_WORLD_MODEL.md); AMO-D045).
 
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 

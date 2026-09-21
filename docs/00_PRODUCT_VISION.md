@@ -17,7 +17,7 @@ Amorpho aims to become its own genre: a combination of ideas that are familiar i
 - **collecting** living plants that are real species;
 - **ownership, cultivation, propagation and trade**;
 - **persistent individual plants** with provenance and lineage;
-- **real geography and climate** as grounding;
+- **the real Earth** as the shared geographic foundation for both layers (AMO-D045);
 - a **fantasy astral embodiment** layer;
 - direct, **skill-based fighting**;
 - **generational change** in plants that players breed, select and move around the world;
@@ -97,7 +97,7 @@ Undecided (AMO-Q034). The subject invites humour — the plants' appearance, the
 | **traversal tolerance** | Where an inhabited, animated Amorpho can temporarily operate, possibly with equipment. |
 | **rooting tolerance** | Where an individual can survive after returning to rooted form. Not the same as traversal tolerance (AMO-D032). |
 | **long-term suitability** | Where a rooted individual can genuinely remain healthy, grow, develop, recover, reproduce and persist. |
-| **World** | The simulation domain that owns environmental truth: *what conditions exist here, now?* (AMO-D035) |
+| **World** | The simulation domain that owns environmental truth: *what conditions exist here, now?* (AMO-D035) Its geography is the real Earth (AMO-D045). |
 | **Amorpho** (domain) | The simulation domain that owns biological traits, requirements and individual condition: *what does this individual need?* (AMO-D036) |
 | **Evolutionator** | The simulation domain that owns inheritance, variation and generational change: *how are traits transmitted and changed across generations?* (AMO-D038) |
 | **Standard Gameplay** | Playing Amorpho on conventional hardware: gamepad, keyboard and mouse, a conventional display. |
