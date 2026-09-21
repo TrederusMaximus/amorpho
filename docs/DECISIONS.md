@@ -8,7 +8,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Never delete a decision.** To change a decision's substance, add a new decision and mark the old one `SUPERSEDED by AMO-D###`, with a short note on what changed and why. Anyone reading old documents, commits or data must still be able to understand what was true at the time.
 - **Clarifications** that do not change a decision's substance (terminology, cross-references, filling in a detail the decision had left open) may be made in place, with a dated *Revised* note.
 - **Statuses:** `ACCEPTED` (in force), `SUPERSEDED` (replaced; kept for history). Undecided matters do not belong here — they live in [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md). When an open question is resolved, record the outcome here and point the question to it.
-- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief* or *Strategic rooting brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
+- **Origin** says where a decision came from: *Founding brief*, *Foundation closure brief*, *Embodiment and systems brief*, *World foundation brief*, *Environment v0 brief*, *Strategic rooting brief* or *Interaction boundary brief* (set by the project owner), or *…, derived* (a conservative consequence worked out in that session).
 - Keep entries short. Longer reasoning belongs in the design documents.
 
 ## Index
@@ -69,6 +69,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D052 | Fit is deterministic for identical state; randomness is upstream | ACCEPTED |
 | AMO-D053 | The design model precedes importing real environmental data | ACCEPTED |
 | AMO-D054 | Rooting may be strategic and long-term | ACCEPTED |
+| AMO-D055 | World owns environmental interactions; Fit owns biological ones | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -79,6 +80,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 **Environment and Fit v0 (2026-09-21):** AMO-D046–AMO-D053 gave the accepted architecture its first usable environmental model — a five-dimension World vector, a zoned Amorpho response profile, and a Fit output contract that preserves per-dimension information alongside an aggregate trajectory. It is a boundary contract, not a biological simulation: no values, units, formulas or tick rates are fixed. Nothing was superseded; AMO-D013, AMO-D031 and AMO-D037 carry *Revised* notes pointing at it. The specification is [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md).
 
 **Strategic rooting (2026-09-21):** AMO-D054 established that rooting is not primarily an emergency mechanic — a suitable rooted environment can support indefinite healthy life, growth and eventual reproduction, and rooting may be the reason for a journey rather than its end. Nothing was superseded; AMO-D033 carries a *Revised* note pointing at it.
+
+**Interaction boundary (2026-09-21):** AMO-D055 settled where cross-dimensional interactions live, tested against a worked scenario in which two individually tolerable dimensions jointly change the outcome. Nothing was superseded; AMO-D035 and AMO-D049 carry *Revised* notes pointing at it.
 
 ---
 
@@ -344,6 +347,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** The World owns environmental state and answers only *what conditions exist here, now?* It may eventually describe location, season, time, temperature, humidity, rainfall, weather, light, substrate, soil, drainage, exposure, shelter, microclimate and other variables. The World does not know whether conditions are good or bad for a particular individual.
 - **Rationale:** Separating description from judgement is what allows the environmental model and the biological model to grow independently.
 - **Consequences:** Rules of the form `species X allowed here` or `species Y forbidden here` must never appear in World logic — the ownership form of L9 and AMO-D013. Buildings and greenhouses modify local conditions rather than granting exemptions (AMO-Q049). The variable list stays open (AMO-Q005).
+- **Revised:** 2026-09-21, interaction boundary — the World also owns interactions *between* environmental conditions where the mechanism is physical and organism-independent, such as heat driving evaporation; interactions that change an organism's response belong to Fit (AMO-D055). Substance unchanged.
 
 ## AMO-D036 — The Amorpho owns biological requirements, traits and condition
 
@@ -452,6 +456,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Environmental Fit v0 consumes a Local Environment State and an effective response profile and produces: **(A)** fit by dimension; **(B)** biological direction — conceptually improving, stable or deteriorating; **(C)** stress pressure; **(D)** growth / recovery opportunity; **(E)** critical constraint indicators. Per-dimension information is preserved alongside the aggregate. Fit must eventually support **limiting-factor** behaviour: catastrophic failure in one dimension may not disappear behind excellent values elsewhere.
 - **Rationale:** The aggregate is what downstream systems act on; the per-dimension detail is what makes it possible to ever explain *why* a plant is struggling. Naive averaging would let a plant with no water be rated "good" because the light is excellent.
 - **Consequences:** Outputs D and C together make positive, neutral and negative trajectories first-class, so Fit is never a synonym for stress (AMO-D037, AMO-D033). No numeric ranges, scales or aggregation formulas are defined (AMO-Q070). Dimensions are treated independently in v0, but the architecture may not assume they stay independent forever (AMO-Q071). Nothing further is added to the contract without a demonstrated downstream need.
+- **Revised:** 2026-09-21, interaction boundary — output **A** is *independent* dimension fit and is read together with **E**, which names constraints that may be a dimension **or an interaction between dimensions** (AMO-D055). No output was added or removed; substance unchanged.
 
 ## AMO-D050 — Inhabitability is downstream of biological condition
 
@@ -494,4 +499,19 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
   - Long-term rooted populations are the bridge to the Evolutionator: they supply the conditions under which selection can operate, without the Environment creating traits or the Evolutionator reading place names (AMO-D038, AMO-D040).
   - No mission mechanic, farming subsystem, pollination engine, land-rights system or population model is authorised by this decision. The provisional term *"Amorpho Farming"* is **not** a product term and no named subsystem is created (AMO-Q080).
   - Hybridization policy is untouched: only approved compatible species pairs, symmetric, with absence of approval never asserting biological impossibility (AMO-D027).
+
+## AMO-D055 — World owns environmental interactions; Fit owns biological ones
+
+- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Interaction boundary brief, tested
+- **Decision:** Environmental dimensions may interact, and the two kinds of interaction have different owners.
+  - A **World-side interaction** is one environmental condition physically changing another — heat increasing evaporation so root-zone water availability falls. The World resolves it into the Local Environment State, and Environmental Fit simply evaluates the resulting values.
+  - A **Fit-side interaction** is a combination changing an individual's biological response while the World values stay exactly as they are — a temperature and a water availability that are each tolerable alone producing real deficit together, because this individual's water demand rises with temperature.
+
+  The discriminating question is: **could the World compute this interaction without knowing what organism is present?** If yes, it belongs to World; if no, to Fit. Equivalently: *does the environment change itself, or does the organism respond differently to the same environment?*
+- **Rationale:** Demonstrated rather than assumed. In [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md) §17, raising temperature within its tolerable zone while holding water availability *identical* produced a materially worse trajectory — an outcome expressible only as a Fit-side interaction. Putting such interactions in World would force the World to know which organism is standing somewhere before it could report conditions, and to report different conditions for two plants in the same place, which AMO-D035 forbids.
+- **Consequences:**
+  - **Double-counting is a real hazard** and the one-line rule — *World computes environmental causation; Fit computes biological consequence* — does not by itself catch it, because a Fit term over temperature and water looks identical whether it encodes biology or silently re-encodes evaporation. Two disciplines apply: every Fit-side interaction must be justifiable **with World values held fixed**; and **Fit must not compensate for a thin World** — a missing World process is a reason to extend World, not to approximate it inside Fit.
+  - **Output A is independent dimension fit** and cannot express combinations; it is read together with E. **Output E names constraints, which may be a dimension or an interaction**, so a critical constraint can arise from an interaction while no single dimension is critical (AMO-D049).
+  - No new environment dimension and no new Fit output follow. An interaction is a relationship *between* existing dimensions, not a new fact about the world.
+  - Representation is **not** decided: interaction terms, response surfaces, conditional curves, modifiers and nonlinear aggregation all remain candidates, as do how many interactions are worth modelling, how they are sourced and how they are explained to players (AMO-Q071).
 

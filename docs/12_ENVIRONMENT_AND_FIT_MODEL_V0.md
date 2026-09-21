@@ -169,6 +169,10 @@ No numeric ranges, scales or formulas are defined. Nothing further is added unle
 - **B is the *condition* trajectory, and must be read together with D.** B alone cannot distinguish an individual that is thriving at its healthy baseline from one merely persisting in a mediocre place — both report *stable*. The pair does distinguish them: stable with modest opportunity is persistence; stable with high opportunity is flourishing. A consumer that reads B in isolation will flatten exactly the distinction L38 protects.
 - **C is a pressure, not an accumulated total.** Stress pressure describes how hard conditions are pushing *now*; what has built up over time lives in the individual's condition (§13). Conflating them would make a brief severe episode indistinguishable from a long mild one (AMO-Q072).
 - **D is gated by limiting factors, not only by the aggregate.** Favourable warmth and light produce no growth opportunity in an individual with no usable water: the resources cannot be spent. Output E therefore constrains D as well as B (AMO-Q070).
+- **A is *independent* dimension fit, and must be read together with E.** It answers how each dimension compares with the profile *on its own*, which by construction cannot show anything that exists only in a combination. Two dimensions may each read *tolerable* while their interaction is severe. A is a diagnostic decomposition, never a complete explanation.
+- **E names constraints, which may be a dimension or an interaction.** A severe limiting factor is not always a single dimension: a temperature × water interaction can be the binding constraint while neither dimension is individually critical. E may name such a pair (AMO-D055).
+
+**None of the five outputs is self-sufficient.** They are five views of one evaluation, and every rule above is an instance of the same thing — B read with D, A read with E, D gated by E. A consumer acting on one output in isolation will misread the situation.
 
 ## 10. The Fit continuum
 
@@ -212,7 +216,20 @@ temperature excellent · water catastrophic · light excellent · humidity excel
 
 A plant with no usable water does not care how good the light is. Fit must eventually support limiting-factor behaviour, and output E exists to surface it. The aggregation rule is not defined here (AMO-Q070).
 
-**Interactions are not modelled in v0**, but the architecture must not assume the dimensions stay mathematically independent forever. High temperature may worsen water stress; protection may reduce effective exposure; low light may change water use. v0 treats dimensions independently and records this as an explicit extension point (AMO-Q071).
+**Interactions are real, and their ownership is settled** (AMO-D055). Two dimensions that are each individually tolerable can jointly produce a materially worse outcome — demonstrated in [13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md) §17. What v0 does not yet do is *represent* them; the dimensions are treated independently for now, and the mathematics remains open (AMO-Q071).
+
+Where an interaction belongs is decided by one question:
+
+> Could the World compute this interaction **without knowing what organism is present**?
+
+| | Mechanism | Owner |
+|---|---|---|
+| **World-side** | one environmental condition physically changes another — heat increases evaporation, so root-zone water falls | **World**: it produces a different Local Environment State, and Fit simply evaluates the resulting values |
+| **Fit-side** | the *combination* changes this individual's biological response while the World values stay exactly as they are | **Environmental Fit**: it is part of the biology (AMO-D036) |
+
+> Does the environment change itself, or does the organism respond differently to the same environment?
+
+**Avoiding double-counting.** Because both describe the same physical world from different sides, the same relationship can be applied twice — once in a World value already lowered by evaporation, and again in a Fit rule that penalises "hot and dry". The governing rule is *World computes environmental causation; Fit computes biological consequence*, enforced by two disciplines: every Fit-side interaction must be justifiable **with World values held fixed**, and **Fit must not compensate for a thin World**. A missing World process is a reason to extend World, not to approximate it inside Fit (AMO-D055).
 
 ## 13. Condition changes over time
 

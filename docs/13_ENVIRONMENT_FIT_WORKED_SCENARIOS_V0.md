@@ -1,8 +1,10 @@
 # 13 — Environmental Fit v0: Worked Scenarios
 
-**Status:** validation exercise. This document stress-tests the contract in [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) against three worked cases. That document governs; this one only tests it. Nothing here adds to the model.
+**Status:** validation exercise. This document stress-tests the contract in [12_ENVIRONMENT_AND_FIT_MODEL_V0.md](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) against worked cases. That document governs; this one only tests it. Nothing here adds to the model.
 
-> ⚠️ **All values in this document are synthetic.** They are invented for a paper exercise. They are **not** biological measurements, **not** facts about any real *Amorphophallus* species, and **not** a proposed runtime representation. The individuals are generic test subjects — *Test Amorpho A*, *B*, *C* — and are deliberately not real species. No value here may ever be copied into `data/`, quoted as a tolerance, or treated as approved input (AMO-D024, AMO-D025, L4).
+**Part I (§1–§11)** tests the contract against a deteriorating, a stable and a recovering case. **Part II (§14–§22)** adds Scenario D, which tests cross-dimension interaction and the World/Fit ownership boundary (AMO-Q071, AMO-D055).
+
+> ⚠️ **All values in this document are synthetic.** They are invented for a paper exercise. They are **not** biological measurements, **not** facts about any real *Amorphophallus* species, and **not** a proposed runtime representation. The individuals are generic test subjects — *Test Amorpho A*, *B*, *C*, *D* — and are deliberately not real species. No value here may ever be copied into `data/`, quoted as a tolerance, or treated as approved input (AMO-D024, AMO-D025, L4).
 
 ## 1. The testing scale
 
@@ -393,3 +395,182 @@ The contract produced deterioration, equilibrium and improvement without special
 Four clarifications were folded back into the specification, all of them about naming what the model was already doing. One dimension, exposure / protection, remains unproven rather than validated.
 
 The model was made to survive three examples before being made more complicated. It did.
+
+---
+
+# Part II — Scenario D: cross-dimension interaction
+
+Added 2026-09-21 to test AMO-Q071, the one part of the v0 contract the first three scenarios left completely untested. The same warning applies to everything below: **all values are synthetic**, *Test Amorpho D* is a generic test subject and not a real species, and nothing here is importable.
+
+## 14. What this scenario has to provoke
+
+Scenarios A–C each had an outcome explicable from a single dimension. This one must produce a case where **two individually tolerable dimensions jointly change the biological outcome** — because if that can happen, treating dimensions independently is insufficient, and the model has to say where the interaction lives.
+
+The architectural question is the real subject:
+
+> If two World conditions interact biologically, does that interaction belong to World or to Environmental Fit?
+
+## 15. Response profile — Test Amorpho D
+
+| Dimension | Preferred | Tolerable | Critical beyond |
+|---|---|---|---|
+| Temperature | 0.40 – 0.62 | 0.25 – 0.78 | < 0.15 or > 0.88 |
+| Water availability | 0.45 – 0.75 | 0.28 – 0.85 | < 0.16 |
+| Light availability | 0.45 – 0.80 | 0.28 – 0.92 | < 0.10 |
+| Air moisture | 0.50 – 0.82 | 0.32 – 0.92 | < 0.18 |
+| Exposure / protection | 0.45 – 1.00 | 0.25 – 1.00 | < 0.08 |
+
+## 16. Case D1 — moderate thermal condition
+
+| Dimension | Value | Position | Independent fit |
+|---|---|---|---|
+| Temperature | 0.52 | inside preferred | favourable |
+| **Water availability** | **0.33** | tolerable, below preferred | mild shortfall |
+| Light availability | 0.60 | inside preferred | favourable |
+| Air moisture | 0.62 | inside preferred | favourable |
+| Exposure / protection | 0.70 | inside preferred | favourable |
+
+**Critical constraint:** none. **Direction:** stable, very slightly negative. **Stress pressure:** low. **Opportunity:** modest — the water shortfall holds development back without threatening the individual.
+
+A player finding this would see a plant that is a little dry and otherwise fine. That reading is correct.
+
+## 17. Case D2 — higher thermal condition, water unchanged
+
+| Dimension | Value | Position | Independent fit |
+|---|---|---|---|
+| **Temperature** | **0.74** | tolerable, below the 0.88 critical boundary | shortfall, not critical |
+| **Water availability** | **0.33** | *unchanged*, tolerable | mild shortfall |
+| Light availability | 0.60 | inside preferred | favourable |
+| Air moisture | 0.62 | inside preferred | favourable |
+| Exposure / protection | 0.70 | inside preferred | favourable |
+
+**Only temperature changed, and it stayed inside its tolerable zone. No dimension is critical.**
+
+### 17.1 The experimental control that makes this a clean test
+
+Water availability reads **0.33 in both cases**, and this is deliberate. In D2 the World has already accounted for whatever evaporation the higher temperature causes — the site is being replenished, or the substrate holds water well enough — so 0.33 is the genuine, final root-zone value the individual experiences.
+
+That control is the whole point. It removes the physical explanation, so anything left over must be biological.
+
+### 17.2 The result
+
+At 0.74, this individual's water demand is higher and its drought tolerance lower than at 0.52. The same 0.33 that was a manageable shortfall now leaves it in real deficit.
+
+**Direction:** deteriorating. **Stress pressure:** moderate to high, and attributable to *neither dimension alone*. **Opportunity:** near nil. **Critical constraint:** the **temperature × water availability interaction** — even though neither dimension is individually critical.
+
+Independent evaluation cannot produce this. Reading the five dimensions separately gives "one shortfall, one mild shortfall, three favourable" — which describes D1 about as well as D2, and describes the actual D2 outcome not at all.
+
+**Interactions are therefore real and must be representable.** That much the scenario settles.
+
+## 18. Where does the interaction belong?
+
+Two different things could have produced a worse outcome at higher temperature, and separating them is the architectural finding.
+
+### 18.1 The discriminating question
+
+> Could the World compute this interaction **without knowing what organism is present**?
+
+Applied to the two candidates:
+
+| | Mechanism | Organism-dependent? | Owner |
+|---|---|---|---|
+| **Physical** | heat increases evaporation, so less water remains in the root zone | **No** — it happens to an empty pot | **World** |
+| **Biological** | at higher temperature *this individual* needs more water and tolerates deficit less | **Yes** — another organism in the same conditions would respond differently | **Environmental Fit** |
+
+The physical one changes **the environment**. The biological one changes **the response to the same environment**.
+
+> Does the environment change itself, or does the organism respond differently to the same environment?
+
+Scenario D was built to isolate the second: the World value did not move, and the outcome still got worse. That is only expressible as a Fit-side interaction.
+
+### 18.2 World-side interactions
+
+A World-side interaction produces a different Local Environment State. Heat raising evaporation and lowering water availability; a canopy lowering light; a building raising temperature and lowering exposure. Fit never sees the interaction at all — it sees the resulting values and evaluates them normally.
+
+This is already how the model works (AMO-D046): every local modifier produces the same five dimensions, and Fit never learns about buildings. Evaporation is simply another modifier of that kind, whenever World grows enough to model it.
+
+### 18.3 Fit-side interactions
+
+A Fit-side interaction leaves the World values exactly as they are and changes what they *mean* for a particular individual. It is part of the biological response, so it belongs with the rest of the biology (AMO-D036) and is evaluated where biology meets conditions (AMO-D037).
+
+Putting it in World would be a boundary violation with a concrete cost: the World would have to know which organism is standing there in order to report conditions, which is precisely what AMO-D035 forbids, and it would have to report different conditions for two plants in the same place.
+
+### 18.4 The chain survives
+
+```
+EARTH / WORLD
+      ▼  physical environmental processes  (World-side interactions)
+FINAL LOCAL ENVIRONMENT STATE
+      ▼
+AMORPHO RESPONSE PROFILE
+      ▼
+ENVIRONMENTAL FIT
+      ▼  biological cross-dimensional interactions  (Fit-side interactions)
+CONDITION TRAJECTORY
+```
+
+Scenario D did not break it. Each interaction type has exactly one home, and the two are told apart by a question that can be asked of any candidate interaction.
+
+## 19. Double-counting
+
+The two interaction types describe the same physical world from different sides, so the same relationship can easily be applied twice.
+
+Concretely: World lowers water availability from 0.40 to 0.33 because heat drove evaporation. Fit then *also* penalises the combination of high temperature and low water "because heat dries plants out". The heat's physical effect has now been counted once in the World value and again in the Fit rule, and the individual is punished twice for it.
+
+The governing rule:
+
+> **World computes environmental causation. Fit computes biological consequence.**
+
+That formulation is correct but not, on its own, sufficient to catch the error — a Fit interaction term over temperature and water looks identical whether it encodes biology or silently re-encodes evaporation. Two working disciplines close the gap:
+
+1. **Every Fit-side interaction must be justifiable with World values held fixed.** If the justification is "because the substrate dries out faster", it is describing a change in the World value and belongs in World. If it is "because this organism's water demand rises with temperature", the World value is unchanged and it belongs in Fit.
+2. **Fit must not compensate for a thin World.** v0's World models no evaporation at all, which creates a standing temptation to approximate it inside Fit. That would be Fit quietly modelling physics, and it would become double-counting the moment World later gains the real mechanism. A missing World process is a reason to extend World, not to patch Fit.
+
+## 20. What this means for the Fit outputs
+
+### 20.1 Output A is *independent* dimension fit
+
+In D2, output A reports temperature *tolerable* and water *tolerable*. Both are true. Neither explains the outcome.
+
+Output A is a **diagnostic decomposition, not a complete explanation** — it answers "how does each dimension compare with the profile on its own", and by construction it cannot show anything that exists only in a combination. A consumer reading A alone would conclude that nothing is wrong.
+
+No new output field is needed. What is needed is that A be *named* as independent fit, and that it be read with E — the same shape of rule as B-must-be-read-with-D from Scenario C §5.8.
+
+### 20.2 Output E must be able to name an interaction
+
+Output E was worded as "which **dimensions**, if any, are currently severe limiting factors". In D2 the severe limiting factor is not a dimension: it is the temperature × water pair.
+
+Taken literally, E could not express the constraint that actually mattered. This is the one place Scenario D found the contract's wording genuinely too narrow.
+
+The fix is a clarification rather than a new output: **E names constraints, and a constraint may be a single dimension or a named interaction between dimensions.** With that, §9's question is answered — yes, a critical constraint can arise from an interaction while no individual dimension is critical — and it stays answerable by the existing contract.
+
+### 20.3 The outputs are a set, not five independent readings
+
+Three separate clarifications have now each taken the form *"read X together with Y"*: B with D, A with E, and D gated by E. That is not a coincidence, and it is worth stating once in general rather than three times in particular: **no single Fit output is self-sufficient.** They are five views of one evaluation, and any consumer that acts on one in isolation will misread the situation.
+
+## 21. Current condition under interaction
+
+Applying D2 to an individual that arrives already stressed, rather than healthy:
+
+Its effective bands are narrower (Scenario A §3.9), so temperature 0.74 may fall **outside** tolerable for it rather than inside, and the elevated water demand meets an individual with fewer stored resources. The interaction that is *significant stress* for a healthy individual becomes an *outright critical constraint* for a stressed one — possibly with the loss of inhabitability that D2 does not otherwise imply.
+
+This is the established feedback loop (spec §13) operating through an interaction rather than a single dimension, which is what one would want. Condition remains relevant; nothing new is required to keep it so.
+
+## 22. Assessment
+
+| Question | Answer |
+|---|---|
+| **1. Does the five-dimension vector survive?** | **Yes, unchanged.** An interaction is a relationship *between* existing dimensions, not a new fact about the world, so no sixth dimension is implied — and none is proposed. |
+| **2. Can interaction live cleanly inside Fit?** | **Yes.** Scenario D isolates a case expressible *only* as a Fit-side interaction, and the biology sits with the rest of the biology. |
+| **3. Which interactions belong to World?** | Those that are **physical causation** — one environmental condition changing another, computable without knowing the organism. Heat driving evaporation is the canonical example. |
+| **4. Is the boundary still clear?** | **Yes, and sharper.** The discriminating question (§18.1) can be applied to any candidate interaction and gives an unambiguous answer. |
+| **5. Double-counting risk?** | **Real.** Named in §19, with two disciplines to prevent it. The one-line rule alone is not enough to catch it on inspection. |
+| **6. Does Fit-by-dimension need clarification?** | **Yes.** Output A is independent fit and cannot express combinations; it must be read with E. |
+| **7. Can a critical constraint arise from an interaction?** | **Yes**, once E is clarified to name constraints rather than only dimensions. This was the single genuinely too-narrow piece of wording. |
+| **8. Does v0 require structural change?** | **No — clarification only.** Nothing was added, removed or restructured. |
+
+### Verdict
+
+The contract held. One scenario built specifically to break the independent-dimensions assumption did break it — as intended — and the model absorbed the result without gaining a field, a dimension or a formula.
+
+The durable gain is a boundary that can be applied rather than merely stated: **the environment changing itself is World; the organism responding differently to the same environment is Fit** (AMO-D055). How interactions are represented, how many are worth modelling, how they are sourced and how they are explained to players all remain open (AMO-Q071).
