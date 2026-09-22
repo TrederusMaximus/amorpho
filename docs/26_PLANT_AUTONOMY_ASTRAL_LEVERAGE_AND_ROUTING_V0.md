@@ -38,7 +38,9 @@ Within it:
 
 - the individual may appear to its Warden as reachable;
 - direct astral presence with the persistent individual may be established;
-- a biologically available routing decision is still pending.
+- a biological routing decision may still be available, if the plant has not already taken that route.
+
+Reachability alone does not hold a choice open. Autonomous biology may begin a route while the window remains open; direct presence can influence only a routing opportunity that still exists ([28_ASTRAL_WINDOW_END_TO_END_TRACE_V0.md](28_ASTRAL_WINDOW_END_TO_END_TRACE_V0.md)).
 
 **Its duration is biological and state-dependent.** No span, boundary point, warning or display is defined (AMO-Q085, AMO-Q092, AMO-Q115).
 

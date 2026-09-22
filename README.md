@@ -102,6 +102,7 @@ docs/
   25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md  Tuber funding, Leaf collapse and replacement/retreat routing
   26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md  who selects a biological route: the plant, or a Warden with astral presence
   27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md  one canonical World, Warden continuity and platform gateways
+  28_ASTRAL_WINDOW_END_TO_END_TRACE_V0.md Leaf collapse through autonomous, Warden and missed-Window routes
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
