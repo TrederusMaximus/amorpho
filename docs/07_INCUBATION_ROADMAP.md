@@ -48,6 +48,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md) answers who selects a route: biology bounds it, the individual's own autonomy prefers its continuation, and a Warden with direct astral presence may choose differently among feasible routes at full biological cost (AMO-D098–AMO-D101). It names the **Astral Window** without making the Tuber playable, and leaves the autonomous policy, presence mechanics and player knowledge open.
 
+[27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md) establishes one canonical World, Warden continuity across gateways, and the client/platform boundary (AMO-D102–AMO-D105). It sets product and technology-selection requirements without selecting an implementation.
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -99,6 +101,10 @@ More regions, more species, lineages emerging over time, deeper economy, broader
 The full game, built by a team with the tools and capacity that the earlier phases waited for.
 
 Phases 5–7 are described only in outline on purpose; they will be specified when the project gets there.
+
+### Future track — Platform Viability / Client Architecture
+
+After core design and evidence-based technology selection, examine desktop, mobile, console and VR/XR reach, scalable fidelity, input translation, certification and continuity across client generations (AMO-Q036, AMO-Q037, AMO-Q126–AMO-Q128). This track has no date or launch order and authorises no port or platform integration now.
 
 ---
 

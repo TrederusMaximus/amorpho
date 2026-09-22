@@ -4,6 +4,8 @@ Amorpho is a game whose cast is real: the species of the plant genus *Amorphopha
 
 The player lives as a human in a persistent world modelled on Earth — exploring, discovering, acquiring, cultivating, propagating and trading individual plants, each with its own origin and history. Through a magical mechanism, the player's consciousness can leave their human body and inhabit a suitable plant, which becomes an **Amorpho**: a fighter controlled in real-time, skill-based combat. The plant they raised is the fighter they learn to master.
 
+Amorpho targets one persistent World accessible through different platform experiences; each client is an entrance to the same Warden and history ([platform sovereignty](docs/27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)).
+
 > Reality provides the cast. The game provides the fantasy.
 
 ## What makes it distinctive
@@ -99,6 +101,7 @@ docs/
   24_SAME_PHASE_LEAF_RECOVERY_V0.md  mature Leaf stabilization, functional recovery and possible replacement
   25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md  Tuber funding, Leaf collapse and replacement/retreat routing
   26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md  who selects a biological route: the plant, or a Warden with astral presence
+  27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md  one canonical World, Warden continuity and platform gateways
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

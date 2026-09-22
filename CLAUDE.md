@@ -6,13 +6,13 @@ This file tells future Claude Code sessions (and any other development agent) ho
 
 **Amorpho** is a long-running game project: a persistent Earth-like world in which a human player collects, cultivates, propagates and trades individual plants of real *Amorphophallus* species, and can temporarily awaken one as an Amorpho for real-time, skill-based fighting.
 
-**Maturity:** foundation plus the first systems pass. There is no game code, no engine, no programming language commitment and no species data. The approved species input is header only. The project is in Phase 1 — Systems Specification ([docs/07_INCUBATION_ROADMAP.md](docs/07_INCUBATION_ROADMAP.md)); the embodiment, simulation-domain and interface laws are settled (AMO-D028–AMO-D044), and the recommended next step is the environment and Environmental Fit model, version 0 (AMO-Q005).
+**Maturity:** foundation plus ongoing Phase 1 systems specifications ([docs/07_INCUBATION_ROADMAP.md](docs/07_INCUBATION_ROADMAP.md)). There is no game code, engine, programming language commitment or species data; the approved species input is header only. Follow the roadmap's current near-term candidate steps rather than restarting completed design passes.
 
 ## Non-negotiable rules
 
 ### Identity and independence
 1. **The product name is Amorpho.** Never "TM Amorpho", "TM Amorpho Game", "Trederus Maximus Amorpho" or any prefixed variant — not in headings, package names, identifiers, file names or docs. The local checkout directory may carry a different name; do not propagate it. (AMO-D001)
-2. **Keep the Trederus Maximus affiliation quiet.** It appears as one sentence in the README's About section. It is never a runtime or architecture concern.
+2. **Keep the Trederus Maximus affiliation quiet.** The README's About section states it once. Product governance of the canonical Amorpho World under Trederus Maximus is recorded in [docs/27](docs/27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md); it creates no runtime or cross-project dependency.
 3. **Amorpho is independent.** No runtime, build, code or data dependency on any other system — including Imperblio, TM Botanics, any other Trederus Maximus system, or any botanical website or database. No API clients, live data feeds, HTTP fetches, shared databases, shared runtime packages, callbacks, sync jobs, or environment variables pointing at research systems. (AMO-D002, AMO-D018)
 
 ### Reality and botany
@@ -37,6 +37,7 @@ This file tells future Claude Code sessions (and any other development agent) ho
 20. **Rooting is not a penalty.** It exposes the individual to Environmental Fit, whose outcomes range from death to genuine improvement. Never write a decline timer or a fixed rescue window. (AMO-D033, AMO-D034)
 21. **Keep the three simulation domains separate.** The **World** owns environmental truth, the **Amorpho** owns biological requirements and condition, the **Evolutionator** owns inheritance and generational change; **Environmental Fit** is derived and owns nothing. No place names in the plant or the Evolutionator; no biology in the World. The first concrete model is [docs/12](docs/12_ENVIRONMENT_AND_FIT_MODEL_V0.md) — five neutral World dimensions, a zoned response profile, a Fit contract with positive as well as negative outcomes. Surviving is not thriving; the World states conditions, never permissions. (AMO-D035–AMO-D038, AMO-D046–AMO-D053)
 22. **Standard and VR are both first-class.** Two interfaces, one persistent world and history. VR is optional, never secondary; account for it in architecture, but build no VR production systems and commit to no VR hardware or SDK. No shared cross-project VR framework — prove first, extract later. (AMO-D041–AMO-D044, [docs/11](docs/11_STANDARD_AND_VR_GAMEPLAY.md))
+23. **One World. Many Ways In.** Platform clients and accounts are access layers, not owners of canonical Amorpho World, Warden, biology or history. Platform differences may change presentation and input, never game truth; multiple devices never multiply direct consciousness. Preserve broad desktop, mobile, console and VR/XR viability without choosing an engine, backend, account system or release plan. (AMO-D102–AMO-D105, [docs/27](docs/27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md))
 
 ## How to work here
 

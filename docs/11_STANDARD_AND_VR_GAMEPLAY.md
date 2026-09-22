@@ -5,6 +5,8 @@
 > Standard Gameplay and VR Gameplay are two first-class entrances into the same Amorpho world.
 > VR is optional, but never secondary.
 
+The wider [platform sovereignty model](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md) treats both interfaces as gateways to the same canonical World alongside future PC, mobile and console clients. Platform identity is separate from Warden identity, and several connected devices never permit more than one direct embodied presence (AMO-D102, AMO-D103, AMO-D101).
+
 ## 1. What is being established
 
 Amorpho is **not** a VR-only game. It is **not** a conventional game with a small VR novelty mode. It is **not** a VR game with a reduced non-VR fallback.
@@ -26,7 +28,7 @@ Standard Gameplay and VR Gameplay are two first-class entry points into the same
         STANDARD GAMEPLAY     VR GAMEPLAY
 ```
 
-These are not separate games, not separate persistent worlds, not separate accounts and not separate progression systems. They are two ways of inhabiting and controlling the same game.
+These are not separate games, persistent worlds, Amorpho identities or progression systems. They are two ways of inhabiting and controlling the same game. A platform may still require its own distinct platform account; linking policy remains open (AMO-D103, AMO-Q121).
 
 The technical architecture is deliberately unresolved. No classes, APIs or implementation code follow from this document.
 

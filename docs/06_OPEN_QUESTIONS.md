@@ -50,6 +50,7 @@ Which environmental variables are modelled, at what spatial and temporal resolut
 **Status:** OPEN · **Constraints:** AMO-D009, AMO-D018
 One shared world, several shards, private worlds, or a mix? Can the game be played offline? How do the persistent world and real-time combat relate technically?
 *Notes:* Persistent-world authority and low-latency fighting have different technical needs; they may not share one solution.
+*Refined 2026-09-22 ([27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)):* one **canonical continuity** is fixed (AMO-D102), but no topology, number of simultaneous sessions, combat representation or computation location is fixed. Disconnected actions and history conflicts are tracked in AMO-Q123.
 
 ### AMO-Q007 — Ownership
 **Status:** OPEN · **Constraints:** AMO-D010, AMO-D011
@@ -214,15 +215,17 @@ Visual style for plants, Amorpho, humans and the world.
 *Notes:* Must make real species recognisable while allowing fantasy.
 
 ### AMO-Q036 — Engine and technology choice
-**Status:** OPEN · **Constraints:** AMO-D020, AMO-D043
+**Status:** OPEN · **Constraints:** AMO-D020, AMO-D043, AMO-D105
 Which engine or technology stack, and is it one stack or several (for example world and combat)?
 *Notes:* Decide from evidence, using the criteria in [08_CONCEPTUAL_ARCHITECTURE.md](08_CONCEPTUAL_ARCHITECTURE.md#engine-and-technology-decision-criteria).
 *Refined 2026-09-20:* the candidate must also be able to support first-class VR eventually, without VR being built now (AMO-D043). That is a selection criterion, not a commitment to any VR technology.
+*Refined 2026-09-22:* future evaluation must test professional viability across desktop, iOS/Android, Nintendo/PlayStation/Xbox families and VR/XR; large 3D worlds, scalable rendering, cross-platform networking, controller/touch/keyboard/VR input, long-term maintenance and console toolchain/certification viability. It must also preserve reasonable separation of canonical World identity/history from replaceable client technology. No engine is ranked or chosen (AMO-D102, AMO-D105).
 
 ### AMO-Q037 — Target platforms
-**Status:** OPEN · **Constraints:** AMO-D008, AMO-D042
+**Status:** OPEN · **Constraints:** AMO-D008, AMO-D042, AMO-D105
 PC, consoles, mobile? Affects controls, performance budgets and networking.
 *Refined 2026-09-20:* VR platforms are part of this question and tracked in more detail as AMO-Q062. No hardware commitment exists.
+*Refined 2026-09-22:* broad strategic categories now include Windows/PC, macOS where appropriate, iPhone/iPad, Android, Nintendo gaming hardware, PlayStation, Xbox, VR/XR and future relevant platforms. The open decision is which actual clients to produce, when and with what platform-specific scope; this is no launch or approval claim (AMO-D105, AMO-Q128).
 
 ### AMO-Q038 — Automating approved-input validation
 **Status:** OPEN · **Constraints:** AMO-D018, AMO-D020, AMO-D026
@@ -738,6 +741,7 @@ What is VR combat actually made of? How much is physically performed? How are in
 **Status:** OPEN · **Constraints:** AMO-D008, AMO-D041, AMO-D042
 Can Standard and VR players fight each other directly? Are both suited to ranked competition? Should matchmaking distinguish interface? Can combat rules stay identical while input disciplines differ, and how is physical attack speed normalised? How are exploits and physical fatigue handled?
 *Notes:* Deliberately unanswered; it needs real testing, not an early decision. Note the tension with AMO-D041: one world and one progression do not automatically imply one competitive pool.
+*Refined 2026-09-22:* expand fairness testing to touch, controller and keyboard/mouse as well as VR; shared World participation is the target, but mixed combat queues are not decided (AMO-D105, AMO-Q125).
 
 ### AMO-Q061 — VR accessibility
 **Status:** OPEN · **Constraints:** AMO-D042
@@ -748,6 +752,55 @@ How do players with different physical abilities, space constraints or tolerance
 **Status:** OPEN · **Constraints:** AMO-D020, AMO-D043
 Which VR platforms and hardware are targeted, and what are the minimum requirements?
 *Notes:* No commitment exists to OpenXR details, Meta, SteamVR, Apple spatial frameworks, PlayStation VR, specific headsets, tracking hardware or middleware (AMO-D043). Part of target platforms (AMO-Q037) and an input to the engine decision (AMO-Q036).
+
+## Platform and World sovereignty
+
+The principles are fixed in [27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md) (AMO-D102–AMO-D105). These questions do not choose implementation or commercial policy.
+
+### AMO-Q121 — Amorpho identity, platform linking and recovery
+**Status:** OPEN · **Constraints:** AMO-D103
+What eventually establishes and recovers a Warden's Amorpho identity? How can platform accounts link, unlink or be replaced without merging unrelated Wardens or losing history?
+*Notes:* Platform identity is distinct from Warden identity; no account provider, credential, guest model or linking mechanism is chosen. Keep vendor-account data private by default (AMO-Q129).
+
+### AMO-Q122 — Multiple connected clients and one consciousness
+**Status:** OPEN · **Constraints:** AMO-D028, AMO-D101, AMO-D103
+What simultaneous device connections are permitted, and what happens when a controlling session moves or fails? Could secondary devices show passive status, management or spectator views?
+*Notes:* No second direct embodied presence is permitted. Connection and handoff policy remain open; passive views must not become remote control of additional bodies.
+
+### AMO-Q123 — Disconnected play and canonical history
+**Status:** OPEN · **Constraints:** AMO-D009, AMO-D102, AMO-D104
+What can a client do while disconnected from the canonical persistent World without creating contradictory history? Which local state is only settings or cache, which actions may wait, and how are disconnected writes, network failures and conflicts handled?
+*Notes:* Do not choose online-only play, local authority, synchronization or conflict algorithm here. Avoid divergent biology, duplicate ownership and incompatible lineage records. This refines the offline part of AMO-Q006.
+
+### AMO-Q124 — Platform access, purchases and entitlements
+**Status:** OPEN · **Constraints:** AMO-D103, AMO-D104
+How will platform-specific purchases, subscriptions, DLC/content entitlements and regional storefront rights be reconciled with one Warden and World history? What happens if a gateway or entitlement disappears?
+*Notes:* Commercial access is distinct from canonical identity. No pricing, buy-once policy, commerce model or migration promise is chosen (AMO-Q011).
+
+### AMO-Q125 — Cross-platform participation and services
+**Status:** OPEN · **Constraints:** AMO-D104, AMO-D105, AMO-D008
+How do players on different clients participate together, and which interactions or combat queues should mix touch, controller, keyboard/mouse and VR? How do platform-native friends, invitations, social features, achievements and matchmaking project into Amorpho?
+*Notes:* Shared World participation is the target; cross-play, competitive categories, normalization and input-aware matchmaking remain open. Vendor services cannot define canonical progression (AMO-Q060).
+
+### AMO-Q126 — Client lifecycle and continuity
+**Status:** OPEN · **Constraints:** AMO-D102, AMO-D104
+How are client version skew, mobile background/suspend, console generation changes, replacement clients and eventual withdrawal of support handled while preserving World history?
+*Notes:* No upgrade, compatibility, migration, session or save protocol is chosen. A disappearing client must not by itself delete the Warden.
+
+### AMO-Q127 — Scalable fidelity and access
+**Status:** OPEN · **Constraints:** AMO-D104, AMO-D105
+What minimum hardware and performance budgets are viable, and how will rendering and local simulation detail scale across phones, handhelds, desktop, console and VR without changing canonical outcomes? What accessibility options are essential across interfaces?
+*Notes:* No asset tiers, streaming mechanism, simulation placement or UI is chosen. Controller-first viability and touch translation are requirements; exact controls remain AMO-Q023 and VR accessibility remains AMO-Q061.
+
+### AMO-Q128 — Platform scope, certification and sequencing
+**Status:** OPEN · **Constraints:** AMO-D105
+Which gateways should be produced first or later, what platform-specific features are worth supporting, and when do certification and platform policy requirements enter production planning?
+*Notes:* No launch order, parity promise, vendor approval or current vendor rule is recorded. Certification may constrain lifecycle, accounts, parental controls, privacy, commerce, network loss and input when the work reaches that stage (AMO-Q037, AMO-Q062).
+
+### AMO-Q129 — Cross-platform privacy, family and region policy
+**Status:** OPEN · **Constraints:** AMO-D102, AMO-D103, AMO-D104
+How will Warden identity and Earth locations be protected across linked platforms, including family/parental contexts and differing regional availability? What game-domain data does each integration actually require?
+*Notes:* Real residential addresses, private identity and vendor-account data are not public game identity by default. No legal or detailed policy design is chosen; this extends the existing Earth privacy constraint (AMO-Q003).
 
 ---
 

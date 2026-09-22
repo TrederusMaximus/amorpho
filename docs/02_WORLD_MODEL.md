@@ -6,6 +6,8 @@
 
 The player exists as a human character in a persistent representation of **the real Earth** (AMO-D045). This is a foundational commitment, not a flavour note. Amorpho is not set on an abstract fantasy map, an Earth-inspired fictional planet, a handful of disconnected regions, or a simplified botanical habitat map.
 
+This is one canonical Earth-based Amorpho World across platform clients. Different devices may present different local detail, but no device creates a separate Earth or biological history (AMO-D102, AMO-D104; [27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)).
+
 The World should ultimately contain a coherent representation of the globe, continents, countries, regions, real cities, natural areas, climatic regions, the real areas associated with real *Amorphophallus* species, and whatever other places human and Amorpho gameplay need. Amorpho does not invent a fictional substitute for Thailand, Indonesia, Africa, India, Australia, Europe or Russia in order to simplify the world. Real geographic identity is part of what makes a plant's origin and journey mean anything.
 
 This does **not** require every road, building, street or tree at one-to-one fidelity. Detail may grow progressively over the project's lifetime (§1.3).

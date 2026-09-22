@@ -237,3 +237,13 @@ What a damaged manifestation costs the persistent individual depends on how much
 ### L52 — Magic chooses among biological paths; it never creates or discounts one.
 Astral leverage may select any route the individual's biology can actually execute, including one the plant would never choose for itself. It cannot fund what the Tuber cannot fund, skip the time a biological process takes, or make a compelled route cheaper than the same route chosen autonomously. *(AMO-D100, AMO-D097)*
 **Smell:** a forced emergence that costs less than a natural one, a Warden command producing capacity the individual does not have, or a route that becomes possible because the player wants it badly enough.
+
+## Platform and World laws
+
+### L53 — One World. Many Ways In.
+The canonical Earth-based Amorpho World and Warden history persist across devices, clients and hardware generations. Platforms are gateways, and a platform account is not a Warden. More devices never grant more than one controlling consciousness. *(AMO-D102, AMO-D103, AMO-D028)*
+**Smell:** a platform profile or local save treated as the sole Warden, a separate console or mobile Earth, or two devices directly controlling two bodies at once.
+
+### L54 — Platform changes the experience, not the truth.
+Rendering, interface and physical input may vary; canonical biology, identity, ownership and history may not vary with client hardware. Clients and vendor services reflect or access World truth rather than define it. *(AMO-D104, AMO-D105)*
+**Smell:** a lower-fidelity client changing Environmental Fit, a platform trophy driving progression, or a client cache becoming the only World record.

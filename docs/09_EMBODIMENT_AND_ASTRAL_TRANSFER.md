@@ -16,6 +16,8 @@ Transformation is **astral transfer**: the player's consciousness leaves their h
 
 The player has **one** persistent human body. They may eventually own many plants. At any moment, their consciousness inhabits exactly one body (AMO-D028).
 
+Several platform clients do not multiply that presence. One Warden may have many gateways, but a phone, PC and VR headset cannot each control another body for that Warden (AMO-D103; [27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)). Whether a second client can provide a passive view remains open (AMO-Q122).
+
 If a player owns a hundred Amorphos:
 
 - one human body exists;

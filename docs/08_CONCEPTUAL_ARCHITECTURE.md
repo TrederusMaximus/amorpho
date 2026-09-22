@@ -96,7 +96,7 @@ World state: individual plant ──▶ Transformation ──▶ Combat: fighter
 
 ### Interfaces are not layers
 
-Standard Gameplay and VR Gameplay are two first-class ways of inhabiting the same game — not a third layer, not separate worlds, accounts or progression systems (AMO-D041, AMO-D042):
+Standard Gameplay and VR Gameplay are two first-class ways of inhabiting the same game — not a third layer, not separate worlds, accounts or progression systems (AMO-D041, AMO-D042). The same product boundary extends to PC, mobile and console clients (AMO-D102–AMO-D105; [27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)):
 
 ```
                  SAME AMORPHO GAME
@@ -109,6 +109,10 @@ Standard Gameplay and VR Gameplay are two first-class ways of inhabiting the sam
 ```
 
 The architectural consequence today is modest and deliberate: core rules should express gameplay intent rather than hard-code one physical input method, and core concepts should not fundamentally require a 2D UI. No intent API is defined, and no VR production system is built (AMO-D043). See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
+
+Standard and VR describe interface families, not platform-specific canons. A future Standard client might use desktop, console or touch input; VR remains another first-class interface to the same World. Exact client and control designs are open.
+
+Canonical World/domain truth, simulation, client experience, and rendering/input/platform services have distinct conceptual responsibilities. An Amorpho client is replaceable; its rendering, cache or platform integrations cannot define persistent World truth. This is not a deployment or component prescription. In particular, the Reality Gate's one-way approved input remains distinct from later platform access and services.
 
 ## 5. Outside, import time and runtime
 
@@ -132,16 +136,17 @@ An eventual engine decision (AMO-Q036) must be evidence-driven and should answer
 
 - **World scale.** Can it represent the world at the scale chosen for AMO-Q001, including streaming and level of detail?
 - **Persistence.** How does persistent world state — many individuals with long histories — fit? Is the simulation deterministic or reproducible where auditability matters?
-- **Networking.** What multiplayer topology does it support (AMO-Q006)? What server-authority model?
+- **Networking.** Can it support the eventual shared-world and fighting requirements across relevant platforms, under whichever topology is later selected (AMO-Q006)?
 - **Fighting latency.** Can it deliver the input responsiveness and network techniques that competitive real-time fighting needs?
 - **Animation.** Can it support expressive, distinct characters at roster scale (AMO-Q027) — including non-humanoid plant bodies?
 - **VR capability.** Could it eventually support first-class VR — both layers, not a combat-only mode — without a rewrite, and without requiring VR work now (AMO-D042, AMO-D043, AMO-Q062)? This is a selection criterion, not a commitment to any VR technology.
-- **Target platforms** (AMO-Q037).
+- **Target platforms and input.** Is it professionally viable for desktop, iOS/Android, major console families and VR/XR, with controller, touch, keyboard/mouse and VR input? Can its toolchains support eventual console certification (AMO-Q037, AMO-D105)? A structural barrier to a major gateway is a significant negative or possible disqualifier.
+- **Scalable presentation.** Can it serve a large 3D Earth-based World across very different device budgets without tying canonical outcomes to rendering or local detail (AMO-D104)?
 - **Content pipeline.** How do approved input, design data and assets flow into builds? Is modding or user-generated content desirable?
 - **Procedural and simulation systems.** Does it support large-scale background simulation (populations, environment, genetics) without fighting the engine?
 - **Tooling.** Editors and tools for designers, curators and artists.
 - **Team composition.** Which skills will future contributors — human and AI — realistically have?
 - **Licensing and cost.** Terms, royalties, and the risk of license changes over a multi-year horizon.
-- **Long-term maintainability.** Will it still be viable, supported and upgradable in ten years? Can the project migrate away from it?
+- **Long-term maintainability.** Will it still be viable, supported and upgradable in ten years? Can World identity and history reasonably survive its replacement or a client rewrite?
 
 It is possible that one stack does not suit everything: persistent-world simulation and low-latency fighting have different needs. That is a question to answer with evidence, not an assumption in either direction.

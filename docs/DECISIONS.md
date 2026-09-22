@@ -116,6 +116,10 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D099 | Astral reachability is not playability; the Astral Window closes at Deep Dormancy | ACCEPTED |
 | AMO-D100 | Astral leverage selects among feasible routes and pays their full cost | ACCEPTED |
 | AMO-D101 | Direct astral presence must be established, and there is only one of it | ACCEPTED |
+| AMO-D102 | One canonical Amorpho World; platforms are gateways | ACCEPTED |
+| AMO-D103 | Warden identity and history belong to Amorpho | ACCEPTED |
+| AMO-D104 | Client experience and platform services do not define canonical truth | ACCEPTED |
+| AMO-D105 | Broad platform viability and cross-progression are long-term targets | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -944,3 +948,31 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Strategic influence over a biological routing decision requires **direct astral presence** with that individual, established through the existing access path — physical Anchor, accessible phase, reachable individual (AMO-D063). **Ownership, custody, Astral Signal or Radar awareness, Astral Capacity, and inhabiting another Amorpho nearby grant none of it.** That presence **occupies the same single consciousness that full embodiment occupies** (AMO-D028): while intervening directly with one individual, the Warden is not simultaneously acting as the human or through another Amorpho.
 - **Rationale:** One consciousness, one inhabited body. Without this, a collection becomes a remotely managed portfolio — exactly what AMO-D028 forbids — and Astral Capacity, which bounds sustained *connections* (AMO-D067), would quietly become simultaneous *control*. Awareness is information; it is not a command channel (AMO-D088, L43).
 - **Consequences:** Simultaneous routing crises across several individuals are genuine dilemmas, and the unattended one routes autonomously (AMO-D098, L37). Astral Capacity continues to bound how many Anchor relationships exist, never how many can be acted through at once (L44). Human physical agency remains a **different** power that changes the plant's conditions rather than overriding its decision (AMO-D062, L42, AMO-Q105). How presence is established and ended, whether it costs Astral Readiness, what it shows the player, and whether it counts as embodiment for other rules remain open (AMO-Q119, AMO-Q112, AMO-Q092). No interface, remote command or scheduling system is created ([26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)).
+
+## AMO-D102 — One canonical Amorpho World; platforms are gateways
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Platform and World sovereignty brief
+- **Decision:** Amorpho is one canonical persistent Earth-based World, owned and governed as an Amorpho product under Trederus Maximus. Platforms and clients are ways into it, never owners of a separate canonical World. One World means shared continuity, without selecting a network or instance topology.
+- **Rationale:** Earth, persistent individuals and unattended biological life already require continuity beyond one client (AMO-D009, AMO-D045, AMO-D097). Product sovereignty lets that history outlive hardware generations and platform relationships.
+- **Consequences:** Client or platform loss cannot by itself erase canonical existence. No external Trederus Maximus runtime/data dependency follows (AMO-D002, AMO-D018). Recorded in [27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md) and L53.
+
+## AMO-D103 — Warden identity and history belong to Amorpho
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Platform and World sovereignty brief
+- **Decision:** One Warden and Human character can retain one meaningful persistent history across supported gateways. Platform identity, local saves and commercial access rights are distinct from canonical Warden identity. Multiple devices never grant more than one directly controlling consciousness (AMO-D028, AMO-D101).
+- **Rationale:** Device replacement or a new interface must not turn one life into unrelated platform profiles.
+- **Consequences:** Identity, linking, recovery, entitlements and concurrent-session policy remain open. No account architecture or cross-save mechanism is chosen ([27](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)).
+
+## AMO-D104 — Client experience and platform services do not define canonical truth
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Platform and World sovereignty brief
+- **Decision:** A client may change rendering, input, interface, local detail and caching; hardware or platform services may not silently change canonical biology, progression, ownership or history. A client is not the authoritative World. Achievements and trophies reflect Amorpho progression; vendor cloud saves and services do not define it.
+- **Rationale:** Persistent biology continues while a player is elsewhere or offline, and clients must be replaceable without contradictory World outcomes.
+- **Consequences:** Gameplay intent remains separate from physical input; platform integrations belong at a conceptual boundary from core domain rules. Offline behaviour and coherence mechanisms remain open. Recorded as L54 ([27](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)).
+
+## AMO-D105 — Broad platform viability and cross-progression are long-term targets
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Platform and World sovereignty brief
+- **Decision:** Future technology selection must preserve credible access through relevant desktop, mobile, console and VR/XR families, with scalable presentation and controller, touch and VR viability. Cross-progression and shared Warden history are product targets; cross-platform shared-world participation is the desired direction.
+- **Rationale:** Broad access serves one persistent World. A technology that structurally closes major gateways would undermine that goal.
+- **Consequences:** No launch platform, sequence, release date, engine, cross-play rule, matchmaking policy or identical feature parity is committed. Mobile is a meaningful entrance, consoles are not separate universes and VR remains first-class (AMO-D041, AMO-D042; [27](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)).
