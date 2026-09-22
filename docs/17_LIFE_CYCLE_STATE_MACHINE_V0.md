@@ -169,9 +169,9 @@ ACTIVE LEAF ──(severe stress /
                phase compromise)─▶ SENESCENCE ──▶ EARLY DORMANCY ──▶ DEEP DORMANCY
 ```
 
-The difference is **not in the graph** — it is carried by condition, reserves and development (AMO-D056). A successful season ends with reserves built and development advanced; a failed one ends with reserves depleted, progress lost, and a weaker starting position for the next cycle.
+The difference is **not in the graph** — it is carried by condition, reserves and development (AMO-D056). A productive season can build reserves and development; an early retreat may cost reserves and expected growth without regression, or leave a weaker persistent starting position if actual Tuber loss occurred (AMO-D092).
 
-This is deliberate. A "successful season" flag would duplicate what condition already records, and premature retreat is not a different *kind* of event — it is the same transition arriving early and expensively. It is a **survivable failure with a lasting price**, and it is not death (AMO-Q087, AMO-Q045).
+This is deliberate. A "successful season" flag would duplicate what condition already records, and premature retreat is not a different *kind* of event — it is the same transition arriving early. Its cost may be lasting lost opportunity or actual persistent loss, but it is not death (AMO-Q087). It may also be **protective**: abandoning a failing manifestation can be the reason Pathological Tuber Impact did *not* occur, so early senescence never implies that it did (AMO-D092, [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md)).
 
 ## 9. What drives transitions — and what does not
 

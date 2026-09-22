@@ -230,3 +230,6 @@ An inhabited Amorpho runs on magical state while its biological simulation pause
 Astral Readiness persists across exit and re-entry. It is restored by returning the individual to rooted biological life, not by stepping out and back in. *(AMO-D086)*
 **Smell:** an exit-and-re-enter loop that restores anything, or any magical state that resets simply because embodiment ended.
 
+### L51 — Leaf damage is judged by lost function and lost opportunity, not by appearance.
+What a damaged manifestation costs the persistent individual depends on how much useful biological work it can still do, how much of the active phase remains, and what the environment does next — never on how bad it looks. *(AMO-D091, AMO-D079)*
+**Smell:** a percentage of structure mapped to a persistent consequence, or identical outcomes assigned to early and late damage solely because they look alike.

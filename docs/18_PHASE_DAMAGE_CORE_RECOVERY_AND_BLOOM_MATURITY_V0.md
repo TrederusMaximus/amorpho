@@ -19,6 +19,8 @@ The architecture already distinguishes the persistent individual, its developmen
 
 Different harm operates over different horizons, and the horizon is what matters (AMO-D074).
 
+The harmful side is now specified in [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md) (AMO-D090–AMO-D093): two pathways — **direct** Tuber exposure and **indirect** productive failure — each acute or cumulative, judged by whether persistent loss actually occurred rather than by how the manifestation looks.
+
 A further distinction cuts across all of it: **not every reduction in persistent Tuber resources is harm.** **Programmed Tuber Draw** is normal biological spending for a legitimate process — Bloom being the primary example — while **Pathological Tuber Impact** is harmful persistent loss. Both recover while the individual lives; they differ in whether development was *spent* or *lost* (AMO-D087, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)). **Tuber** is now the canonical term for the persistent core structure.
 
 ## 2. Three harm horizons
@@ -40,15 +42,17 @@ Harm does not move freely between the horizons, and the boundary between A and B
 
 > **Manifestation damage affects the current manifestation first.** It must become deep enough in its biological consequences before it propagates into persistent state.
 
-This boundary is called the **Core-Impact Threshold**. It is a *conceptual* boundary, not a number, and nothing about where it sits is defined (AMO-Q108).
+This boundary is called the **Core-Impact Threshold**. It is a *conceptual* boundary, not a number. [The subsequent specification](21_PATHOLOGICAL_TUBER_IMPACT_V0.md) identifies it by actual persistent loss; its quantitative crossing remains open (AMO-Q108, AMO-Q118).
 
 **Below it — manifestation-only consequence.** The current leaf or bloom stays damaged, the inhabited Amorpho may be substantially impaired, some capabilities may be unavailable for that manifestation, and yet the manifestation may still complete its active period, persistent growth may continue broadly unaffected, developmental maturity need not regress, and the next manifestation emerges structurally whole.
 
 > A difficult season can impair the current fighter without costing long-term biological progress.
 
-**Above it — core-impact consequence.** Severity, or the biological stress that comes with it, becomes sufficient for persistent consequences to begin: reserve depletion, inadequate persistent growth, developmental maturity regression, premature senescence, a reduced next-cycle starting point, vitality compromise. All of it still recovers while the individual lives (AMO-D075).
+**Above it — core-impact consequence.** Harmful circumstances have caused actual persistent Tuber loss: vitality reduction, developmental maturity regression, or both. Reserve depletion, inadequate growth and premature senescence may accompany or precede that loss, but none proves the crossing by itself (AMO-D075, AMO-D092).
 
-**Visible damage does not determine the crossing by itself.** Two manifestations with similar apparent damage may have entirely different persistent consequences depending on current condition, reserves, Environmental Fit, developmental context, how long the impairment lasted and eventual species biology. A percentage of a structure lost is not a biological verdict, and nothing may treat it as one (AMO-Q108).
+**Visible damage does not determine the crossing by itself** — and this is now a rule rather than a caution: consequence follows **Leaf Functional Capacity** and **Remaining Productive Opportunity**, so identical damage early and late in a phase can produce opposite persistent outcomes (AMO-D091, L51, [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md)).
+
+Two manifestations with similar apparent damage may have entirely different persistent consequences depending on current condition, reserves, Environmental Fit, developmental context and how long impairment lasts. A percentage of structure lost is not a biological verdict (AMO-Q108).
 
 ## 3. The recovery law
 
@@ -93,7 +97,7 @@ But the individual enters that cycle carrying everything else — reserves, stre
 
 Moderate leaf damage need not destroy the active season. The individual may remain functional, complete the phase, accumulate some reserves, hold or even increase developmental maturity, and enter dormancy normally.
 
-Leaf damage therefore does **not** automatically imply premature retreat, maturity loss, core damage or a failed season (AMO-D079). A damaged leaf may still provide enough biological function to carry a successful cycle. How structural impairment translates into biological productivity at all is open (AMO-Q108).
+Leaf damage therefore does **not** automatically imply premature retreat, maturity loss, core damage or a failed season (AMO-D079). A damaged leaf may still provide enough biological function to carry a successful cycle. The quantitative link from structure to function and productivity remains open (AMO-Q116).
 
 Nothing in the model produces a binary *healthy season / failed season*, and nothing should (AMO-D070).
 
@@ -321,7 +325,7 @@ Non-numeric, species-neutral, with no real biology.
 | Case | What happens |
 |---|---|
 | **A — moderate leaf damage, successful season** | leaf damaged and the inhabited form impaired; damage stays **below the Core-Impact Threshold**; individual stays viable; season completes; maturity still increases somewhat; next cycle produces a structurally fresh leaf |
-| **B — severe leaf damage, premature retreat** | stress rises, reserves spent, early retreat; **vitality largely intact**; maturity falls or gains far less than expected; next emergence smaller and weaker; full recovery still possible |
+| **B — severe leaf damage, premature retreat** | stress rises, reserves spent, early retreat; **vitality largely intact**; maturity may fall if actual persistent loss occurs, or merely gain far less than expected; the next emergence depends on the remaining persistent state; full recovery is possible |
 | **C — severe core damage** | vitality drops substantially; individual survives; damage **persists through dormancy and into next emergence**; long-term excellent care slowly restores vitality; maturity may have regressed significantly; full eventual recovery possible |
 | **D — flowering maturity reached** | repeated successful cycles raise maturity past the species threshold; Bloom becomes **possible but not guaranteed**; further cycles keep raising maturity; later Blooms may be more developed |
 | **E — mature individual suffers major setback** | maturity and reserves fall; Bloom **delayed or temporarily unavailable**; after sufficient recovery and growth, eligibility returns |
@@ -330,4 +334,4 @@ Non-numeric, species-neutral, with no real biology.
 
 ## 15. Open questions
 
-The Core-Impact Threshold and how structural impairment becomes biological consequence (AMO-Q108) · how phase integrity alters a playable Amorpho's capabilities (AMO-Q109) · vitality recovery dynamics and whether dormancy assists (AMO-Q102) · manifestation repair within a phase (AMO-Q103) · the death condition (AMO-Q104) · treatment and care (AMO-Q105) · representation, growth and regression of developmental maturity (AMO-Q106) · Bloom eligibility inputs beyond maturity, and repeated-Bloom timing (AMO-Q107). Related: phase-specific integrity (AMO-Q086), premature retreat cost (AMO-Q087), Bloom content and manifestation scale (AMO-Q088), fragment identity and Anchor continuity (AMO-Q094), inhabitability threshold (AMO-Q042), condition dynamics (AMO-Q073), combat consequences (AMO-Q026), approved input for species thresholds (AMO-Q076).
+Pathological Tuber Impact is conceptually specified in [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md) (AMO-Q108). Still open: active-phase productivity (AMO-Q116), direct Tuber susceptibility (AMO-Q117), the quantitative crossing into actual loss (AMO-Q118), how phase integrity alters a playable Amorpho's capabilities (AMO-Q109), vitality recovery dynamics and whether dormancy assists (AMO-Q102), manifestation repair within a phase (AMO-Q103), the death condition (AMO-Q104), treatment and care (AMO-Q105), representation and rates of developmental maturity (AMO-Q106), and Bloom eligibility inputs beyond maturity and repeated-Bloom timing (AMO-Q107). Related: phase-specific integrity (AMO-Q086), premature retreat cost (AMO-Q087), Bloom content and manifestation scale (AMO-Q088), fragment identity and Anchor continuity (AMO-Q094), inhabitability threshold (AMO-Q042), condition dynamics (AMO-Q073), combat consequences (AMO-Q026), approved input for species thresholds (AMO-Q076).

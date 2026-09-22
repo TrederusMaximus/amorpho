@@ -243,7 +243,9 @@ These two questions are adjacent and were at risk of circling each other. The sp
 | **AMO-Q106** — this document | what maturity *is*, and what gain or loss *means* once persistent growth or loss has occurred |
 | **AMO-Q108** | *when* biological harm crosses deeply enough into the persistent core to cause that loss |
 
-This specification therefore uses **"Core Impact occurred"** as an abstract trigger and deliberately does not solve for it. Nothing here should be read as defining the Core-Impact Threshold (AMO-D079).
+This specification therefore uses **"Core Impact occurred"** as an abstract trigger and deliberately does not solve for it.
+
+**That trigger has since been specified** in [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md) (AMO-D090–AMO-D093): **Pathological Tuber Impact**, reached directly or indirectly, acute or cumulative, and judged by whether persistent loss actually occurred. Maturity regression is one of its two possible outputs alongside vitality reduction, in no fixed proportion. Nothing here should be read as defining the Core-Impact Threshold (AMO-D079).
 
 ## 12. Worked cases
 
@@ -260,4 +262,4 @@ Non-numeric, species-neutral, no real biology.
 
 ## 13. Open questions
 
-Internal representation, update mechanics, and rates of gain and regression (AMO-Q106) · species interpretation, manifestation scale and physical-size mapping (AMO-Q110) · player-facing presentation (AMO-Q111) · the Core-Impact Threshold (AMO-Q108) · Bloom eligibility inputs and timing (AMO-Q107) · Bloom manifestation scaling (AMO-Q088) · approved input for species thresholds (AMO-Q076) · fragment identity (AMO-Q094) · phase-specific gameplay impairment (AMO-Q109) · reproduction (AMO-Q079).
+Internal representation, update mechanics, and rates of gain and regression (AMO-Q106) · species interpretation, manifestation scale and physical-size mapping (AMO-Q110) · player-facing presentation (AMO-Q111) · quantitative crossing into actual Tuber loss (AMO-Q118; conceptual boundary in AMO-Q108) · Bloom eligibility inputs and timing (AMO-Q107) · Bloom manifestation scaling (AMO-Q088) · approved input for species thresholds (AMO-Q076) · fragment identity (AMO-Q094) · phase-specific gameplay impairment (AMO-Q109) · reproduction (AMO-Q079).

@@ -65,7 +65,7 @@ Three variables. Each earns its place by doing work no other one does.
 
 **Why it exists.** It is the variable that survival and inhabitability hang on. Something must carry "this individual is compromised" in a form that is *not* a recoverable buffer, because a buffer refills and the fact that an individual nearly died should not always vanish with it.
 
-**Modified by.** Sustained stress that exceeds what reserves absorb; recovery under favourable Fit.
+**Modified by.** **Pathological Tuber Impact** that actually compromises persistent integrity, whether direct or following sustained adverse conditions (AMO-D090, [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md)); recovery under favourable Fit. Reserve consumption and stress alone never reduce vitality (AMO-D092).
 
 **Influences.** Inhabitability (§6), the conceptual path toward non-viability (§8), and the effective response profile — a compromised individual tolerates less (§9).
 

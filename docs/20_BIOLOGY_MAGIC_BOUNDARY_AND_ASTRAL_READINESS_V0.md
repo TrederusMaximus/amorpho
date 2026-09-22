@@ -246,7 +246,7 @@ Transitional states also matter without any fighting in them, because that is wh
 
 ## 10. What this pass deliberately leaves open
 
-**Pathological Tuber Impact thresholds are not settled here** — AMO-Q108 remains open and is not answered by this document. Two things are prepared for it:
+**Pathological Tuber Impact was not settled here** — it is specified in [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md) (AMO-D090–AMO-D093), which this document prepared the terminology for. Two things are prepared for it:
 
 - the **terminology** separating Programmed Draw from Pathological Impact (§2);
 - the observation that **the same leaf damage early and late in an active phase may have very different Tuber consequences**, because what matters is functional capacity, remaining productive opportunity, environment, time and condition — not a proportion of structure lost. No rule such as *"up to 20% leaf damage has no persistent consequence"* may be introduced (AMO-D079, AMO-Q108).
