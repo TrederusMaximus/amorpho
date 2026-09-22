@@ -69,7 +69,7 @@ Three families and seven states. Families group states that behave alike for acc
 
 Entry into the Active family comes through Emergence; exit is through Senescence. Routing *within* the Active family, and which active state an individual first enters, is **parameterised** — see §5.
 
-The later [same-phase Leaf recovery trace](24_SAME_PHASE_LEAF_RECOVERY_V0.md) permits **replacement emergence** when an existing mature Leaf cannot adequately continue (AMO-D094). This v0 graph does not yet specify whether that new Leaf is routed through Emergence again or represented within Active Leaf. The possible pathway is not an automatic transition; AMO-Q084 owns its topology, AMO-Q101 its trigger, and AMO-Q085 its access window. The existing individual and its persistent state continue throughout.
+The [Tuber-funded routing specification](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) now adds one **intra-cycle replacement loop**: `Active Leaf → Emergence (replacement) → Active Leaf` (AMO-D096). It reuses a state rather than adding one. Eligibility, timing, old/new Leaf overlap and the replacement-specific astral window remain open (AMO-Q084, AMO-Q101, AMO-Q085). The same individual and active period continue throughout.
 
 ## 5. Bloom is a sibling active state
 
@@ -122,6 +122,8 @@ Steady states hold one value. **Transitional states change value across their ow
 
 Exact opening and closing points are **not** fixed (AMO-Q085). What is fixed is the shape: access narrows on the way down and widens on the way up, with a genuinely closed floor.
 
+For the later intra-cycle **replacement Emergence** loop (§8), this ordinary transition table does not decide access to an old Leaf still present or the new Leaf as it forms. Replacement-specific Signal, Readiness and entry remain open (AMO-Q085, AMO-Q112, AMO-Q115).
+
 A **second, independent curve** runs alongside it: the **Astral Signal**, which fades through Senescence, is absent in Deep Dormancy (*Astral Silence*) and returns in Pre-Emergence — potentially before inhabitability does. Detectable and enterable are different questions and need not move together (AMO-D088, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)).
 
 ### Deep Dormancy is not tuber gameplay
@@ -145,7 +147,7 @@ The return toward active manifestation. The phase-specific body begins forming, 
 ### Active Leaf
 The primary sustained above-ground state, and the strongest candidate for default embodiment. Access is open subject to the other gates. Environmental Fit acts on condition, reserves and development here; sustained good Fit supports healthy growth, and severe compromise can end the phase early (§9).
 
-**Leaf integrity is phase-specific.** Damage to the current leaf is not damage to the individual (AMO-D058). It may persist for the rest of the phase and does not regrow because conditions improved. A later cycle's leaf begins structurally fresh — but the *season's* consequences persist indirectly, through depleted reserves, accumulated stress, reduced development, possible core compromise, or an early retreat. **Nothing is erased; only the structure is replaced.** Nor does structural damage automatically reach the persistent individual: it does so only past the **Core-Impact Threshold**, so an impaired leaf can still carry a successful season (AMO-D079). No integrity variable is formally defined (AMO-Q086).
+**Leaf integrity is phase-specific.** Damage to the current Leaf is not damage to the individual (AMO-D058). A fully deployed Leaf may stabilize and regain function, but missing mature architecture does not regrow into its pristine original form (AMO-D094). Repeated scars alone do not require replacement; useful function is the test (L51). A new Leaf, whether a later cycle's or an eligible same-cycle replacement, begins structurally fresh — but the Tuber-based individual's reserves, condition, development and any persistent harm continue. **Only the structure is new.** Structural damage does not automatically reach persistent loss (AMO-D079). No integrity variable is formally defined (AMO-Q086).
 
 ### Bloom
 Bloom draws on persistent Tuber resources — **Programmed Tuber Draw**, normal biological spending rather than harm — and that draw is paused while the Bloom is astrally inhabited (AMO-D087, AMO-D084). *Leaf rebuilds; Bloom spends.*
@@ -174,6 +176,22 @@ ACTIVE LEAF ──(severe stress /
 The difference is **not in the graph** — it is carried by condition, reserves and development (AMO-D056). A productive season can build reserves and development; an early retreat may cost reserves and expected growth without regression, or leave a weaker persistent starting position if actual Tuber loss occurred (AMO-D092).
 
 This is deliberate. A "successful season" flag would duplicate what condition already records, and premature retreat is not a different *kind* of event — it is the same transition arriving early. Its cost may be lasting lost opportunity or actual persistent loss, but it is not death (AMO-Q087). It may also be **protective**: abandoning a failing manifestation can be the reason Pathological Tuber Impact did *not* occur, so early senescence never implies that it did (AMO-D092, [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md)).
+
+### Replacement routing after Leaf functional collapse
+
+The **Tuber funds a primary Leaf**; while that Leaf remains viable, damage and scarring stay with it ([25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md), AMO-D095–AMO-D096). If the current Leaf can no longer adequately perform its biological role, the life-cycle system reaches a **functional-collapse routing point**. It checks biological options before any strategy or possible player choice:
+
+```text
+ACTIVE LEAF → impairment review
+    → current Leaf viable: stabilize and continue → ACTIVE LEAF
+    → functional collapse: routing point
+        → replacement eligible and selected → EMERGENCE (replacement) → ACTIVE LEAF
+        → retreat selected or required → SENESCENCE → EARLY DORMANCY
+```
+
+The replacement route is **costly intra-cycle salvage**: new structure, reduced in the current design direction, funded by remaining Tuber capacity and formed over biological time. It does not reset the season, the individual or lost productive opportunity. Early retreat uses the existing Senescence path, whether necessary or chosen to conserve capacity. **Eligibility is not automatic selection**; when agency is absent an autonomous biological selection is required (AMO-D097). The exact functional-collapse test, eligibility, autonomous policy, player agency and route costs are open (AMO-Q101, AMO-Q119).
+
+Emergence already means a manifestation is forming, so this loop needs no eighth state or new annual cycle. It does **not** decide whether an old Leaf remains partly present during the new Leaf's formation, whether another replacement can follow, or how astral access, Signal and Readiness apply to the replacement (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). The ordinary route from Pre-Emergence into Emergence remains intact.
 
 ## 9. What drives transitions — and what does not
 

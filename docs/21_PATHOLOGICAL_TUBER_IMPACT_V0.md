@@ -24,6 +24,8 @@ It is conceptually distinct from leaf integrity loss, bloom integrity loss, stre
 
 Both reduce persistent resources; both recover while the individual lives (AMO-D075, AMO-D087). Nothing may classify Bloom expenditure as injury merely because Tuber resources decline — no injury alert, no pathological terminology, no damage status (§7).
 
+The [replacement-routing specification](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) adds another legitimate **manifestation investment**: funding a new Leaf after functional collapse. That expenditure carries a real future cost but is **not Pathological Tuber Impact by itself**. Whether adverse circumstances later cause actual persistent loss remains the separate outcome test in this document (AMO-D092, AMO-D096).
+
 ## 2. Two pathways
 
 Pathology reaches the Tuber by two routes, and the architecture supports both (AMO-D090).

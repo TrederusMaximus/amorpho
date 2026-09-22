@@ -87,3 +87,5 @@ The trace closes **conceptually**: each stage has an owner and an allowed succes
 The event-to-Leaf handoff is traced separately in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md), stopping at post-event manifestation state before this year's later productivity or Tuber outcome is considered.
 
 The [same-phase recovery trace](24_SAME_PHASE_LEAF_RECOVERY_V0.md) then tests how that Leaf may stabilize and regain function without restoring lost mature structure or elapsed opportunity. Its separate replacement branch is possible, not assumed in this particular year.
+
+If a different year's Leaf functionally collapses, [Tuber-funded replacement routing](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) can branch through costly intra-cycle Emergence or early Senescence. This year's main Leaf remains viable, so neither branch is enacted here.

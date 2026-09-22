@@ -95,7 +95,7 @@ It also discharges the accumulation half of exposure history: a separate exposur
 
 It is also what makes strategic establishment pay off beyond "not dying": time in a good place builds something real.
 
-**Modified by.** Drawn down by adverse conditions and by the work of growth and development; rebuilt under favourable Fit.
+**Modified by.** Drawn down by adverse conditions and by the work of growth and development, including investment in a new Leaf manifestation; rebuilt under favourable Fit. [Tuber-funded replacement routing](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) clarifies the expenditure direction without adding a reserve formula or treating ordinary investment as pathology (AMO-D095, AMO-D096).
 
 **Influences.** Resilience to short adverse periods; the capacity to recover; the capacity to advance development.
 

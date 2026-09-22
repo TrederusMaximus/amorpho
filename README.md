@@ -97,6 +97,7 @@ docs/
   22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md  one abstract individual's year across the established systems
   23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md  World event through local exposure to post-event Leaf state
   24_SAME_PHASE_LEAF_RECOVERY_V0.md  mature Leaf stabilization, functional recovery and possible replacement
+  25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md  Tuber funding, Leaf collapse and replacement/retreat routing
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

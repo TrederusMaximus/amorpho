@@ -45,6 +45,8 @@ The Leaf phase is the primary constructive opportunity: a healthy leaf, good Env
 
 Which is why an individual that blooms every possible cycle without good leaf seasons between them is spending down a balance it is not replenishing.
 
+The Leaf is itself funded by the persistent Tuber before it can perform that constructive work. A possible [same-cycle replacement](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) is another biological investment, not a free reset or an automatic injury (AMO-D095, AMO-D096). This does not make Leaf emergence and Bloom cost identical.
+
 ## 3. The boundary
 
 At the moment of astral entry, the individual stops being simulated as a plant and starts being run as a fighter (AMO-D084).

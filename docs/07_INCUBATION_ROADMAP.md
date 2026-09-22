@@ -44,6 +44,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [24_SAME_PHASE_LEAF_RECOVERY_V0.md](24_SAME_PHASE_LEAF_RECOVERY_V0.md) traces mature-Leaf stabilization and functional recovery separately from possible replacement emergence. Recovery extent and replacement routing remain open; neither trace evaluates persistent Tuber outcome.
 
+[25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) adds the funded intra-cycle replacement loop and the eligibility-before-choice boundary. It leaves route triggers, autonomous policy and player agency availability open.
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -102,7 +104,7 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Trace replacement emergence routing on paper** — follow an inadequate mature Leaf through possible new-Leaf emergence and old-Leaf handoff, testing the existing life-cycle topology without deciding costs, access windows or persistent outcome (AMO-Q084, [24](24_SAME_PHASE_LEAF_RECOVERY_V0.md)).
+1. **Trace when player agency can reach a biological routing point** — test one rooted unattended Leaf and one Warden-present case without defining an interface, remote command or autonomous algorithm (AMO-Q119, [25](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md)).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
