@@ -126,6 +126,8 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D109 | Emergence investment accumulates with developmental commitment | ACCEPTED |
 | AMO-D110 | Developing damage severity and sunk Tuber investment are separate | ACCEPTED |
 | AMO-D111 | Full Deployment transfers accounting to mature manifestation state | ACCEPTED |
+| AMO-D112 | Emergence damage may continue to imperfect Full Deployment | ACCEPTED |
+| AMO-D113 | Full Deployment transfers the actual constructed state without repair | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -754,6 +756,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Consequences:** Seasonal structural renewal happens **without erasing biological history** — the individual carries reserves, stress, vitality and developmental maturity into the next cycle even though the structure is new. **Recovery of the individual is not repair of the manifestation**: a physically damaged leaf does not become whole because conditions improved, and how much in-phase repair is possible is open (AMO-Q103). Damaged seasons are **graded, never binary** — moderate damage may still allow a completed phase, some reserve gain and some maturity gain (AMO-D070). Phase-specific integrity stays per-manifestation; no universal body-integrity meter is created (AMO-Q086).
 - **Revised:** 2026-09-21, biology-magic boundary — **Tuber** is the canonical term for the persistent core structure, and a further distinction applies: **Programmed Tuber Draw** (normal biological spending, e.g. Bloom) is not harm, unlike Pathological Tuber Impact (AMO-D087). Wording here is left as written; substance unchanged.
 - **Revised:** 2026-09-21, manifestation boundary — the crossing between horizons A and B is specified as the **Core-Impact Threshold** (AMO-D079): manifestation damage affects the current body first and reaches persistent state only when its biological consequences are deep enough. Substance unchanged.
+- **Revised:** 2026-09-22, damaged Emergence trace — “a new manifestation begins structurally fresh” means it does **not inherit the previous manifestation's damage**. It may still begin mature life impaired by damage during its own construction (AMO-D113). Substance unchanged.
 
 ## AMO-D075 — All damage recovers while alive; only death is terminal
 
@@ -1025,3 +1028,17 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** **Full Deployment** is the hard conceptual handoff from Tuber-funded construction to mature Leaf or Bloom performance and immediate damage ownership. Before it, failure loses Tuber construction investment; after it, damage belongs first to the mature manifestation. A mature manifestation's damage does not directly debit equivalent Tuber state: persistent consequences follow downstream biological function, opportunity and the established pathology boundary. The handoff applies to primary Leaf, Replacement Leaf and Bloom, regardless of autonomous or Warden route authorship.
 - **Rationale:** One boundary assigns construction failure, mature damage and biological return without creating a second individual or a partial ownership meter.
 - **Consequences:** Full Deployment remains distinct from Astral Readiness and perfect condition (AMO-D107). Leaf mature impairment/recovery begins here; Bloom begins its mature role while its normal Programmed Tuber Draw may continue (AMO-D087). Direct harmful exposure to the Tuber remains an independent pathology route (AMO-D090). Exact deployment criteria and downstream quantitative consequences remain AMO-Q084, AMO-Q086, AMO-Q116 and AMO-Q118. Recorded as L55 in [30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md).
+
+## AMO-D112 — Emergence damage may continue to imperfect Full Deployment
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Damaged Emergence trace brief, owner-supplied domain direction
+- **Decision:** Damage to an emerging Leaf or Bloom can be followed by continued biological construction and **imperfect Full Deployment**, as well as by near-normal completion or developmental arrest/failure. Damage during Emergence is not an automatic failure verdict. This applies to primary Leaf, Replacement Leaf and Bloom within their shared emergence process.
+- **Rationale:** A binary success/failure model would lose viable but altered mature outcomes and wrongly let event severity alone decide biological continuation.
+- **Consequences:** Developmental compensation is distinct from mature recovery. Developmental position, local exposure, Tuber condition and remaining construction opportunity can matter, but mechanisms, susceptibility, failure criteria and final condition remain AMO-Q084, AMO-Q086 and AMO-Q101. No new lifecycle state or damage formula is created. See [31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md](31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md).
+
+## AMO-D113 — Full Deployment transfers the actual constructed state without repair
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Damaged Emergence trace brief
+- **Decision:** An imperfectly developed manifestation can cross the same hard **Full Deployment** boundary as an undamaged one. The mature Leaf or Bloom starts with the actual structure, function and limitations biology built; deployment does **not** heal, normalize or refund developmental damage. Construction accounting remains Tuber-side before the boundary, and mature manifestation damage/recovery begins after it (AMO-D111).
+- **Rationale:** The accounting handoff needs to accept viable imperfect results without treating Full Deployment as either a perfection test or a repair event.
+- **Consequences:** A new manifestation does not inherit an old one's structural damage (AMO-D074), but it can carry impairment from its own Emergence. Mature Leaf recovery starts from that inherited condition and cannot rebuild missing mature architecture into pristine form (AMO-D094). Full Deployment remains separate from Astral Readiness (AMO-D107). Exact criteria and initial-state mapping remain AMO-Q084 and AMO-Q086. See [31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md](31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md).

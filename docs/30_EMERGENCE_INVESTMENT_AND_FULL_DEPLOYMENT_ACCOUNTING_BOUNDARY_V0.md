@@ -26,7 +26,7 @@ Once spent, investment is not reset by failed emergence, astral exit/re-entry, W
 | **Tuber investment at risk** | How much construction the Tuber has already funded at this developmental point; exact accounting remains open (AMO-Q101). |
 | **Remaining Productive Opportunity** | What useful future activity or another attempt could still achieve; routing remains open (AMO-Q116). |
 
-Severe-looking early damage may terminate an attempt with relatively little sunk investment. Modest-looking damage near Full Deployment may prevent completion after substantial investment. Appearance can inform assessment, but cannot directly determine the lost Tuber investment or Pathological Tuber Impact (AMO-D091, L51). Whether a damaged developing structure can continue imperfectly is open (AMO-Q086).
+Severe-looking early damage may terminate an attempt with relatively little sunk investment. Modest-looking damage near Full Deployment may prevent completion after substantial investment. Appearance can inform assessment, but cannot directly determine the lost Tuber investment or Pathological Tuber Impact (AMO-D091, L51). Damage can also permit continued construction and [imperfect Full Deployment](31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md); exact response remains AMO-Q086.
 
 ## 3. Full Deployment: the hard accounting handoff
 
@@ -39,7 +39,7 @@ Severe-looking early damage may terminate an attempt with relatively little sunk
 | Developing-stage damage and continuation remain AMO-Q086. | Mature Leaf uses [23](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md) and [24](24_SAME_PHASE_LEAF_RECOVERY_V0.md); mature Bloom keeps its own damage domain. |
 | Normal inhabitation is unavailable. | Normal inhabitation may become possible only through the separate access and Astral Readiness gates (AMO-D107). |
 
-This is a **hard conceptual handoff**, with no fractional pre-deployment Leaf/Bloom ownership and no new data field. It changes accounting and damage domain, not organism identity: the Tuber remains the persistent individual, and its costs, condition, Developmental Maturity and history continue. Full Deployment is not Astral Readiness, perfect health, maximum scale, or a guarantee of future productivity.
+This is a **hard conceptual handoff**, with no fractional pre-deployment Leaf/Bloom ownership and no new data field. It changes accounting and damage domain, not organism identity: the Tuber remains the persistent individual, and its costs, condition, Developmental Maturity and history continue. A damaged attempt may continue to Full Deployment; the mature state receives what was actually built, without repair at the boundary ([31](31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md)). Full Deployment is not Astral Readiness, perfect health, maximum scale, or a guarantee of future productivity.
 
 After deployment a Leaf's mature biological work may support future Tuber condition and development (AMO-D081, AMO-Q116). A Bloom begins its mature reproductive role while its **Programmed Tuber Draw may continue**; the handoff does not cancel that normal expenditure or turn it into pathology (AMO-D087). Mature performance and its consequences feed back toward the persistent Tuber on their own phase-specific terms.
 
@@ -73,7 +73,7 @@ PERSISTENT TUBER
 
 ## 6. Deferred mechanics and acceptance
 
-AMO-Q084 owns exact Full Deployment criteria, emergence sub-phases and repeated-attempt topology. AMO-Q101 owns investment distribution, biological variables, failure/continuation routing and effects on later eligibility. AMO-Q086 owns damage and imperfect continuation during Emergence, and mature Bloom damage. AMO-Q116 owns mature productivity and Remaining Productive Opportunity; AMO-Q118 owns the later crossing into actual persistent loss. No new question, resource field or physiology formula is introduced.
+AMO-Q084 owns exact Full Deployment criteria, emergence sub-phases and repeated-attempt topology. AMO-Q101 owns investment distribution, biological variables, failure/continuation routing and effects on later eligibility. AMO-Q086 owns damage response and the mechanisms of imperfect continuation during Emergence, traced conceptually in [31](31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md), and mature Bloom damage. AMO-Q116 owns mature productivity and Remaining Productive Opportunity; AMO-Q118 owns the later crossing into actual persistent loss. No new question, resource field or physiology formula is introduced.
 
 | Check | Result |
 |---|---|
