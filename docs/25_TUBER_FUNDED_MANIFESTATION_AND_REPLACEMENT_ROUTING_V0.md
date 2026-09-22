@@ -51,7 +51,7 @@ ACTIVE LEAF → same-Leaf stabilization → ACTIVE LEAF
                  → retreat selected or required: SENESCENCE → dormant family
 ```
 
-The replacement loop remains in the **same broader active period**; it does not traverse Deep Dormancy or reset the persistent individual. Existing Emergence means a manifestation is forming; its replacement context identifies why it was entered (AMO-D096). The new Leaf may assume the active role after formation. Exactly how old and new Leaf coexist or hand over function, and when either is astrally detectable, ready or inhabitable, remain AMO-Q084, AMO-Q085, AMO-Q112 and AMO-Q115. Reusing the state is **not** a ruling that the old Leaf vanishes on entry or that the Warden can transfer into the new one.
+The replacement loop remains in the **same broader active period**; it does not traverse Deep Dormancy or reset the persistent individual. Existing Emergence means a manifestation is biologically forming; its replacement context identifies why it was entered (AMO-D096). After route selection the Tuber commits capacity, builds an Emergence Sheath/path, grows and deploys a new Leaf, and only after **Full Deployment** can that Leaf enter the normal Astral Readiness pathway ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md), AMO-D106–AMO-D107). The attempt may fail and return toward retreat (AMO-D108). Exactly how old and new Leaf coexist or hand over function, and when either is astrally detectable or ready, remain AMO-Q084, AMO-Q085, AMO-Q112 and AMO-Q115. Reusing the state is **not** a ruling that the old Leaf vanishes on entry or that the Warden can transfer into the new one.
 
 ## Worked routing checks
 

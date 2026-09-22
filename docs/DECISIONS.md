@@ -103,7 +103,7 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D086 | Astral Readiness: magical state restored by rooted biological life | ACCEPTED |
 | AMO-D087 | Tuber is canonical; Programmed Draw is not Pathological Impact | ACCEPTED |
 | AMO-D088 | Astral Signal is distinct from inhabitability; dormancy silences it | ACCEPTED |
-| AMO-D089 | Tuber gameplay deferred; Leaf and Bloom are the playable forms | ACCEPTED |
+| AMO-D089 | Tuber gameplay deferred; Leaf and Bloom are the playable forms | SUPERSEDED by AMO-D099 |
 | AMO-D090 | Pathological Tuber Impact: direct and indirect, acute and cumulative | ACCEPTED |
 | AMO-D091 | Persistent consequence follows function and opportunity, not appearance | ACCEPTED |
 | AMO-D092 | Pathology is actual persistent loss, not depletion or lost growth | ACCEPTED |
@@ -120,6 +120,9 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D103 | Warden identity and history belong to Amorpho | ACCEPTED |
 | AMO-D104 | Client experience and platform services do not define canonical truth | ACCEPTED |
 | AMO-D105 | Broad platform viability and cross-progression are long-term targets | ACCEPTED |
+| AMO-D106 | Manifestation Emergence is shared biological construction | ACCEPTED |
+| AMO-D107 | Full Deployment precedes normal manifestation inhabitation | ACCEPTED |
+| AMO-D108 | Emergence commitment can fail without trapping the life cycle | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -856,10 +859,11 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 
 ## AMO-D089 — Tuber gameplay deferred; Leaf and Bloom are the playable forms
 
-- **Status:** ACCEPTED · **Date:** 2026-09-21 · **Origin:** Biology-magic boundary brief
+- **Status:** SUPERSEDED by AMO-D099 · **Date:** 2026-09-21 · **Origin:** Biology-magic boundary brief
 - **Decision:** For v0 the astrally playable forms are **Leaf** and **Bloom**. Deep Dormant Tuber is not inhabitable and there is no Tuber fighter gameplay. Transitional tuber or pre-emergence gameplay remains a future possibility and is not developed now.
 - **Rationale:** Deliberate scope discipline. Two well-understood playable forms are enough to build and test the whole biology-to-fighter loop, and a third would multiply the open questions before either of the first two exists.
 - **Consequences:** Dormancy loses **no** importance: transport, relocation, trade, repotting, digging, safe seasonal handling, Anchor management and strategic placement all happen in the Human layer while an individual is dormant (AMO-D062, L23). Transitional states also matter without any fighting in them, because that is where the **astral signal** changes (AMO-D088). If transitional tuber gameplay is ever added it belongs to the access windows, never to deep dormancy (AMO-D060, AMO-Q086).
+- **Superseded 2026-09-22:** AMO-D099 fixed the Tuber as non-playable even when astrally reachable. The earlier future possibility above is historical, not current policy. This status correction was made during the emergence handoff consistency audit.
 
 ## AMO-D090 — Pathological Tuber Impact: direct and indirect, acute and cumulative
 
@@ -976,3 +980,24 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Future technology selection must preserve credible access through relevant desktop, mobile, console and VR/XR families, with scalable presentation and controller, touch and VR viability. Cross-progression and shared Warden history are product targets; cross-platform shared-world participation is the desired direction.
 - **Rationale:** Broad access serves one persistent World. A technology that structurally closes major gateways would undermine that goal.
 - **Consequences:** No launch platform, sequence, release date, engine, cross-play rule, matchmaking policy or identical feature parity is committed. Mobile is a meaningful entrance, consoles are not separate universes and VR remains first-class (AMO-D041, AMO-D042; [27](27_PLATFORM_AND_WORLD_SOVEREIGNTY_V0.md)).
+
+## AMO-D106 — Manifestation Emergence is shared biological construction
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Emergence handoff brief, owner-supplied biological direction
+- **Decision:** The persistent Tuber biologically builds temporary Leaf and Bloom manifestations through one high-level **Manifestation Emergence** process: commitment, a protective **Emergence Sheath** or path, surface emergence, expansion/deployment and Full Deployment. Primary Leaf, Replacement Leaf and Bloom reuse the existing Emergence lifecycle state; their context and mature biology differ. The sheath is biological infrastructure, never a playable form. Emergence consumes biological capacity and time, and World conditions continue to matter. No route choice, Warden input or favorable environment makes it instantaneous.
+- **Rationale:** A route selection cannot be treated as a spawned body, and the same persistent individual need not acquire separate emergence physics for Leaf and Bloom.
+- **Consequences:** The Tuber, identity, condition, Developmental Maturity and history persist through the process. Warden-compelled and autonomous Replacement undergo the same biological construction at the same cost rules (L52). Emergence Sheath is conservative game-system terminology, pending approved botanical input. Sub-phases, duration, expenditure distribution and manifestation-specific detail remain open (AMO-Q084, AMO-Q101). See [29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md).
+
+## AMO-D107 — Full Deployment precedes normal manifestation inhabitation
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Emergence handoff brief
+- **Decision:** A developing Leaf or Bloom is **not normally inhabitable**, even after it becomes visible. **Full Deployment** of that manifestation's primary emergence architecture is a biological prerequisite for normal Leaf or Bloom inhabitation. Full Deployment does not guarantee instant Astral Readiness, access or perfect biological condition; the existing astral gates still apply.
+- **Rationale:** Visibility and a partial structure do not supply a complete playable body. Biological construction must precede magical embodiment without collapsing Readiness into growth.
+- **Consequences:** A reduced Replacement Leaf can be fully deployed for its own scale. Before Full Deployment, damage belongs to developing-manifestation biology; afterwards the mature Leaf or Bloom damage domain applies. Exact deployment criteria, Signal, access and Readiness timing remain open (AMO-Q084, AMO-Q085, AMO-Q086, AMO-Q112, AMO-Q115). See [29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md).
+
+## AMO-D108 — Emergence commitment can fail without trapping the life cycle
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Emergence handoff brief
+- **Decision:** Biological eligibility and commitment to Manifestation Emergence do not guarantee Full Deployment. A failed Leaf or Bloom attempt produces no inhabitable new manifestation. The persistent Tuber remains biologically simulated with its expenditure and history, and the lifecycle can route toward retreat, consolidation and Dormancy where feasible. Failed expenditure is not automatically Pathological Tuber Impact.
+- **Rationale:** Conditions can change while a manifestation is being built; guaranteed completion would erase emergence vulnerability, while a failure with no exit would trap the lifecycle.
+- **Consequences:** No automatic retry, success threshold, failure mechanism or Bloom-specific outcome is specified. AMO-Q084 owns topology and manifestation-specific detail; AMO-Q101 owns failure criteria and subsequent routing; AMO-Q086 owns development damage; AMO-Q118 owns actual persistent loss. See [29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md).

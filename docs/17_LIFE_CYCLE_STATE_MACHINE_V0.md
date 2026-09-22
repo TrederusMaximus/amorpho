@@ -55,7 +55,7 @@ Three families and seven states. Families group states that behave alike for acc
                      ┌────────┼───────── ACTIVE FAMILY ───────────┼────┐
                      │        │                                   ▼    │
                      │   ┌────┴──────────────────────────────────────┐ │
-                     │   │   ACTIVE LEAF   ◀───────▶   BLOOM         │ │
+                     │   │   ACTIVE LEAF              BLOOM         │ │
                      │   └───────────────────────────────────────────┘ │
                      └─────────────────────────────────────────────────┘
 ```
@@ -63,13 +63,15 @@ Three families and seven states. Families group states that behave alike for acc
 | Family | States | Manifestation | Access |
 |---|---|---|---|
 | **Dormant** | Early Dormancy · Deep Dormancy · Pre-Emergence | storage / core structure | narrowing → **closed** → widening |
-| **Transition in** | Emergence | forming | widening → open |
+| **Transition in** | Emergence | Leaf or Bloom forming | transitional reachability; no normal manifestation entry before Full Deployment |
 | **Active** | Active Leaf · Bloom | above-ground structure | **open** |
 | **Transition out** | Senescence | receding | open → narrowing |
 
-Entry into the Active family comes through Emergence; exit is through Senescence. Routing *within* the Active family, and which active state an individual first enters, is **parameterised** — see §5.
+Entry into the Active family comes through Emergence; exit is through Senescence. Routing *within* the Active family, and which active state an individual first enters, is **parameterised** — see §5. A new Leaf or Bloom manifestation cannot appear through a direct instant transition between active states; it must pass through Emergence.
 
-The [Tuber-funded routing specification](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) now adds one **intra-cycle replacement loop**: `Active Leaf → Emergence (replacement) → Active Leaf` (AMO-D096). It reuses a state rather than adding one. Eligibility, timing, old/new Leaf overlap and the replacement-specific astral window remain open (AMO-Q084, AMO-Q101, AMO-Q085). The same individual and active period continue throughout.
+The [Tuber-funded routing specification](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) adds one **intra-cycle replacement loop**: `Active Leaf → Emergence (replacement) → Active Leaf` (AMO-D096). It reuses the same **Manifestation Emergence** state that constructs a primary Leaf or Bloom through a protective path and deployment ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md), AMO-D106). Entry context differs; the persistent individual and active period continue. Eligibility, timing and old/new Leaf overlap remain open (AMO-Q084, AMO-Q101).
+
+An emergence attempt may fail before Full Deployment. The existing graph then permits a biologically feasible retreat toward Senescence, consolidation and Dormancy; it does not require completion or an immediate retry (AMO-D108). Exact failure routing remains AMO-Q101.
 
 ## 5. Bloom is a sibling active state
 
@@ -79,13 +81,17 @@ This was the one genuinely open structural question, and three candidate shapes 
 
 **Rejected — Bloom as an overlay on Leaf.** An overlay cannot express an individual that blooms *without* an active leaf, because the overlay would have nothing to attach to. It also muddles manifestation: a bloom structure is its own temporary body, not a modifier on another one.
 
-**Adopted — Bloom as a sibling active state** (AMO-D071). Leaf and Bloom are peers inside the Active family. Entry into the family, and movement between and out of its states, is parameterised rather than fixed:
+**Adopted — Bloom as a sibling active state** (AMO-D071). Leaf and Bloom are peers inside the Active family. Entry into the family, and movement between and out of its states, is parameterised rather than fixed. **Whenever a new Leaf or Bloom is produced, the route passes through shared Emergence** (AMO-D106):
 
 ```
 EMERGENCE ──▶ ACTIVE LEAF ──▶ SENESCENCE
-          └─▶ BLOOM      ──▶ SENESCENCE
-              ▲     │
-              └─────┘   routing between active states is parameterised
+          └─▶ BLOOM       ──▶ SENESCENCE
+
+ACTIVE LEAF or BLOOM ──▶ EMERGENCE ──▶ another fully deployed manifestation
+                         (only if biology permits the route)
+
+EMERGENCE (failed) ──▶ retreat / consolidation toward Dormancy
+                        (where biologically feasible)
 ```
 
 This buys exactly the extensibility the architecture needs:
@@ -118,19 +124,19 @@ Steady states hold one value. **Transitional states change value across their ow
 | Early Dormancy | Transitional → Closed |
 | **Deep Dormancy** | **Closed** — hard rule (AMO-D060) |
 | Pre-Emergence | Closed → Transitional |
-| Emergence | Transitional → Open |
+| Emergence | Transitional reachability; no normal entry into the developing manifestation |
 
-Exact opening and closing points are **not** fixed (AMO-Q085). What is fixed is the shape: access narrows on the way down and widens on the way up, with a genuinely closed floor.
+Exact opening and closing points of transitional reachability are **not** fixed (AMO-Q085). What is fixed is the shape: access narrows on the way down and widens on the way up, with a genuinely closed floor. **Normal Leaf or Bloom inhabitation cannot open before Full Deployment**; the active manifestation must also meet the ordinary astral gates (AMO-D107).
 
-For the later intra-cycle **replacement Emergence** loop (§8), this ordinary transition table does not decide access to an old Leaf still present or the new Leaf as it forms. Replacement-specific Signal, Readiness and entry remain open (AMO-Q085, AMO-Q112, AMO-Q115).
+For the intra-cycle **replacement Emergence** loop (§8), this ordinary transition table does not decide access to an old Leaf still present. The developing new Leaf cannot be normally inhabited; replacement-specific Signal, post-deployment Readiness and exact entry remain open (AMO-Q085, AMO-Q112, AMO-Q115).
 
 A **second, independent curve** runs alongside it: the **Astral Signal**, which fades through Senescence, is absent in Deep Dormancy (*Astral Silence*) and returns in Pre-Emergence — potentially before inhabitability does. Detectable and enterable are different questions and need not move together (AMO-D088, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)).
 
 The transitional period in which a Tuber without a viable playable manifestation remains reachable is named the **Astral Window** (AMO-D099). It is these two existing curves at that moment, not a new state or a fourth access value, and reachable never means playable: a Warden present there influences a routing decision and has no body to move (AMO-D089).
 
-### Deep Dormancy is not tuber gameplay
+### The Tuber is not a playable form
 
-Deep Dormancy exists precisely as a **biologically closed** state. It is not a "tuber fighter mode" with the graphics turned off. If tuber-form gameplay ever exists it belongs to the transitional windows — shortly after dormancy entry, or during pre-emergence — or to some other explicitly defined active tuber state, never to deep dormancy itself (AMO-D060, AMO-Q086).
+Deep Dormancy is **biologically closed**, and the Tuber remains non-playable in transitional states too. Reachability can permit strategic presence; it never supplies Tuber locomotion, combat or exploration (AMO-D060, AMO-D089, AMO-D099).
 
 ## 7. The states
 
@@ -144,7 +150,7 @@ The persistent core at rest. **Astrally closed** — the Anchor may remain attac
 The individual begins leaving deep dormancy. Current design direction is that **accessibility may begin returning before any above-ground manifestation exists**; the exact opening point is open (AMO-Q085).
 
 ### Emergence
-The return toward active manifestation. The phase-specific body begins forming, access widens toward open, and biological vulnerability may differ from a fully established active phase. Where within Emergence access becomes fully open is open.
+The shared biological construction of a Leaf or Bloom, whether entered after Pre-Emergence or through the replacement loop. Tuber commitment, an **Emergence Sheath** or protected path, surface emergence and expansion lead toward **Full Deployment** ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md), AMO-D106). These are conceptual stages within this existing state, not new states. A visible, still-developing Leaf or Bloom is not normally inhabitable; Full Deployment is the biological prerequisite for entering Active Leaf or Bloom and only then may normal inhabitation become possible under the ordinary gates (AMO-D107). Emergence may fail and route toward retreat without a playable manifestation (AMO-D108). Exact stage and access boundaries remain open (AMO-Q084, AMO-Q085).
 
 ### Active Leaf
 The primary sustained above-ground state, and the strongest candidate for default embodiment. Access is open subject to the other gates. Environmental Fit acts on condition, reserves and development here; sustained good Fit supports healthy growth, and severe compromise can end the phase early (§9).
@@ -203,7 +209,7 @@ astral override          ← only with direct astral presence, only among feasib
 
 The individual stays reachable for a transitional period after a manifestation ends — the **Astral Window** — and **Deep Dormancy closes it** (AMO-D099, AMO-D060). No `WAITING_FOR_PLAYER` state exists, and none may be added: an unattended individual routes itself while the World advances (AMO-D097, AMO-D009). The exact functional-collapse test, eligibility, autonomous policy, presence mechanics and route costs are open (AMO-Q101, AMO-Q119).
 
-Emergence already means a manifestation is forming, so this loop needs no eighth state or new annual cycle. It does **not** decide whether an old Leaf remains partly present during the new Leaf's formation, whether another replacement can follow, or how astral access, Signal and Readiness apply to the replacement (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). The ordinary route from Pre-Emergence into Emergence remains intact.
+Emergence already means a manifestation is forming, so this loop needs no eighth state or new annual cycle. It does **not** decide whether an old Leaf remains partly present during the new Leaf's formation, whether another replacement can follow, or how astral access, Signal and Readiness apply during and after replacement (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). The developing replacement is never normally inhabitable before Full Deployment. The ordinary route from Pre-Emergence into Emergence remains intact.
 
 ## 9. What drives transitions — and what does not
 
@@ -307,7 +313,7 @@ Each can be added without changing the topology:
 | species-specific phase timing and routing | parameterisation of §4–§5 |
 | species that never enter deep dormancy | a dormant-family path that stays shallow (AMO-Q084) |
 | leafless flowering, or concurrent leaf and bloom | Active family membership (§5) |
-| transitional tuber-form gameplay | Early Dormancy / Pre-Emergence access windows (AMO-Q086) |
+| transitional Tuber reachability | Early Dormancy / Pre-Emergence access questions without Tuber playability (AMO-Q085) |
 | phase-specific integrity variables | per-state manifestation (§7) |
 | transition trigger model | §9's input categories (AMO-Q101) |
 | pollination and reproduction | the exposed Bloom state (AMO-Q079) |
@@ -331,4 +337,4 @@ Each can be added without changing the topology:
 
 ## 16. Open questions
 
-The state machine's remaining detail (AMO-Q084) · access opening and closing points, and transition legibility (AMO-Q085) · phase-specific abilities and integrity, including transitional tuber forms (AMO-Q086) · premature retreat cost (AMO-Q087) · Bloom's content (AMO-Q088) · transition triggers and autonomous routing policy (AMO-Q101) · astral presence at a routing point (AMO-Q119). Related: controlled environments (AMO-Q049), reproduction (AMO-Q079), discoverability (AMO-Q015), core damage and recovery ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)), the Astral Radar (AMO-Q092).
+The state machine's remaining detail (AMO-Q084) · access opening and closing points, and transition legibility (AMO-Q085) · phase-specific and developing-manifestation integrity (AMO-Q086) · premature retreat cost (AMO-Q087) · Bloom's content (AMO-Q088) · transition triggers and autonomous routing policy (AMO-Q101) · astral presence at a routing point (AMO-Q119). Related: controlled environments (AMO-Q049), reproduction (AMO-Q079), discoverability (AMO-Q015), core damage and recovery ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)), the Astral Radar (AMO-Q092).

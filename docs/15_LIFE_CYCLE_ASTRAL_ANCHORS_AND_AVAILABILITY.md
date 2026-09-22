@@ -142,9 +142,9 @@ Astral accessibility is **not constant**. Developmental state may permit or prev
 
 The Anchor may still be physically present. The relationship may still be recorded. Normal consciousness transfer simply cannot enter. This is **biological unavailability**, not loss of ownership and not loss of the Anchor.
 
-### Transitional windows may exist
+### Transitional access around dormancy
 
-The whole tuber phase is not assumed equally closed (AMO-Q085):
+The Astral Window after manifestation loss is accepted; exact access boundaries and pre-emergence reopening remain open (AMO-D099, AMO-Q085):
 
 | | Current design direction |
 |---|---|
@@ -152,7 +152,7 @@ The whole tuber phase is not assumed equally closed (AMO-Q085):
 | **deep dormancy** | **astrally inaccessible** |
 | pre-emergence / pre-sprout | accessibility may begin returning before above-ground growth |
 
-If those windows exist they may eventually create distinctive tuber and transition gameplay. The boundaries are not fixed.
+Transitional reachability can support strategic astral presence without making the Tuber playable (AMO-D099). Its exact boundaries are not fixed.
 
 ### Deep dormant tubers are naturally hidden
 
@@ -160,7 +160,7 @@ If those windows exist they may eventually create distinctive tuber and transiti
 
 No leaf, no flower, no scent signature, no movement, and below ground or buried in substrate. This is **concealment, not magical invisibility**: a player who knows the exact outdoor site, the pot or the greenhouse bed can still physically find it. What must not exist is a generic world signal that reveals dormant tubers.
 
-**Deep Dormancy is not tuber gameplay.** It exists as a biologically closed state, not a tuber fighter mode with the graphics off. If tuber-form gameplay ever exists it belongs to the transitional windows — shortly after dormancy entry, or during pre-emergence — never to deep dormancy itself (AMO-D070, AMO-Q086).
+**The Tuber is not a playable form.** Deep Dormancy is biologically closed; transitional reachability elsewhere does not create Tuber locomotion, combat or exploration (AMO-D070, AMO-D089, AMO-D099).
 
 ### Dormancy is safety bought with unavailability
 

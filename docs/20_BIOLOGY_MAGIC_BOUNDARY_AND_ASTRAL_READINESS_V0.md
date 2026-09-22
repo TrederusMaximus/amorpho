@@ -210,9 +210,11 @@ An Anchor may stay physically attached through every phase, and attachment alone
 | Early Dormancy | possibly faint residual; location may still be inferred |
 | **Deep Dormancy** | **none — Astral Silence** |
 | Pre-Emergence | faint signal returns, strengthening as awakening proceeds |
-| Emergence | present |
+| Emergence | present in the ordinary post-dormancy route; exact replacement handoff remains open |
 
 Inhabitability may close **before or during** the signal fade, and may reopen **after** the signal returns. The exact sequence is open (AMO-Q085, AMO-Q115).
+
+Signal or visibility during **Manifestation Emergence** does not make a developing Leaf or Bloom normally inhabitable. Both use biological construction through an Emergence Sheath/path and deployment; **Full Deployment** is required before normal Leaf or Bloom entry may become possible ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md), AMO-D106, AMO-D107). Astral Readiness and the other gates remain separate. A fully deployed manifestation is not automatically Astral Ready (AMO-Q085, AMO-Q112, AMO-Q115).
 
 The senescence fade matters: it is what turns dormancy from a surprise lockout into something a player can plan around — retrieve the individual, reallocate its Anchor, or accept losing track of it.
 
@@ -240,7 +242,7 @@ When a manifestation ends — on the ordinary course of a cycle, or after a Leaf
 
 Inside it a Warden may establish **direct astral presence** with the persistent individual, for one purpose: influence over a biologically available routing decision ([26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)). That is not astral entry. The Tuber does not become a playable body — no locomotion, no combat, no exploration (AMO-D089, §9). Because nothing is animated, nothing runs on magical state and §4's suspension of biology does not apply: the individual's biology continues throughout, which is why the window can close while the Warden is present.
 
-Three limits travel with it. **Deep Dormancy closes it**, and a route already taken is not rewritten afterwards. **Presence is singular** — it occupies the same one consciousness that full embodiment occupies, so no second individual can be attended at the same moment (AMO-D028, AMO-D101). And a later new manifestation becomes playable only through the ordinary gates, including **Astral Readiness**, never as a continuation of window presence (AMO-D063, AMO-D086).
+Three limits travel with it. **Deep Dormancy closes it**, and a route already taken is not rewritten afterwards. **Presence is singular** — it occupies the same one consciousness that full embodiment occupies, so no second individual can be attended at the same moment (AMO-D028, AMO-D101). A selected Replacement route hands off to biological Emergence; its developing Leaf remains non-playable. Only after Full Deployment may that new manifestation pass through the ordinary gates, including **Astral Readiness**; it is never an automatic continuation of window presence (AMO-D063, AMO-D086, AMO-D107).
 
 Duration, exact boundaries, how presence is established and ended, and whether it costs readiness are open (AMO-Q085, AMO-Q112, AMO-Q119).
 
@@ -248,9 +250,9 @@ Duration, exact boundaries, how presence is established and ended, and whether i
 
 The Astral Radar represents the Warden's **living astral connections**, and is not global map tracking, exact positioning or universal plant detection (AMO-D061, AMO-D088). What it can show may depend on signal strength, and signal strength may affect **location fidelity** — a strong active signal potentially giving better awareness, a weak transitional signal less, Deep Dormancy none. No ranges, accuracy or interface are defined (AMO-Q092, AMO-Q115).
 
-## 9. Tuber gameplay is deferred
+## 9. The Tuber is not a playable form
 
-For v0 the astrally playable forms are **Leaf** and **Bloom**. Deep Dormant Tuber is not inhabitable and there is no Tuber fighter gameplay. Transitional tuber or pre-emergence gameplay remains a future possibility and is **not** developed now (AMO-D089, AMO-Q086).
+The astrally playable manifestations are **Leaf** and **Bloom** after their biological construction and ordinary astral gates. The Tuber is never a playable locomotion or combat form, in Deep Dormancy, an Astral Window or Pre-Emergence (AMO-D089, AMO-D099, AMO-D107).
 
 **Reachability does not loosen this.** A Tuber inside an Astral Window (§8) is reachable, not playable: the Warden may be present with the individual and still has no body to move, fight or explore with. *Astrally reachable* and *inhabitable* are different questions, and only the second produces an Amorpho (AMO-D099).
 

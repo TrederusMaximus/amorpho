@@ -52,6 +52,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [28_ASTRAL_WINDOW_END_TO_END_TRACE_V0.md](28_ASTRAL_WINDOW_END_TO_END_TRACE_V0.md) tests Leaf collapse through autonomous Replacement, Warden override or agreement, an impossible override and a missed Window. It finds no missing invariant or need for a new decision or law; the replacement Signal/Readiness handoff stays open.
 
+[29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md) establishes shared biological Emergence for Leaf and Bloom, a non-playable developing period, Full Deployment before normal inhabitation, and a route out of failed attempts (AMO-D106–AMO-D108). Exact damage, timing, access and Readiness remain open.
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -114,7 +116,7 @@ After core design and evidence-based technology selection, examine desktop, mobi
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Trace the Replacement Emergence astral handoff** — follow one already-selected replacement from transitional Tuber reachability to a developed, potentially Astral Ready Leaf, leaving exact timing, Signal strength, interface and eligibility values open (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115, [28](28_ASTRAL_WINDOW_END_TO_END_TRACE_V0.md)).
+1. **Trace one damage event during Emergence** — follow an incomplete Leaf or Bloom through World exposure to continuation or failure, without defining damage formulas, species facts or exact timing (AMO-Q086, AMO-Q101, [29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md)).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).

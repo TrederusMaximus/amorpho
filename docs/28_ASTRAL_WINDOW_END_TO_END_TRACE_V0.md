@@ -32,9 +32,9 @@ No eligibility formula or autonomous selection policy is inferred here; those re
 2. The Astral Window opens during transitional reachability. The individual may be detected as reachable, but the Tuber is not playable.
 3. The Warden is elsewhere and establishes no direct presence. Biology continues without waiting.
 4. Biology finds Replacement and retreat feasible. Given a capable Tuber, favorable conditions and substantial remaining opportunity, the plant's own preference is Replacement.
-5. Replacement executes autonomously. The Tuber spends the normal biological investment; elapsed opportunity is not restored.
+5. The plant autonomously commits to Replacement. The Tuber begins its normal biological investment; elapsed opportunity is not restored.
 6. Replacement Emergence begins in the existing intra-cycle loop. Biological time passes and a new, generally reduced Leaf develops from the same individual.
-7. Signal, access and Readiness follow the existing Biology ↔ Magic boundary and the still-open replacement handoff questions (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). A suitable developed manifestation may later become Astral Ready and playable. No retroactive Warden choice occurs.
+7. The new Leaf remains non-inhabitable through Emergence Sheath formation, surface emergence and deployment. **Full Deployment** precedes its normal Astral Readiness pathway ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md)); Signal, access and the exact Readiness trigger remain open (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). No retroactive Warden choice occurs.
 
 The individual's biological route is autonomous even though the Warden could have reached it earlier.
 
@@ -47,7 +47,7 @@ Use the same viable-Tuber and collapsed-Leaf setup, with conditions that make co
 3. Before that choice is executed, the Warden notices reachability and establishes **direct strategic astral presence** through the existing access path. Radar awareness or an Anchor relationship alone would not select a route.
 4. The Warden's one direct presence is committed here. The Warden cannot simultaneously directly act through the Human body, another Amorpho or another Tuber routing point (AMO-D028, AMO-D101).
 5. The Warden selects feasible Replacement instead of the plant's preferred retreat. Biology executes that route at its full normal Tuber expenditure and over biological time. Magic changes route selection; it does not construct a Leaf or discount the cost.
-6. Replacement Emergence begins; a new Leaf develops. During emergence the Warden cannot move, fight or explore as the Tuber. A suitable manifestation may become playable later only through its ordinary access and Astral Readiness gates.
+6. Replacement Emergence begins; a new Leaf develops through the shared biological process ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md)). During emergence the Warden cannot move, fight or explore as the Tuber **or the incomplete Leaf**. Full Deployment comes before any normal access and Astral Readiness pathway.
 
 This is Warden-influenced route authorship in concept, without a history-storage rule (AMO-Q120).
 
@@ -76,7 +76,7 @@ Astral Capacity can sustain broader Anchor relationships, but it is not a second
 
 ## 10. Handoff and unresolved boundaries
 
-Replacement uses the existing `Active Leaf → Emergence (replacement) → Active Leaf` loop. The new Leaf is formed biologically at full cost; Signal, access, Readiness and playability during the handoff remain with AMO-Q084, AMO-Q085, AMO-Q112 and AMO-Q115. This trace does not assert exactly when the transitional Tuber-access situation changes after emergence begins.
+Replacement uses the existing `Active Leaf → Emergence (replacement) → Active Leaf` loop. The Tuber biologically builds the new Leaf at full cost; **Full Deployment** is required before normal Leaf inhabitation may become possible ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md)). Signal, access and Readiness during the handoff remain with AMO-Q084, AMO-Q085, AMO-Q112 and AMO-Q115. This trace does not assert exactly when the transitional Tuber-access situation changes after emergence begins.
 
 Retreat uses existing Senescence and Early Dormancy toward Deep Dormancy. **Deep Dormancy closes the door** with Astral Silence and no override. The exact access boundary within the preceding transition remains AMO-Q085; no numeric duration is needed.
 
