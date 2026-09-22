@@ -1,6 +1,6 @@
 # 23 — Acute Event → Leaf Impairment Trace, v0
 
-**Status:** conceptual integration trace. This document begins with an existing **rooted Active Leaf** and one abstract external occurrence, **Acute Environmental Event A**. It ends with the Leaf's post-event manifestation state. It defines no event type, species response, scale, threshold, duration, formula or persistent biological outcome.
+**Status:** conceptual integration trace. This document begins with an existing **rooted, fully deployed Active Leaf** and one abstract external occurrence, **Acute Environmental Event A**. It ends with the mature Leaf's post-event manifestation state. Damage before Full Deployment belongs to developing-manifestation biology and Tuber-funded construction accounting ([30](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md)), outside this trace. No event type, species response, scale, threshold, duration, formula or persistent biological outcome is defined.
 
 It closes the conceptual handoff exposed by the [Biological Year Walkthrough](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md). [Environment/Fit v0](12_ENVIRONMENT_AND_FIT_MODEL_V0.md) governs World conditions and the derived biological boundary; [condition v0](14_CURRENT_BIOLOGICAL_CONDITION_V0.md) supplies individual context; [the harm specification](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md) separates manifestation from persistent harm. The [biology ↔ magic boundary](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md) constrains the inhabited case.
 

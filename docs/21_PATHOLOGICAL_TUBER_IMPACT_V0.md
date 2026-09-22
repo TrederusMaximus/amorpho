@@ -26,6 +26,8 @@ Both reduce persistent resources; both recover while the individual lives (AMO-D
 
 The [replacement-routing specification](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) adds another legitimate **manifestation investment**: funding a new Leaf after functional collapse. That expenditure carries a real future cost but is **not Pathological Tuber Impact by itself**. Whether adverse circumstances later cause actual persistent loss remains the separate outcome test in this document (AMO-D092, AMO-D096).
 
+During [Emergence](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md), sunk construction investment can be lost if a developing Leaf or Bloom fails, especially after substantial commitment. This can leave the Tuber depleted without automatically injuring it or regressing Developmental Maturity (AMO-D109, AMO-D092). After Full Deployment, damage belongs first to the mature manifestation and reaches persistent Tuber state only through the applicable downstream biological pathway (AMO-D111). **Direct harmful exposure to the Tuber itself** remains the separate pathway below; the accounting handoff does not remove it.
+
 ## 2. Two pathways
 
 Pathology reaches the Tuber by two routes, and the architecture supports both (AMO-D090).

@@ -123,6 +123,9 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 | AMO-D106 | Manifestation Emergence is shared biological construction | ACCEPTED |
 | AMO-D107 | Full Deployment precedes normal manifestation inhabitation | ACCEPTED |
 | AMO-D108 | Emergence commitment can fail without trapping the life cycle | ACCEPTED |
+| AMO-D109 | Emergence investment accumulates with developmental commitment | ACCEPTED |
+| AMO-D110 | Developing damage severity and sunk Tuber investment are separate | ACCEPTED |
+| AMO-D111 | Full Deployment transfers accounting to mature manifestation state | ACCEPTED |
 
 **Foundation closure (2026-09-18):** before the initial commit, the botanical input architecture was simplified. AMO-D016 and AMO-D023 were superseded; AMO-D024–AMO-D027 were added; AMO-D021 and AMO-D022 were confirmed. Terminology and cross-references in other entries were updated to match; entries whose wording changed beyond that carry a *Revised* note.
 
@@ -1001,3 +1004,24 @@ This ledger records Amorpho's accepted product and architecture decisions. Its p
 - **Decision:** Biological eligibility and commitment to Manifestation Emergence do not guarantee Full Deployment. A failed Leaf or Bloom attempt produces no inhabitable new manifestation. The persistent Tuber remains biologically simulated with its expenditure and history, and the lifecycle can route toward retreat, consolidation and Dormancy where feasible. Failed expenditure is not automatically Pathological Tuber Impact.
 - **Rationale:** Conditions can change while a manifestation is being built; guaranteed completion would erase emergence vulnerability, while a failure with no exit would trap the lifecycle.
 - **Consequences:** No automatic retry, success threshold, failure mechanism or Bloom-specific outcome is specified. AMO-Q084 owns topology and manifestation-specific detail; AMO-Q101 owns failure criteria and subsequent routing; AMO-Q086 owns development damage; AMO-Q118 owns actual persistent loss. See [29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md).
+
+## AMO-D109 — Emergence investment accumulates with developmental commitment
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Emergence accounting brief, owner-supplied domain direction
+- **Decision:** The Tuber funds manifestation construction throughout Emergence. As developmental commitment advances, its sunk biological investment generally increases. For a comparable attempt, failure late in Emergence costs more already-invested Tuber capacity than failure early, without a mature manifestation's expected return. Route selection starts commitment; it does not pay the whole cost at once. A later attempt requires new feasible capacity and time; earlier expenditure is not reset.
+- **Rationale:** Construction creates a real biological risk before Full Deployment. A free restart or a flat failure cost would erase that risk and the consequence of lost opportunity.
+- **Consequences:** Developmental commitment is conceptual, not a stored score, visible size, linear curve or fixed cost schedule. Remaining Productive Opportunity is a separate downstream routing factor. Spent investment is not automatically Pathological Tuber Impact or maturity regression (AMO-D082, AMO-D092). AMO-Q101 owns funding variables, cost distribution and later eligibility; AMO-Q084 owns stage and repeated-attempt topology. See [30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md).
+
+## AMO-D110 — Developing damage severity and sunk Tuber investment are separate
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Emergence accounting brief
+- **Decision:** Severity of damage to an incomplete manifestation and the Tuber investment already at risk are separate biological assessments. Visible damage, size or apparent completeness cannot by themselves determine sunk investment. A severe early event may end an attempt with relatively little spent; a smaller-looking late event may end one after substantial spending.
+- **Rationale:** Damage describes the developing structure's condition. Sunk investment describes what the Tuber has already committed. Collapsing them would turn appearance into an unjustified persistent-cost rule (AMO-D091, L51).
+- **Consequences:** AMO-Q086 owns developing-structure damage and possible imperfect continuation; AMO-Q101 owns commitment/cost interpretation. Neither axis directly decides Pathological Tuber Impact (AMO-D092). See [30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md).
+
+## AMO-D111 — Full Deployment transfers accounting to mature manifestation state
+
+- **Status:** ACCEPTED · **Date:** 2026-09-22 · **Origin:** Emergence accounting brief
+- **Decision:** **Full Deployment** is the hard conceptual handoff from Tuber-funded construction to mature Leaf or Bloom performance and immediate damage ownership. Before it, failure loses Tuber construction investment; after it, damage belongs first to the mature manifestation. A mature manifestation's damage does not directly debit equivalent Tuber state: persistent consequences follow downstream biological function, opportunity and the established pathology boundary. The handoff applies to primary Leaf, Replacement Leaf and Bloom, regardless of autonomous or Warden route authorship.
+- **Rationale:** One boundary assigns construction failure, mature damage and biological return without creating a second individual or a partial ownership meter.
+- **Consequences:** Full Deployment remains distinct from Astral Readiness and perfect condition (AMO-D107). Leaf mature impairment/recovery begins here; Bloom begins its mature role while its normal Programmed Tuber Draw may continue (AMO-D087). Direct harmful exposure to the Tuber remains an independent pathology route (AMO-D090). Exact deployment criteria and downstream quantitative consequences remain AMO-Q084, AMO-Q086, AMO-Q116 and AMO-Q118. Recorded as L55 in [30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md).

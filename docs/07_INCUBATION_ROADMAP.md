@@ -54,6 +54,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md) establishes shared biological Emergence for Leaf and Bloom, a non-playable developing period, Full Deployment before normal inhabitation, and a route out of failed attempts (AMO-D106–AMO-D108). Exact damage, timing, access and Readiness remain open.
 
+[30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md) fixes accumulating Tuber construction investment, the independence of visible damage and sunk cost, and Full Deployment as the handoff to mature manifestation performance and damage ownership (AMO-D109–AMO-D111, L55). Investment remains distinct from Pathological Tuber Impact.
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -116,7 +118,7 @@ After core design and evidence-based technology selection, examine desktop, mobi
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Trace one damage event during Emergence** — follow an incomplete Leaf or Bloom through World exposure to continuation or failure, without defining damage formulas, species facts or exact timing (AMO-Q086, AMO-Q101, [29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md)).
+1. **Trace damaged Emergence through continuation or failure** — test whether one incomplete Leaf can finish imperfectly or retreat after a World event, using the new accounting boundary without defining damage formulas or species facts (AMO-Q086, AMO-Q101, [30](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md)).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).

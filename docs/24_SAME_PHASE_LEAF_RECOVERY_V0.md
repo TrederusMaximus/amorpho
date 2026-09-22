@@ -1,6 +1,6 @@
 # 24 — Same-Phase Leaf Recovery Trace, v0
 
-**Status:** conceptual integration trace using owner-supplied biological design input. It begins with the post-event state of a **fully deployed, rooted Active Leaf** from [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md). It follows what can happen during the remaining active period and stops at an updated Leaf manifestation state. No species-specific fact, recovery rate, threshold, duration, formula, resource-cost magnitude or persistent Tuber outcome is specified.
+**Status:** conceptual integration trace using owner-supplied biological design input. It begins with the post-event state of a **fully deployed, rooted Active Leaf** from [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md). Full Deployment is the accounting and damage-domain handoff; a still-emerging structure does not use this mature-Leaf recovery model ([30](30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md), AMO-D111). This trace follows the remaining active period and stops at an updated Leaf manifestation state. No species-specific fact, recovery rate, threshold, duration, formula, resource-cost magnitude or persistent Tuber outcome is specified.
 
 > Recovery preserves the current manifestation where possible. Replacement creates a new manifestation when preservation is not enough. Neither rewinds biological time.
 

@@ -247,3 +247,9 @@ The canonical Earth-based Amorpho World and Warden history persist across device
 ### L54 — Platform changes the experience, not the truth.
 Rendering, interface and physical input may vary; canonical biology, identity, ownership and history may not vary with client hardware. Clients and vendor services reflect or access World truth rather than define it. *(AMO-D104, AMO-D105)*
 **Smell:** a lower-fidelity client changing Environmental Fit, a platform trophy driving progression, or a client cache becoming the only World record.
+
+## Emergence accounting laws
+
+### L55 — The Tuber pays until deployment; mature damage belongs first to the manifestation.
+Through Emergence, the Tuber funds construction and carries its sunk cost. Full Deployment hands performance and immediate damage ownership to the mature Leaf or Bloom; persistent Tuber harm after mature manifestation damage requires a downstream biological path. Bloom's normal Programmed Draw remains a separate expenditure. *(AMO-D109, AMO-D111)*
+**Smell:** a free emergence retry, a mature Leaf hit immediately debiting Tuber integrity, or Full Deployment being treated as an instant refund of construction cost.
