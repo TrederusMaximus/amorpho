@@ -160,11 +160,12 @@ Do size, health, age, lineage or care affect an Amorpho in combat? If so, how mu
 *Refined 2026-09-20:* a related question now exists outside combat — whether condition also affects what the animated Amorpho can do in the world, such as traversal tolerance (AMO-Q051). The two should be answered coherently, since both draw on the same individual condition (AMO-D030, AMO-D036).
 
 ### AMO-Q026 — Death, loss and recovery
-**Status:** OPEN · **Constraints:** AMO-D007, AMO-D011, AMO-D030
+**Status:** OPEN · **Constraints:** AMO-D007, AMO-D011, AMO-D030, AMO-D084
 Can combat harm or kill the plant? What is lost on defeat, and how does a plant recover?
 *Notes:* Players may refuse to fight with plants they have raised for years if the stakes are too high.
 *Refined 2026-09-20:* combat is now only one of two routes to loss; environmental decline after rooting is the other (AMO-D033). Recovery, core damage and death as biological outcomes are tracked as AMO-Q045, and must be answered consistently with whatever combat does.
 *Refined 2026-09-21 ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)):* the harm horizons are now fixed, so what combat must decide is **which horizon it touches** — manifestation integrity, vitality, reserves, stress, developmental maturity, or none. Whatever it touches recovers while the individual lives (AMO-D075), so combat cannot produce permanent injury without a new decision.
+*Refined 2026-09-22 ([22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)):* ordinary embodiment and combat use magical state while normal biology is suspended; they do not directly spend Tuber reserves or reduce vitality by default (AMO-D084). Defeat, forced exit and any explicitly exceptional consequence remain open; this question must not reintroduce an ordinary biological combat cost through the back door.
 
 ### AMO-Q027 — Roster scale versus combat content
 **Status:** OPEN · **Constraints:** AMO-D004, AMO-D005, AMO-D006
@@ -431,16 +432,19 @@ What is this called player-facing — *Warden Progression*, *Astral Development*
 **Status:** OPEN · **Constraints:** AMO-D091, AMO-D081
 How are **Leaf Functional Capacity** and **Remaining Productive Opportunity** represented? How does productive output integrate over an active phase into a persistent Tuber outcome? How much can early impairment be compensated later, and under what conditions?
 *Notes:* Fixed: consequence follows function and opportunity rather than appearance, no structural-damage percentage may map directly to Tuber loss, and opportunity is **biological, not a UI countdown** (AMO-D091, L51). Opportunity is also **directional** — good late conditions cannot recreate productive time already gone, while good conditions after early damage may still salvage a season. Getting the integration wrong is costly either way: too forgiving and early damage never matters, too harsh and one bad week ends a year. Relates to in-phase repair (AMO-Q103) and premature retreat (AMO-Q087).
+*Refined 2026-09-22 ([22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)):* the same Leaf trace needs productive work to accumulate through changing Fit, brief embodiment pauses and temporary functional impairment, then inform a persistent outcome without a season-end award or automatic catch-up. The recovered branch and loss branch expose the missing integration rule; neither appearance nor timing alone supplies it.
 
 ### AMO-Q117 — Direct Tuber susceptibility, storage and transport
 **Status:** OPEN · **Constraints:** AMO-D090, AMO-D093
 What conditions harm a Tuber **directly**, with what duration and at what severity? What does an excavated or unrooted Tuber actually need, how long can it wait, and how is a transported individual's environment abstracted?
 *Notes:* Fixed: direct harm may occur with no leaf present and bypasses the productivity pathway entirely, and **an excavated Tuber is neither automatically harmed nor in stasis** — *a biological Tuber does not become timeless because a Human is carrying it* (AMO-D090, AMO-D093). No harm mechanism, tolerance, timing or storage mechanic is defined; species tolerances must arrive as approved input, not be researched here (AMO-D024). This is where the Human transport layer gains real responsibility, so it should stay demanding enough to matter and forgiving enough not to punish ordinary handling. Relates to the time step (AMO-Q074) and substrate (AMO-Q050).
+*Refined 2026-09-22 ([22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)):* a dormant individual with no Leaf still experiences local conditions. The direct-harm side check reaches persistent Tuber loss without passing through Leaf productivity. This question must supply future susceptibility and handling rules without treating Deep Dormancy as biological stasis or excavation as automatic damage.
 
 ### AMO-Q118 — Where a neutral outcome becomes actual loss
 **Status:** OPEN · **Constraints:** AMO-D092, AMO-D056
 At what point does an insufficient season stop being *no gain* and become *regression*? How do reserve depletion and stress load relate to that crossing, and how does current condition modify susceptibility?
 *Notes:* The **boundary is binary** — persistent loss did or did not occur — while severity beyond it is continuous (AMO-D092). Reserves buffer but are not a shield meter, and direct severe harm may bypass depletion entirely. Failed productivity *tends* to cost development while direct harm *tends* to compromise integrity — a tendency that must not become a fixed mapping. This decides how often a disappointing season is merely disappointing, which is a tone decision as much as a mechanical one (AMO-D082).
+*Refined 2026-09-22 ([22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)):* the recovered Leaf branch loses function and opportunity, uses reserves and experiences stress, yet has no pathological loss. The contrast branch posits actual maturity regression despite less dramatic appearance. A future rule must distinguish these outcomes without diagnosing pathology from reserve use, visible damage or missed expected growth.
 
 ## The magical layer
 
@@ -644,9 +648,10 @@ Under what conditions does an individual established far away remain available f
 *Notes:* Biological condition already gates inhabitability (AMO-D031, AMO-D050). What is open is whether anything *else* does — transfer distance and eligibility (AMO-Q040) is the same question seen from the other end. If nothing else gates it, a distant established individual is permanently a body the player can step into, which is a large strategic fact worth deciding deliberately rather than by default.
 
 ### AMO-Q083 — Animated form and biological condition
-**Status:** OPEN · **Constraints:** AMO-D030, AMO-D056
+**Status:** OPEN · **Constraints:** AMO-D030, AMO-D056, AMO-D084
 Does being animated cost the individual anything biologically — reserves spent, stress added, vitality risked — and does condition change differently while inhabited than while rooted?
 *Notes:* What is decided is that condition **persists across the transition**, because the rooted plant and the animated Amorpho are one individual (AMO-D030, AMO-D056): biological state does not vanish on animation. Whether animation is biologically free, costly, or even restorative is untouched. Closely tied to combat consequences (AMO-Q026) and to transformation cost generally (AMO-Q022); answering it would give the one-body law a biological price as well as a logistical one.
+*Refined 2026-09-22 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md), exercised in [22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)):* the original ordinary-cost question is answered by AMO-D084: normal biology pauses while inhabited, and embodiment itself neither spends biological resources nor restores biological condition. The Warden's exit resumes rooted biology without resetting condition. This entry stays open only for any explicitly exceptional transfer or event consequence proposed later; ordinary animation must not be reopened as a biological drain.
 
 ## Earth representation
 

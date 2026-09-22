@@ -245,3 +245,5 @@ Cases A and B show the decisive reversal: severe appearance can end with no pers
 ## 12. Open questions
 
 The active-phase productivity model — functional capacity, remaining opportunity, integration and compensation (AMO-Q116) · direct Tuber susceptibility and the unrooted/storage environment (AMO-Q117) · where a neutral outcome becomes actual loss, and how reserves and stress relate to it (AMO-Q118). Related: species interpretation (AMO-Q110), premature retreat cost (AMO-Q087), in-phase repair (AMO-Q103), condition dynamics (AMO-Q073), the death condition (AMO-Q104), fragment identity (AMO-Q094), phase-specific gameplay impairment (AMO-Q109), approved input for species data (AMO-Q076).
+
+These boundaries are exercised together, without numerical completion, in the [Biological Year Walkthrough v0](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md).

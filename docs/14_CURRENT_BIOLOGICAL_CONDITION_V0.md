@@ -83,7 +83,7 @@ It also discharges the accumulation half of exposure history: a separate exposur
 
 **Modified by.** Negative Fit, which raises it; favourable Fit, which relieves it. Relief is not assumed to be symmetric with accumulation — one favourable moment need not erase prolonged prior exposure.
 
-**Influences.** Vitality, once burden exceeds what reserves absorb; resilience to further pressure; plausibly inhabitability (AMO-Q042).
+**Influences.** Susceptibility to further pressure and, together with other circumstances, to eventual Pathological Tuber Impact; plausibly inhabitability (AMO-Q042). Stress alone does not reduce vitality (AMO-D092).
 
 **Does not represent.** Damage itself · permanent harm · the environment's badness (that is Fit's output C, a *pressure*; stress load is the *accumulated total*, spec §9) · any identity or inherited property of the individual.
 
@@ -135,9 +135,9 @@ Three arguments decided this, and the third is the strongest:
 
 **Phases are now named.** Developmental state has v0 content — tuber/dormant, emergence, leaf, bloom, senescence — and it determines which body is expressed and whether that phase permits astral entry at all (AMO-D059, AMO-D063, [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)).
 
-A second integrity concept may eventually sit beside condition: **phase-specific integrity**, bounded by the current manifestation, as distinct from the persistent core vitality defined here. Damage there reaches these three variables only once it crosses the **Core-Impact Threshold** — below it the current body is impaired while stress, reserves and vitality stay broadly untouched (AMO-D079, [18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)). Leaf damage may persist for a phase without being permanent for the individual; when the phase ends, its structure and whatever damage it carried cease to exist (AMO-D058, AMO-Q086). Whether that lives in condition, in developmental state, or beside both is open (AMO-Q073).
+A second integrity concept may eventually sit beside condition: **phase-specific integrity**, bounded by the current manifestation, as distinct from the persistent core vitality defined here. Structural damage there does not by itself reduce persistent vitality or maturity; stress or reserve use can occur without Pathological Tuber Impact (AMO-D079, AMO-D092, [21_PATHOLOGICAL_TUBER_IMPACT_V0.md](21_PATHOLOGICAL_TUBER_IMPACT_V0.md)). Leaf damage may persist for a phase without being permanent for the individual; when the phase ends, its structure and whatever damage it carried cease to exist (AMO-D058, AMO-Q086). Whether that lives in condition, in developmental state, or beside both is open (AMO-Q073).
 
-**The state machine is deferred.** Dormant, active growth, flowering, reproductive and any other phases are not designed here, and no botanical facts about any species' life cycle are assumed or imported (AMO-D024, AMO-Q012). This document settles only *where such state belongs*.
+This condition model settles only *where* phase state belongs. The later [life-cycle specification](17_LIFE_CYCLE_STATE_MACHINE_V0.md) settles the topology; transition triggers and species routing remain open (AMO-Q101, AMO-Q084). No botanical facts about any species' cycle are assumed or imported (AMO-D024).
 
 > **Condition says how the individual is doing. Development says what phase it is in.** (L40)
 
@@ -161,21 +161,21 @@ Not designed here. What v0 preserves is the **path**:
 viable → deteriorating → critical → non-viable
 ```
 
-Whether death is a vitality threshold, a terminal developmental state, or something at the intersection of both is open, as is whether it is ever instantaneous (AMO-Q045).
+Whether death is a vitality threshold, a terminal developmental state, or something at the intersection of both is open, as is whether it is ever instantaneous (AMO-Q104).
 
 ## 8. Recovery, and what comes after it
 
-The model supports the full sequence without claiming all harm is reversible:
+The model supports this sequence under the later recovery law: all biological harm can eventually recover while the individual lives (AMO-D075), with dynamics still open (AMO-Q102).
 
 | Phase | What changes |
 |---|---|
-| under adverse Fit | stress accumulates; reserves draw down; vitality falls once they are exhausted |
-| under favourable Fit | stress relieves; reserves rebuild; vitality recovers **where it can** |
-| once recovered | stress at rest, vitality at baseline — and **reserves and development continue to receive positive Fit** |
+| under adverse Fit | stress may accumulate and reserves may draw down; vitality falls only if actual persistent integrity loss occurs |
+| under favourable Fit | stress may relieve; reserves may rebuild; vitality can recover through biological life |
+| once recovered | stress at rest, vitality at baseline — and **positive Fit can still support reserves and development through biological work** |
 
 That last row is the point. Recovery completing does not exhaust what a good environment can do (L38, AMO-D054), and it is why output D does not fall to zero when condition returns to baseline (spec §9).
 
-Whether any vitality loss is permanent is deliberately unanswered (AMO-Q045).
+Reserve use and missed growth alone do not establish pathological loss (AMO-D092). No dormancy transition automatically restores vitality (AMO-D076).
 
 ## 9. Condition feeds back into the response
 
@@ -189,14 +189,14 @@ The function is not defined (AMO-Q073).
 
 - **Not inherited.** A stressed parent does not produce genetically stressed offspring. The Evolutionator works from inherited traits, never from condition (AMO-D038, AMO-D039, L32). Condition may eventually influence *whether* and *how successfully* an individual reproduces; that mechanism is not designed (AMO-Q079).
 - **Not taxonomic.** Condition is live world state belonging to an individual (AMO-D021, layer 3). It never appears in approved input, and no condition field is added to the species CSV (AMO-D053).
-- **Not lost when animated.** The rooted plant and the animated Amorpho are one persistent individual (AMO-D030), so condition persists across the transition. Whether animation *costs* anything — reserves spent, stress added — is open (AMO-Q083).
-- **Not closed to combat.** Whether combat consumes reserves, adds stress or harms vitality is not decided (AMO-Q026). v0 deliberately leaves each of those possible without asserting any.
+- **Not lost when animated.** The rooted plant and the animated Amorpho are one persistent individual (AMO-D030), so condition persists across the transition. The later biology ↔ magic boundary suspends normal biological simulation during embodiment; ordinary animation does not spend reserves or change condition by default (AMO-D084, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)).
+- **Not paid for by ordinary combat.** Combat state and its costs are magical rather than direct changes to vitality, reserves or stress (AMO-D084). Defeat, forced exit and any explicitly exceptional consequences remain open (AMO-Q026, AMO-Q113).
 
 ## 11. Tested against the worked scenarios
 
 | Scenario | What the model has to explain | How |
 |---|---|---|
-| **A — deteriorating** | delayed onset, then loss of inhabitability while alive | stress accumulates and reserves draw down first; vitality falls only once they are exceeded, crossing the entry threshold before non-viability |
+| **A — deteriorating** | delayed onset, then loss of inhabitability while alive | stress accumulates and reserves may draw down; if actual persistent integrity loss occurs, vitality can fall enough to close entry before non-viability |
 | **A §3.9 — stressed arrival** | same site, worse outcome | depleted reserves and existing burden narrow the effective profile and remove the buffer |
 | **B — equilibrium** | indefinite stability under mild chronic pressure | low stress accrual is offset by relief; reserves hold; vitality untouched; modest opportunity goes to reserves and slow development |
 | **C — recovery** | improvement from a stressed start | stress relieves, reserves rebuild, vitality returns toward baseline |
@@ -209,4 +209,4 @@ All eight cases in the consistency audit are explicable with three condition var
 
 ## 12. Open questions
 
-Dynamics and thresholds (AMO-Q073) · vitality recovery dynamics (AMO-Q102) · inhabitability rule and threshold (AMO-Q042) · the death condition (AMO-Q104) · developmental maturity (AMO-Q106) · exposure history beyond a single accumulated value (AMO-Q072) · the developmental state machine and acclimation (AMO-Q012) · what a rooted individual does over time (AMO-Q077) · animated-form effects on condition (AMO-Q083) · combat consequences (AMO-Q026) · condition's influence on reproduction (AMO-Q079) · simulation time step (AMO-Q074).
+Dynamics and thresholds (AMO-Q073) · vitality recovery dynamics (AMO-Q102) · inhabitability rule and threshold (AMO-Q042) · the death condition (AMO-Q104) · developmental maturity representation and rates (AMO-Q106) · exposure history beyond a single accumulated value (AMO-Q072) · life-cycle transition triggers (AMO-Q101) and acclimation (AMO-Q012) · what a rooted individual does over time (AMO-Q077) · exceptional animated-form effects, if any (AMO-Q083) · combat defeat consequences (AMO-Q026) · condition's influence on reproduction (AMO-Q079) · simulation time step (AMO-Q074).

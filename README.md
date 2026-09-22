@@ -94,6 +94,7 @@ docs/
   19_DEVELOPMENTAL_MATURITY_V0.md       the persistent developmental axis
   20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md  biology vs magic, Astral Readiness, astral signal
   21_PATHOLOGICAL_TUBER_IMPACT_V0.md    when adverse circumstances become persistent Tuber loss
+  22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md  one abstract individual's year across the established systems
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

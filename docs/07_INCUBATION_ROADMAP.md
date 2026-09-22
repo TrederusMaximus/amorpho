@@ -38,6 +38,8 @@ Typical work:
 
 Done in this phase so far: Pathological Tuber Impact ([21](21_PATHOLOGICAL_TUBER_IMPACT_V0.md); AMO-D090–AMO-D093), the biology–magic boundary and Astral Readiness ([20](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md); AMO-D084–AMO-D089), Developmental Maturity ([19](19_DEVELOPMENTAL_MATURITY_V0.md); AMO-D080–AMO-D083), harm horizons, the recovery law and Bloom maturity ([18](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md); AMO-D074–AMO-D078), the life-cycle state machine ([17](17_LIFE_CYCLE_STATE_MACHINE_V0.md); AMO-D070–AMO-D073), the human's own progression domain and Astral Capacity ([16](16_HUMAN_WARDEN_PROGRESSION_V0.md); AMO-D066–AMO-D069), the life-cycle, Astral Anchor and availability architecture ([15](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md); AMO-D058–AMO-D065), the individual's biological condition model ([14](14_CURRENT_BIOLOGICAL_CONDITION_V0.md); AMO-D056, AMO-D057), the environment model validated against four worked cases ([13](13_ENVIRONMENT_FIT_WORKED_SCENARIOS_V0.md)), including the World/Fit interaction boundary (AMO-D055), the embodiment model, the three-domain ownership split and the Standard/VR principles ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md), [11](11_STANDARD_AND_VR_GAMEPLAY.md); AMO-D028–AMO-D044), Earth as the World's geographic foundation ([02](02_WORLD_MODEL.md); AMO-D045), and the Environment and Environmental Fit model v0 ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md); AMO-D046–AMO-D053).
 
+The first complete qualitative integration trace is [22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md). It found no missing simulation owner and left productivity, direct Tuber susceptibility and the crossing into actual loss with AMO-Q116–AMO-Q118.
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -96,7 +98,7 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Draft the first paper prototype of the biological year** — one individual, one location, one full cycle from emergence through an active phase to dormancy, walked by hand with no numbers. Every persistent-model specification now written (condition, maturity, life cycle, harm, readiness) has been validated only against isolated cases; none has been run end to end as a single continuous life. That is the cheapest remaining way to find out whether they compose.
+1. **Clarify the generic acute-event → Leaf-impairment handoff on paper** — one abstract disturbance, from a World occurrence through phase-specific Leaf function, stopping before productivity formulas or persistent Tuber outcomes. The biological-year trace exposed this as the smallest next seam (AMO-Q020, AMO-Q086, [22](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
