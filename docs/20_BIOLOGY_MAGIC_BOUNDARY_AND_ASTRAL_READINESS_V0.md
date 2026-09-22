@@ -234,6 +234,16 @@ This produces real emergent risk: a dormant outdoor individual may physically co
 
 And a corresponding emergent recovery: a Warden loses an individual during Deep Dormancy, someone relocates it, months later Pre-Emergence begins and the signal returns — revealing that the Amorpho is now somewhere unexpected. Location fidelity is undecided (AMO-Q115).
 
+### The Astral Window
+
+When a manifestation ends — on the ordinary course of a cycle, or after a Leaf's functional collapse — the persistent Tuber may stay **astrally reachable** for a transitional biological period before Deep Dormancy silences it. That period is the **Astral Window** (AMO-D099).
+
+Inside it a Warden may establish **direct astral presence** with the persistent individual, for one purpose: influence over a biologically available routing decision ([26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)). That is not astral entry. The Tuber does not become a playable body — no locomotion, no combat, no exploration (AMO-D089, §9). Because nothing is animated, nothing runs on magical state and §4's suspension of biology does not apply: the individual's biology continues throughout, which is why the window can close while the Warden is present.
+
+Three limits travel with it. **Deep Dormancy closes it**, and a route already taken is not rewritten afterwards. **Presence is singular** — it occupies the same one consciousness that full embodiment occupies, so no second individual can be attended at the same moment (AMO-D028, AMO-D101). And a later new manifestation becomes playable only through the ordinary gates, including **Astral Readiness**, never as a continuation of window presence (AMO-D063, AMO-D086).
+
+Duration, exact boundaries, how presence is established and ended, and whether it costs readiness are open (AMO-Q085, AMO-Q112, AMO-Q119).
+
 ### The Radar is a resonance interface
 
 The Astral Radar represents the Warden's **living astral connections**, and is not global map tracking, exact positioning or universal plant detection (AMO-D061, AMO-D088). What it can show may depend on signal strength, and signal strength may affect **location fidelity** — a strong active signal potentially giving better awareness, a weak transitional signal less, Deep Dormancy none. No ranges, accuracy or interface are defined (AMO-Q092, AMO-Q115).
@@ -241,6 +251,8 @@ The Astral Radar represents the Warden's **living astral connections**, and is n
 ## 9. Tuber gameplay is deferred
 
 For v0 the astrally playable forms are **Leaf** and **Bloom**. Deep Dormant Tuber is not inhabitable and there is no Tuber fighter gameplay. Transitional tuber or pre-emergence gameplay remains a future possibility and is **not** developed now (AMO-D089, AMO-Q086).
+
+**Reachability does not loosen this.** A Tuber inside an Astral Window (§8) is reachable, not playable: the Warden may be present with the individual and still has no body to move, fight or explore with. *Astrally reachable* and *inhabitable* are different questions, and only the second produces an Amorpho (AMO-D099).
 
 This is deliberate scope discipline, and it costs nothing: the dormant Tuber remains highly relevant to the **Human layer** — transport, relocation, trade, repotting, digging, safe seasonal handling, Anchor management and strategic placement all happen there (AMO-D062, L23).
 
@@ -273,8 +285,9 @@ Also open: Astral Readiness representation, depletion and recovery (AMO-Q112) ·
 | its signal returns in Pre-Emergence | signal returns before inhabitability (§8) |
 | the Anchor is not GPS | a bridge, not a tracker (§8) |
 | transitional states matter without Tuber fighting | the signal changes there (§8, §9) |
+| a reachable Tuber is still not a fighter | the Astral Window carries presence, not embodiment (§8, §9) |
 | Programmed Draw ≠ Pathological Impact | spending versus losing (§2) |
 
 ## 12. Open questions
 
-Astral Readiness representation, depletion and recovery (AMO-Q112) · KO and forced exit (AMO-Q113) · magical healing (AMO-Q114) · Astral Signal strength and location fidelity (AMO-Q115). Related: the Core-Impact Threshold and Pathological Tuber Impact (AMO-Q108), astral access windows (AMO-Q085), phase-specific gameplay (AMO-Q086, AMO-Q109), Bloom content and timing (AMO-Q088, AMO-Q107), Anchor rebinding (AMO-Q091), the Radar (AMO-Q092), the unattended human body (AMO-Q041).
+Astral Readiness representation, depletion and recovery (AMO-Q112) · KO and forced exit (AMO-Q113) · magical healing (AMO-Q114) · Astral Signal strength and location fidelity (AMO-Q115). Related: the Core-Impact Threshold and Pathological Tuber Impact (AMO-Q108), astral access windows (AMO-Q085), phase-specific gameplay (AMO-Q086, AMO-Q109), Bloom content and timing (AMO-Q088, AMO-Q107), Anchor rebinding (AMO-Q091), the Radar (AMO-Q092), the unattended human body (AMO-Q041), and astral presence at a routing point (AMO-Q119).

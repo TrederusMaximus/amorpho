@@ -126,6 +126,8 @@ For the later intra-cycle **replacement Emergence** loop (§8), this ordinary tr
 
 A **second, independent curve** runs alongside it: the **Astral Signal**, which fades through Senescence, is absent in Deep Dormancy (*Astral Silence*) and returns in Pre-Emergence — potentially before inhabitability does. Detectable and enterable are different questions and need not move together (AMO-D088, [20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)).
 
+The transitional period in which a Tuber without a viable playable manifestation remains reachable is named the **Astral Window** (AMO-D099). It is these two existing curves at that moment, not a new state or a fourth access value, and reachable never means playable: a Warden present there influences a routing decision and has no body to move (AMO-D089).
+
 ### Deep Dormancy is not tuber gameplay
 
 Deep Dormancy exists precisely as a **biologically closed** state. It is not a "tuber fighter mode" with the graphics turned off. If tuber-form gameplay ever exists it belongs to the transitional windows — shortly after dormancy entry, or during pre-emergence — or to some other explicitly defined active tuber state, never to deep dormancy itself (AMO-D060, AMO-Q086).
@@ -189,7 +191,17 @@ ACTIVE LEAF → impairment review
         → retreat selected or required → SENESCENCE → EARLY DORMANCY
 ```
 
-The replacement route is **costly intra-cycle salvage**: new structure, reduced in the current design direction, funded by remaining Tuber capacity and formed over biological time. It does not reset the season, the individual or lost productive opportunity. Early retreat uses the existing Senescence path, whether necessary or chosen to conserve capacity. **Eligibility is not automatic selection**; when agency is absent an autonomous biological selection is required (AMO-D097). The exact functional-collapse test, eligibility, autonomous policy, player agency and route costs are open (AMO-Q101, AMO-Q119).
+The replacement route is **costly intra-cycle salvage**: new structure, reduced in the current design direction, funded by remaining Tuber capacity and formed over biological time. It does not reset the season, the individual or lost productive opportunity. Early retreat uses the existing Senescence path, whether necessary or chosen to conserve capacity. **Eligibility is not automatic selection**, and the graph does not say who selects. That is a three-layer question outside the topology ([26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)):
+
+```text
+feasible routes          ← biology alone
+    ↓
+autonomous preference    ← the individual, for its own long-term continuation (AMO-D098)
+    ↓
+astral override          ← only with direct astral presence, only among feasible routes (AMO-D100, AMO-D101)
+```
+
+The individual stays reachable for a transitional period after a manifestation ends — the **Astral Window** — and **Deep Dormancy closes it** (AMO-D099, AMO-D060). No `WAITING_FOR_PLAYER` state exists, and none may be added: an unattended individual routes itself while the World advances (AMO-D097, AMO-D009). The exact functional-collapse test, eligibility, autonomous policy, presence mechanics and route costs are open (AMO-Q101, AMO-Q119).
 
 Emergence already means a manifestation is forming, so this loop needs no eighth state or new annual cycle. It does **not** decide whether an old Leaf remains partly present during the new Leaf's formation, whether another replacement can follow, or how astral access, Signal and Readiness apply to the replacement (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). The ordinary route from Pre-Emergence into Emergence remains intact.
 
@@ -319,4 +331,4 @@ Each can be added without changing the topology:
 
 ## 16. Open questions
 
-The state machine's remaining detail (AMO-Q084) · access opening and closing points, and transition legibility (AMO-Q085) · phase-specific abilities and integrity, including transitional tuber forms (AMO-Q086) · premature retreat cost (AMO-Q087) · Bloom's content (AMO-Q088) · transition triggers (AMO-Q101). Related: controlled environments (AMO-Q049), reproduction (AMO-Q079), discoverability (AMO-Q015), core damage and recovery ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)), the Astral Radar (AMO-Q092).
+The state machine's remaining detail (AMO-Q084) · access opening and closing points, and transition legibility (AMO-Q085) · phase-specific abilities and integrity, including transitional tuber forms (AMO-Q086) · premature retreat cost (AMO-Q087) · Bloom's content (AMO-Q088) · transition triggers and autonomous routing policy (AMO-Q101) · astral presence at a routing point (AMO-Q119). Related: controlled environments (AMO-Q049), reproduction (AMO-Q079), discoverability (AMO-Q015), core damage and recovery ([18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md](18_PHASE_DAMAGE_CORE_RECOVERY_AND_BLOOM_MATURITY_V0.md)), the Astral Radar (AMO-Q092).

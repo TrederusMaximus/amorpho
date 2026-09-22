@@ -25,6 +25,12 @@ If a player owns a hundred Amorphos:
 
 A collection is therefore **not a remotely controllable army**. Collection size creates options, logistics and strategic choices; it never creates simultaneous direct control. Anything that would let a player act through several plants at once — squad commands, remote orders, automated defence by uninhabited plants — contradicts this law and needs a new decision, not a quiet feature.
 
+### Strategic presence counts against the same one
+
+A Warden may also reach an individual that has **no playable manifestation at all** — a persistent Tuber still reachable during its **Astral Window** — in order to influence a biological routing decision it is about to make (AMO-D099, [26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)). That is not embodiment: there is no body, no locomotion, no combat and no exploration, and the Tuber never becomes an avatar (AMO-D089).
+
+It is nevertheless the **same single presence**. Direct astral presence occupies the one consciousness that inhabitation occupies (AMO-D101), so a Warden intervening with one individual is not simultaneously acting as the human or through another Amorpho, and ownership, Radar awareness or Astral Capacity supply none of it. Playable inhabitation resumes only once an appropriate manifestation exists and passes the ordinary gates, including Astral Readiness (AMO-D063, AMO-D086).
+
 ## 3. Two bodies, both persistent
 
 The human body and the plant body are separate persistent physical entities (AMO-D029). Astral transfer changes which one the player's consciousness occupies; it removes neither from the world.
@@ -226,7 +232,8 @@ Because only one body can be inhabited, simultaneous threats become genuine deci
 - whether the human can reach one;
 - whether another player can help;
 - whether infrastructure exists nearby;
-- whether one must be left at risk.
+- whether one must be left at risk;
+- whether one is about to reach a biological routing decision that no one will be present for (AMO-D098).
 
 This should **emerge from the simulation**, not from a scripted choice screen (L37).
 
@@ -323,4 +330,4 @@ The lore of the transfer (amulet, belt, ritual room, several artifacts, or a com
 
 ## 21. Open questions
 
-Astral transfer lore (AMO-Q039), eligibility and permission (AMO-Q040), the unattended human body (AMO-Q041), inhabitability and re-entry (AMO-Q042), rooting sites (AMO-Q043), environmental prognosis (AMO-Q044), critical condition and death (AMO-Q045), physical rescue (AMO-Q046), Amorpho-to-Amorpho rescue (AMO-Q047), equipment on rooting (AMO-Q048), and the three tolerance concepts (AMO-Q051). Earlier related questions: the artifact (AMO-Q021), transformation rules (AMO-Q022), cultivation's effect on combat (AMO-Q025), loss and recovery (AMO-Q026). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).
+Astral transfer lore (AMO-Q039), eligibility and permission (AMO-Q040), the unattended human body (AMO-Q041), inhabitability and re-entry (AMO-Q042), rooting sites (AMO-Q043), environmental prognosis (AMO-Q044), critical condition and death (AMO-Q045), physical rescue (AMO-Q046), Amorpho-to-Amorpho rescue (AMO-Q047), equipment on rooting (AMO-Q048), the three tolerance concepts (AMO-Q051), and astral presence at a biological routing point (AMO-Q119). Earlier related questions: the artifact (AMO-Q021), transformation rules (AMO-Q022), cultivation's effect on combat (AMO-Q025), loss and recovery (AMO-Q026). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).

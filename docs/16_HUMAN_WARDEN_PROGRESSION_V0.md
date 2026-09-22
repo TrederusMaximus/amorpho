@@ -41,6 +41,8 @@ The first confirmed dimension of human progression (AMO-D067):
 
 It is deliberately narrow. It means capacity, and nothing else.
 
+In particular, a sustained *connection* is not a presence. Capacity bounds how many active Anchor relationships a Warden can hold open at once; it never lets them act through two individuals at the same moment, because **direct astral presence** — full embodiment, or strategic presence at a reachable individual's routing point — occupies the one consciousness (AMO-D028, AMO-D101, [26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)).
+
 ### Physical Anchors and capacity are different constraints
 
 | | Belongs to | Question |

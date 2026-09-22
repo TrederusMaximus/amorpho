@@ -233,3 +233,7 @@ Astral Readiness persists across exit and re-entry. It is restored by returning 
 ### L51 — Leaf damage is judged by lost function and lost opportunity, not by appearance.
 What a damaged manifestation costs the persistent individual depends on how much useful biological work it can still do, how much of the active phase remains, and what the environment does next — never on how bad it looks. *(AMO-D091, AMO-D079)*
 **Smell:** a percentage of structure mapped to a persistent consequence, or identical outcomes assigned to early and late damage solely because they look alike.
+
+### L52 — Magic chooses among biological paths; it never creates or discounts one.
+Astral leverage may select any route the individual's biology can actually execute, including one the plant would never choose for itself. It cannot fund what the Tuber cannot fund, skip the time a biological process takes, or make a compelled route cheaper than the same route chosen autonomously. *(AMO-D100, AMO-D097)*
+**Smell:** a forced emergence that costs less than a natural one, a Warden command producing capacity the individual does not have, or a route that becomes possible because the player wants it badly enough.
