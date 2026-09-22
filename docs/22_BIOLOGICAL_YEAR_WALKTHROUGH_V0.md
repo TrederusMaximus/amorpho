@@ -16,6 +16,8 @@ Individual A passes through **Pre-Emergence**, then **Emergence**, then **Active
 
 The signal can return faintly in Pre-Emergence before entry is possible. Access widens through Emergence; its exact opening point is open (AMO-Q085). Once Active Leaf is established, the phase permits entry, subject separately to the Anchor relationship and biological inhabitability. A new Leaf is a temporary manifestation of **the same individual**. Persistent Tuber condition, reserves, maturity, identity and genetics did not reset or split. The Leaf now offers biological productive opportunity; how that opportunity is represented is AMO-Q116.
 
+For this trace the Leaf deploys soundly, but the year model must not **assume** that. A Leaf damaged during Emergence may reach Full Deployment already compromised and begin its productive phase imperfect, then stabilize, hold or decline through the active period ([31](31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md), [32](32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md), AMO-D113).
+
 ## Rooted, healthy work
 
 The World supplies changing **Local Environment State** at A's Earth location. In this part of the trace its conditions are favourable for A. The World owns the conditions; it does not label them favourable. **Environmental Fit** evaluates those conditions against A's effective biological response profile. Its condition direction can be stable while its growth/recovery opportunity is strong: the two outputs must be read together (AMO-D035–AMO-D037, AMO-D049).

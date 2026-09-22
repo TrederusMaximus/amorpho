@@ -106,6 +106,7 @@ docs/
   29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md shared Leaf/Bloom emergence and Full Deployment before inhabitation
   30_EMERGENCE_INVESTMENT_AND_FULL_DEPLOYMENT_ACCOUNTING_BOUNDARY_V0.md sunk Tuber construction cost and mature manifestation handoff
   31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md damage during construction, imperfect deployment and failure
+  32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md first mature period of a Leaf that deployed compromised
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
