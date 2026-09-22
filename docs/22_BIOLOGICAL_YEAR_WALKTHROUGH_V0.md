@@ -85,3 +85,5 @@ These are distinct state dimensions, not a combined score. “Approximately unch
 The trace closes **conceptually**: each stage has an owner and an allowed successor, and the healthy, recovered and harmed outcomes can coexist without contradiction. The gaps are rules *inside* existing handoffs, not a missing fourth simulation domain. This document does not decide their rates, thresholds, event mechanics, Bloom routing, species interpretation or representation; no new decision, law or open question is required.
 
 The event-to-Leaf handoff is traced separately in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md), stopping at post-event manifestation state before this year's later productivity or Tuber outcome is considered.
+
+The [same-phase recovery trace](24_SAME_PHASE_LEAF_RECOVERY_V0.md) then tests how that Leaf may stabilize and regain function without restoring lost mature structure or elapsed opportunity. Its separate replacement branch is possible, not assumed in this particular year.

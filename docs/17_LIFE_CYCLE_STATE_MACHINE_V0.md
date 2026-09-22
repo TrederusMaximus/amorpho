@@ -69,6 +69,8 @@ Three families and seven states. Families group states that behave alike for acc
 
 Entry into the Active family comes through Emergence; exit is through Senescence. Routing *within* the Active family, and which active state an individual first enters, is **parameterised** — see §5.
 
+The later [same-phase Leaf recovery trace](24_SAME_PHASE_LEAF_RECOVERY_V0.md) permits **replacement emergence** when an existing mature Leaf cannot adequately continue (AMO-D094). This v0 graph does not yet specify whether that new Leaf is routed through Emergence again or represented within Active Leaf. The possible pathway is not an automatic transition; AMO-Q084 owns its topology, AMO-Q101 its trigger, and AMO-Q085 its access window. The existing individual and its persistent state continue throughout.
+
 ## 5. Bloom is a sibling active state
 
 This was the one genuinely open structural question, and three candidate shapes were considered.

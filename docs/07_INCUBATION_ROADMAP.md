@@ -40,7 +40,9 @@ Done in this phase so far: Pathological Tuber Impact ([21](21_PATHOLOGICAL_TUBER
 
 The first complete qualitative integration trace is [22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md). It found no missing simulation owner and left productivity, direct Tuber susceptibility and the crossing into actual loss with AMO-Q116–AMO-Q118.
 
-The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md): a World occurrence becomes local exposure, then a distinct structural and functional state of the current Leaf. Event representation, response rules and same-phase repair remain open.
+The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md): a World occurrence becomes local exposure, then a distinct structural and functional state of the current Leaf. Event representation and response rules remain open.
+
+[24_SAME_PHASE_LEAF_RECOVERY_V0.md](24_SAME_PHASE_LEAF_RECOVERY_V0.md) traces mature-Leaf stabilization and functional recovery separately from possible replacement emergence. Recovery extent and replacement routing remain open; neither trace evaluates persistent Tuber outcome.
 
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
@@ -100,7 +102,7 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Trace same-phase Leaf recovery on paper** — follow one impaired Leaf after the event to clarify what functional improvement can mean without assuming structural repair, stopping before productivity or persistent Tuber outcomes (AMO-Q103, [23](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md)).
+1. **Trace replacement emergence routing on paper** — follow an inadequate mature Leaf through possible new-Leaf emergence and old-Leaf handoff, testing the existing life-cycle topology without deciding costs, access windows or persistent outcome (AMO-Q084, [24](24_SAME_PHASE_LEAF_RECOVERY_V0.md)).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).

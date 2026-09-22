@@ -85,13 +85,13 @@ These are separate, and conflating them is the easy mistake:
 | **Biological recovery of the individual** | stress falls, reserves rebuild, vitality returns — driven by Environmental Fit |
 | **Repair of the current manifestation** | a physically damaged leaf does not become structurally whole because conditions improved |
 
-Some impairment may simply last until the leaf is abandoned. How much in-phase repair is possible at all is open (AMO-Q103).
+Some impairment may last until the Leaf is abandoned. For a **fully deployed mature Leaf**, the [same-phase recovery trace](24_SAME_PHASE_LEAF_RECOVERY_V0.md) now fixes a ceiling: the current structure may stabilize and regain function but does not regrow lost architecture into its pristine original form (AMO-D094). Its recovery extent and mechanics remain AMO-Q103.
 
 ### A new leaf is a new structure
 
-A later cycle's leaf **does not inherit** the previous leaf's physical damage (AMO-D074). The old structure is gone.
+A new Leaf **does not inherit** the previous Leaf's physical damage (AMO-D074), whether it follows a later cycle or a possible replacement emergence during a disrupted active period (AMO-D094). The old structure is not repaired into the new one; replacement routing remains AMO-Q084.
 
-But the individual enters that cycle carrying everything else — reserves, stress load, vitality, developmental maturity, overall development. **Seasonal structural renewal without erasing biological history.**
+The individual carries everything else — reserves, stress load, vitality, developmental maturity, overall development — into either new manifestation. **Structural renewal without erasing biological history.**
 
 ### Damaged seasons are graded, not binary
 
