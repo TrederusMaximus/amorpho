@@ -52,6 +52,8 @@ It carries a real risk: a vague universal score can quietly absorb every future 
 
 It is therefore retained but **unproven rather than validated**. Its real test comes only when acute events exist (AMO-Q020), and it may decompose then (AMO-Q069).
 
+The [acute event → Leaf impairment trace](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md) clarifies the conceptual handoff from occurrence to local exposure to biological response. It does not add a discrete event to this v0 vector or validate the provisional dimension.
+
 No units, scales or normalisation are chosen. Standard physical units are a likely eventual representation for some dimensions; that is a note, not a decision (AMO-Q069).
 
 ## 4. What v0 leaves out, and why

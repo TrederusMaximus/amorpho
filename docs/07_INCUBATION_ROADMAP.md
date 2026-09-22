@@ -40,6 +40,8 @@ Done in this phase so far: Pathological Tuber Impact ([21](21_PATHOLOGICAL_TUBER
 
 The first complete qualitative integration trace is [22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md). It found no missing simulation owner and left productivity, direct Tuber susceptibility and the crossing into actual loss with AMO-Q116–AMO-Q118.
 
+The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md): a World occurrence becomes local exposure, then a distinct structural and functional state of the current Leaf. Event representation, response rules and same-phase repair remain open.
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -98,7 +100,7 @@ Phases 5–7 are described only in outline on purpose; they will be specified wh
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Clarify the generic acute-event → Leaf-impairment handoff on paper** — one abstract disturbance, from a World occurrence through phase-specific Leaf function, stopping before productivity formulas or persistent Tuber outcomes. The biological-year trace exposed this as the smallest next seam (AMO-Q020, AMO-Q086, [22](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)).
+1. **Trace same-phase Leaf recovery on paper** — follow one impaired Leaf after the event to clarify what functional improvement can mean without assuming structural repair, stopping before productivity or persistent Tuber outcomes (AMO-Q103, [23](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md)).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
