@@ -25,6 +25,8 @@ This is precisely why combat can have persistent biological consequence: there i
 
 Layers A and C are **distinct but coupled**. Layer B is the reason that separation can exist in practice. Layer D keeps the ordinary manifestation-first rule (AMO-D079, AMO-D111, L55).
 
+Layer D is also **physically inside** layer C while the manifestation is inhabited: the Tuber is carried within the animated body as its central core ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md), AMO-D129). That changes no rule here — ordinary body-reaching damage damages the manifestation and is not automatic Tuber injury — but it is what makes complete destruction of the body expose the core rather than produce a drop from nowhere (AMO-D130, AMO-D131).
+
 ## 4. Combat state is not biological condition
 
 > **Combat state answers “can this Amorpho continue this fight?”. Biological state answers “what condition is this Leaf or Bloom actually in?”.**
@@ -141,7 +143,7 @@ Because the body is a living individual, a collection becomes a risk-management 
 
 Nothing here prohibits future game systems, but biology should supply the primary systemic reason to rotate valuable Amorphos. One Consciousness still limits direct control to one body (AMO-D028, AMO-D101, L22, L53); other plants continue under ordinary world biology, and only the inhabited manifestation's progression is suspended (AMO-D009, AMO-D084). No party, squad, selection interface or simultaneous control is created.
 
-Because the manifestation is one body throughout, **damage is physically continuous** across the boundary: scars present before entry are present while embodied, and damage taken while embodied remains visible once rooted. No rendering, visual or interface behaviour is designed. Biological history may later be recorded as individual history — major injuries, recovery episodes, collapse events, successful seasons after damage — without any storage schema here (AMO-Q120). Scars carry history, never a strength rating in either direction (L51).
+Because the manifestation is one body throughout, **damage is physically continuous** across the boundary in both directions: scars and wear the rooted Leaf already carried are present while embodied, and damage taken while embodied remains once rooted, with no conversion step and no separate fighter copy (AMO-D134). How the body looks records its own history, never the persistent core's. No rendering, visual or interface behaviour is designed. Biological history may later be recorded as individual history — major injuries, recovery episodes, collapse events, successful seasons after damage — without any storage schema here (AMO-Q120). Scars carry history, never a strength rating in either direction (L51).
 
 ## 13. The Tuber boundary
 

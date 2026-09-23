@@ -184,7 +184,7 @@ Unanchored plants grow, enter dormancy, emerge, flower, reproduce, die, establis
 
 ### Anchors belong to the individual, not the place
 
-The Anchor is associated with the **persistent individual**, not with the pot, the property, the greenhouse or the location. If the plant is repotted, moved, animated or rooted elsewhere, the Anchor stays with it until physically removed. The physical attachment method is open (AMO-Q089).
+The Anchor is associated with the **persistent individual**, not with the pot, the property, the greenhouse or the location. If the plant is repotted, moved, animated or rooted elsewhere, the Anchor stays with it until physically removed. The physical attachment method is open (AMO-Q089). Physically it stays with the **persistent Tuber core**, so it travels inside an inhabited manifestation, survives the loss of that manifestation, and may remain at the site as an object even where no viable individual does — an Anchor is never the plant ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md), AMO-D132). An Amorpho carrying its own attached Anchor is not moving or reallocating one; that still needs human hands (AMO-D062, L42).
 
 ### Anchors are reusable
 

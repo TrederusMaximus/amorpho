@@ -299,11 +299,13 @@ How does an individual recover from a critical state? Can some damage become per
 **Status:** OPEN · **Constraints:** AMO-D029, AMO-D031
 How does the human physically rescue a plant that can no longer be inhabited — retrieval, transport, repotting, treatment, relocation, controlled cultivation? Can friends rescue each other's plants, and on what permission?
 *Notes:* This is what keeps the Human / World layer necessary (L23). Relates to travel (AMO-Q002), ownership (AMO-Q007) and distributed safe locations.
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* physical rescue now includes recovering a **core exposed in the field** after manifestation destruction: it cannot move itself, so a physical actor must pick it up, carry it and place or root it (AMO-D130). Whoever reaches it first may take custody, which is not ownership (AMO-D065, L43). Human travel, risk and any conflict at the site remain open (AMO-Q130).
 
 ### AMO-Q047 — Amorpho-to-Amorpho rescue, carrying and transport
 **Status:** OPEN · **Constraints:** AMO-D028, AMO-D030
 Can an inhabited Amorpho rescue, carry, protect, transport or relocate another rooted Amorpho? Can it move a plant into better substrate, or carry it toward a greenhouse?
 *Notes:* Follows naturally from the embodiment model and is explicitly **not** approved. It would be a significant new capability: it partially routes around the one-body constraint, so any answer must keep AMO-D028 meaningful.
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* also covers a later, sequentially embodied Amorpho returning to recover an exposed core. That breaks nothing — One Consciousness forbids simultaneous bodies, not successive ones (AMO-D028) — but carrying, capacity and interaction rules remain entirely open.
 
 ### AMO-Q048 — Equipment at the moment of rooting
 **Status:** OPEN · **Constraints:** AMO-D032
@@ -457,12 +459,14 @@ How are **Leaf Functional Capacity** and **Remaining Productive Opportunity** re
 *Refined 2026-09-23 ([32](32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md)):* the Leaf Functional Capacity trajectory this question consumes may **start below** what an undamaged manifestation would have offered, so the productivity model must accept an initially impaired Leaf instead of assuming a sound one at Full Deployment (AMO-D113).
 *Refined 2026-09-23 ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md)):* viability and productivity stay separate: a Leaf may be viable but barely productive, or collapsed and no longer viable (AMO-D114). Collapse may end that Leaf's future contribution, and work already performed earlier in the phase is not erased when the manifestation ends. This question remains fully open and untouched by the collapse boundary.
 *Refined 2026-09-23 ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md)):* combat use now competes directly with productivity: a manifestation exposed to body damage may lose function and opportunity that this question must later integrate, and withdrawing it may salvage part of the season. Nothing quantitative follows here, and no combat-specific productivity term is introduced.
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* this question also determines how much persistent core a manifestation's work has rebuilt at any point in a season, which is what destruction exposes (AMO-D131). Construction depletes the core and later active work may rebuild it, so early and late destruction leave different survivors; only the **direction** is fixed here. Destruction ends the manifestation, not the season's history, and nothing in this pass is quantitative.
 
 ### AMO-Q117 — Direct Tuber susceptibility, storage and transport
 **Status:** OPEN · **Constraints:** AMO-D090, AMO-D093
 What conditions harm a Tuber **directly**, with what duration and at what severity? What does an excavated or unrooted Tuber actually need, how long can it wait, and how is a transported individual's environment abstracted?
 *Notes:* Fixed: direct harm may occur with no leaf present and bypasses the productivity pathway entirely, and **an excavated Tuber is neither automatically harmed nor in stasis** — *a biological Tuber does not become timeless because a Human is carrying it* (AMO-D090, AMO-D093). No harm mechanism, tolerance, timing or storage mechanic is defined; species tolerances must arrive as approved input, not be researched here (AMO-D024). This is where the Human transport layer gains real responsibility, so it should stay demanding enough to matter and forgiving enough not to punish ordinary handling. Relates to the time step (AMO-Q074) and substrate (AMO-Q050).
 *Refined 2026-09-22 ([22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md](22_BIOLOGICAL_YEAR_WALKTHROUGH_V0.md)):* a dormant individual with no Leaf still experiences local conditions. The direct-harm side check reaches persistent Tuber loss without passing through Leaf productivity. This question must supply future susceptibility and handling rules without treating Deep Dormancy as biological stasis or excavation as automatic damage.
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* also owns the condition of a core **exposed in the field** by manifestation destruction and then carried by a rescuer: it remains biologically simulated while unrooted, neither automatically harmed nor in stasis (AMO-D093, AMO-D130). Whether direct core exposure during combat opens a direct-injury pathway is shared with AMO-Q026 and AMO-Q109; no core-targeting mechanic exists.
 
 ### AMO-Q118 — Where a neutral outcome becomes actual loss
 **Status:** OPEN · **Constraints:** AMO-D092, AMO-D056
@@ -524,6 +528,7 @@ How does damage to the current manifestation change the inhabited Amorpho — av
 *Refined 2026-09-23 ([32](32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md)):* the impaired manifestation this question acts on may be impaired from its **own development**, not only from a later event. Playable is not biologically pristine: a scarred, compromised but biologically valid mature Leaf may be inhabited if the separate readiness and access gates are met (AMO-D107, AMO-D113).
 *Refined 2026-09-23 ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md)):* a terminal manifestation's distinctive visual state may later carry situational gameplay consequences before the Leaf is lost — an extension point only, with no mission, concealment or combat behaviour designed or promised (AMO-D116). Collapse itself is biological and identical inhabited or rooted.
 *Refined 2026-09-23 ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md)):* this question also owns the **protection architecture** — shields, wards, armour, worn protection, blocking, parrying, evasion and positioning — as the layer that decides whether a hostile effect reaches the biological body (AMO-D122), together with hit determination and any body-zone model. Two requirements bind it in opposite directions: serious fighting must genuinely risk the manifestation, and regular skilled fighting must remain viable. It still owns how biological condition changes a playable Amorpho, and scars remain history rather than a strength rating (L51).
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* core exposure is now physically expressible — the Tuber rides inside the manifestation as its central core (AMO-D129) — so this question also owns whether any hit location, body zone or core-targeting concept exists, and what could constitute complete destruction of a body. Ordinary body damage must remain manifestation damage, never automatic Tuber injury (AMO-D121, L58).
 
 ### AMO-Q102 — Vitality recovery dynamics
 **Status:** OPEN · **Constraints:** AMO-D075, AMO-D076
@@ -546,6 +551,7 @@ How much and how quickly can a damaged current Leaf or Bloom recover *during* it
 **Status:** OPEN · **Constraints:** AMO-D075, AMO-D076
 What exactly constitutes loss of biological viability? Is death a vitality threshold, a terminal developmental outcome, or something at the intersection? Can it ever be instantaneous?
 *Notes:* Death is the **only** permanently terminal outcome (AMO-D075), which makes its boundary unusually consequential — everything short of it must be recoverable. Must be coherent with fragment survival, which is explicitly *not* death while living continuity remains (AMO-Q094). Relates to AMO-Q026.
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* this question owns the **Tuber Core Viability** criterion: whether a core exposed by complete manifestation destruction can continue as a living individual (AMO-D131). Fixed already: it is qualitative rather than a threshold, it is history-dependent and never a calendar rule, and **viable does not mean healthy**. A non-viable core is the one genuinely irreversible outcome combat can reach, so this boundary now carries combat stakes as well as biological ones.
 
 ### AMO-Q105 — Treatment and care
 **Status:** OPEN · **Constraints:** AMO-D075, AMO-D054
@@ -571,6 +577,7 @@ How does a species profile turn a maturity coordinate into biological expression
 **Status:** OPEN · **Constraints:** AMO-D080, AMO-D068
 What does a player actually see — rough size or maturity bands, visual manifestation, Bloom readiness, biological indicators, or a precise figure? How is a slow axis made legible without turning it into a progress bar?
 *Notes:* The simulation may hold a precise internal quantity while the player sees something coarser; presentation is deliberately undecided (AMO-D080). The risk is specific: displayed as a number that visibly ticks up, maturity will read as experience points no matter what the documentation says (L47). Relates to how human progression is communicated (AMO-Q100) and to knowing-is-not-showing (L14).
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* this question also owns what an observer — the owner or anyone else — can perceive about a manifestation versus its persistent core. Fixed: visible manifestation condition records the manifestation's history and is **not** a proxy for core capacity or Tuber Core Viability, a pristine body is a signal rather than proof, and no scanning, inspection or readout mechanic exists (AMO-D134). The information asymmetry is deliberate and must survive whatever presentation is chosen (L14, L51).
 
 ### AMO-Q107 — Bloom eligibility inputs and repeated-Bloom timing
 **Status:** OPEN · **Constraints:** AMO-D078, AMO-D059
@@ -666,6 +673,7 @@ How long does Bloom last, what can a flowering individual do that others cannot,
 **Status:** OPEN · **Constraints:** AMO-D007, AMO-D061
 What is an Anchor physically, how does it attach to an individual, and how does it pair with the human Warden artifact? Is attachment alone sufficient, or is a ritual required? Is "Astral Anchor" the final name?
 *Notes:* "Astral Anchor" is working terminology. The artifact's own form and lore remain open (AMO-Q021). What is fixed is only that the Anchor is physical, reusable, and bound to the individual rather than to a pot or place (AMO-D061).
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* the Anchor's physical home is now fixed: it stays with the **persistent Tuber core**, travels inside an inhabited manifestation, and survives that manifestation's loss (AMO-D132). Its form, attachment method and pairing remain open, and must be compatible with an Anchor that can lie at a collapse site with no living plant attached.
 
 ### AMO-Q090 — Anchor economy
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D062
@@ -678,6 +686,7 @@ How many Anchors can a player have? How are they acquired — found, bought, cra
 How does an Anchor change hands legitimately, and what happens when one is stolen along with its plant? Can a stolen Anchor be rebound to a new player, and under what conditions? Can an Anchor be stolen on its own?
 *Notes:* Physical possession is **not** assumed to grant astral access (AMO-D065). This sits between theft rules (AMO-Q008) and ownership (AMO-Q093), and it must not become a way to bypass the human-hands rule (AMO-D062).
 *Refined 2026-09-21 ([20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md)):* **explicitly still unresolved, and now more consequential.** Deep Dormancy silences the astral signal, so a dormant outdoor individual may be found, dug up, moved and its Anchor possessed with no live tracking to betray it (AMO-D088). Candidate models remain open: a Warden-specific Anchor a finder cannot use, a rebindable one, or conditional or difficult rebinding. Nothing is chosen.
+*Refined 2026-09-23 ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md)):* a new case belongs here: an Anchor remaining at a collapse site where **no viable individual survives**. Fixed only that it is not automatically destroyed with the plant and is never itself the individual (AMO-D132). Whether such an empty Anchor can be recovered, repaired, rebound or reused is unresolved, and physical custody still grants no astral access (AMO-D065).
 
 ### AMO-Q092 — The Astral Radar
 **Status:** OPEN · **Constraints:** AMO-D061, AMO-D060

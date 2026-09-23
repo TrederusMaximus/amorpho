@@ -12,6 +12,8 @@ The collapse brings this individual to the functional-collapse routing point in 
 
 ## 2. Transitional Tuber and the Astral Window
 
+The Window presupposes a **living persistent Tuber**. If a manifestation is physically destroyed and no viable core survives, the biological individual is lost and there is nothing for a Window to operate on — a remaining Astral Anchor is an object, not an individual ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md), AMO-D131, AMO-D132). Where a viable core does survive, it may be reachable here while remaining immobile and unplayable, so physical rescue is still required (AMO-D130).
+
 The Tuber does not jump straight to Deep Dormancy. After the Leaf loses its active role, the individual can remain biologically active and astrally reachable during a transitional period. **That reachable period is the Astral Window** (AMO-D099). Its exact opening and duration remain AMO-Q085; it is defined by biological state, not by a clock or a display.
 
 An Astral Signal can make the anchored individual detectable and potentially represent it as reachable to the Warden through the existing astral system. Detection says that access may remain; it does not convey control, exact remaining time, exact capacity, route eligibility or a forecast (AMO-Q092, AMO-Q115, AMO-Q119). Physical Anchor and phase access still matter (AMO-D063, AMO-D101).

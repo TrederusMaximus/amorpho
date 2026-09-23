@@ -60,6 +60,8 @@ PERSISTENT PLANT INDIVIDUAL
 
 Identity, provenance, lineage, ownership, history, genetics and individual variation belong to the individual and cross the boundary with it. They are not copied into a separate fighter object, and they are not suspended while the individual is animated.
 
+The continuity is **physical as well as conceptual**: while the manifestation is inhabited, the persistent **Tuber is carried inside it as its central biological core**. It does not stay behind at the previous rooting site, so an embodied Amorpho that travels physically moves the individual, and rooting establishes it at the new location. If the manifestation is completely destroyed, that core is exposed where the Amorpho fell ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md), AMO-D129, AMO-D130, L60).
+
 This is why the concept works at all: the plant you raised is the fighter you play (L16). An architecture that instantiates an unrelated combat entity and reconciles it afterwards has already lost the point.
 
 Embodiment therefore **animates the manifestation; it does not instantiate a damage-insulated copy of it.** A hostile effect that reaches that body is real biological damage to it, immediately and persistently, while the combat state the fighting layer runs on remains a separate domain — and protection is what stands between the two ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120–AMO-D122, L58).

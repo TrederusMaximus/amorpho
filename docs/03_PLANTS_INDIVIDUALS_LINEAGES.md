@@ -52,7 +52,7 @@ Over its life an individual can accumulate provenance such as:
 - phenotype and game traits;
 - transformation and combat history, where appropriate.
 
-An individual is also not the same thing as its **current visible structure**. Across its life it may be a tuber, a leaf-form plant or a flowering individual, and identity, lineage, genotype and history stay attached to the individual through every phase — a plant that loses its leaf and grows another has not become a second plant (AMO-D058, [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)).
+An individual is also not the same thing as its **current visible structure**. Across its life it may be a tuber, a leaf-form plant or a flowering individual, and identity, lineage, genotype and history stay attached to the individual through every phase — a plant that loses its leaf and grows another has not become a second plant (AMO-D058, [15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md](15_LIFE_CYCLE_ASTRAL_ANCHORS_AND_AVAILABILITY.md)). The same individual persists through embodiment, where its **Tuber travels inside the animated manifestation as the central core**, and through the loss of that manifestation, where whatever core survives lies exposed at the site with its identity and history intact ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md), AMO-D129, AMO-D130).
 
 **Knowing is not showing.** The simulation may track all of this; what any player sees is a separate design decision (L14). For example, a player might know only that a plant was "bought from a collector", while the world knows its full chain of custody.
 
