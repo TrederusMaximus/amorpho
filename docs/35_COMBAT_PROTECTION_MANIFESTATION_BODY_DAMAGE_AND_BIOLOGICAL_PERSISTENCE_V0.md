@@ -111,7 +111,7 @@ still-viable but damaged Leaf → Warden exits → rooted biological life resume
    → the active phase may still be completed successfully
 ```
 
-Rooting is rehabilitation through **ordinary** biology. No combat-recovery system, infirmary or repair abstraction is introduced; conditions matter through Environmental Fit exactly as they always do ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md), AMO-D033, L27). Rooting is not a reset either: existing damage remains and recovery starts from the actual condition (AMO-D072, L50).
+Rooting is rehabilitation through **ordinary** biology, and what that rehabilitation consists of is specified in [40](40_ROOTED_MATURE_LEAF_RECOVERY_CEILING_AND_COMPENSATORY_REMODELING_V0.md): stabilization, scarring, compensatory remodeling and substantial functional recovery bounded by a **Recovery Ceiling** that further combat damage can permanently lower (AMO-D139–AMO-D141). No combat-recovery system, infirmary or repair abstraction is introduced; conditions matter through Environmental Fit exactly as they always do ([12](12_ENVIRONMENT_AND_FIT_MODEL_V0.md), AMO-D033, L27). Rooting is not a reset either: existing damage remains and recovery starts from the actual condition (AMO-D072, L50).
 
 Mature architecture still does not regrow into its pristine form (AMO-D094). Combat scars can therefore matter for the rest of that manifestation's life, while stabilization and compensation may restore useful function ([32](32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md)).
 

@@ -277,3 +277,7 @@ The persistent Tuber rides inside the embodied Amorpho as its central core, so m
 ### L61 — A lost Leaf forfeits its future work, not the work already done.
 A mature Leaf gives the Tuber only what it actually had the function, conditions and biological time to produce, and that persistent return is never undone by later damage, Collapse or destruction. Embodiment pauses the work rather than banking it, so a season's persistent result is the history of what the manifestation really did while it was rooted and functional. *(AMO-D135, AMO-D136, AMO-D137, AMO-D138)*
 **Smell:** a loss that retroactively cancels a season, productive return read off elapsed time or appearance, a single Tuber balance or energy currency, maturity awarded as points for activity, or a disappointing season treated as injury.
+
+### L62 — The Leaf cannot rebuild what is gone; it can make far better use of what remains.
+Mature rehabilitation stabilizes surviving architecture, scars, and reorganizes what is left so it carries more useful function — it never reconstructs lost structure. Functional recovery can therefore be substantial while the scars stay permanent, bounded by a Recovery Ceiling that every further injury can lower and no environment can lift. *(AMO-D139, AMO-D140, AMO-D141, AMO-D094)*
+**Smell:** a rooted Leaf growing back what it lost, rooting treated as healing, favourable conditions producing a pristine reset, a fresh body between fights, a recovery percentage or healing currency, or scars read as strength.

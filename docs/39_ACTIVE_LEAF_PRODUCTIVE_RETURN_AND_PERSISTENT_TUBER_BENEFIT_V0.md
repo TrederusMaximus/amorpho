@@ -116,7 +116,7 @@ Both can end with a battered-looking fighter. Only one has a robust core, and **
 
 Mature Leaf damage reaches persistent outcome **through function and opportunity**, never as a direct debit: it can reduce Functional Capacity, shorten useful active life and consume Remaining Productive Opportunity (AMO-D079, AMO-D111, L55). That is the thread tying [23](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md), [24](24_SAME_PHASE_LEAF_RECOVERY_V0.md), [32](32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md), [33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) and [38](38_END_TO_END_COMBAT_ENCOUNTER_AND_BIOLOGICAL_CONTINUITY_TRACE_V0.md) together.
 
-**Functional Collapse** ends reliance on that Leaf, so future return from it becomes unavailable or biologically negligible under whatever model follows (AMO-D114). **Manifestation destruction** ends it outright (AMO-D130). In both cases:
+Rehabilitation works the same lever in the other direction: stabilization and compensatory remodeling can restore future productive capability up to what the Leaf's remaining architecture can support, never beyond it ([40](40_ROOTED_MATURE_LEAF_RECOVERY_CEILING_AND_COMPENSATORY_REMODELING_V0.md), AMO-D140, AMO-D141). **Functional Collapse** ends reliance on that Leaf, so future return from it becomes unavailable or biologically negligible under whatever model follows (AMO-D114). **Manifestation destruction** ends it outright (AMO-D130). In both cases:
 
 > Return already realized is **not** erased. Losing the manifestation forfeits its future work, not its past work.
 

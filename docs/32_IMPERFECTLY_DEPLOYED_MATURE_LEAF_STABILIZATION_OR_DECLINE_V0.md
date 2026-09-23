@@ -57,6 +57,8 @@ Stabilization and compensation may act on an **inherited** defect just as they m
 
 **Structural Integrity and Leaf Functional Capacity remain separate.** A Leaf may begin mature life with reduced structure and surprisingly useful function, or with apparently adequate structure and poor function. Neither is derived from the other, and neither is read from appearance (AMO-D091, L51). **Recovery prospect is assessed from the actual mature starting state**, not inferred from the developmental history that produced it: an imperfectly deployed Leaf may have substantial, moderate or very limited stabilization potential. Prospect is still not actual recovery ([24](24_SAME_PHASE_LEAF_RECOVERY_V0.md), AMO-Q103).
 
+That ceiling is now specified as the **Recovery Ceiling** in [40](40_ROOTED_MATURE_LEAF_RECOVERY_CEILING_AND_COMPENSATORY_REMODELING_V0.md), and the same stabilization, scarring and compensatory-remodeling architecture applies to a Leaf that began mature life impaired: its ceiling may already be reduced at the moment Full Deployment hands it over (AMO-D139–AMO-D141). Developmental compensation during construction and mature Compensatory Remodeling remain distinct histories (§4).
+
 One conceptual distinction is worth recording without deciding it: developmental damage may leave this manifestation with a **lower attainable functional ceiling** than an undamaged equivalent would have had. Mature recovery would then improve function toward what this Leaf can attain, which is not a return to a hypothetical undamaged original. Whether such a ceiling exists, how it arises and how it is represented remain open (AMO-Q103, AMO-Q086). No cap, proportion, rate or value is defined.
 
 ## 6. Favorable, adequate and poor Environmental Fit
