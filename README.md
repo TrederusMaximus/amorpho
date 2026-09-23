@@ -112,6 +112,7 @@ docs/
   35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md protection, body damage and what persists after a fight
   36_COMBAT_RESOLUTION_SURRENDER_ESCAPE_AND_WITHDRAWAL_V0.md how an encounter ends without requiring destruction
   37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md the Tuber inside the fighter, and what remains when the body is destroyed
+  38_END_TO_END_COMBAT_ENCOUNTER_AND_BIOLOGICAL_CONTINUITY_TRACE_V0.md one individual from rooted life through combat and back
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

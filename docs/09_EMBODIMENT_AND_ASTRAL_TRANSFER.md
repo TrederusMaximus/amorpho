@@ -309,6 +309,8 @@ These must never collapse into a single `can live here / cannot live here` flag 
 
 All three are evaluated through the same Environmental Fit boundary; they differ in what is being asked of the individual and for how long. See [10_WORLD_AMORPHO_EVOLUTIONATOR.md](10_WORLD_AMORPHO_EVOLUTIONATOR.md).
 
+**Traversal is not transport of an excavated plant.** While the individual is embodied it carries its own core and its ordinary biology is suspended, so travelling does not accrue rooted environmental consequence (AMO-D084, AMO-D129). A Tuber carried by a rescuer after exposure or excavation is the opposite case: ordinary biology runs, and it is neither automatically harmed nor in stasis (AMO-D093, AMO-Q117). Two modes, two rules ([38](38_END_TO_END_COMBAT_ENCOUNTER_AND_BIOLOGICAL_CONTINUITY_TRACE_V0.md)).
+
 ## 19. The embodiment model in one picture
 
 ```
