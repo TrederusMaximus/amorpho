@@ -232,7 +232,7 @@ ENVIRONMENTAL FIT     → what trajectory results
 LIFE-CYCLE SYSTEM     → which phase transitions occur
 ```
 
-Environmental Fit may push *toward* continued healthy activity, recovery, developmental progression or premature retreat. **It does not become the life-cycle system** (AMO-D035–AMO-D037). Controlled environments change conditions and biology responds; there is no `force_bloom` or `prevent_dormancy` flag (AMO-D046, AMO-Q049).
+Environmental Fit may push *toward* continued healthy activity, recovery, developmental progression or premature retreat. **It does not become the life-cycle system** (AMO-D035–AMO-D037). Controlled environments change conditions and biology responds; there is no `force_bloom` or `prevent_dormancy` flag (AMO-D046, AMO-Q049). The same holds for **movement**: relocating an individual changes its environment, never its lifecycle state or history, so a Warden may chase suitable conditions without resetting a committed dormancy transition ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D146, L65). Species biology shapes which lifecycle strategies are available; the individual owns the current state (AMO-D147).
 
 ## 10. Rooting, astral exit and dormancy are three different things
 

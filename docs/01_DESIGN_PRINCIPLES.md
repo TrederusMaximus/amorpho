@@ -285,3 +285,11 @@ Mature rehabilitation stabilizes surviving architecture, scars, and reorganizes 
 ### L63 — A Bloom reveals capacity, not condition.
 A Bloom exists only because the persistent individual had already become capable of producing one, so its presence is real evidence of substantial biology — a floor, never a readout. It says nothing about present reserves, condition or what could be salvaged today, and its own appearance says less still. *(AMO-D142, AMO-D144, AMO-D078, AMO-D134)*
 **Smell:** a Bloom treated as a Leaf with a flower skin, a bigger flower read as a bigger Tuber, a Bloom that guarantees a valuable drop, or an indicator that announces what is inside.
+
+### L64 — Embodiment freezes the plant, not the planet.
+While an individual is inhabited its ordinary biology pauses, and the World does not: weather, seasons and local suitability move on. Opportunity that passes unused is gone rather than banked, and elapsed world time by itself grants no productive return, no maturity and no stronger core. *(AMO-D145, AMO-D136, AMO-D084, AMO-D009)*
+**Smell:** a world that stops while a player fights, a paused plant that ages or grows anyway, missed seasons repaid on rooting, or a timer added to force the Warden out.
+
+### L65 — The Warden can chase the season, not reset the plant.
+The World offers conditions and the individual decides whether its biology can use them, so relocation and controlled environments change opportunity without cancelling a lifecycle. Species sets the rhythm — what strategies of growth and dormancy are available — and the individual lives the cycle, carrying its own state and history across every border. *(AMO-D146, AMO-D147, AMO-D046, AMO-D035)*
+**Smell:** an active phase that restarts on arrival in a new hemisphere, a greenhouse that cancels dormancy, a lifecycle read from a species table alone, or every species given the same growing year in the name of fairness.

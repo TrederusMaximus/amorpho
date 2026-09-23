@@ -71,7 +71,7 @@ Real Earth geography never implies anything about a player's real residential ad
 
 If no player intervenes, natural *Amorphophallus* populations continue to exist and develop in their natural regions. Players can change this history — by collecting, moving, cultivating, propagating, trading or losing plants — but the world does not wait for them.
 
-The world's clock and how fast plant life unfolds relative to play time are open (AMO-Q004).
+The world's clock and how fast plant life unfolds relative to play time are open (AMO-Q004). What is fixed is that the World's clock runs independently of any individual's biology: an astrally inhabited plant has its own biological progression suspended while weather, seasons and local suitability continue changing around it ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D145, L64).
 
 ## 3. Finite populations: nothing comes from nothing
 

@@ -22,6 +22,8 @@ body damage while embodied  → damage persists; stabilization and remodeling do
 rooted biological life      → stabilization, scarring, compensation and Functional Recovery may proceed
 ```
 
+Rehabilitation therefore waits for rooting while **World time does not wait**: local conditions and seasonal opportunity may already have changed during the embodiment ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D145, L64).
+
 **Rooting is not healing.** It re-enables the processes; it does not perform them. What actually happens then depends on current Leaf condition, how much viable architecture survived, Environmental Fit, persistent biological condition and remaining biological opportunity — with no rate and no guarantee (AMO-D033, L27).
 
 ## 3. Lost architecture stays lost

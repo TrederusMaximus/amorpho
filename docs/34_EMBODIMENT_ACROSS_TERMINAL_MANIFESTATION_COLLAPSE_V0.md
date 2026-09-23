@@ -61,6 +61,7 @@ The price of indefinite preservation is not decay. It is everything that is bein
 | **Replacement routing** | cannot run, because it follows the manifestation's biological end ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) §9) |
 | **The one direct presence** | is committed here and nowhere else (§11) |
 | **The Human, other Amorphos, the World** | continue without the Warden ([20](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md) §5, AMO-D009) |
+| **The individual's own season** | advances anyway: conditions and seasonal opportunity change around a paused plant ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D145) |
 
 *Theoretically possible does not have to mean strategically desirable.* A Warden may knowingly value a current playable body over progressing that individual's biology, and that is a legitimate choice, not a mistake to be punished by an invented cost.
 

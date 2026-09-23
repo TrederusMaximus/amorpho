@@ -103,14 +103,14 @@ Ordinary biological progression is suspended while the individual is inhabited, 
 
 During embodiment the Leaf still exists, the core still rides inside it, combat may occur and explicit injury may still damage the body — but ordinary productive work is not accruing.
 
-**The individual's own biological progression is what pauses**, including its phase progression ([34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md), AMO-D117). The World does not pause: other plants live, conditions change, and events continue (AMO-D009, AMO-D085). How external world time interacts with a paused individual's own remaining opportunity is **not settled here** and belongs with the existing time questions (AMO-Q004, AMO-Q074, AMO-Q116); this document takes no position beyond preserving both rules as written.
+**The individual's own biological progression is what pauses**, including its phase progression ([34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md), AMO-D117). The World does not pause: other plants live, conditions change, and events continue (AMO-D009, AMO-D085). **Suitable seasonal opportunity can therefore pass while Productive Return is suspended, and it is not banked for later** — the interaction this document originally left open is closed in [42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md) (AMO-D145, L64). Everything quantitative about opportunity and integration remains AMO-Q116, with time scale and granularity in AMO-Q004 and AMO-Q074.
 
 The strategic consequence is direct, and explains a case [37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md) could only assert:
 
 - **inhabit immediately and stay embodied** — productivity never runs, the core stays near its post-construction state, the body accumulates combat damage, and core security does **not** improve;
 - **remain rooted and functional first, then inhabit** — return accrues, the core may become secure, and the body meanwhile accumulates ordinary environmental wear.
 
-Both can end with a battered-looking fighter. Only one has a robust core, and **appearance does not distinguish them** (AMO-D134).
+Both can end with a battered-looking fighter. Only one has a robust core, and **appearance does not distinguish them** (AMO-D134). Nor does the second option's cost stop at the core: while the Warden stays embodied the season itself advances, so opportunity that could have been converted may simply be gone (AMO-D145).
 
 ## 9. Damage, Collapse and destruction
 

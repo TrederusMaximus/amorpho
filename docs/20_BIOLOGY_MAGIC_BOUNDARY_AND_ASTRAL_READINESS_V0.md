@@ -106,7 +106,7 @@ Prolonged embodiment is expensive because the rest of the world does not wait:
 | **Other Amorphos** | keep living: growing, entering dormancy, blooming, becoming stressed, needing rescue, being stolen |
 | **The World** | continues (AMO-D009) |
 
-So the cost of a long embodiment is everything that happened elsewhere meanwhile — which scales naturally with how much a player has to lose, rather than with an arbitrary constant.
+So the cost of a long embodiment is everything that happened elsewhere meanwhile — which scales naturally with how much a player has to lose, rather than with an arbitrary constant. It also includes what did **not** happen here: the individual's own season advances while its biology is paused, so suitable rooted opportunity can pass unused and is never repaid ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D145, L64).
 
 ### The Human trance is metabolically stable
 

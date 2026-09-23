@@ -116,6 +116,7 @@ docs/
   39_ACTIVE_LEAF_PRODUCTIVE_RETURN_AND_PERSISTENT_TUBER_BENEFIT_V0.md what an active Leaf's work gives the persistent individual
   40_ROOTED_MATURE_LEAF_RECOVERY_CEILING_AND_COMPENSATORY_REMODELING_V0.md how a damaged Leaf recovers function without regrowing structure
   41_BLOOM_EMBODIMENT_CORE_SECURITY_AND_DESTRUCTION_VALUE_V0.md what a Bloom reveals about the hidden persistent core
+  42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md two clocks: paused biology inside a moving world
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
