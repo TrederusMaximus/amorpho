@@ -1,6 +1,6 @@
 # 22 — Biological Year Walkthrough, v0
 
-**Status:** canonical, nonnumeric integration walkthrough. One abstract individual makes one circuit from Deep Dormancy through Active Leaf and back. “Year” names that life-cycle circuit, not a calendar duration or a claim about any real species. This tests whether the existing models compose; it defines no new biological rule, mechanism, value or threshold.
+**Status:** canonical, nonnumeric integration walkthrough — the **foundational** year trace, not superseded. Several systems were specified after it; whether they compose across a whole cycle, and what persists into the next one, is traced in [44](44_FULL_BIOLOGICAL_YEAR_PERSISTENT_STATE_INTEGRATION_TRACE_V1.md). One abstract individual makes one circuit from Deep Dormancy through Active Leaf and back. “Year” names that life-cycle circuit, not a calendar duration or a claim about any real species. This tests whether the existing models compose; it defines no new biological rule, mechanism, value or threshold.
 
 The trace uses [Environmental Fit v0](12_ENVIRONMENT_AND_FIT_MODEL_V0.md), [condition v0](14_CURRENT_BIOLOGICAL_CONDITION_V0.md), the [life-cycle state machine](17_LIFE_CYCLE_STATE_MACHINE_V0.md), [Developmental Maturity](19_DEVELOPMENTAL_MATURITY_V0.md), the [biology ↔ magic boundary](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md) and [Pathological Tuber Impact](21_PATHOLOGICAL_TUBER_IMPACT_V0.md). Its counterfactuals test the same architecture without adding extra years to the main trace.
 
@@ -93,3 +93,5 @@ The event-to-Leaf handoff is traced separately in [23_ACUTE_EVENT_TO_LEAF_IMPAIR
 The [same-phase recovery trace](24_SAME_PHASE_LEAF_RECOVERY_V0.md) then tests how that Leaf may stabilize and regain function without restoring lost mature structure or elapsed opportunity. Its separate replacement branch is possible, not assumed in this particular year.
 
 If a different year's Leaf functionally collapses, [Tuber-funded replacement routing](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md) can branch through costly intra-cycle Emergence or early Senescence. This year's main Leaf remains viable, so neither branch is enacted here.
+
+The **v1 integration trace** in [44](44_FULL_BIOLOGICAL_YEAR_PERSISTENT_STATE_INTEGRATION_TRACE_V1.md) re-runs a full cycle against the later systems — Productive Return, Recovery Ceiling, the two clocks, lifecycle sovereignty and the depletion/harm boundary — and closes this walkthrough's remaining question by stating explicitly what carries into the next cycle and what ends with the manifestation.

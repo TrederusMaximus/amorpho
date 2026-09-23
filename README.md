@@ -118,6 +118,7 @@ docs/
   41_BLOOM_EMBODIMENT_CORE_SECURITY_AND_DESTRUCTION_VALUE_V0.md what a Bloom reveals about the hidden persistent core
   42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md two clocks: paused biology inside a moving world
   43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md when an empty plant becomes an injured one
+  44_FULL_BIOLOGICAL_YEAR_PERSISTENT_STATE_INTEGRATION_TRACE_V1.md one whole cycle, and what carries into the next
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
