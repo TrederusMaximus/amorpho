@@ -281,3 +281,7 @@ A mature Leaf gives the Tuber only what it actually had the function, conditions
 ### L62 — The Leaf cannot rebuild what is gone; it can make far better use of what remains.
 Mature rehabilitation stabilizes surviving architecture, scars, and reorganizes what is left so it carries more useful function — it never reconstructs lost structure. Functional recovery can therefore be substantial while the scars stay permanent, bounded by a Recovery Ceiling that every further injury can lower and no environment can lift. *(AMO-D139, AMO-D140, AMO-D141, AMO-D094)*
 **Smell:** a rooted Leaf growing back what it lost, rooting treated as healing, favourable conditions producing a pristine reset, a fresh body between fights, a recovery percentage or healing currency, or scars read as strength.
+
+### L63 — A Bloom reveals capacity, not condition.
+A Bloom exists only because the persistent individual had already become capable of producing one, so its presence is real evidence of substantial biology — a floor, never a readout. It says nothing about present reserves, condition or what could be salvaged today, and its own appearance says less still. *(AMO-D142, AMO-D144, AMO-D078, AMO-D134)*
+**Smell:** a Bloom treated as a Leaf with a flower skin, a bigger flower read as a bigger Tuber, a Bloom that guarantees a valuable drop, or an indicator that announces what is inside.

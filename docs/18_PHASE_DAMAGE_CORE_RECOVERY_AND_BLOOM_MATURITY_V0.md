@@ -209,6 +209,8 @@ No threshold is defined, researched or assumed, and no universal threshold exist
 
 Reaching the threshold means *this individual is mature enough that Bloom may occur* — not that Bloom happens. Actual Bloom may further depend on condition, reserves, life-cycle routing, environment and species biology. The trigger is not defined (AMO-Q107, AMO-Q101).
 
+The gate has one informational consequence worth recording: because a Bloom can only exist where these prerequisites were met, **an existing Bloom is evidence that the persistent individual had reached substantial biological capability** — a lower bound about the hidden core, never a readout of its present condition ([41](41_BLOOM_EMBODIMENT_CORE_SECURITY_AND_DESTRUCTION_VALUE_V0.md), AMO-D142, L63).
+
 ### Eligibility can be lost and regained
 
 If a setback drops maturity below the flowering threshold, Bloom becomes unavailable **until maturity is rebuilt** (AMO-D077, AMO-D078). Real consequences from a failed season or core damage, with no permanent loss.

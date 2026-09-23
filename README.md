@@ -115,6 +115,7 @@ docs/
   38_END_TO_END_COMBAT_ENCOUNTER_AND_BIOLOGICAL_CONTINUITY_TRACE_V0.md one individual from rooted life through combat and back
   39_ACTIVE_LEAF_PRODUCTIVE_RETURN_AND_PERSISTENT_TUBER_BENEFIT_V0.md what an active Leaf's work gives the persistent individual
   40_ROOTED_MATURE_LEAF_RECOVERY_CEILING_AND_COMPENSATORY_REMODELING_V0.md how a damaged Leaf recovers function without regrowing structure
+  41_BLOOM_EMBODIMENT_CORE_SECURITY_AND_DESTRUCTION_VALUE_V0.md what a Bloom reveals about the hidden persistent core
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
