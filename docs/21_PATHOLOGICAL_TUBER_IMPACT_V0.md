@@ -135,7 +135,7 @@ Possible persistent outputs: **vitality reduction**, **developmental maturity re
 
 ### Three productive-phase outcomes
 
-Apart from normal Programmed Tuber Draw, a productive phase may leave the persistent organism **gaining**, **approximately maintaining**, or **losing to harmful circumstances**. Only actual persistent loss in the third case is Pathological Tuber Impact. A disappointing season may produce no gain without any regression at all (AMO-D082). These are qualitative outcomes, not an `inputs - outputs` calculation; Bloom's expected draw cannot be diagnosed from its net change.
+Apart from normal Programmed Tuber Draw, a productive phase may leave the persistent organism **gaining**, **approximately maintaining**, or **losing to harmful circumstances**. The third case short of harm is **insufficient Active Leaf Productive Return** — little gain, no net gain or depletion relative to investment — and it is **not** pathology by itself ([39](39_ACTIVE_LEAF_PRODUCTIVE_RETURN_AND_PERSISTENT_TUBER_BENEFIT_V0.md), AMO-D138). Only actual persistent loss in the third case is Pathological Tuber Impact. A disappointing season may produce no gain without any regression at all (AMO-D082). These are qualitative outcomes, not an `inputs - outputs` calculation; Bloom's expected draw cannot be diagnosed from its net change.
 
 ### On "Tuber Balance" — considered and not retained
 
