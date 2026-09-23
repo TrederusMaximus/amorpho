@@ -155,7 +155,7 @@ The shared biological construction of a Leaf or Bloom, whether entered after Pre
 ### Active Leaf
 The primary sustained above-ground state, and the strongest candidate for default embodiment. Access is open subject to the other gates. Environmental Fit acts on condition, reserves and development here; sustained good Fit supports healthy growth, and severe compromise can end the phase early (§9).
 
-**Leaf integrity is phase-specific.** Damage to the current Leaf is not damage to the individual (AMO-D058). A fully deployed Leaf may stabilize and regain function, but missing mature architecture does not regrow into its pristine original form (AMO-D094). Repeated scars alone do not require replacement; useful function is the test (L51). A new Leaf, whether a later cycle's or an eligible same-cycle replacement, does **not inherit the old Leaf's structural damage**; it can nevertheless enter mature state impaired by its own Emergence. The Tuber-based individual's reserves, condition, development and any persistent harm continue. **Only the structure is new.** Structural damage does not automatically reach persistent loss (AMO-D079). No integrity variable is formally defined (AMO-Q086).
+**Leaf integrity is phase-specific.** Damage to the current Leaf is not damage to the individual (AMO-D058). A fully deployed Leaf may stabilize and regain function, but missing mature architecture does not regrow into its pristine original form (AMO-D094). Repeated scars alone do not require replacement; useful function is the test (L51, L56). The Leaf remains this state's manifestation while it can still serve; once loss of that Leaf is committed it passes through a terminal period and the manifestation ends, which is a condition of the manifestation rather than a new life-cycle state ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md), AMO-D114, AMO-D115). A new Leaf, whether a later cycle's or an eligible same-cycle replacement, does **not inherit the old Leaf's structural damage**; it can nevertheless enter mature state impaired by its own Emergence. The Tuber-based individual's reserves, condition, development and any persistent harm continue. **Only the structure is new.** Structural damage does not automatically reach persistent loss (AMO-D079). No integrity variable is formally defined (AMO-Q086).
 
 ### Bloom
 Bloom draws on persistent Tuber resources — **Programmed Tuber Draw**, normal biological spending rather than harm — and that draw is paused while the Bloom is astrally inhabited (AMO-D087, AMO-D084). *Leaf rebuilds; Bloom spends.*
@@ -187,7 +187,7 @@ This is deliberate. A "successful season" flag would duplicate what condition al
 
 ### Replacement routing after Leaf functional collapse
 
-The **Tuber funds a primary Leaf**; while that Leaf remains viable, damage and scarring stay with it ([25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md), AMO-D095–AMO-D096). If the current Leaf can no longer adequately perform its biological role, the life-cycle system reaches a **functional-collapse routing point**. It checks biological options before any strategy or possible player choice:
+The **Tuber funds a primary Leaf**; while that Leaf remains viable, damage and scarring stay with it ([25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md), AMO-D095–AMO-D096). If the current Leaf can no longer adequately perform its biological role, the life-cycle system reaches a **functional-collapse routing point**, now specified in [33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md). Impairment, imperfect deployment, scarring and decline keep the individual in Active Leaf; only loss of active-role viability reaches this point (AMO-D114, L56). It checks biological options before any strategy or possible player choice:
 
 ```text
 ACTIVE LEAF → impairment review
@@ -196,6 +196,8 @@ ACTIVE LEAF → impairment review
         → replacement eligible and selected → EMERGENCE (replacement) → ACTIVE LEAF
         → retreat selected or required → SENESCENCE → EARLY DORMANCY
 ```
+
+Crossing that point commits the loss of the current Leaf: a gradual course passes through a visibly legible terminal period before the manifestation ends, while a catastrophic event may end it at once (AMO-D115). Neither adds a state. Afterwards there is no live Leaf manifestation and no collapsed-Leaf shell — the Tuber is the remaining living form, reachable for a transitional period as the **Astral Window** (AMO-D099) — and the route below is taken from it.
 
 The replacement route is **costly intra-cycle salvage**: new structure, reduced in the current design direction, funded by remaining Tuber capacity and formed over biological time. It does not reset the season, the individual or lost productive opportunity. Early retreat uses the existing Senescence path, whether necessary or chosen to conserve capacity. **Eligibility is not automatic selection**, and the graph does not say who selects. That is a three-layer question outside the topology ([26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)):
 
@@ -207,7 +209,7 @@ autonomous preference    ← the individual, for its own long-term continuation 
 astral override          ← only with direct astral presence, only among feasible routes (AMO-D100, AMO-D101)
 ```
 
-The individual stays reachable for a transitional period after a manifestation ends — the **Astral Window** — and **Deep Dormancy closes it** (AMO-D099, AMO-D060). No `WAITING_FOR_PLAYER` state exists, and none may be added: an unattended individual routes itself while the World advances (AMO-D097, AMO-D009). The exact functional-collapse test, eligibility, autonomous policy, presence mechanics and route costs are open (AMO-Q101, AMO-Q119).
+The individual stays reachable for a transitional period after a manifestation ends — the **Astral Window** — and **Deep Dormancy closes it** (AMO-D099, AMO-D060). No `WAITING_FOR_PLAYER` state exists, and none may be added: an unattended individual routes itself while the World advances (AMO-D097, AMO-D009). The functional-collapse boundary is now specified qualitatively ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md)); its exact test, eligibility, autonomous policy, presence mechanics and route costs remain open (AMO-Q101, AMO-Q119).
 
 Emergence already means a manifestation is forming, so this loop needs no eighth state or new annual cycle. It does **not** decide whether an old Leaf remains partly present during the new Leaf's formation, whether another replacement can follow, or how astral access, Signal and Readiness apply during and after replacement (AMO-Q084, AMO-Q085, AMO-Q112, AMO-Q115). The developing replacement is never normally inhabitable before Full Deployment. The ordinary route from Pre-Emergence into Emergence remains intact.
 

@@ -75,9 +75,9 @@ Current biological condition, including the persistent Tuber's state, may influe
 
 ## 7. The decline boundary
 
-Sustained decline may eventually reduce mature function enough that replacement or retreat routing becomes relevant. **This trace stops at that boundary.** Routing is evaluated only after functional collapse is confirmed, using biological eligibility and Environmental Fit ([25](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md), [26](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md), AMO-Q101).
+Sustained decline may eventually reduce mature function enough that the Leaf can no longer serve as the active manifestation. **This trace stops at that boundary**, which is specified in [33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md): while recovery and stabilization still preserve a serviceable Leaf it remains viable; when deterioration irreversibly outruns them, **Collapse Commitment** is reached, the Leaf enters a terminal period and the manifestation eventually ends (AMO-D114, AMO-D115). Only then does routing evaluate biological eligibility and Environmental Fit, from the persistent Tuber ([25](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md), [26](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md), AMO-Q101).
 
-**Imperfection is not collapse.** An imperfectly deployed Leaf does not automatically trigger Replacement, premature retreat or a new Emergence, and scarring alone never triggers them (AMO-D096). Equally, stabilization at a sufficiently functional compromised state is a **canonical outcome** in which no routing question ever arises.
+**Imperfection is not collapse.** An imperfectly deployed Leaf does not automatically trigger Replacement, premature retreat or a new Emergence, and scarring alone never triggers them (AMO-D096, AMO-D114, L56). Equally, stabilization at a sufficiently functional compromised state is a **canonical outcome** in which no routing question ever arises.
 
 ## 8. No second charge for the same developmental damage
 

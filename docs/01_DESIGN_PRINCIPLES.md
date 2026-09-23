@@ -253,3 +253,7 @@ Rendering, interface and physical input may vary; canonical biology, identity, o
 ### L55 — The Tuber pays until deployment; mature damage belongs first to the manifestation.
 Through Emergence, the Tuber funds construction and carries its sunk cost. Full Deployment hands performance and immediate damage ownership to the mature Leaf or Bloom; persistent Tuber harm after mature manifestation damage requires a downstream biological path. Bloom's normal Programmed Draw remains a separate expenditure. *(AMO-D109, AMO-D111)*
 **Smell:** a free emergence retry, a mature Leaf hit immediately debiting Tuber integrity, or Full Deployment being treated as an instant refund of construction cost.
+
+### L56 — Routing follows loss of function, not loss of form.
+A manifestation serves until it cannot. Scarred, impaired, declining and unproductive are all still serviceable; Tuber-level routing begins only when the current Leaf can no longer meaningfully serve as the active manifestation. Once that loss is committed it is irreversible for that Leaf, and terminal collapse ends the manifestation — leaving the Tuber as the living persistent form. *(AMO-D114, AMO-D115, AMO-D116)*
+**Smell:** a replacement triggered by appearance, scar count or a bad season; a doomed Leaf nursed back to full health by good weather; a dead Leaf lingering as a playable shell; or a dying manifestation declared unusable the moment it is doomed.

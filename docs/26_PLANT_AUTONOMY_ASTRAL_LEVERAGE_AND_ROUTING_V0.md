@@ -85,7 +85,9 @@ Randomness may add variability. It may not stand in for biological reasoning. No
 
 ## 5. Replacement versus retreat, chosen by the plant
 
-At the functional-collapse routing point, with replacement biologically eligible (AMO-D096), autonomous biology is weighing two real futures:
+Autonomous route evaluation does **not** begin because the Leaf is damaged, scarred, imperfect or declining. It begins at the functional-collapse routing point defined in [33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) — the point at which the current Leaf can no longer meaningfully serve as the active manifestation and its loss is committed (AMO-D114, AMO-D115, L56). While the Leaf remains serviceable, the biological answer is to keep using it ([24](24_SAME_PHASE_LEAF_RECOVERY_V0.md), AMO-D096).
+
+At that routing point, with replacement biologically eligible (AMO-D096), autonomous biology is weighing two real futures:
 
 | | **Replacement Emergence** | **Retreat toward dormancy** |
 |---|---|---|
