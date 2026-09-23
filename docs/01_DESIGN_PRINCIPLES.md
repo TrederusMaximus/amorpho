@@ -261,3 +261,7 @@ A manifestation serves until it cannot. Scarred, impaired, declining and unprodu
 ### L57 — Inhabitability may outlast recoverability, but never manifestation existence.
 A manifestation whose loss is biologically committed may still be a usable body while it exists, and embodiment may hold it there — freezing its progression without undoing its state. When the manifestation itself ends, embodiment ends with it and the consciousness returns to the human body; what remains alive is the persistent individual. *(AMO-D116, AMO-D117, AMO-D118)*
 **Smell:** a doomed manifestation declared uninhabitable the moment it is doomed, a playable corpse, a free-floating astral avatar with no body, or an embodiment that heals or resets the biological state it paused.
+
+### L58 — Protection may stop the blow; a body that is struck cannot ignore it.
+The fighter and the plant are not separate assets: the animated Amorpho's body **is** the living manifestation. Shields, armour and skill may keep a hostile effect away from it, and an effect that is stopped may cost only combat state — but an effect that reaches the body is biological damage that persists after embodiment. Combat meters say whether the fight can continue; they are not the plant's condition. *(AMO-D120, AMO-D121, AMO-D122, AMO-D123)*
+**Smell:** a fighter object that takes damage while "the plant" stays pristine, combat HP read as leaf health, a fight that ends with the body restored, a disposable combat copy of an individual, or Tuber condition used as a hidden health bar.

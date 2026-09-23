@@ -85,6 +85,10 @@ Combat duration, distance travelled, ordinary attacks and time spent embodied do
 
 This is what keeps both systems understandable. If fighting ate Tuber mass, every fight would be a developmental setback, the harm model's careful horizons would collapse, and players would be punished biologically for playing the game.
 
+### Suspension is not invulnerability
+
+What is suspended is **ordinary progression** — growth, development, maturity, reproduction, life-cycle progression, Programmed Draw and biological recovery — together with ordinary resource consumption. The animated body is still the biological manifestation, so **explicit injury that reaches it is a state change, not progression**: it damages that manifestation while paused, and a sufficient effect can destroy it ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120, AMO-D123, L58). Because recovery is among the paused processes, damage accumulates across a long embodiment and resumes healing only once rooted biological life does. Protection, not suspension, is what keeps a fight from reaching the plant (AMO-D122).
+
 ## 5. Open-ended embodiment
 
 > **Astral embodiment has no intrinsic maximum duration** (AMO-D085).

@@ -1,6 +1,6 @@
 # 34 — Embodiment Across Terminal Manifestation Collapse, v0
 
-**Status:** conceptual domain/boundary trace using owner-supplied design direction. It follows one inhabited mature Leaf across [Collapse Commitment](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) and the end of its manifestation. It defines no duration, rate, threshold, readiness value, combat or KO rule, defeat condition, interface, animation, camera, network behaviour, species fact or implementation. It deliberately leaves the mapping from astral-state damage to biological persistence undecided (§10).
+**Status:** conceptual domain/boundary trace using owner-supplied design direction. It follows one inhabited mature Leaf across [Collapse Commitment](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) and the end of its manifestation. It defines no duration, rate, threshold, readiness value, combat or KO rule, defeat condition, interface, animation, camera, network behaviour, species fact or implementation. It deliberately left the mapping from astral-state damage to biological persistence undecided; that boundary is now resolved in [35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md) and §10 records the resolution.
 
 > **Collapse Commitment fixes fate; embodiment freezes progression. A manifestation that no longer exists cannot be inhabited.**
 
@@ -116,14 +116,9 @@ Two distinctions matter and must not be blurred:
 
 The acute path established in [33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) remains valid for a **rooted, biologically running** Leaf: a catastrophic World event may end the manifestation at once, with no meaningful terminal warning period, leaving the persistent Tuber if it survived (AMO-D115). Nothing here weakens [23](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md), which still owns how an occurrence becomes exposure and then impairment for a rooted Leaf.
 
-What this pass explicitly does **not** decide is the inhabited case. The existing boundary is that biology is suspended during embodiment, so an ordinary event affecting the inhabited fighter does **not** silently write new biological damage into the paused plant, and any exceptional carry-through needs explicit future design (AMO-D084, L49, [23](23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0.md)). Beyond that, the mapping is undecided, and **both tempting defaults are prohibited**:
+The inhabited case was left open by this trace and is now **resolved** in [35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md) on ontological grounds: the animated form is the biological manifestation, so **protection** decides what reaches the body, an effect that reaches it is real biological damage immediately, and an effect stopped short of it has combat or protection consequences only (AMO-D120, AMO-D122). Suspension of ordinary progression is not invulnerability (AMO-D123), and combat state still maps proportionally onto nothing biological (AMO-D121).
 
-| Not permitted as a silent default | Why |
-|---|---|
-| fighter damage or destruction **equals** biological Leaf damage or destruction | it would make combat an ordinary biological cost through the back door and collapse the harm horizons (AMO-D074, AMO-D079) |
-| astral-state damage **disappears** when embodiment ends | it would make the fighting layer consequence-free by assumption rather than by decision |
-
-A future specification must decide whether, when and how an inhabited manifestation can carry consequences that survive de-embodiment, distinguishing damage to the animated fighter, damage to the biological Leaf, what persists after the Warden leaves, and any Tuber consequence. That belongs to AMO-Q026 with AMO-Q113 and AMO-Q109, and this trace stops at the handoff (§13, trace D).
+For the terminal case that matters here: a committed terminal body remains a real body. Further hostile effects may reach and damage it, and a sufficient one may **destroy** it — ending the manifestation, and the embodiment with it, even though ordinary terminal progression is paused. That is explicit injury rather than senescence running its course, so it contradicts nothing in §4 (AMO-D115, AMO-D117, AMO-D118). Combat-state defeat remains distinct from destruction of the body, and the mechanics that would produce either remain AMO-Q026, AMO-Q109 and AMO-Q113.
 
 ## 11. One Consciousness still applies
 
@@ -159,7 +154,7 @@ None of this adds a life-cycle state. The terminal period stays a condition of t
 
 **C — relocate, then allow the end.** A doomed Leaf is inhabited specifically to travel. The Warden moves the individual to a markedly better environment and roots it there. Terminal progression resumes and the Leaf is lost as committed. The persistent Tuber now lives at the better site, and its later condition, routing and prospects are evaluated there. **The Leaf was not saved; the individual was repositioned.**
 
-**D — external or combat damage while inhabited.** The Warden is embodied when an external or combat event occurs. Biology remains suspended, so no biological verdict follows from this trace: whether anything from that event survives de-embodiment is the **undecided astral-damage boundary** of §10. **Stop at the handoff** (AMO-Q026, AMO-Q113). No biological outcome, defeat rule or destruction rule is asserted here.
+**D — external or combat damage while inhabited.** The Warden is embodied when a hostile effect arrives. Ordinary progression stays suspended, and the outcome now follows the resolved boundary: intercepted by protection, it costs combat or protection state and leaves the body intact; reaching the body, it is real biological damage to that manifestation, effective at once and persisting after exit; sufficient to destroy the body, it ends the manifestation and the embodiment ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120–AMO-D123). The combat mechanics that decide which of those happens remain open (AMO-Q026, AMO-Q109, AMO-Q113).
 
 **E — entry after commitment.** A Leaf is already in its terminal period and visibly so. The gates permit normal Leaf entry, and the Warden enters, uses the manifestation, and later roots. No biological recovery becomes available at any point. Terminal fate is unchanged. This proves that **terminal is not inaccessible**.
 
@@ -169,7 +164,7 @@ None of this adds a life-cycle state. The terminal period stays a condition of t
 
 ## 14. Open issues and acceptance
 
-AMO-Q112 owns Astral Readiness representation, what depletes it and whether it regenerates while embodied — including where inhabitability may end during terminal progression; nothing here turns it into a forced-exit device. AMO-Q113 owns forced exit and the exact behaviour of an involuntary return when a manifestation ends. AMO-Q026 owns the astral-damage → biological-persistence mapping named in §10, with AMO-Q109 for playable consequences. AMO-Q042 owns inhabitability and re-entry rules. AMO-Q119 owns whether a just-returned Warden may immediately establish strategic presence; AMO-Q085 and AMO-Q115 own reachability and signal. AMO-Q120 may later record terminal-period use in life-cycle history. AMO-Q088 owns Bloom's own terminal content. No new question was required.
+AMO-Q112 owns Astral Readiness representation, what depletes it and whether it regenerates while embodied — including where inhabitability may end during terminal progression; nothing here turns it into a forced-exit device. AMO-Q113 owns forced exit and the exact behaviour of an involuntary return when a manifestation ends. AMO-Q026 owns what combat does to the individual — combat-state semantics, defeat, forced de-embodiment and when an effect reaches or destroys a body — now that the ontological mapping itself is settled ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120), with AMO-Q109 for playable consequences and protection architecture. AMO-Q042 owns inhabitability and re-entry rules. AMO-Q119 owns whether a just-returned Warden may immediately establish strategic presence; AMO-Q085 and AMO-Q115 own reachability and signal. AMO-Q120 may later record terminal-period use in life-cycle history. AMO-Q088 owns Bloom's own terminal content. No new question was required.
 
 | Check | Result |
 |---|---|
@@ -184,6 +179,6 @@ AMO-Q112 owns Astral Readiness representation, what depletes it and whether it r
 | Tuber continuity | The Leaf's end is not the individual's death; routing proceeds from the Tuber. |
 | No automatic Tuber presence | Expulsion grants no strategic presence, control or priority (AMO-Q119). |
 | One Consciousness | Terminal use occupies the single direct presence like any other embodiment. |
-| Astral damage mapping | Explicitly undecided; neither equality nor consequence-free is permitted (AMO-D119). |
+| Astral damage mapping | Resolved in [35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md): protection decides what reaches the body, and what reaches it is biological damage (AMO-D120, superseding AMO-D119). |
 
 **Result:** a doomed manifestation is still a body. Commitment fixes what will happen to it; embodiment decides when. The Warden may hold a terminal Leaf indefinitely at the price of everything being deferred, may spend its last mobility on the persistent individual's future, and must leave when the manifestation itself ends — because a body that no longer exists cannot be inhabited, and what remains alive is the Tuber.

@@ -62,6 +62,8 @@ Identity, provenance, lineage, ownership, history, genetics and individual varia
 
 This is why the concept works at all: the plant you raised is the fighter you play (L16). An architecture that instantiates an unrelated combat entity and reconciles it afterwards has already lost the point.
 
+Embodiment therefore **animates the manifestation; it does not instantiate a damage-insulated copy of it.** A hostile effect that reaches that body is real biological damage to it, immediately and persistently, while the combat state the fighting layer runs on remains a separate domain — and protection is what stands between the two ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120–AMO-D122, L58).
+
 ## 5. Where the transfer happens
 
 The current strong design direction is that the human performs astral transfer from a **protected physical context**, with a dedicated ritual room inside the player's home as the leading concept:

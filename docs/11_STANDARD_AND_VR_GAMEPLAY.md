@@ -28,7 +28,7 @@ Standard Gameplay and VR Gameplay are two first-class entry points into the same
         STANDARD GAMEPLAY     VR GAMEPLAY
 ```
 
-These are not separate games, persistent worlds, Amorpho identities or progression systems. They are two ways of inhabiting and controlling the same game. A platform may still require its own distinct platform account; linking policy remains open (AMO-D103, AMO-Q121).
+These are not separate games, persistent worlds, Amorpho identities or progression systems. They are two ways of inhabiting and controlling the same game. Biological truth is shared with them: protection, manifestation body damage and its persistence are canonical in both, so input and presentation may differ while what an effect does to a living manifestation may not ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120, L54). A platform may still require its own distinct platform account; linking policy remains open (AMO-D103, AMO-Q121).
 
 The technical architecture is deliberately unresolved. No classes, APIs or implementation code follow from this document.
 

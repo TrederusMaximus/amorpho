@@ -107,6 +107,8 @@ Both pathways are canonical:
 
 Microdamage is therefore never free and never a trigger by itself: many small injuries may eventually overwhelm compensation, but it is the **resulting functional state** that crosses the boundary, not the count of injuries (AMO-D096, L51).
 
+Body damage taken while the Leaf was inhabited counts exactly like any other injury here. Accumulated combat damage — with rooted recovery suspended throughout a long embodiment — may therefore push a Leaf across this boundary, acutely or cumulatively, and it uses this criterion and the same Tuber-level routing with **no separate combat collapse** ([35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md), AMO-D120, AMO-D123).
+
 ## 8. Terminal Leaf Collapse ends the manifestation
 
 At **Terminal Leaf Collapse** the Leaf manifestation ends as a live form. There is no persistent collapsed-Leaf state: no indefinitely hanging playable Leaf, no empty shell acting as a biological actor, no dead manifestation that remains inhabitable. Physical remains may be present in the World as scenery or debris; they are not the manifestation and not an actor.

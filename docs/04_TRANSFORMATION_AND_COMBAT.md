@@ -32,10 +32,11 @@ Accepted:
 - Only **one** body is inhabited at a time, however many plants a player owns (AMO-D028).
 - Only a plant that is biologically stable enough can be inhabited — alive is not the same as inhabitable (AMO-D031).
 - Awakening is **temporary**, and it ends by rooting, which returns the individual to plant state and to its real relationship with its environment (AMO-D032).
+- The animated fighter uses the **actual** biological manifestation as its body, so protection decides what reaches it and an effect that does reach it is real biological damage that persists after embodiment (AMO-D120, AMO-D122, L58). **Combat state is not biological condition:** the two are distinct but coupled domains with no proportional mapping (AMO-D121). See [35](35_COMBAT_PROTECTION_MANIFESTATION_BODY_DAMAGE_AND_BIOLOGICAL_PERSISTENCE_V0.md).
 
 The full model is in [09_EMBODIMENT_AND_ASTRAL_TRANSFER.md](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md), including rooting, rescue and equipment.
 
-Open (AMO-Q022): what else makes a plant suitable (age, life-cycle stage, size, bond, species); how long awakening lasts; what it costs; and whether it has consequences for the plant afterwards. Finer questions are tracked as AMO-Q039–AMO-Q043.
+Open (AMO-Q022): what else makes a plant suitable (age, life-cycle stage, size, bond, species); how long awakening lasts; and what it costs. That it *can* have consequences for the plant afterwards is now settled — damage reaching the body is biological and persists (AMO-D120) — while the combat mechanics that produce it are not. Finer questions are tracked as AMO-Q039–AMO-Q043.
 
 ## 4. From species to fighter
 
