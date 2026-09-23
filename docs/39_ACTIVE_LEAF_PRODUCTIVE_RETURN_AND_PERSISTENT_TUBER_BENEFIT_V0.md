@@ -142,7 +142,7 @@ Two accounting entries also stay distinct: **capacity spent or lost** (persisten
 
 > **Failure to obtain possible future benefit is not automatically Pathological Tuber Impact.**
 
-A poor season may end with little gain, no net gain, or depletion relative to investment, and still involve no harmful persistent loss (AMO-D092). Equally, a positive outcome must remain possible: real work may leave the individual stronger, more secure and better able to fund its next manifestation. **When ordinary depletion, missed gain or insufficient return becomes actual persistent harmful loss is AMO-Q118's question**, and this pass hands it over unanswered.
+A poor season may end with little gain, no net gain, or depletion relative to investment, and still involve no harmful persistent loss (AMO-D092). Equally, a positive outcome must remain possible: real work may leave the individual stronger, more secure and better able to fund its next manifestation. **When ordinary depletion, missed gain or insufficient return becomes actual persistent harmful loss** is answered qualitatively in [43](43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md): insufficient return stays non-pathological unless persistent structure, capability or condition has actually degraded (AMO-D148, AMO-D149). Everything quantitative about that crossing remains AMO-Q118.
 
 Nothing here reaches the Evolutionator: return changes **this individual** through acclimation and development, while inherited and generational change remains its own domain (AMO-D012, [10](10_WORLD_AMORPHO_EVOLUTIONATOR.md)). And nothing maps to combat statistics: no attack, defence, durability, speed or magical power derives from productive return (L5, L15, AMO-Q109).
 

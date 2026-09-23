@@ -61,7 +61,7 @@ It is a **qualitative biological evaluation, not a meter**. No threshold, value 
 
 So: **a manifestation can be lost while the individual survives, or manifestation destruction can end the individual if no viable core remains.** That second outcome is categorically different from ordinary Leaf loss, and it is the one genuinely irreversible consequence combat can reach.
 
-**Viable does not mean healthy.** A surviving core may be depleted, damaged, pathologically affected, poorly buffered and badly in need of favourable re-rooting. Viability only means it can continue as an individual.
+**Viable does not mean healthy.** A surviving core may be depleted, damaged, pathologically affected, poorly buffered and badly in need of favourable re-rooting. Viability only means it can continue as an individual. Poor viability may equally arise from ordinary depletion, from persistent harm, or from both, and the verdict does not reveal which: **Core Viability and pathology are separate dimensions**, so a core may be non-viable with nothing ever having been harmed ([43](43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md), AMO-D151, AMO-D148).
 
 This is not ordinary **Functional Collapse**, which concerns failure of the active Leaf *role* ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md)). This pass concerns physical destruction of the body and the viability of the core underneath. The two can interact — accumulated damage may produce either — but they are not the same concept, and a biologically terminal Leaf ending under the ordinary lifecycle leaves the Tuber in place rather than exposed in the field ([34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md)).
 

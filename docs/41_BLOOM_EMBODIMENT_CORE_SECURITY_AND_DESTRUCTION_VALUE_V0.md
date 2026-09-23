@@ -63,6 +63,8 @@ Bloom production and maintenance are costly: **Programmed Tuber Draw** is normal
 
 > **Bloom existence proves prior biological capability, not unlimited current reserves.**
 
+That spending stays firmly **non-pathological** however deep the depletion it causes, and a Bloom's current salvageability may reflect ordinary depletion and persistent harm as separate facts ([43](43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md), AMO-D148, AMO-D151).
+
 So two things must be held apart:
 
 | | Asks |

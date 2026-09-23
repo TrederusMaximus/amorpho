@@ -127,6 +127,8 @@ The cleanest rule, and the one that settles every ambiguous case (AMO-D092):
 
 Possible persistent outputs: **vitality reduction**, **developmental maturity regression**, or both.
 
+The other side of that line is now defined positively as **ordinary depletion** — reduced available capacity from legitimate expenditure, insufficient replenishment or missed return, while persistent structure, capability and condition remain fundamentally recoverable through ordinary future biology ([43](43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md), AMO-D148). Crossing into harm **changes the ontology** rather than the reading on a meter, and cumulative strain crosses only where persistence itself degrades (AMO-D149). Severity is not classification: a dangerously depleted Tuber may be entirely intact.
+
 **Not qualifying, on their own:**
 
 - reserve consumption — reserves are a buffer, and spending them is what they are for;
@@ -173,6 +175,10 @@ leaf productivity failing → continued active state increasingly costly
 ```
 
 Outcomes may be lost opportunity only, a reserve cost, mild regression, or a severe vitality compromise **avoided**. So premature senescence does **not** automatically mean Pathological Tuber Impact occurred — it may be the reason it did not (AMO-D092, AMO-Q087).
+
+### Replenishment is not repair
+
+**Replenishment** restores available capacity through ordinary successful biology; **persistent recovery or repair** addresses actual harm. They are separate processes, an individual may need both at once, and no single notion of health may absorb them ([43](43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md), AMO-D150). Repair, treatment and reversibility remain open (AMO-Q102, AMO-Q105), and persistent pathology stays a deliberately deferred future layer: this architecture needs the boundary, not a disease system.
 
 ### Dormancy is not automatic Tuber recovery
 

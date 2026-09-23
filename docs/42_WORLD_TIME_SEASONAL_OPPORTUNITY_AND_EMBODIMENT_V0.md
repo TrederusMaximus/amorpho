@@ -33,7 +33,7 @@ Three things therefore follow, and each rejects a tempting shortcut:
 - **elapsed World time is not biological maturity** — a paused individual gains no development from however much world history elapses (AMO-D081, L47);
 - **elapsed World time does not strengthen the core** — an individual inhabited straight after Full Deployment may stay near its post-construction depletion indefinitely, however long the world moves around it (AMO-D131, AMO-D136).
 
-**Lost opportunity is a cost, not damage.** A long embodiment may produce no productive return, no Tuber rebuilding, no rehabilitation and a missed season without any pathology, direct Tuber injury or automatic deterioration (AMO-D092, AMO-D138). That distinction matters directly downstream (AMO-Q118).
+**Lost opportunity is a cost, not damage.** A long embodiment may produce no productive return, no Tuber rebuilding, no rehabilitation and a missed season without any pathology, direct Tuber injury or automatic deterioration (AMO-D092, AMO-D138). That distinction is now specified downstream: missed opportunity may leave an individual **more vulnerable** to a later harmful event without ever being pathology itself ([43](43_ORDINARY_DEPLETION_TO_PERSISTENT_HARM_BOUNDARY_V0.md), AMO-D148).
 
 And it needs no enforcement. AMO-D117 stands: embodiment remains open-ended, with **no forced exit, maximum duration, decay timer, hidden punishment or cooldown**. The pressure to return to rooted life is simply that the world keeps moving while biology does not — the game never says *you must root now*.
 

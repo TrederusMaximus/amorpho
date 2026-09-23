@@ -293,3 +293,7 @@ While an individual is inhabited its ordinary biology pauses, and the World does
 ### L65 — The Warden can chase the season, not reset the plant.
 The World offers conditions and the individual decides whether its biology can use them, so relocation and controlled environments change opportunity without cancelling a lifecycle. Species sets the rhythm — what strategies of growth and dormancy are available — and the individual lives the cycle, carrying its own state and history across every border. *(AMO-D146, AMO-D147, AMO-D046, AMO-D035)*
 **Smell:** an active phase that restarts on arrival in a new hemisphere, a greenhouse that cancels dormancy, a lifecycle read from a species table alone, or every species given the same growing year in the name of fairness.
+
+### L66 — Depletion spends capacity; pathology damages persistence.
+Legitimate expenditure, a disappointing season and a missed opportunity leave a plant emptier, not injured — a Tuber can be dangerously depleted and biologically intact. Persistent harm begins only where enduring structure, capability or condition has actually degraded, and once it has, no new manifestation, dormancy or passage of time undoes it. *(AMO-D148, AMO-D149, AMO-D150, AMO-D092)*
+**Smell:** a single Tuber health bar, pathology inferred from how low reserves are, an expensive Bloom or replacement classified as injury, a good season quietly curing real harm, or a fresh Leaf that clears the individual's history.
