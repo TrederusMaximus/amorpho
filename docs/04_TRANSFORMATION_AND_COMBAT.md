@@ -67,6 +67,8 @@ Combat is intended to become a fully developed, real-time, skill-based fighting 
 
 "Rounds" means fighting-game rounds. It does **not** mean selecting actions in turns.
 
+**How an encounter ends is not a knockout rule.** An Amorpho fight is a conflict under escalating risk: it normally resolves through surrender, escape, conscious withdrawal or objective resolution, and may end with both manifestations intact and still capable. Winning need not destroy the opponent, losing need not cost the manifestation, and ending a fight does not end the embodiment. Fighting on until a living manifestation is destroyed is escalation the player may choose, never the assumed model ([36](36_COMBAT_RESOLUTION_SURRENDER_ESCAPE_AND_WITHDRAWAL_V0.md), AMO-D124–AMO-D128, L59).
+
 These pillars describe **Standard Gameplay** combat, which is never reduced because VR exists. VR combat is intended to become a genuinely VR-native discipline rather than a remapped gamepad, with its own answers to skill, mastery and balance — and how the two relate competitively is an open problem (AMO-D042, AMO-Q059, AMO-Q060). See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
 
 ## 6. Mastery
@@ -91,4 +93,4 @@ The real genus provides the cast, and its species count is expected to be large.
 
 ## 9. Open questions
 
-Artifact (AMO-Q021), transformation rules (AMO-Q022), control model (AMO-Q023), camera and perspective (AMO-Q024), cultivation's effect on combat (AMO-Q025), death, loss and recovery (AMO-Q026), roster scale (AMO-Q027), and where and against whom combat happens (AMO-Q028). From this pass: astral transfer lore (AMO-Q039), inhabitability and re-entry (AMO-Q042), VR-native combat (AMO-Q059) and Standard/VR parity (AMO-Q060). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).
+Artifact (AMO-Q021), transformation rules (AMO-Q022), control model (AMO-Q023), camera and perspective (AMO-Q024), cultivation's effect on combat (AMO-Q025), death, loss and recovery (AMO-Q026), roster scale (AMO-Q027), where and against whom combat happens (AMO-Q028), and Human Warden physical conflict (AMO-Q130). From this pass: astral transfer lore (AMO-Q039), inhabitability and re-entry (AMO-Q042), VR-native combat (AMO-Q059) and Standard/VR parity (AMO-Q060). See [06_OPEN_QUESTIONS.md](06_OPEN_QUESTIONS.md).

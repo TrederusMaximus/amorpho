@@ -115,6 +115,8 @@ Mature architecture still does not regrow into its pristine form (AMO-D094). Com
 
 The opposite choice is equally valid. A Warden may keep fighting a valued manifestation and spend it — accepting scars, reduced capacity, Functional Collapse or the loss of that Leaf. The game permits the risk and passes no judgement on it.
 
+How an encounter actually ends — surrender, escape, conscious withdrawal or objective resolution, with destruction reachable only by refusing those exits — is specified in [36](36_COMBAT_RESOLUTION_SURRENDER_ESCAPE_AND_WITHDRAWAL_V0.md) (AMO-D124–AMO-D127). Ending the encounter does not by itself end the embodiment or root the plant (AMO-D126).
+
 ## 10. Collapse and terminal interaction
 
 Accumulated body damage may push a Leaf across the existing boundary: impairment, loss of active-role viability, **Functional Collapse**, **Collapse Commitment**, terminal period, end of the manifestation ([33](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md), AMO-D114, AMO-D115). There is no separate “combat collapse”: the criterion is biological and unchanged, and routing afterwards is the same Tuber-level routing as any other collapse ([25](25_TUBER_FUNDED_MANIFESTATION_AND_REPLACEMENT_ROUTING_V0.md), [26](26_PLANT_AUTONOMY_ASTRAL_LEVERAGE_AND_ROUTING_V0.md)).
