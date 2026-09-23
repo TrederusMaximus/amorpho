@@ -108,6 +108,7 @@ docs/
   31_DAMAGED_EMERGENCE_TO_IMPERFECT_DEPLOYMENT_V0.md damage during construction, imperfect deployment and failure
   32_IMPERFECTLY_DEPLOYED_MATURE_LEAF_STABILIZATION_OR_DECLINE_V0.md first mature period of a Leaf that deployed compromised
   33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md when a mature Leaf stops being serviceable and the manifestation ends
+  34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md inhabiting a doomed manifestation, and where embodiment ends
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

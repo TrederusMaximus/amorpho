@@ -173,7 +173,7 @@ Functional Collapse is a **biological** condition, and it means the same thing w
 
 Two dimensions stay separate: **biological recoverability** and **astral inhabitability**. A Leaf may be biologically doomed, still physically manifested, and — if the existing readiness and access gates are met — still temporarily inhabitable. Committed terminal decline is therefore not an automatic magical disconnect, and the exact cutoff belongs to the biology ↔ magic boundary rather than to this document ([20](20_BIOLOGY_MAGIC_BOUNDARY_AND_ASTRAL_READINESS_V0.md), AMO-Q085, AMO-Q112, AMO-Q115).
 
-What is fixed: **Terminal Leaf Collapse ends normal Leaf inhabitation**, because there is no longer a manifestation to enter; normal Leaf entry requires a fully deployed one (AMO-D107). Embodiment cannot be used to escape the terminal path either. While embodied, biological progression and recovery both pause, so the terminal trajectory neither advances nor reverses; Astral Readiness is restored only by returning the individual to rooted biological life, which resumes that trajectory (AMO-D072, AMO-D084, AMO-D086, L49, L50). Exit and re-entry repair nothing. What happens to an ongoing embodiment if the manifestation's end arrives during it is not settled here (AMO-Q112, AMO-Q113).
+What is fixed: **Terminal Leaf Collapse ends normal Leaf inhabitation**, because there is no longer a manifestation to enter; normal Leaf entry requires a fully deployed one (AMO-D107). Embodiment cannot change the committed fate: while embodied, biological progression and recovery both pause, so the terminal trajectory neither advances nor reverses, and it resumes from the same state once the individual is rooted again (AMO-D072, AMO-D084, AMO-D086, L49, L50). Exit and re-entry repair nothing. Continuous embodiment may nonetheless defer that progression for as long as it lasts, and an embodiment already under way when the manifestation ends is traced in [34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md) (AMO-D117, AMO-D118).
 
 A terminal manifestation's distinctive visual state **may** later carry situational gameplay consequences before the Leaf is lost. That is recorded as an extension point only; no mission, concealment, camouflage or combat behaviour is designed or promised (AMO-Q109, AMO-Q026).
 
@@ -191,7 +191,7 @@ A terminal manifestation's distinctive visual state **may** later carry situatio
 
 **F — imperfect-start Collapse.** A Leaf begins mature life compromised from damaged Emergence, so no healthy mature baseline ever existed. Poor Fit drives further decline until current-state evaluation shows the active role can no longer be served. Collapse occurs **without reference to any hypothetical pristine Leaf**.
 
-**G — terminal but inhabitable.** Commitment has occurred and the Leaf is terminally yellowing with no biological recovery available. The existing readiness and access gates still permit inhabitation for part of the remaining period, so the Warden may use this manifestation while it lasts; the biological state stays exactly as it is, and the pause during embodiment neither saves the Leaf nor stalls its loss once rooted life resumes. Terminal Collapse later ends that opportunity. **Stop** before any mission, capability or combat design.
+**G — terminal but inhabitable.** Commitment has occurred and the Leaf is terminally yellowing with no biological recovery available. The existing readiness and access gates still permit inhabitation, so the Warden may use this manifestation while it lasts; the biological state stays exactly as it is, and the pause during embodiment neither saves the Leaf nor advances its loss. Terminal Collapse later ends that opportunity. The embodiment side of this case is traced in [34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md). **Stop** before any mission, capability or combat design.
 
 ## 14. Deferred mechanics and acceptance
 
@@ -210,6 +210,6 @@ AMO-Q101 owns the exact viability criterion, confirmation of Collapse versus tra
 | Pathology and maturity | Neither follows automatically from Collapse. |
 | Replacement | Opened as a route, never selected by this boundary or by the dying Leaf. |
 | Astral independence | The biological definition is identical inhabited or rooted; doomed is not automatically unusable. |
-| No embodiment escape | Biology pauses while embodied and resumes when rooted; Readiness recovery cannot stall the loss. |
+| No embodiment escape | Biology pauses while embodied and resumes when rooted; deferring progression never reverses the committed fate ([34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md)). |
 
 **Result:** a mature Leaf serves until it cannot. Below that boundary it may be scarred, impaired, declining or unproductive and still be the active manifestation. At the boundary, loss of that Leaf becomes committed — advertised by terminal yellowing when it is gradual, and possibly immediate when it is catastrophic — and the manifestation ends. What remains alive is the Tuber, and what happens next is a Tuber-level routing question this document does not answer.

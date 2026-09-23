@@ -125,6 +125,8 @@ Leaving an inhabited Amorpho returns the individual to its biological plant stat
 
 The ideal case is a safe cultivation environment — its own pot, another suitable pot, suitable substrate, a greenhouse bed, suitable outdoor soil, or other controlled cultivation infrastructure. What actually counts as a valid rooting site is open (AMO-Q043).
 
+A manifestation can also **cease to exist** while inhabited — a Leaf whose committed terminal collapse completes, for instance. There is then nothing to root: direct embodiment ends with the body, and the consciousness returns to the persistent human body under this same return model ([34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md), AMO-D118, L57). No dead manifestation remains playable, and no free-floating astral form is created; a persistent Tuber that survives may afterwards be *reachable* through its Astral Window, which is contact rather than a body (AMO-D089, AMO-D099). Forced-exit specifics remain open (AMO-Q113).
+
 Astral exit is **not** dormancy, and does not cause any phase transition. An inhabited leaf-phase individual that roots is still in its leaf phase; a blooming individual left rooted is still blooming. Rooting means plant state rather than animated state, and it is compatible with every life-cycle phase (AMO-D072, [17_LIFE_CYCLE_STATE_MACHINE_V0.md](17_LIFE_CYCLE_STATE_MACHINE_V0.md)).
 
 > Astral exit returns fantasy to biological reality.

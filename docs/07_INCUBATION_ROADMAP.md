@@ -62,6 +62,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md) defines the routing seam: a mature Leaf serves until it can no longer meaningfully serve as the active manifestation, judged from current capability rather than appearance, decline or output (AMO-D114, L56). Crossing it commits the loss of that Leaf — visibly legible as a terminal period when gradual, immediate when catastrophic — after which the manifestation ends and the Tuber is the remaining living form (AMO-D115). A doomed Leaf may still be temporarily inhabitable (AMO-D116). The exact criterion, confirmation behaviour, terminal duration and astral cutoff remain open (AMO-Q084, AMO-Q101, AMO-Q103, AMO-Q112, AMO-Q113).
 
+[34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md) traces the Warden across that boundary. Collapse Commitment ends no embodiment; a doomed manifestation may still be used, and continuous embodiment suspends its terminal progression indefinitely by design, priced in One Consciousness and deferred biology rather than in any timer (AMO-D117). When the manifestation ends, embodiment ends and the consciousness returns to the human body (AMO-D118, L57). The mapping from astral-state damage to biological persistence is explicitly left undecided (AMO-D119, AMO-Q026).
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -124,7 +126,7 @@ After core design and evidence-based technology selection, examine desktop, mobi
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Trace embodiment across the end of a manifestation** — what happens to an ongoing astral embodiment when the inhabited Leaf reaches terminal Collapse, and where inhabitability ends during the terminal period, using the existing biology ↔ magic rules and the pause during embodiment; no combat, KO or interface design (AMO-Q112, AMO-Q113, [33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md](33_MATURE_LEAF_FUNCTIONAL_COLLAPSE_BOUNDARY_V0.md)). Active-phase productivity integration (AMO-Q116) remains the larger step after it.
+1. **Specify astral/combat damage → biological persistence** — decide conceptually what survives de-embodiment when an inhabited manifestation is damaged or defeated in the magical state, distinguishing fighter damage, biological manifestation damage, post-exit persistence and any Tuber consequence, with no numbers, KO rule or combat model (AMO-D119, AMO-Q026, AMO-Q113, [34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md)). Active-phase productivity integration (AMO-Q116) remains the larger step after it.
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).

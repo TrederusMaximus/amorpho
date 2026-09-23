@@ -178,6 +178,8 @@ So a Bloom can be re-entered repeatedly while it remains biologically present an
 
 Because biology is suspended (§4), inhabiting a Bloom pauses its Programmed Tuber Draw. A player could therefore remain in Bloom form for a very long time. **That is allowed**, and no artificial Bloom timer may be added to prevent it.
 
+The same reasoning governs a manifestation whose loss is already committed: continuous embodiment suspends its terminal progression too, so a Warden may hold a doomed body indefinitely and postpone its biological end. **That is also allowed** (AMO-D117, [34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md)). Exiting resumes the trajectory from exactly the same state; re-entry pauses it again and reverses nothing (L50).
+
 The cost is the usual one: Bloom progression paused, pollination and reproduction paused, the Human unavailable, the world moving on, and readiness draining with nothing restoring it.
 
 ### Deep Dormancy fully restores readiness
@@ -213,6 +215,8 @@ An Anchor may stay physically attached through every phase, and attachment alone
 | Emergence | present in the ordinary post-dormancy route; exact replacement handoff remains open |
 
 Inhabitability may close **before or during** the signal fade, and may reopen **after** the signal returns. The exact sequence is open (AMO-Q085, AMO-Q115).
+
+**Manifestation existence bounds inhabitability at both ends.** A mature manifestation whose loss is biologically committed may still be a usable body while it exists, and entering it changes none of that biology; when the manifestation itself ends, normal inhabitation of it ends with it, no shell remains playable, and the Warden's consciousness returns to the human body ([34](34_EMBODIMENT_ACROSS_TERMINAL_MANIFESTATION_COLLAPSE_V0.md), AMO-D115–AMO-D118, L57). Recoverability and inhabitability therefore stay separate dimensions, bounded only by whether the body exists.
 
 Signal or visibility during **Manifestation Emergence** does not make a developing Leaf or Bloom normally inhabitable. Both use biological construction through an Emergence Sheath/path and deployment; **Full Deployment** is required before normal Leaf or Bloom entry may become possible ([29](29_REPLACEMENT_EMERGENCE_TO_ASTRAL_READINESS_V0.md), AMO-D106, AMO-D107). Astral Readiness and the other gates remain separate. A fully deployed manifestation is not automatically Astral Ready (AMO-Q085, AMO-Q112, AMO-Q115).
 

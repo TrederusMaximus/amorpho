@@ -122,7 +122,7 @@ Identity, provenance, lineage, ownership, history, genetics and variation belong
 
 ### L26 — Astral exit returns fantasy to biological reality.
 Leaving an Amorpho returns the individual to rooted plant state, where its real relationship with its environment resumes. *(AMO-D032)*
-**Smell:** an Amorpho that can be parked indefinitely in animated form, or a rooting act with no environmental consequence at all.
+**Smell:** animated form used as a consequence-free parking state, or a rooting act with no environmental consequence at all. *Clarified 2026-09-23:* open-ended embodiment is itself permitted — the limiter is opportunity cost, not a clock (AMO-D085, L49) — and a Warden may deliberately hold even a doomed manifestation while everything biological waits (AMO-D117).
 
 ### L27 — Rooting is not inherently harmful; Environmental Fit determines the trajectory.
 Rooting exposes an individual to its environment. The result may be deterioration, equilibrium, stability, recovery, growth or improvement. Rescue windows emerge from conditions; there is no universal timer. *(AMO-D033, AMO-D034)*
@@ -257,3 +257,7 @@ Through Emergence, the Tuber funds construction and carries its sunk cost. Full 
 ### L56 — Routing follows loss of function, not loss of form.
 A manifestation serves until it cannot. Scarred, impaired, declining and unproductive are all still serviceable; Tuber-level routing begins only when the current Leaf can no longer meaningfully serve as the active manifestation. Once that loss is committed it is irreversible for that Leaf, and terminal collapse ends the manifestation — leaving the Tuber as the living persistent form. *(AMO-D114, AMO-D115, AMO-D116)*
 **Smell:** a replacement triggered by appearance, scar count or a bad season; a doomed Leaf nursed back to full health by good weather; a dead Leaf lingering as a playable shell; or a dying manifestation declared unusable the moment it is doomed.
+
+### L57 — Inhabitability may outlast recoverability, but never manifestation existence.
+A manifestation whose loss is biologically committed may still be a usable body while it exists, and embodiment may hold it there — freezing its progression without undoing its state. When the manifestation itself ends, embodiment ends with it and the consciousness returns to the human body; what remains alive is the persistent individual. *(AMO-D116, AMO-D117, AMO-D118)*
+**Smell:** a doomed manifestation declared uninhabitable the moment it is doomed, a playable corpse, a free-floating astral avatar with no body, or an embodiment that heals or resets the biological state it paused.
