@@ -24,7 +24,7 @@ No playable manifestation exists yet, and the Tuber is never itself a playable f
 
 **2 — Post-construction depletion.** Immediately afterwards A's persistent core is qualitatively **more depleted than before construction**. This is ordinary expenditure, not pathology (AMO-D148). So a freshly successful Leaf coexists with a recently depleted Tuber, and Core Viability is at its weakest point of the cycle: if this manifestation were destroyed now, little might survive (AMO-D131, AMO-D136).
 
-**3 — Rooted productive work.** A stays rooted under favourable conditions with biology running. Functional Capacity, Environmental Fit, current condition and Remaining Productive Opportunity together produce **Active Leaf Work**, and from it **Persistent Productive Return** (AMO-D135, AMO-D081).
+**3 — Rooted productive work.** A stays rooted under favourable conditions with biology running. Functional Capacity, Environmental Fit, current condition and Remaining Productive Opportunity together produce **Active Leaf Work**, and from it **Persistent Productive Return** (AMO-D135, AMO-D081). Remaining Productive Opportunity's qualitative composition is now specified in [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md).
 
 **4 — Replenishment before gain.** Early return **rebuilds what construction spent** rather than immediately exceeding A's prior position. Replenishment and net gain stay distinct, and A may be genuinely improving while still below where it started (AMO-D138, AMO-D148).
 

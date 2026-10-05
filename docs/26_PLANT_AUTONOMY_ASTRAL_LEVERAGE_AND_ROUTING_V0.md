@@ -71,7 +71,7 @@ Nor is it omniscient. It works from **currently available biological state, not 
 The decision cannot exist apart from the World. Conceptual inputs — categories only, with no variables, weights or formula (AMO-Q101):
 
 - current Environmental Fit and its ongoing trajectory;
-- **Remaining Productive Opportunity**, biological rather than a season timer (AMO-D091);
+- **Remaining Productive Opportunity**, biological rather than a season timer (AMO-D091; composition in [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md));
 - current Tuber condition, reserves and developmental context;
 - current manifestation state after the damaging event.
 

@@ -82,6 +82,8 @@ Working terminology. It is **not** identical to leaf integrity: two leaves with 
 
 This is the factor most often missing from damage models, and it is decisive. **It is biological opportunity, not a UI countdown**, and must not be modelled as a visible timer (AMO-Q116).
 
+*Revised 2026-10-06:* this working definition bounds opportunity only by the manifestation's natural end. [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) refines it: opportunity is also closed by World conditions and by the individual's own lifecycle, and useful opportunity exists only where External Productive Opportunity, Biological Growth Availability and Manifestation Productive Usability overlap (AMO-D152, AMO-D153).
+
 ### The productive outcome
 
 ```

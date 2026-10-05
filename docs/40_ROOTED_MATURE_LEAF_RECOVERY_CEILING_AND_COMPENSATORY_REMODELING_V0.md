@@ -113,7 +113,7 @@ That links Conscious Withdrawal directly to biology ([36](36_COMBAT_RESOLUTION_S
 
 Once rooted and biologically active, recovered function feeds the existing accounting: current Functional Capacity, Fit, condition and Remaining Productive Opportunity together support **Active Leaf Productive Return** ([39](39_ACTIVE_LEAF_PRODUCTIVE_RETURN_AND_PERSISTENT_TUBER_BENEFIT_V0.md), AMO-D135). Recovery matters because it can restore some of the Leaf's ability to work for the Tuber.
 
-**Recovery restores future capability, not past opportunity.** Productive opportunity that passed while the Leaf was embodied, damaged or rehabilitating is not returned (AMO-D137, L61).
+**Recovery restores future capability, not past opportunity.** Productive opportunity that passed while the Leaf was embodied, damaged or rehabilitating is not returned (AMO-D137, L61). In the terms of [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md), rehabilitation can restore **Manifestation Productive Usability** only, while External Productive Opportunity and Biological Growth Availability keep changing on their own owners' terms (AMO-D154).
 
 **Recovery potential and remaining opportunity are independent axes**, and all four combinations are legitimate:
 

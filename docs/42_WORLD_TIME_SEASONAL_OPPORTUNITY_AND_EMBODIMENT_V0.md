@@ -56,7 +56,7 @@ Two things must both hold for useful rooted active growth:
 | **External Productive Opportunity** | does this place and time provide suitable conditions? | World, evaluated through Environmental Fit |
 | **Biological Growth Availability** | can this individual currently use those conditions for active growth? | the Amorpho's lifecycle state |
 
-Only where both align can useful rooted work occur. No formula combines them, and **Remaining Productive Opportunity should eventually reflect both** — what remains reachable in the World, and what remains available in this individual's own lifecycle — without collapsing into one season timer (AMO-Q116).
+Only where both align can useful rooted work occur. No formula combines them, and **Remaining Productive Opportunity should eventually reflect both** — what remains reachable in the World, and what remains available in this individual's own lifecycle — without collapsing into one season timer (AMO-Q116). [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) completes that composition with a third component, the current Leaf's **Manifestation Productive Usability** (AMO-D153).
 
 Environment is not irrelevant, either: future biology may let environmental cues influence whether active growth continues, when dormancy pressure develops and when a transition begins. **Environment can influence the lifecycle; it is not sovereign over it.**
 
