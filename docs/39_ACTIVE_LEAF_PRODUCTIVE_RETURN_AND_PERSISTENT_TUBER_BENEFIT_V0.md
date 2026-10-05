@@ -47,7 +47,7 @@ The ownership boundary is unchanged: the **World** states conditions and never g
 
 **Time enables return; it never guarantees it.** A Leaf may persist for a long period and contribute little, through reduced capacity, poor Fit, damage or condition. *Existed for a while* is not *produced strongly*.
 
-**Remaining Productive Opportunity is its own dimension**, distinct from capacity, reserves and Tuber condition. A highly functional Leaf late in its phase may have less future benefit left to give than the same Leaf earlier — opportunity is directional and biological, never a displayed countdown (AMO-D091, L51). Its qualitative composition — World, lifecycle and the current Leaf's usability, which must all align — is specified in [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) (AMO-D153, L67); everything quantitative stays AMO-Q116.
+**Remaining Productive Opportunity is its own dimension**, distinct from capacity, reserves and Tuber condition. A highly functional Leaf late in its phase may have less future benefit left to give than the same Leaf earlier — opportunity is directional and biological, never a displayed countdown (AMO-D091, L51). Its qualitative composition — World, lifecycle and the current Leaf's usability, which must all align — is specified in [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) (AMO-D153, L67), and future return for a phase closes at the individual's Dormancy Commitment rather than with the external season ([46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md), AMO-D155); everything quantitative stays AMO-Q116.
 
 ## 5. Where return can go
 

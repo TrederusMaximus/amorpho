@@ -95,7 +95,7 @@ This component reflects the individual's current lifecycle state, its Intrinsic 
 
 Good conditions do not override it. Two individuals of the same species may differ here because of actual lifecycle state, Tuber condition, current manifestation, prior damage, prior dormancy, environmental history, return already realized and location. **Species constrains strategy; individual state determines the current case** — opportunity is never read from species alone.
 
-Where the commitment boundary into dormancy lies, and what triggers it, remains AMO-Q101 and AMO-Q084; this pass reuses that boundary rather than defining one.
+The commitment boundary at which this component closes — Dormancy Approach versus Dormancy Commitment — is specified qualitatively in [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md) (AMO-D155); its triggers remain AMO-Q101 and AMO-Q084.
 
 ## 7. Manifestation Productive Usability
 

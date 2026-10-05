@@ -86,6 +86,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) gives that frontier its first qualitative representation. **Remaining Productive Opportunity** is derived future possibility — not stored value, elapsed time or a countdown — and no single scalar may own it (AMO-D152). Useful opportunity exists only where **External Productive Opportunity** (World, reachable), **Biological Growth Availability** (the individual's lifecycle) and **Manifestation Productive Usability** (the current Leaf) overlap, as conjunction rather than a formula (AMO-D153, L67). Rehabilitation, Replacement and relocation each restore only their own component and never opportunity already passed (AMO-D154). Roster choice gains a biological dimension: **choosing an Amorpho to inhabit also means choosing whose opportunity to interrupt**. Everything quantitative, reachability and presentation remain AMO-Q116.
 
+[46_DORMANCY_COMMITMENT_BOUNDARY_V0.md](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md) draws the boundary doc 45 leaned on, with **no new state**. **Dormancy Approach** is a still-active condition within Active Leaf, where environment may still matter; **Dormancy Commitment** is what the Active Leaf → Senescence edge means, belongs to the individual's lifecycle, closes Biological Growth Availability for the phase and is irreversible by weather, relocation, rooting, embodiment or greenhouses (AMO-D155, L68). Environment influences before commitment and cannot reset after; commitment is history-sensitive, and dormancy is a strategy rather than a failure, with no universal annual cycle and no anti-exploit rule (AMO-D156). Embodiment pauses lifecycle progression on both sides: world time alone cannot push a paused individual across, and a committed one stays committed (AMO-D157). **Collapse ends a Leaf; Dormancy Commitment ends a phase.** Triggers, timing, species parameterization and player cues remain open (AMO-Q101, AMO-Q084, AMO-Q119).
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -148,13 +150,13 @@ After core design and evidence-based technology selection, examine desktop, mobi
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Define the qualitative dormancy commitment boundary** — the seam doc 45 leans on but cannot draw: two of its three closures (traces C and G) turn on an individual having *committed* to its dormancy transition, after which neither good conditions nor relocation reopen the active phase. What commitment means for Biological Growth Availability, how approaching differs from committed, and what Environmental Fit may influence before it but not after — qualitative only, with no trigger values, timing, species facts or new life-cycle state (AMO-Q101, AMO-Q084, AMO-D146, AMO-D153, [45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md)).
+1. **Sketch the roster-timing scenario end to end on paper** — the integration check the opportunity and commitment passes now make possible: one Warden, two inhabitable individuals in different environments, one approaching dormancy in a short valuable window and one with extended-growth availability, plus a threat that needs a body. Trace whether the accepted laws (L64, L65, L67, L68) generate a real dilemma about whose biological opportunity to interrupt without any scripting, timer or new rule, and record what is missing. Qualitative only, no species and no numbers ([45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) §16, [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md), L37).
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
 4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
 5. Write a one-page combat pillars and roster-strategy note (AMO-Q027).
 6. Sketch the transition test as a paper prototype before any code.
-7. Sketch one emergent scenario end to end on paper — two threatened Amorphos, one body, different environments — to check that the laws from this pass really do generate the dilemma without scripting it (L37).
+7. Sketch a broader emergent scenario on paper — two *threatened* Amorphos, one body, different environments — once the roster-timing trace (step 1) has run, to check that the laws really do generate the dilemma without scripting it (L37).
 
 ## Engine decision
 

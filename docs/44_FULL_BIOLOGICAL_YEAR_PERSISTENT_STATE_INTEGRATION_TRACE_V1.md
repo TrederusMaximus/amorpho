@@ -48,7 +48,7 @@ No playable manifestation exists yet, and the Tuber is never itself a playable f
 
 **14 — Renewed productive work.** With function recovered far enough, the Leaf again produces useful Productive Return — from the opportunity that is **still ahead**, never from what passed (AMO-D137, L61).
 
-**15 — Normal lifecycle retirement.** A's intrinsic lifecycle moves toward its dormancy transition and the Leaf enters **ordinary Senescence**. This is programmed retirement, **not** Functional Collapse and not Collapse Commitment ([17](17_LIFE_CYCLE_STATE_MACHINE_V0.md) §8, AMO-D114). Local conditions may still be reasonably suitable — **good environment is not automatic continued growth**, and no relocation would reset the transition (AMO-D146, L65).
+**15 — Normal lifecycle retirement.** A's intrinsic lifecycle moves toward its dormancy transition and the Leaf enters **ordinary Senescence**. This is programmed retirement, **not** Functional Collapse and not Collapse Commitment ([17](17_LIFE_CYCLE_STATE_MACHINE_V0.md) §8, AMO-D114). Local conditions may still be reasonably suitable — **good environment is not automatic continued growth**, and no relocation would reset the transition (AMO-D146, L65). In the terms of [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md), A passes from **Dormancy Approach** across **Dormancy Commitment**, which closes Biological Growth Availability for the phase; Senescence is the committed transition period (AMO-D155).
 
 **16 — The Leaf ends.** Its architecture, scars, Structural Integrity, current Functional Capacity and Recovery Ceiling all end with it (AMO-D074, AMO-D141). What the Leaf *did* does not end.
 

@@ -73,7 +73,7 @@ So the durable formulation is:
 > **A Warden can chase suitable weather, but cannot necessarily outrun dormancy.**
 
 - **Still active-capable** with declining local opportunity → relocation may expose the individual to genuinely new opportunity, and that is entirely legitimate.
-- **Already committed to its dormancy transition** → moving to another favourable climate does not restore active growth; dormancy proceeds on the individual's biology. If the lifecycle architecture later names a commitment boundary, it is reused rather than duplicated; no trigger or timing is defined here.
+- **Already committed to its dormancy transition** → moving to another favourable climate does not restore active growth; dormancy proceeds on the individual's biology. That commitment boundary — Dormancy Approach versus Dormancy Commitment, and how embodiment pauses lifecycle progression on both sides of it — is now specified in [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md) (AMO-D155–AMO-D157); no trigger or timing is defined here.
 
 No hemisphere shortcut exists in either direction: *south = always suitable* and *winter = globally impossible* are both rejected, because Fit remains local and real (AMO-D045, AMO-D046). Likewise no `Winter State → Productive Return disabled` rule — **season follows place, not game permission**.
 

@@ -171,6 +171,8 @@ The active manifestation recedes. This is a **real transition, not a disappearan
 
 Visible senescence is a useful real-world-inspired **presentation direction**, not a universal biological claim about any species (AMO-D024).
 
+**Dormancy Commitment** ([46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md), AMO-D155) is what the Active Leaf → Senescence edge means biologically, and adds no state: **Dormancy Approach** is a still-active condition within Active Leaf, Commitment is the edge, and Senescence is the committed transition period. Once crossed, the individual's current active phase is ending — no World change, relocation, rooting, embodiment or controlled environment reopens it — while visible receding may lag behind the biological crossing. Embodiment pauses progression on either side of the boundary and never carries an individual across it or back (AMO-D157).
+
 ## 8. One Senescence, two ways in
 
 Premature retreat needs **no separate state**. Senescence is entered either on the ordinary course of a cycle or early under severe pressure:
@@ -232,7 +234,7 @@ ENVIRONMENTAL FIT     → what trajectory results
 LIFE-CYCLE SYSTEM     → which phase transitions occur
 ```
 
-Environmental Fit may push *toward* continued healthy activity, recovery, developmental progression or premature retreat. **It does not become the life-cycle system** (AMO-D035–AMO-D037). Controlled environments change conditions and biology responds; there is no `force_bloom` or `prevent_dormancy` flag (AMO-D046, AMO-Q049). The same holds for **movement**: relocating an individual changes its environment, never its lifecycle state or history, so a Warden may chase suitable conditions without resetting a committed dormancy transition ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D146, L65). Species biology shapes which lifecycle strategies are available; the individual owns the current state (AMO-D147).
+Environmental Fit may push *toward* continued healthy activity, recovery, developmental progression or premature retreat. **It does not become the life-cycle system** (AMO-D035–AMO-D037). Controlled environments change conditions and biology responds; there is no `force_bloom` or `prevent_dormancy` flag (AMO-D046, AMO-Q049). The same holds for **movement**: relocating an individual changes its environment, never its lifecycle state or history, so a Warden may chase suitable conditions without resetting a committed dormancy transition ([42](42_WORLD_TIME_SEASONAL_OPPORTUNITY_AND_EMBODIMENT_V0.md), AMO-D146, L65). Where that commitment lies — and what Fit may influence before it but not after — is specified in [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md) (AMO-D155, AMO-D156, L68). Species biology shapes which lifecycle strategies are available; the individual owns the current state (AMO-D147).
 
 ## 10. Rooting, astral exit and dormancy are three different things
 
