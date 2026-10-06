@@ -209,4 +209,6 @@ That constraint weighs more in Amorpho than elsewhere: long Attunement and histo
 
 AMO-Q028 keeps escape contests, pursuit, enclosure and multi-party encounters in their contexts. AMO-Q027 keeps the combat structure that must support several threats, congestion and group interference. AMO-Q109 keeps protection and hit determination under multi-directional pressure. AMO-Q023 and AMO-Q024 keep controls, targeting and camera, which must not assume a one-on-one lock. AMO-Q008 keeps hostile behaviour, griefing and any future governance or protected-location layer. AMO-Q043 keeps rooting rules, including rooting under pressure. No new question was required.
 
+*Revised 2026-10-07:* movement, Defence, Protection, Break Contact, pursuit, interception, Local Screening, Local Isolation and handoff interaction now have their qualitative owner in [58](58_MOVEMENT_DEFENCE_AND_PROTECTION_INTERACTION_V0.md) (AMO-D177, AMO-D178, AMO-D176 revised). The principles here are unchanged.
+
 **Result:** being outnumbered in Amorpho should be frightening and survivable — a scramble through bodies and terrain toward open ground, with a living plant at stake on one side and real living plants spent on the other. Numbers decide how hard it is, never that it is already over.

@@ -238,3 +238,5 @@ It does not show that Amorpho combat works, is fun or is balanced; that real-tim
 ## 17. The next boundary
 
 The test repeatedly stopped at the same places — pursuit, interception, multi-threat defence, body obstruction, handoff and breaking contact. **Geometry has taken the question as far as it can; the next answers belong to movement, defence and protection interacting.** The broader transition test (doc 52) remains unrun, and the central hypothesis — *cultivation makes combat matter more, and combat makes cultivation matter more* — remains untested.
+
+*Revised 2026-10-07:* the unresolved boundaries exported in §15 now have a qualitative owner in [58](58_MOVEMENT_DEFENCE_AND_PROTECTION_INTERACTION_V0.md). The evidence recorded above is unchanged, and doc 58 does not resolve any outcome this test left open.

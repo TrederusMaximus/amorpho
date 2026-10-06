@@ -102,6 +102,8 @@ Knowing when to stop, how to create disengagement, how to preserve the body and 
 
 No score or ranking expresses this.
 
+*Revised 2026-10-07:* Pillars 3 (Mobility and Positioning), 5 (Defence and Preservation) and 8 (Disengagement Mastery) now have a qualitative interaction owner in [58](58_MOVEMENT_DEFENCE_AND_PROTECTION_INTERACTION_V0.md): physical movement and Threat Geometry, Active Defence distinct from Protection, and Break Contact, Pursuit and Interception (AMO-D177, AMO-D178). No combat class or archetype follows.
+
 ### Pillar 9 — Preparation
 Protection choices, equipment, ability configuration, environmental preparation and body selection may all matter before the first exchange. **Combat begins before the first attack, with the decision of which body and which protection to risk.** No inventory or loadout is designed.
 

@@ -132,6 +132,7 @@ docs/
   55_MULTI_ATTACKER_ENCOUNTERS_ESCAPE_AND_ANTI_DOGPILE_PRINCIPLES_V0.md outnumbered fights, escape, and why numbers are not certainty
   56_ONE_VS_THREE_ESCAPE_GEOMETRY_PAPER_PROTOTYPE_V0.md board test of the escape-geometry premise (design)
   57_ONE_VS_THREE_ESCAPE_GEOMETRY_PAPER_TEST_RESULTS_V0.md results of that board test, run 2026-10-06
+  58_MOVEMENT_DEFENCE_AND_PROTECTION_INTERACTION_V0.md how a body moves, defends and breaks contact under pressure
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

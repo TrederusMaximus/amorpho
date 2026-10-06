@@ -76,6 +76,8 @@ Two product requirements pull against each other deliberately, and future balanc
 | Serious fighting must risk the manifestation | protection so effective that the biological connection becomes decorative |
 | Regular skilled fighting must remain viable | combat that ruins a manifestation every time, making participation irrational |
 
+*Revised 2026-10-07:* the interaction order before the body — **spatial avoidance → Active Defence → Protection → residual → body** — is specified qualitatively in [58](58_MOVEMENT_DEFENCE_AND_PROTECTION_INTERACTION_V0.md) §6–§8. There, *Protection* names the protective layer or capability, and the blocking, parrying, evasion and positioning listed above belong to spatial avoidance and Active Defence within the same protection boundary (AMO-D177, AMO-D122 revised). The biology downstream of the body is unchanged.
+
 ## 6. Manifestation body damage
 
 When an effect reaches the body, the biological manifestation changes **then**, not on de-embodiment. The Warden continues fighting through an already-damaged body. De-embodiment therefore **reveals continuity rather than creating persistence**: nothing is converted or applied late, because embodiment never created a second temporary body.
