@@ -1,6 +1,6 @@
 # 55 — Multi-Attacker Encounters, Escape and Anti-Dogpile Principles, v0
 
-**Status:** qualitative combat-architecture pass using owner-supplied design direction. It extends [36](36_COMBAT_RESOLUTION_SURRENDER_ESCAPE_AND_WITHDRAWAL_V0.md), [49](49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md) and [54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md) to one Warden facing several. It defines no player cap, damage scaling, anti-gank buff, health, crowd-control value, escape timer, invulnerability, matchmaking, safe zone, criminal or reputation system, faction, control, move, camera, interface or code.
+**Status:** qualitative combat-architecture pass using owner-supplied design direction. It extends [36](36_COMBAT_RESOLUTION_SURRENDER_ESCAPE_AND_WITHDRAWAL_V0.md), [49](49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md) and [54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md) to one Warden facing several. *Revised 2026-10-06:* sharpened with the owner's clarification that **group pressure is collective while biological consequence stays individual** (§7, §8, trace F); the disposable geometric test of these principles is designed in [56](56_ONE_VS_THREE_ESCAPE_GEOMETRY_PAPER_PROTOTYPE_V0.md) and **has not been run**. It defines no player cap, damage scaling, anti-gank buff, health, crowd-control value, escape timer, invulnerability, matchmaking, safe zone, criminal or reputation system, faction, control, move, camera, interface or code.
 
 > **Numbers create pressure, not certainty.**
 
@@ -74,6 +74,20 @@ No numeric diminishing return is introduced; congestion is meant to **emerge fro
 
 Design direction for skill expression, with no technique defined: keeping one attacker between the defender and another, forcing attackers into poor angles, using narrow terrain, opening gaps by displacement, drawing pursuit into a line, buying moments of separation. Movement, positioning, defensive timing, target prioritisation, risk judgement and knowledge of terrain must keep real influence.
 
+**Isolation is a first-class defender opportunity.** The defender need not defeat the group; they can target its **coherence**. Overcommitment, displacement, poor spacing, terrain, a pursuit error or the defender's own repositioning may leave one attacker locally cut off from the group's effective support:
+
+```
+GROUP COHERENCE
+  → one attacker becomes locally isolated
+  → the defender pressures that individual
+  → that attacker must defend their own living manifestation
+  → the allies choose whether and how to react
+  → group geometry changes
+  → an escape opening may appear
+```
+
+Isolation does **not** require knocking out, defeating or destroying the attacker. Forcing them defensive, wearing down their protection, making body risk credible, displacing them or making them pull back is enough if it **changes local control**. *An isolated attacker should have to care about their own living body again.*
+
 Two opposite rejections hold together: *outnumbered = automatic loss*, and *high skill = guaranteed escape from any number*.
 
 **Preparation is counter-pressure** — protection, mobility configuration, body condition, starting position, environment, known routes (Pillar 9, [49](49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md)). No builds are designed.
@@ -91,6 +105,20 @@ Two opposite rejections hold together: *outnumbered = automatic loss*, and *high
 
 **Poor coordination creates openings.** Crowding, mistimed attacks, blocked routes and bad pursuit may let the target escape — the intended counterweight, with no defender bonus needed.
 
+> **Group pressure is collective; biological consequences remain individual.**
+
+A coordinated group produces enclosure, several threat directions, continuous pressure, pursuit and escape denial *together* — and every member contributes through **one actual living manifestation carrying one persistent core**. The group is not a shared health pool and absorbs nothing collectively; individual bodies do. Its advantages stay real and large — more angles, space control, pursuit coverage, rotating pressure, closing routes, dividing the defender's attention — and **three coordinated attackers are genuinely more dangerous than one**. The point is not symmetry.
+
+**Commitment to the group can cost an attacker individual freedom.** Holding an angle, staying close enough to deny a route, pursuing hard, keeping formation, committing to an attack or occupying cramped space beside allies may leave less room to evade, position defensively, orient protection, keep a retreat route or stay flexible. That is not a penalty; it emerges from **position, commitment and geometry**.
+
+**There is no group-status damage modifier.** Being part of a group never makes anyone take more damage, and there is no hidden swarm vulnerability. Damage still follows the one causal chain — incoming effect → protection and defence → residual effect → the actual body → real biological consequence (AMO-D122) — and any added danger comes from exposure, reduced freedom, isolation and hits that actually land.
+
+**Individual risk can fracture collective pressure.** One attacker takes meaningful body damage; that Warden reassesses their own biological risk; they defend, withdraw or reposition; the enclosure weakens; the defender gains an opening. No morale meter, automatic group-break rule or scripted retreat: each attacking Warden makes their own judgement (AMO-D173).
+
+**Attackers may need to protect one another** — covering an exposed member, rotating a damaged one away, holding space for another's retreat, giving up pursuit pressure to restore coherence. No formation is defined. *Maintaining collective advantage may require spending pressure to preserve individual bodies; if allies protect an exposed member, they may have to give up pressure somewhere else.* The swarm picture is inspiration only, with no zoological claim: **a group can be hard to disrupt as a whole while one badly positioned member is acutely vulnerable as an individual.**
+
+**Local objectives shift with spatial state**, with no scripted phases: attackers begin by preventing escape and the defender by breaking the enclosure; once one attacker is exposed, the attackers' objective becomes restoring coherence or protecting that member, and the defender's becomes exploiting the opening.
+
 The aim is not to prevent group play; it is to prevent **group size alone** from guaranteeing destruction.
 
 ## 8. Biological cost to attackers
@@ -100,6 +128,8 @@ The aim is not to prevent group play; it is to prevent **group size alone** from
 Every attacker carries a real manifestation, a persistent core, Biological Deployment Cost, interrupted productive opportunity and body-damage risk (AMO-D161). Coordinated aggression is not biologically free. A long group pursuit means each attacker stays embodied, interrupts their own rooted biology, travels physically, exposes their own manifestation and carries their own core into danger (AMO-D136, AMO-D145) — so long hunts are naturally expensive, with no artificial pursuit tax.
 
 Attackers therefore face their own decision: ***is this target still worth chasing?*** No pursuit meter.
+
+**A larger group brings more pressure and more at risk.** More attackers can mean stronger control, more pursuit and more containment, and also more manifestations, more persistent cores, more interrupted opportunity and more individual history and Attunement inside a dangerous encounter. Nothing reduces that to a balancing formula.
 
 ## 9. Persistent World and logistics
 
@@ -121,6 +151,8 @@ Attackers therefore face their own decision: ***is this target still worth chasi
 
 > **Deterministic gang destruction is a product failure.** If the optimal group strategy becomes *bring enough bodies, surround the target, and destruction is certain regardless of the defender's skill, preparation, terrain or escape attempt*, persistent individuals become deletable by griefing, and attachment collapses (AMO-D174).
 
+Two sharper forms of it: **each additional attacker must remain an individually punishable living participant, not another consequence-free damage source**, and **a group gains power through coordination, not immunity from consequence**.
+
 That constraint weighs more in Amorpho than elsewhere: long Attunement and history make individuals personally irreplaceable (AMO-D169), so the destruction of a persistent body must be the result of meaningful World, conflict and combat play — never trivial numerical bullying.
 
 **Hunts are still allowed.** A group deliberately hunting a particular Amorpho can be a powerful emergent story. The requirement is that **the hunt creates danger and drama, not guaranteed deletion by attendance count**. Persistent destruction remains possible.
@@ -139,6 +171,8 @@ That constraint weighs more in Amorpho than elsewhere: long Attunement and histo
 
 **E — a beloved individual targeted.** A Warden fighting with a long-attuned individual realises a coordinated group intends to destroy it. The objective becomes preservation; the Warden willingly abandons the original stake; survival matters because the relationship history does. No emotional stat is involved.
 
+**F — breaking coherence.** Four attackers press one defender and hold most useful escape directions. One commits too deeply trying to close the last route. The defender repositions and briefly isolates that attacker, whose defensive freedom is now constrained, and lands a counter that puts their body at real risk. That attacker must put their own manifestation first; their allies shift spacing to support them; the enclosure opens; the defender breaks contact and escapes. The group kept its numerical superiority and still failed to destroy the target; one attacker carries persistent biological damage away; and the attackers may still have won the original stake. **No numerical modifier was involved.** This is intended procedure, not an observed result: whether geometry really allows it is what doc 56 tests.
+
 ## 13. Acceptance and consistency audit
 
 | Test | Result |
@@ -156,6 +190,9 @@ That constraint weighs more in Amorpho than elsewhere: long Attunement and histo
 | **K** — destruction may turn into a custody contest | §10 |
 | **L** — no stat-based anti-gank system | §2 |
 | **M** — an attuned individual can be hunted without being trivially deletable | §11 |
+| **N** — group pressure collective, consequence individual, no group damage modifier | §7 |
+| **O** — isolation of one attacker can force the group to react | §6, §7, trace F |
+| **P** — attackers may have to protect one another at a cost in pressure | §7 |
 
 | Distinction | Holds |
 |---|---|
@@ -165,6 +202,8 @@ That constraint weighs more in Amorpho than elsewhere: long Attunement and histo
 | More attackers = more pressure, and more congestion and cost | §5, §8 |
 | Group play stays possible; persistent destruction stays possible | §7, §11 |
 | Attendance count ≠ guaranteed deletion | §11 |
+| Group advantage ≠ group immunity; group support ≠ shared health | §7 |
+| Individual exposure ≠ damage multiplier; isolation ≠ automatic kill | §6, §7 |
 
 ## 14. Deferred implementation
 
