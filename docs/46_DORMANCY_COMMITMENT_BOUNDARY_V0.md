@@ -60,7 +60,7 @@ So **Approach is a condition, Commitment is the edge, and Senescence is the comm
 
 **Commitment is not its appearance.** Visible yellowing, receding and retirement are **presentation that may follow** the biological crossing, possibly with a lag; they never define it (AMO-D134, AMO-D024). Biology owns the truth.
 
-**Commitment closes the phase, not the plant.** Dormancy, renewed lifecycle readiness and a new Emergence may produce another active manifestation in a later cycle ([17](17_LIFE_CYCLE_STATE_MACHINE_V0.md) §2). Nothing about commitment is a permanent shutdown.
+**Commitment closes the phase, not the plant.** Dormancy, renewed lifecycle readiness and a new Emergence may produce another active manifestation in a later cycle ([17](17_LIFE_CYCLE_STATE_MACHINE_V0.md) §2). Nothing about commitment is a permanent shutdown. When and how the dormant Tuber can begin another phase — Intrinsic Reactivation Readiness, External Emergence Suitability, feasibility and Reactivation Commitment — is specified in [47](47_DEEP_DORMANCY_DURATION_AND_ACTIVE_PHASE_REACTIVATION_BOUNDARY_V0.md); this document governs only the ending.
 
 **Irreversibility, v0.** Once crossed, commitment is not reversed for that active phase by ordinary World change, relocation, rooting, embodiment or controlled environments. No exotic biological exception is defined; whether any could ever exist stays with AMO-Q101.
 

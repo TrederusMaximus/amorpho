@@ -17,6 +17,8 @@ AMO-D136 established that ordinary Productive Return is suspended while an indiv
 
 They are not the same clock, and neither is derived from the other.
 
+The divergence belongs to **embodiment only**. Deep Dormancy is not an embodiment-style pause: the dormant Tuber's biology runs with World Time according to its own lifecycle, so during dormancy the two clocks move together ([47](47_DEEP_DORMANCY_DURATION_AND_ACTIVE_PHASE_REACTIVATION_BOUNDARY_V0.md), AMO-D158).
+
 > **Embodiment freezes ordinary biological progression of the inhabited individual, not the World around it.**
 
 There is no global time stop. While the Warden stays embodied, local weather, temperature regime, light availability and the season itself may all move on, and local rooted suitability may improve or deteriorate — described through the existing environment and Fit architecture, with no new dimension introduced.

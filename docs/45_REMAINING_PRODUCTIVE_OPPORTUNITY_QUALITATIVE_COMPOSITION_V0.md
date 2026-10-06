@@ -95,7 +95,7 @@ This component reflects the individual's current lifecycle state, its Intrinsic 
 
 Good conditions do not override it. Two individuals of the same species may differ here because of actual lifecycle state, Tuber condition, current manifestation, prior damage, prior dormancy, environmental history, return already realized and location. **Species constrains strategy; individual state determines the current case** — opportunity is never read from species alone.
 
-The commitment boundary at which this component closes — Dormancy Approach versus Dormancy Commitment — is specified qualitatively in [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md) (AMO-D155); its triggers remain AMO-Q101 and AMO-Q084.
+The commitment boundary at which this component closes — Dormancy Approach versus Dormancy Commitment — is specified qualitatively in [46](46_DORMANCY_COMMITMENT_BOUNDARY_V0.md) (AMO-D155); its triggers remain AMO-Q101 and AMO-Q084. Availability for a **future** phase reopens only through dormancy and reactivation ([47](47_DEEP_DORMANCY_DURATION_AND_ACTIVE_PHASE_REACTIVATION_BOUNDARY_V0.md), AMO-D159), never merely because external opportunity exists.
 
 ## 7. Manifestation Productive Usability
 

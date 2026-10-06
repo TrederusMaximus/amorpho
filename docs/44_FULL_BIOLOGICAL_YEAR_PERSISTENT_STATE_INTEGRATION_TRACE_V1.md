@@ -54,7 +54,7 @@ No playable manifestation exists yet, and the Tuber is never itself a playable f
 
 **17 — Dormancy.** A enters Early then Deep Dormancy: non-playable, astrally silent, with a successful dormant period restoring **Astral Readiness only** (AMO-D060, AMO-D086, AMO-D088). Dormancy **awards nothing, refills nothing and erases nothing** — it cannot manufacture return that never occurred, reset condition or clear harm (AMO-D083, AMO-D145, AMO-D149). Entering dormancy in good, moderate or depleted condition is all ordinary; A enters reasonably well provisioned but not perfect.
 
-**18 — Next Emergence.** When A is biologically ready again, the next manifestation is funded **from the persistent state actually carried through dormancy** — never from a generic species baseline (AMO-D095, AMO-D109).
+**18 — Next Emergence.** When A is biologically ready again, the next manifestation is funded **from the persistent state actually carried through dormancy** — never from a generic species baseline (AMO-D095, AMO-D109). *Biologically ready again* is now specified in [47](47_DEEP_DORMANCY_DURATION_AND_ACTIVE_PHASE_REACTIVATION_BOUNDARY_V0.md): Intrinsic Reactivation Readiness, External Emergence Suitability and feasibility must align before Reactivation Commitment (AMO-D159, AMO-D160).
 
 **19 — A new Leaf.** It is **fresh architecture**: no inherited scars, no inherited missing structure, no inherited ceiling (AMO-D074, AMO-D113). Its achievable scale and quality may nonetheless be shaped by the Tuber that funded it, so the next manifestation may be more substantial, similarly supported or less so — derived from persistent biology, never from old Leaf geometry, and never as combat progression (AMO-D095, AMO-Q110, L5).
 

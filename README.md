@@ -121,6 +121,7 @@ docs/
   44_FULL_BIOLOGICAL_YEAR_PERSISTENT_STATE_INTEGRATION_TRACE_V1.md one whole cycle, and what carries into the next
   45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md where World, lifecycle and Leaf still agree
   46_DORMANCY_COMMITMENT_BOUNDARY_V0.md approaching dormancy versus committed to it
+  47_DEEP_DORMANCY_DURATION_AND_ACTIVE_PHASE_REACTIVATION_BOUNDARY_V0.md how long dormancy lasts and when a new cycle may begin
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
