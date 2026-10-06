@@ -125,6 +125,7 @@ docs/
   48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md whose biological opportunity to interrupt
   49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md what a body costs to risk versus what it is worth risking for
   50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md what the Warden can know, infer and sense through the Anchor
+  51_PERSISTENT_INDIVIDUAL_PLANT_MODEL_V0.md what one persistent individual is, across every body it grows
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

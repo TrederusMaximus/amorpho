@@ -24,7 +24,7 @@ All four feed the effective response profile that Environmental Fit evaluates (A
 
 ## 2. The loop this state exists to serve
 
-Condition is not a species property. It belongs to the persistent individual, and it is what makes the environment matter over time:
+Condition is not a species property. It belongs to the persistent individual (inventory in [51](51_PERSISTENT_INDIVIDUAL_PLANT_MODEL_V0.md)), and it is what makes the environment matter over time:
 
 ```
 CURRENT CONDITION(t) + DEVELOPMENTAL STATE(t)

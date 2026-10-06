@@ -30,7 +30,7 @@ They are not identical, and **biological truth exists independently of what the 
 No source supplies complete truth; together they support judgement.
 
 1. **Direct observation** of the manifestation and the World — the body, its form, its damage, its location, its surroundings.
-2. **Individual history** — when it last emerged, how long it was rooted or embodied, damage and recovery, strong or weak prior seasons, early or late past dormancy, survived destructions and rescues, Bloom history. No event log is designed; history is a knowledge source, and future records may supplement memory so knowledge does not rest on player recall alone.
+2. **Individual history** — the historical record of the persistent individual defined in [51](51_PERSISTENT_INDIVIDUAL_PLANT_MODEL_V0.md) (AMO-D168) — when it last emerged, how long it was rooted or embodied, damage and recovery, strong or weak prior seasons, early or late past dormancy, survived destructions and rescues, Bloom history. No event log is designed; history is a knowledge source, and future records may supplement memory so knowledge does not rest on player recall alone.
 3. **General biological and species knowledge** — lifecycle strategy, dormancy tendency, extended-growth potential, flowering capability, broad environmental preferences, as far as approved input supplies them (AMO-D024).
 4. **Environmental context** — where the individual is, current conditions, whether a greenhouse exists, known climate tendencies, recent weather.
 5. **Astral Anchor feedback** — qualitative biological and astral sensing through the bound connection (§10).
@@ -122,6 +122,8 @@ The Anchor's established ontology is unchanged: a physical, reusable object asso
 ## 11. Warden–Amorpho Astral Attunement
 
 > **Astral Attunement** is the relationship-specific depth to which one Warden can understand one persistent individual through the Anchor.
+
+The relationship it belongs to, and how relationships stay distinguishable through custody changes, theft, rebinding and separation, are defined in [51](51_PERSISTENT_INDIVIDUAL_PLANT_MODEL_V0.md) (AMO-D169).
 
 It is not a species property, not shared by every Warden, not a property of the Anchor object alone, and not general biological knowledge (AMO-D167). Two things reinforce each other without merging: **general Warden biological knowledge** — lifecycle concepts, species tendencies, environments, patterns — and **individual Attunement** — how *this* individual feels through the Anchor, its rhythms, its characteristic transitions, its departures from its own history.
 
