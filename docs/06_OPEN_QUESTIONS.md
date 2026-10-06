@@ -256,6 +256,7 @@ What actually enables astral transfer? Is an amulet, a belt, another artifact, s
 **Status:** OPEN · **Constraints:** AMO-D028, AMO-D031
 Which individuals may a player inhabit? Only plants they own? Can a plant owned by someone else be inhabited, borrowed or lent? Is transfer distance limited, and how is initiation gated?
 *Notes:* Touches ownership (AMO-Q007) and social infrastructure such as a friend's greenhouse (AMO-Q046). Conservative default: only owned, eligible individuals.
+*Refined 2026-10-06 ([48](48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md)):* the roster-timing trace leans on one point this question owns: whether direct presence can pass from one inhabited Amorpho to another or must first return to the human body. Either way it is sequential — exit roots the first individual where it stands and presence must be established in the second (AMO-D032, AMO-D101) — but the answer sets how costly a mid-conflict change of body is. No transfer path is decided.
 
 ### AMO-Q041 — The unattended human body
 **Status:** OPEN · **Constraints:** AMO-D029
@@ -285,6 +286,7 @@ What counts as a place where an inhabited Amorpho can root and return to plant s
 Before rooting, how much does the player learn about how the individual will fare there? Is the prognosis exact, approximate, uncertain, or learned through experience? Are forecasts available, and how reliable are they?
 *Notes:* Certainty here decides whether rooting is a judgement call or a lookup. Too much information makes emergency rooting trivial; too little makes it arbitrary.
 *Refined 2026-09-21:* the separation of **simulation truth** from **player knowledge** is now explicit (AMO-D051): the simulation may hold a trajectory without exposing certainty about it, and nothing assumes a visible countdown to non-inhabitability. The question is the information model — forecasts, sensors, cultivation knowledge, equipment, warnings, and how accurately a player can predict Fit before committing to a location or a rooting event.
+*Refined 2026-10-06 ([48](48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md)):* the roster-timing trace shows the same split governs **which body to inhabit**: the choice is a real decision only to the extent the Warden can judge an individual's lifecycle position (Approach or committed), the productive opportunity it has left, and how near a dormant individual is to reactivation. The trace used design-level omniscience. This question owns that information model together with AMO-Q119 (routing prognosis) and AMO-Q111 (maturity presentation); no forecast, cue or interface is designed, and none may become a countdown (L67–L69).
 
 ### AMO-Q045 — Critical condition, recovery, core damage and death
 **Status:** RESOLVED → AMO-D074, AMO-D075, AMO-D076 · **Constraints:** AMO-D031, AMO-D033, AMO-D034, AMO-D074
