@@ -123,6 +123,7 @@ docs/
   46_DORMANCY_COMMITMENT_BOUNDARY_V0.md approaching dormancy versus committed to it
   47_DEEP_DORMANCY_DURATION_AND_ACTIVE_PHASE_REACTIVATION_BOUNDARY_V0.md how long dormancy lasts and when a new cycle may begin
   48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md whose biological opportunity to interrupt
+  49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md what a body costs to risk versus what it is worth risking for
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

@@ -45,6 +45,7 @@ A real species defines the **identity and visual foundation** of an Amorpho char
 - A large real plant is not automatically a stronger fighter.
 - A botanical trait is not automatically a combat mechanic.
 - Real characteristics are welcome as **inspiration** — for silhouette, animation, move themes, personality, humour — but never as specification.
+- Size, rarity, origin, cultivation difficulty and taxonomy never rank fighters or assign archetypes; combat identity comes from skill, preparation and deliberate design (AMO-D162).
 
 Combat design belongs to Game Design Data (Layer 2). It references species by their permanent `AMO-SP-` IDs and never needs botanical justification (AMO-D021).
 
@@ -68,6 +69,8 @@ Combat is intended to become a fully developed, real-time, skill-based fighting 
 "Rounds" means fighting-game rounds. It does **not** mean selecting actions in turns.
 
 **How an encounter ends is not a knockout rule.** An Amorpho fight is a conflict under escalating risk: it normally resolves through surrender, escape, conscious withdrawal or objective resolution, and may end with both manifestations intact and still capable. Winning need not destroy the opponent, losing need not cost the manifestation, and ending a fight does not end the embodiment. Fighting on until a living manifestation is destroyed is escalation the player may choose, never the assumed model ([36](36_COMBAT_RESOLUTION_SURRENDER_ESCAPE_AND_WITHDRAWAL_V0.md), AMO-D124–AMO-D128, L59). In that exceptional case the manifestation is stripped away and the persistent **Tuber it carried is exposed where the Amorpho fell** — rescuable if still viable, and the end of the individual if not ([37](37_MANIFESTATION_DESTRUCTION_TUBER_CORE_VIABILITY_AND_PHYSICAL_DROP_V0.md), AMO-D129–AMO-D131, L60).
+
+**Combat pillars, v0.** [49](49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md) names the qualitative design space every concrete system must satisfy: skill expression, protection management, mobility and positioning, offensive commitment, defence and preservation, risk escalation, objective-driven combat, disengagement mastery, preparation, persistent consequence and Warden continuity across bodies. Two rules carry the weight. **Biological Deployment Cost and Combat Suitability are separate axes**, so the roster decision is a tension between what a body costs to risk and what it is worth risking for (AMO-D161, L70). And **skill includes preserving the living body** — protection is preservation, not extra health, and disengagement is mastery, not failure (AMO-D163). Combat identity comes from gameplay and deliberate design, never from botanical taxonomy (AMO-D162).
 
 These pillars describe **Standard Gameplay** combat, which is never reduced because VR exists. VR combat is intended to become a genuinely VR-native discipline rather than a remapped gamepad, with its own answers to skill, mastery and balance — and how the two relate competitively is an open problem (AMO-D042, AMO-Q059, AMO-Q060). See [11_STANDARD_AND_VR_GAMEPLAY.md](11_STANDARD_AND_VR_GAMEPLAY.md).
 
