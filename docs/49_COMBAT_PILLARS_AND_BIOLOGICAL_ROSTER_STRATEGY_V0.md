@@ -145,7 +145,7 @@ COMBAT → RESOLUTION → PERSISTENT CONSEQUENCE
 
 **Bloom is already distinct through risk.** It signals a substantial core and carries different exposure; no combat role is assigned (AMO-D144, L63).
 
-**Combat should create dilemmas, not solve them.** The system should present competing good reasons to choose different bodies rather than calculating one answer — and understanding biology, risk, timing, condition, matchup and objective can itself become player skill. No information interface is designed (AMO-Q044).
+**Combat should create dilemmas, not solve them.** The system should present competing good reasons to choose different bodies rather than calculating one answer — and understanding biology, risk, timing, condition, matchup and objective can itself become player skill. No information interface is designed (AMO-Q044). In play, **Biological Deployment Cost is judged under partial information** — location and visible condition are known, opportunity, Core security and recovery potential are inferred — and no system recommends a body ([50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md), AMO-D164).
 
 **No universal best Amorpho** is the design target: different situations should reward different preparation, style, protection, movement and bodies. No balance rule is imposed here.
 

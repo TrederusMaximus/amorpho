@@ -121,7 +121,7 @@ At Dormancy Commitment, **Biological Growth Availability for the current active 
 
 **Realized Productive Return remains** (L61, AMO-D137). Commitment closes future ordinary work, never the history of work done, and the individual carries its completed productive history into dormancy and the next cycle ([44](44_FULL_BIOLOGICAL_YEAR_PERSISTENT_STATE_INTEGRATION_TRACE_V1.md)).
 
-**Commitment timing is strategically meaningful.** Whether an individual is fully active, approaching or already committed changes what withdrawal, relocation, embodiment and roster choice are worth ([45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) §16). No interface is designed, and **the Warden need not know exactly** where an individual stands; future cues may be biological, visual, historical or contextual. The state exists independently of player certainty (AMO-Q119).
+**Commitment timing is strategically meaningful.** Whether an individual is fully active, approaching or already committed changes what withdrawal, relocation, embodiment and roster choice are worth ([45](45_REMAINING_PRODUCTIVE_OPPORTUNITY_QUALITATIVE_COMPOSITION_V0.md) §16). No interface is designed, and **the Warden need not know exactly** where an individual stands; future cues may be biological, visual, historical or contextual. The state exists independently of player certainty (AMO-Q119); what the Warden can infer about it is specified in [50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md) (AMO-D164).
 
 **No countdown.** Rejected: *Dormancy in 3 days*, *Dormancy Commitment 82%*, a season meter, an active-days counter, a hidden seasonal score (AMO-D091, L67).
 

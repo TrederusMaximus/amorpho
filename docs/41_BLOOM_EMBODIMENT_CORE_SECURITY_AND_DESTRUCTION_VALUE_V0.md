@@ -97,7 +97,7 @@ BLOOM BODY DESTROYED → embodiment ends
 The same fact cuts both ways, and the architecture only preserves the tension:
 
 - **The Warden** who embodies a Bloom knowingly carries a persistent core whose existence already signals substantial biological investment into travel, exploration and conflict. That value is no longer safely rooted somewhere. Bloom embodiment is therefore a high-value deployment decision — not universally more dangerous, but differently exposed.
-- **An opponent** may reasonably reason that destroying this manifestation is more likely to expose a biologically significant Tuber than destroying an apparently fresh early Leaf. No reward, drop probability, aggression rule or AI utility follows, and nothing says hostile actors attack Blooms.
+- **An opponent** may reasonably reason that destroying this manifestation is more likely to expose a biologically significant Tuber than destroying an apparently fresh early Leaf. No reward, drop probability, aggression rule or AI utility follows, and nothing says hostile actors attack Blooms. The owner may know more than the opponent — from prior Tuber history, Bloom timing and Anchor feedback — and still has no readout of current salvageability ([50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md), AMO-D166).
 
 Risks genuinely invert rather than rank:
 

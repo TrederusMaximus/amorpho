@@ -10,7 +10,7 @@
 
 > Does the accepted biology naturally make "Which Amorpho do I inhabit now?" a strategic decision — not only *which fighter is strongest*, but *whose current biological opportunity am I willing to interrupt*?
 
-The test fails if the dilemma only appears after adding a cooldown, stamina ticket, availability timer, scripted penalty, species balancing bonus, numeric productivity value or combat-stat comparison. The trace uses **omniscient design-level knowledge**; what the Warden can actually perceive is a separate question (§12).
+The test fails if the dilemma only appears after adding a cooldown, stamina ticket, availability timer, scripted penalty, species balancing bonus, numeric productivity value or combat-stat comparison. The trace uses **omniscient design-level knowledge**; what the Warden can actually perceive is specified in [50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md): the same decision is made in play from evidence, history, Anchor feedback and Attunement, without exact values (AMO-D164).
 
 ## 2. The Warden constraint
 
@@ -144,7 +144,7 @@ Later, while the Warden is elsewhere, C may develop readiness. If its environmen
 No contradiction was found, and no decision, law or question was required. Two places where the dilemma leans on something still open were recorded against their existing owners:
 
 - **Moving presence between bodies.** Exiting B mid-conflict to take up A would root B where it stands (AMO-D032) and require establishing presence in A (AMO-D101) — never parallel, never a tag-team. Whether direct presence can pass from one Amorpho to another or must first return to the human body is not decided; it affects how expensive a mid-conflict switch is. Recorded under **AMO-Q040**.
-- **What the Warden can know.** The dilemma is a real decision only to the extent the Warden can judge A's lifecycle position, the opportunity each individual has left and how near C is to reactivation. This trace used design-level omniscience. Simulation truth and player knowledge are already separate (AMO-D051); the information model for lifecycle position, opportunity and dormant readiness is recorded under **AMO-Q044**, alongside AMO-Q119 and AMO-Q111. Nothing is designed.
+- **What the Warden can know.** The dilemma is a real decision only to the extent the Warden can judge A's lifecycle position, the opportunity each individual has left and how near C is to reactivation. This trace used design-level omniscience. Simulation truth and player knowledge are already separate (AMO-D051); the information model for lifecycle position, opportunity and dormant readiness is recorded under **AMO-Q044**, alongside AMO-Q119 and AMO-Q111. Its qualitative core is now resolved in [50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md) (AMO-D164–AMO-D167); presentation remains open.
 
 ## 13. Audit and acceptance
 

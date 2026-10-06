@@ -256,7 +256,7 @@ Duration, exact boundaries, how presence is established and ended, and whether i
 
 ### The Radar is a resonance interface
 
-The Astral Radar represents the Warden's **living astral connections**, and is not global map tracking, exact positioning or universal plant detection (AMO-D061, AMO-D088). What it can show may depend on signal strength, and signal strength may affect **location fidelity** — a strong active signal potentially giving better awareness, a weak transitional signal less, Deep Dormancy none. No ranges, accuracy or interface are defined (AMO-Q092, AMO-Q115).
+The Astral Radar represents the Warden's **living astral connections**, and is not global map tracking, exact positioning or universal plant detection (AMO-D061, AMO-D088). What it can show may depend on signal strength, and signal strength may affect **location fidelity** — a strong active signal potentially giving better awareness, a weak transitional signal less, Deep Dormancy none. No ranges, accuracy or interface are defined (AMO-Q092, AMO-Q115). The same signal also bounds **qualitative Anchor feedback** about the individual's condition, interpreted through relationship-specific **Astral Attunement** — never telemetry, never through Astral Silence ([50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md), AMO-D166, AMO-D167).
 
 ## 9. The Tuber is not a playable form
 

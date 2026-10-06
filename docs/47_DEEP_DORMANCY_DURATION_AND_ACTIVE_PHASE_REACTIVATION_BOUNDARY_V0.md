@@ -169,7 +169,7 @@ A collection is not *fighters available* and *fighters on cooldown*. Different p
 
 So planning emerges naturally: which individuals are likely to stay unavailable, where dormant Tubers are kept, when another individual's active phase may begin, and which regions or infrastructure support reactivation. No interface, forecast or party system is designed.
 
-**No exact wake-up date.** Rejected: *3 days until emergence*, a countdown, a dormancy percentage, a calendar alarm presented as biological truth. A Warden may know species tendencies, the individual's history, its environment and its prior cycles without knowing the instant of emergence; cultivation can be **observational rather than timer-driven**. Any future qualitative cue stays with AMO-Q119 and AMO-Q085.
+**No exact wake-up date.** Rejected: *3 days until emergence*, a countdown, a dormancy percentage, a calendar alarm presented as biological truth. A Warden may know species tendencies, the individual's history, its environment and its prior cycles without knowing the instant of emergence; cultivation can be **observational rather than timer-driven**. Any future qualitative cue stays with AMO-Q119 and AMO-Q085. What the Warden can infer — and how the signal's return in Pre-Emergence may be recognised by a long-attuned Warden without any channel through Astral Silence — is specified in [50](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md) (AMO-D164, AMO-D167).
 
 ## 12. Worked traces
 

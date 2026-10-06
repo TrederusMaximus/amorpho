@@ -94,6 +94,8 @@ The first acute-event handoff is traced in [23_ACUTE_EVENT_TO_LEAF_IMPAIRMENT_V0
 
 [49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md](49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md) supplies that other side qualitatively and resolves the design-space half of AMO-Q027. **Biological Deployment Cost** and **Combat Suitability** are separate axes, and the roster decision is the tension between what a body costs to risk and what it is worth risking for (AMO-D161, L70). Combat identity comes from skill, preparation and deliberate design, never from botanical size, rarity or taxonomy (AMO-D162). Skill includes preserving the living body: protection is preservation rather than extra health, and disengagement is mastery (AMO-D163). Eleven pillars name the space concrete combat must satisfy; moves, resources, protection mechanics, controls and fighter production at scale remain open (AMO-Q027, AMO-Q026, AMO-Q109, AMO-Q023).
 
+[50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md](50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md) removes the omniscience assumption and resolves the qualitative core of AMO-Q044. **Biological truth and Warden knowledge are separate**: the Warden judges from observation, individual history, species tendency and environmental context rather than readouts — enough to judge, not to calculate — and no system recommends a body (AMO-D164, L71). Uncertainty must stay causally grounded: a reasonable judgement may be wrong, an arbitrary outcome may not (AMO-D165). The **Astral Anchor** becomes an awareness channel as well as an access path, carrying qualitative feedback bounded by the Astral Signal and silent in Deep Dormancy (AMO-D166), and **Astral Attunement** lets one Warden read one long-known individual more finely without ever reading it exactly (AMO-D167, AMO-Q131). Owner knowledge may exceed an opponent's. Presentation remains open (AMO-Q044, AMO-Q115).
+
 **Exit criteria:** the core models are specified well enough that a prototype can be built against them without inventing their rules along the way.
 
 ## Phase 2 — Technical Spikes
@@ -156,12 +158,11 @@ After core design and evidence-based technology selection, examine desktop, mobi
 
 Small, high-value steps suitable for a single session. Pick one; finish it; record what was learned.
 
-1. **Answer the Warden information model for roster decisions (AMO-Q044)** — the judgement both sides of the roster decision now lean on. Docs [48](48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md) and [49](49_COMBAT_PILLARS_AND_BIOLOGICAL_ROSTER_STRATEGY_V0.md) were traced with design-level omniscience; the decision is only skill if the Warden can form judgements. State qualitatively what kinds of knowledge the Warden can have about lifecycle position, remaining opportunity, dormant readiness, body condition and Core security — observation, history, species tendency, experience — and what stays uncertain, with no countdown, forecast interface or exact readout (AMO-D051, L14, L67–L69).
+1. **Draft the individual-plant model specification, qualitatively** — doc 50 makes individual history a primary knowledge source and Attunement follows the persistent individual, yet the persistent individual's state is spread across docs 03 and 14–50. Consolidate, as an inventory of concepts rather than a schema, what one persistent individual carries — identity, provenance, genotype/phenotype split, persistent biological dimensions, lifecycle position and history, manifestation history, Anchor binding and Attunement relationships — and what is temporary to a manifestation, recording which history categories persist (AMO-Q120, AMO-Q012). No fields, formats or storage.
 2. Accept the first approved species export into `data/input/amorphophallus_species.csv` — only once it has been supplied from outside the repository — validating it against [`data/input/README.md`](../data/input/README.md).
 3. Answer AMO-Q016: how the game treats species that leave, merge or split in a later approved export.
-4. Draft the individual-plant model specification (identity, provenance, genotype/phenotype split).
-5. Sketch the transition test as a paper prototype before any code.
-6. Sketch a broader emergent scenario on paper — two *threatened* Amorphos, one body, different environments — building on the roster-timing trace in [48](48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md), to check that the laws really do generate the dilemma without scripting it (L37).
+4. Sketch the transition test as a paper prototype before any code.
+5. Sketch a broader emergent scenario on paper — two *threatened* Amorphos, one body, different environments — building on the roster-timing trace in [48](48_ROSTER_TIMING_AND_ONE_CONSCIOUSNESS_BIOLOGICAL_OPPORTUNITY_TRACE_V0.md), to check that the laws really do generate the dilemma without scripting it (L37).
 
 ## Engine decision
 
