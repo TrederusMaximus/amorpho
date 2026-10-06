@@ -93,7 +93,7 @@ CONTROLLED EXCHANGE
 Escalation stays **player-driven** where possible: surrender, conscious withdrawal, escape or continuing. The system does not push ordinary fights toward destruction (AMO-D127, L59).
 
 ### Pillar 7 — Objective-Driven Combat
-There is no single victory condition. Conflicts may be about defending, reaching, holding, escorting, preventing, delaying or contesting, none of which requires destroying the opponent. **The objective determines why the fight matters; body destruction is only one possible extreme outcome.** No mission type is designed (AMO-Q028, AMO-Q081).
+There is no single victory condition. Conflicts may be about defending, reaching, holding, escorting, preventing, delaying or contesting, none of which requires destroying the opponent. **The objective determines why the fight matters; body destruction is only one possible extreme outcome.** The conflict's stake is what makes biological risk worth taking at all, and what withdrawing concedes ([54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md), AMO-D172, AMO-D173). No mission type is designed (AMO-Q028, AMO-Q081).
 
 ### Pillar 8 — Disengagement Mastery
 Knowing when to stop, how to create disengagement, how to preserve the body and whether one more exchange is worth the biological risk is **part of combat, not a failure of it** (AMO-D125, AMO-D163).

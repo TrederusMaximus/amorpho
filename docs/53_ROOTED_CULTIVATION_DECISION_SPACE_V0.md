@@ -122,7 +122,7 @@ WARDEN CHOOSES WHERE TO ROOT AFTERWARDS
 
 Placement shapes later combat logistics, and combat movement changes later cultivation state (AMO-D161, AMO-D129). Both directions are legitimate trade-offs: rooting somewhere biologically worse because it is strategically important, better protected or closer to future conflict; or choosing an excellent growing site that is remote, hard to reach, less secure or far from home. *Where the Warden roots today changes the biological and strategic possibilities of tomorrow.*
 
-**Investment in places.** Cultivation includes improving locations — a greenhouse, a protected rooting site, a secure home site, future infrastructure — and others' protected sites may become part of a network of strategic biological locations. No base-building, property or permission system is designed (AMO-Q080, AMO-Q007).
+**Investment in places.** Cultivation includes improving locations — a greenhouse, a protected rooting site, a secure home site, future infrastructure — and others' protected sites may become part of a network of strategic biological locations. No base-building, property or permission system is designed (AMO-Q080, AMO-Q007). What cultivation builds — valuable individuals, sites, infrastructure — can later become something worth protecting, which is how cultivation and combat generate stakes for each other ([54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md) §8); cultivation's value never depends on that.
 
 ## 13. Controlled and open-world cultivation
 

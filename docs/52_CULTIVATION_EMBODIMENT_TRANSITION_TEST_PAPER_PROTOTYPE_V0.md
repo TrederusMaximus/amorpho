@@ -43,17 +43,19 @@ The tester may take **up to two** of these, in any order. None is meant to be cl
 4. **Look closely first.** *For:* better evidence before deciding anything. *Against:* changes nothing by itself. *Consequence:* the tester learns one more true detail — e.g. the Leaf is in its prime, with a small old blemish they had forgotten, and through the Anchor it feels steady.
 5. **Prepare protection in case X has to move.** *For:* any embodiment will be more deliberate. *Against:* attention spent on a fight that may not come. *Consequence:* worn protection is made ready; it will protect the animated body, not the rooted plant ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md) §17).
 
-**Questions:** *What did you do, and why? Which reason weighed most?* At Card 2, ask whether what they did here changes how they feel about taking X out. The purpose is **investment and familiarity before risk**, and the test does **not assume** that care produces attachment — a tester who felt nothing is a finding. If the tester moved X, the threat at Card 2 is equally reachable; the relocation's cost shows up in the season, not in the fight.
+**Questions:** *What did you do, and why? Which reason weighed most?* At Card 2, ask whether what they did here changes how they feel about taking X out. The purpose is **investment and familiarity before risk**, and the test does **not assume** that care produces attachment — a tester who felt nothing is a finding. If the tester moved X, the threat at Card 2 is equally reachable; the relocation's cost shows up in the season, not in the fight — and the sheltered place the intruder heads for is then X's own site.
 
 ## 5. Threat and embodiment decision
 
 **Card 2 — Something needs you.** Read:
 
-> Something nearby that matters to you is under threat, and someone has to act soon. X is the only body you could use. If you take it, its work here stops while you are inside it, the season does not wait, and wherever it ends up is where it will root. Its body is in good shape. You have [protection, if prepared].
+> Something is trying to get into the sheltered growing place you built — the one from before. If nothing stops it, it gets in and stays there, and that place is no use to you or to X until you deal with it some other way, some other time. Nothing else is in danger tonight; it is that place. X is the only body you could use. If you take it, its work here stops while you are inside it, the season does not wait, and wherever it ends up is where it will root. Its body is in good shape. You have [protection, if prepared].
+
+*Revised 2026-10-06:* the stake is one minimal persistent-world **access** stake ([54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md) §10), replacing the earlier facilitator-invented one. It is meant to be meaningful without being catastrophic.
 
 Choices: **embody X** or **do not**.
 
-- If **not**, the facilitator states the facilitator-set cost of not acting (§17) and asks *why*. That answer is data. Then offer the card again once, with the threat sharper, so the main arc can proceed.
+- If **not**, the facilitator states the consequence plainly — the intruder gets in and holds the sheltered place — and asks *why*. That answer is data. Then offer the card again once, with the intruder closer, so the main arc can proceed.
 - **Question:** *Does this feel like choosing to risk X, or like pressing a button to start combat?*
 
 **Card 3 — The transition.** Read:
@@ -82,15 +84,15 @@ Facilitator truth: real biological Leaf damage, persistent, no Functional Collap
 
 **Card 7 — Stop.** The encounter pauses. Read:
 
-> You could still win this. Staying risks more damage to X. Leaving now gives up [the facilitator-set stake] and keeps the Leaf as it is.
+> You could still win this. If you stay, you may still keep it out of the sheltered place — and X may take another hit. If you leave now, X keeps the Leaf as it is, and the intruder gets in and holds that place.
 
 Choices: **Continue** (→ §12) or **Conscious Withdrawal** (→ §8).
 
-**Questions:** *Why?* — and the central one: ***Do you care more about this damage because you cared for this same individual before the fight?*** A *no* is recorded as a weakening of the hypothesis, not explained away.
+**Questions:** *Why?* — and the central one: ***Do you care more about this damage because you cared for this same individual before the fight?*** A *no* is recorded as a weakening of the hypothesis, not explained away. Then the stake diagnostic: ***Was what you were protecting valuable enough that you genuinely considered risking another hit to X?*** A *no* suggests the stake is too weak; an automatic *yes*, that it is too absolute.
 
 ## 8. Conscious Withdrawal — main branch
 
-**Card 8 — Withdrawal.** The tester withdraws (or, if they chose to continue, the facilitator returns here after §12). The encounter resolves: no knockout, no destruction, the objective conceded. **The Warden is still inside X** (AMO-D125, AMO-D126).
+**Card 8 — Withdrawal.** The tester withdraws (or, if they chose to continue, the facilitator returns here after §12). The encounter resolves: no knockout, no destruction. **The intruder gets into the sheltered place and holds it**; the conflict is not over, and the Warden may take it up again later by other means. **The Warden is still inside X** (AMO-D125, AMO-D126, AMO-D128).
 
 **Question:** *Did that feel like quitting because health was low, or like protecting something worth more than this objective?*
 
@@ -99,6 +101,8 @@ Choices: **Continue** (→ §12) or **Conscious Withdrawal** (→ §8).
 **Card 9 — Where now?** Read:
 
 > You are inside a damaged X, away from its usual place. You could root it here — it would start healing sooner, but this spot is worse for it. Or you could stay inside and walk it back — a better place, but nothing heals and nothing grows while you travel.
+
+If the tester withdrew, the sheltered place is **not** among the options — the intruder holds it; *walk it back* means X's open spot. If the tester kept the intruder out, the sheltered place is available as a third option. This is where the conflict's outcome reaches cultivation ({L} §8).
 
 Choices: **root nearby** · **return first**. The facilitator narrates the trade qualitatively and honestly; neither is correct (AMO-D032, AMO-D161).
 
@@ -165,6 +169,8 @@ The facilitator answers clarifying questions **in kind, not in numbers** — *"i
 - **D — continuity:** *same plant, same body, same history* throughout.
 - **E — risk invites skill:** the tester wants to get better at defence, protection, positioning and disengagement **to preserve X**, not to preserve a health bar.
 - **F — rooting is desirable:** return to rooting reads as relief, strategic care and the story continuing.
+- **G — genuine value conflict:** *I wanted to preserve X, but I also cared about what I would lose by leaving.*
+- **H — reasonable disagreement:** across testers, some withdraw and some continue, and each can explain the choice from the place's value, X's value, current risk and confidence in winning.
 
 Decision explanations (§16) that cite biological value, the objective, protection, damage or future recovery count as evidence the systems are interacting; *because the card told me to* counts against.
 
@@ -182,7 +188,10 @@ Each is recorded as a finding and **not patched in the session**.
 | **F** | Rooting feels like waiting for health to regenerate. | The loop is drifting toward a cooldown system. |
 | **G** | Withdrawal feels like quitting on low health. | The resolution philosophy is not landing. |
 
-B and D are opposite failures; the target sits between them.
+| **H** | Withdrawal is free: the tester sees no real cost and always leaves once damage appears. | The stake is too weak or illegible. |
+| **I** | Withdrawal is impossible to justify: conceding seems so catastrophic that fighting to destruction is always rational. | The stake overwhelms biological preservation. |
+
+B and D are opposite failures, and so are H and I; the target sits between each pair.
 
 ## 16. Evaluation
 
@@ -206,7 +215,7 @@ Record answers verbatim where possible, together with the facilitator's log of c
 Designing the test, before running it, surfaced three gaps. None is decided here.
 
 - **The cultivation side has few real decisions.** Card 1 had to improvise its choices. Failure criteria A and F both depend on rooted life offering genuine decisions, and the repository specifies rooted biology in depth but not what a Warden *does* for a rooted individual. Recorded under **AMO-Q012** (care actions) with **AMO-Q105** (treatment and care). *Revised 2026-10-06:* the qualitative decision space now exists in [53](53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md), and Card 1 has been rewritten from it with competing reasons. The test has still not been run.
-- **The stake of withdrawing is undesigned.** Cards 2 and 7 need something real to lose by not acting or by conceding the objective, or withdrawal is free and criterion C cannot be met; the facilitator must set it by hand. Recorded under **AMO-Q028** (conflict contexts and consequences).
+- **The stake of withdrawing is undesigned.** Cards 2 and 7 need something real to lose by not acting or by conceding the objective, or withdrawal is free and criterion C cannot be met; the facilitator must set it by hand. Recorded under **AMO-Q028** (conflict contexts and consequences). *Revised 2026-10-06:* the qualitative stake architecture now exists in [54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md), and Cards 2, 7, 8 and 9 use one explicit access stake. The test has still not been run.
 - **In-encounter legibility is assumed.** The test assumes the tester can tell protection taking a hit from damage reaching the body, as Cards 5 and 6 narrate it; a real interface must make that distinction perceivable. Already owned by **AMO-Q109** and **AMO-Q044**; no change.
 
 No contradiction with accepted rules was found: every card follows existing decisions.

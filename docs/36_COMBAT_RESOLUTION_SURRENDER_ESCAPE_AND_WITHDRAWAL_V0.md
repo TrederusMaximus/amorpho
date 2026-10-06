@@ -62,6 +62,8 @@ A Warden may leave while still combat-capable, still protected, still tactically
 
 What the decision weighs — the objective's value, current biological condition, protection state, how much this particular individual matters, which other Amorphos exist, appetite for risk, the wider strategic position — is left to the player. **There is no single universal optimal stopping point**, no utility calculation, and no score that pronounces the choice irrational. A player may withdraw early precisely because this individual is rare or valued, and another may use a currently less important manifestation aggressively; the architecture never labels an individual expendable.
 
+**What withdrawal concedes** is specified in [54](54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md): the stake that stops being defended, never an arbitrary penalty, with consequences that persist in the World (AMO-D172, L73).
+
 The opposite choice is equally legitimate. A Warden may knowingly continue after protection fails and injuries accumulate. There is no morality meter, no forced surrender, and no system that protects players from their own risk decisions.
 
 ## 7. Escalation: fighting to manifestation destruction
