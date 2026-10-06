@@ -31,14 +31,19 @@ Facilitator truth (not read aloud): mature viable Leaf, rooted, biologically act
 
 ## 4. Rooted cultivation segment
 
-**Card 1 — Before anything happens.** The tester may take **up to two** of these, in any order:
+**Card 1 — Before anything happens.** *Revised 2026-10-06 from the cultivation decision space in [53](53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md); the earlier improvised version is in git history.* Read first:
 
-1. **Leave it exactly where it is.** *Consequence:* nothing changes; X keeps working.
-2. **Improve or shelter its immediate surroundings.** *Consequence:* the facilitator describes a modest, sensible improvement in its local conditions — no promise of more than that (AMO-D046).
-3. **Look closely at it.** *Consequence:* the tester learns one more true visible detail — e.g. the Leaf is in its prime, with a small old blemish they had forgotten.
-4. **Prepare protection in case X has to move.** *Consequence:* worn protection is made ready; it will protect the animated body, not the rooted plant ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md) §17).
+> X is rooted in an open spot that suits it very well right now — it is doing strong work here. The spot is also exposed: there has been something moving around nearby lately, and the weather here can turn. You have a sheltered place you could move it to, but it is less ideal for growing. You also have a little time before anything else needs you.
 
-**Question:** *What did you do, and why?* The purpose is **investment and familiarity before risk**, not a cultivation system. This card is deliberately thin — see §17.
+The tester may take **up to two** of these, in any order. None is meant to be clearly best:
+
+1. **Leave X undisturbed.** *For:* it is working well, and moving it would interrupt that. *Against:* the exposure stays. *Consequence:* nothing changes; X keeps working.
+2. **Protect it where it is.** *For:* keeps the good spot and reduces a foreseeable risk. *Against:* takes your time and attention now. *Consequence:* the facilitator describes a modest, sensible measure against exposure — no promise it covers everything ([53](53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md) §6).
+3. **Move it to the sheltered place.** *For:* safer. *Against:* less good for its work this season, and the move itself disturbs it. *Consequence:* X is safer and its conditions are a little worse; the facilitator says so plainly ([53](53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md) §4, §13).
+4. **Look closely first.** *For:* better evidence before deciding anything. *Against:* changes nothing by itself. *Consequence:* the tester learns one more true detail — e.g. the Leaf is in its prime, with a small old blemish they had forgotten, and through the Anchor it feels steady.
+5. **Prepare protection in case X has to move.** *For:* any embodiment will be more deliberate. *Against:* attention spent on a fight that may not come. *Consequence:* worn protection is made ready; it will protect the animated body, not the rooted plant ([09](09_EMBODIMENT_AND_ASTRAL_TRANSFER.md) §17).
+
+**Questions:** *What did you do, and why? Which reason weighed most?* At Card 2, ask whether what they did here changes how they feel about taking X out. The purpose is **investment and familiarity before risk**, and the test does **not assume** that care produces attachment — a tester who felt nothing is a finding. If the tester moved X, the threat at Card 2 is equally reachable; the relocation's cost shows up in the season, not in the fight.
 
 ## 5. Threat and embodiment decision
 
@@ -200,7 +205,7 @@ Record answers verbatim where possible, together with the facilitator's log of c
 
 Designing the test, before running it, surfaced three gaps. None is decided here.
 
-- **The cultivation side has few real decisions.** Card 1 had to improvise its choices. Failure criteria A and F both depend on rooted life offering genuine decisions, and the repository specifies rooted biology in depth but not what a Warden *does* for a rooted individual. Recorded under **AMO-Q012** (care actions) with **AMO-Q105** (treatment and care).
+- **The cultivation side has few real decisions.** Card 1 had to improvise its choices. Failure criteria A and F both depend on rooted life offering genuine decisions, and the repository specifies rooted biology in depth but not what a Warden *does* for a rooted individual. Recorded under **AMO-Q012** (care actions) with **AMO-Q105** (treatment and care). *Revised 2026-10-06:* the qualitative decision space now exists in [53](53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md), and Card 1 has been rewritten from it with competing reasons. The test has still not been run.
 - **The stake of withdrawing is undesigned.** Cards 2 and 7 need something real to lose by not acting or by conceding the objective, or withdrawal is free and criterion C cannot be met; the facilitator must set it by hand. Recorded under **AMO-Q028** (conflict contexts and consequences).
 - **In-encounter legibility is assumed.** The test assumes the tester can tell protection taking a hit from damage reaching the body, as Cards 5 and 6 narrate it; a real interface must make that distinction perceivable. Already owned by **AMO-Q109** and **AMO-Q044**; no change.
 

@@ -87,7 +87,7 @@ A greenhouse or building modifies **local World conditions** — temperature, hu
 
 > **A greenhouse does not automatically create perfect year-round Productive Opportunity, and it does not override biology.**
 
-Limitations that the structure does not actually modify remain limitations — low available seasonal light, for instance, unless future infrastructure really changes it, and no lighting system is designed here. And **controlled suitability plus an individual whose biology requires dormancy does not equal forced active growth**: infrastructure modifies the World, not the Amorpho. Its value therefore emerges from **World modification × individual biology** rather than from any universal greenhouse effect.
+Limitations that the structure does not actually modify remain limitations — low available seasonal light, for instance, unless future infrastructure really changes it, and no lighting system is designed here. And **controlled suitability plus an individual whose biology requires dormancy does not equal forced active growth**: infrastructure modifies the World, not the Amorpho. Its value therefore emerges from **World modification × individual biology** rather than from any universal greenhouse effect. Where controlled cultivation sits among the Warden's rooted decisions, and how infrastructure automation reduces Warden workload without changing biology, is specified in [53](53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md) (AMO-D171).
 
 ## 7. Species strategy, individual state
 

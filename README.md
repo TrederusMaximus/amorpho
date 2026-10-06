@@ -127,6 +127,7 @@ docs/
   50_WARDEN_BIOLOGICAL_INFORMATION_AND_ROSTER_JUDGEMENT_MODEL_V0.md what the Warden can know, infer and sense through the Anchor
   51_PERSISTENT_INDIVIDUAL_PLANT_MODEL_V0.md what one persistent individual is, across every body it grows
   52_CULTIVATION_EMBODIMENT_TRANSITION_TEST_PAPER_PROTOTYPE_V0.md paper test of the central hypothesis (designed, not yet run)
+  53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md what the Warden does for a rooted individual
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)
