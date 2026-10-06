@@ -58,6 +58,8 @@ The same family has different consequences in different conflicts. **There is no
 | **Escape** | the Warden leaves **without accepting** the claim, preserving the manifestation and mobility while still abandoning the place, objective, protected thing or opportunity they leave behind; escape is contestable and is not free disengagement (AMO-D125) |
 | **Objective Resolution** | the purpose of fighting ends — achieved, or made impossible — so neither side need concede and no body need fail |
 
+When outnumbered, escape may save the manifestation while conceding the immediate stake — a strategic victory and a conflict defeat at once ([55](55_MULTI_ATTACKER_ENCOUNTERS_ESCAPE_AND_ANTI_DOGPILE_PRINCIPLES_V0.md) §10).
+
 Objective Resolution shows why resolution must be objective-aware: an actor who only needed to delay the opponent wins when enough time passes, and continuing would be pointless.
 
 **Surrender should normally stop ordinary hostile continuation.** Once the stake is conceded, continuing to attack a surrendered manifestation is ordinarily unnecessary. Enforcement and actors who ignore a yield are AMO-Q008 and AMO-Q028. Some future threats — a wild organism, a hostile non-Warden actor, an extraordinary situation — may not recognise surrender at all; ordinary Warden conflict is not generalised from them.

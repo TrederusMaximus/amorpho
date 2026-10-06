@@ -129,6 +129,7 @@ docs/
   52_CULTIVATION_EMBODIMENT_TRANSITION_TEST_PAPER_PROTOTYPE_V0.md paper test of the central hypothesis (designed, not yet run)
   53_ROOTED_CULTIVATION_DECISION_SPACE_V0.md what the Warden does for a rooted individual
   54_CONFLICT_STAKES_AND_COST_OF_WITHDRAWAL_V0.md what a fight is about, and what leaving concedes
+  55_MULTI_ATTACKER_ENCOUNTERS_ESCAPE_AND_ANTI_DOGPILE_PRINCIPLES_V0.md outnumbered fights, escape, and why numbers are not certainty
   DECISIONS.md                 the decision ledger (AMO-D###)
 data/
   input/                       approved real-world input (species CSV, header only)

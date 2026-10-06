@@ -90,7 +90,7 @@ Product requirements, not mechanics. Each pins down a failure mode rather than a
 | **Escape must be neither guaranteed nor impossible** | instant flight is not gameplay; impossible flight forces every fight toward destruction |
 | **Meaningful exits must exist before biological destruction** | without them, persistent body damage becomes an unavoidable tax rather than an accepted risk |
 
-**Escape carries agency.** It is a contested outcome rather than a passive defeat command: future designs may require creating distance, breaking pursuit, reaching an exit, using movement, terrain or abilities, and the opponent may pursue, intercept or prevent disengagement. Nothing about how is decided (AMO-Q023, AMO-Q026, AMO-Q028).
+**Escape carries agency.** It is a contested outcome rather than a passive defeat command: future designs may require creating distance, breaking pursuit, reaching an exit, using movement, terrain or abilities, and the opponent may pursue, intercept or prevent disengagement. Nothing about how is decided (AMO-Q023, AMO-Q026, AMO-Q028). It matters most when outnumbered: there escape becomes a first-class objective in its own right, attempting it is not achieving it, pursuit is part of the encounter, and it may require fighting through pressure ([55](55_MULTI_ATTACKER_ENCOUNTERS_ESCAPE_AND_ANTI_DOGPILE_PRINCIPLES_V0.md), AMO-D175).
 
 **Non-consensual continuation is a separate future problem.** Actors who ignore surrender, non-player threats that do not recognise it, and whatever rules constrain hostile behaviour between players belong to later work (AMO-Q008, AMO-Q028). Ordinary Warden-versus-Warden combat is expected to have a surrender concept that means something.
 

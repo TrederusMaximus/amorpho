@@ -67,7 +67,7 @@ Movement matters for attack opportunity, defence, body preservation, escape, pur
 
 > **Movement is tactical combat action and persistent-world relocation at the same time.**
 
-The Tuber travels inside the embodied Amorpho (AMO-D129). Continued embodiment keeps moving the individual; exit roots it where it stands (AMO-D032). So **body selection is also a relocation decision**: a fight far from a good rooting site leaves the Warden to root there or stay embodied to travel back, and while they travel Productive Return and recovery stay paused and World Time continues (AMO-D136, AMO-D145). Combat geography can therefore add biological opportunity cost by itself. No teleport, automatic return or travel model exists.
+The Tuber travels inside the embodied Amorpho (AMO-D129). Continued embodiment keeps moving the individual; exit roots it where it stands (AMO-D032). So **body selection is also a relocation decision**: a fight far from a good rooting site leaves the Warden to root there or stay embodied to travel back, and while they travel Productive Return and recovery stay paused and World Time continues (AMO-D136, AMO-D145). Combat geography can therefore add biological opportunity cost by itself. No teleport, automatic return or travel model exists. Movement, geometry and disengagement must also hold up against **several attackers** — congestion, enclosure, pursuit and escape ([55](55_MULTI_ATTACKER_ENCOUNTERS_ESCAPE_AND_ANTI_DOGPILE_PRINCIPLES_V0.md), AMO-D174–AMO-D176).
 
 ### Pillar 4 — Offensive Commitment
 Attacking should commit: **offensive actions expose the attacker to counterplay and risk**, so that position, timing and judgement decide more than stat comparison. No attack mechanic is defined.
