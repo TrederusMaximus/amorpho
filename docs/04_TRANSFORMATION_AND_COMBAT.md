@@ -88,7 +88,7 @@ The concept depends on one untested hypothesis:
 
 > Moving between calm, long-term cultivation and intense, short-term fighting — with the same individual plant — is fun, and each layer makes the other more meaningful.
 
-It could fail in several ways: the transition may feel jarring; players may refuse to risk plants they have raised for years; combat may make cultivation feel like a stat grind; or cultivation may make combat feel secondary. This hypothesis should be tested early with deliberately small prototypes (see [07_INCUBATION_ROADMAP.md](07_INCUBATION_ROADMAP.md)).
+It could fail in several ways: the transition may feel jarring; players may refuse to risk plants they have raised for years; combat may make cultivation feel like a stat grind; or cultivation may make combat feel secondary. This hypothesis should be tested early with deliberately small prototypes (see [07_INCUBATION_ROADMAP.md](07_INCUBATION_ROADMAP.md)). The first test is designed — not yet run — as a paper prototype in [52](52_CULTIVATION_EMBODIMENT_TRANSITION_TEST_PAPER_PROTOTYPE_V0.md), with explicit success and failure criteria; it validates nothing until people play it.
 
 ## 8. The roster challenge
 
