@@ -2,6 +2,8 @@
 
 **Status:** test design — a disposable tabletop prototype of the spatial assumption behind AMO-D174–AMO-D176 and L74 ([55](55_MULTI_ATTACKER_ENCOUNTERS_ESCAPE_AND_ANTI_DOGPILE_PRINCIPLES_V0.md)). It adds no decision, law or rule, and nothing in it is a combat mechanic. **It has not been run, and no result is known.**
 
+> **TEST RUN COMPLETED — 2026-10-06.** Run manually by the owner with physical tokens; results, deviations from this design (a simpler board, different scenario numbering, qualitative stopping instead of these instruments) and assessments are recorded in [57](57_ONE_VS_THREE_ESCAPE_GEOMETRY_PAPER_TEST_RESULTS_V0.md). This design is preserved unchanged as written.
+
 > **Does geometry alone let a lone defender sometimes break away from three — without making three attackers barely more dangerous than one?**
 
 ## 1. Purpose
