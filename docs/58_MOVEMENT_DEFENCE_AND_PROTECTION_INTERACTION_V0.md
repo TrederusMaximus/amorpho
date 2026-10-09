@@ -403,6 +403,8 @@ A1 disengages / repositions, if successful
 
 This specification makes the following **designable and testable**, and claims none of them is solved: Break Contact; pursuit; interception; defence against two directions; Local Screening; handoff; Protection under several pressures. A prototype that tests them needs a concrete, disposable movement and pursuit instrument — explicitly non-canonical, as doc 56's were — because doc 57 showed geometry alone cannot decide them, and a hand-moved board is kinder to deliberate positioning than real time will be.
 
+**Break Contact and Pursuit has a dedicated disposable paper prototype in [59](59_BREAK_CONTACT_AND_PURSUIT_PAPER_PROTOTYPE_V0.md)**, designed and not yet run. It does not extend or alter this document's qualitative definitions of Break Contact, Pursuit, Interception or handoff.
+
 ### Acceptance
 
 | Test | Holds |
